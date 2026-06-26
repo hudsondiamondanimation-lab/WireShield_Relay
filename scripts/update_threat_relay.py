@@ -25,7 +25,7 @@ ROOT = Path(__file__).resolve().parents[1]
 RELAY = ROOT / "threat-relay" / "wireshield-threat-feed.json"
 INTEL = ROOT / "threat-relay" / "wireshield-intel-feed.json"
 MAX_ENTRIES = 50000
-USER_AGENT = "WireShield-Relay-Updater/1.0 (+https://github.com/hudsondiamondanimation-lab/WireShield)"
+USER_AGENT = "WireShield-Relay-Updater/1.0 (+https://github.com/hudsondiamondanimation-lab/WireShield_Relay)"
 OPENPHISH_URL = "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt"
 SAFE_TESTS = [
     {
@@ -305,7 +305,7 @@ def write_relay(entries: dict[str, dict[str, Any]]) -> None:
     payload = {
         "schemaVersion": 1,
         "generatedAt": now_iso(),
-        "maintainer": os.environ.get("GITHUB_REPOSITORY", "hudsondiamondanimation-lab/WireShield"),
+        "maintainer": os.environ.get("GITHUB_REPOSITORY", "hudsondiamondanimation-lab/WireShield_Relay"),
         "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
         "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
         "sources": [
@@ -406,6 +406,7 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
 
 
 
