@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-26T21:21:32Z",
+  "generatedAt": "2026-06-26T22:48:19Z",
   "description": "WireShield trusted-intelligence relay for scams, breaches, malware/security alerts, and broker/privacy watch notes.",
   "items": [
     {
@@ -10,25 +10,10 @@
       "type": "source-status"
     },
     {
-      "title": "CISA Issues New Directive Improving How Federal Agencies Prioritize the Mitigation of Cyber Vulnerabilities",
-      "type": "trusted-source-item",
+      "title": "Source unavailable",
       "source": "https://www.cisa.gov/news.xml",
-      "published": "Wed, 10 Jun 26 12:00:00 +0000",
-      "note": ""
-    },
-    {
-      "title": "CISA Enhances Known Exploited Vulnerabilities Catalog to Include New Nomination Form",
-      "type": "trusted-source-item",
-      "source": "https://www.cisa.gov/news.xml",
-      "published": "Thu, 21 May 26 12:00:00 +0000",
-      "note": ""
-    },
-    {
-      "title": "CISA, National Cyber Security Centre (NCSC) UK, and Global Partners Issue Advisory on Chinese Government-Linked Covert Cyber Networks",
-      "type": "trusted-source-item",
-      "source": "https://www.cisa.gov/news.xml",
-      "published": "Thu, 23 Apr 26 12:00:00 +0000",
-      "note": ""
+      "note": "HTTP Error 403: Forbidden",
+      "type": "source-status"
     },
     {
       "title": "American Tower",
