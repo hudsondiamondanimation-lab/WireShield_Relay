@@ -1,0 +1,46 @@
+﻿name: Dangerous site report
+description: Report a phishing, scam, malware, fake shop, or remote-access scam site for WireShield review.
+title: "Dangerous site report: "
+labels: [site-report, needs-review]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Reports are reviewed before they are added to the public WireShield relay.
+        Maintainers: add the `approved-threat` label after review to include this report in the next relay update.
+  - type: input
+    id: url
+    attributes:
+      label: URL or domain
+      description: Paste the full URL if possible.
+      placeholder: https://example.com/login
+    validations:
+      required: true
+  - type: dropdown
+    id: threat_type
+    attributes:
+      label: Threat type
+      options:
+        - phishing
+        - scam
+        - malware
+        - remote-access scam
+        - fake shop
+        - suspicious / unknown
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why is it dangerous?
+      description: What happened, what page copied, what file downloaded, or what scam wording appeared?
+      placeholder: It pretended to be my bank and asked for my password.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source / proof link, if any
+      placeholder: PhishTank, VirusTotal, URLhaus, screenshot URL, etc.
+    validations:
+      required: false

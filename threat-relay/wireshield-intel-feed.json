@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-26T21:21:32Z",
+  "description": "WireShield trusted-intelligence relay for scams, breaches, malware/security alerts, and broker/privacy watch notes.",
+  "items": [
+    {
+      "title": "Source unavailable",
+      "source": "https://consumer.ftc.gov/consumer-alerts/rss",
+      "note": "HTTP Error 403: Forbidden",
+      "type": "source-status"
+    },
+    {
+      "title": "CISA Issues New Directive Improving How Federal Agencies Prioritize the Mitigation of Cyber Vulnerabilities",
+      "type": "trusted-source-item",
+      "source": "https://www.cisa.gov/news.xml",
+      "published": "Wed, 10 Jun 26 12:00:00 +0000",
+      "note": ""
+    },
+    {
+      "title": "CISA Enhances Known Exploited Vulnerabilities Catalog to Include New Nomination Form",
+      "type": "trusted-source-item",
+      "source": "https://www.cisa.gov/news.xml",
+      "published": "Thu, 21 May 26 12:00:00 +0000",
+      "note": ""
+    },
+    {
+      "title": "CISA, National Cyber Security Centre (NCSC) UK, and Global Partners Issue Advisory on Chinese Government-Linked Covert Cyber Networks",
+      "type": "trusted-source-item",
+      "source": "https://www.cisa.gov/news.xml",
+      "published": "Thu, 23 Apr 26 12:00:00 +0000",
+      "note": ""
+    },
+    {
+      "title": "American Tower",
+      "type": "data breach",
+      "source": "Have I Been Pwned breach catalog",
+      "published": "2026-06-26T07:17:23Z",
+      "affectedAccounts": 216601,
+      "note": "In June 2026, telecommunications tower infrastructure company <a href=\"https://x.com/H4ckmanac/status/2065383723739046213\" target=\"_blank\" rel=\"noopener\">American Tower was the target of a ShinyHunters \"pay or leak\" extortion campaign</a>. The group subsequently published data allegedly taken from the company containing more than 200k unique email addresses belonging to employees, contractors, customers, and leads. Exposed data also included names, addresses, and phone numbers."
+    },
+    {
+      "title": "Madison Square Garden Sports",
+      "type": "data breach",
+      "source": "Have I Been Pwned breach catalog",
+      "published": "2026-06-24T13:02:33Z",
+      "affectedAccounts": 9796738,
+      "note": "In June 2026, the sports and entertainment company <a href=\"https://www.404media.co/hackers-publish-knicks-and-madison-square-garden-data-online/\" target=\"_blank\" rel=\"noopener\">Madison Square Garden Sports was the target of a ShinyHunters \"pay or leak\" extortion campaign</a>. The group later published the alleged data, which included almost 10M unique email addresses spanning staff and customers, along with extensive personal, employment and customer relationship information."
+    },
+    {
+      "title": "JCPenney",
+      "type": "data breach",
+      "source": "Have I Been Pwned breach catalog",
+      "published": "2026-06-20T03:02:45Z",
+      "affectedAccounts": 368418,
+      "note": "In June 2026, retailer <a href=\"https://breachnews.com/breaches/shinyhunters-threatens-council-of-europe-american-tower-jcpenney-and-others-with-imminent-data-leaks/\" target=\"_blank\" rel=\"noopener\">JCPenney and associated brands were targeted in a ShinyHunters \"pay or leak\" extortion campaign</a>. Data allegedly obtained from JCPenney through the exploitation of <a href=\"https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit\" target=\"_blank\""
+    },
+    {
+      "title": "Ralph Lauren",
+      "type": "data breach",
+      "source": "Have I Been Pwned breach catalog",
+      "published": "2026-06-18T22:48:34Z",
+      "affectedAccounts": 139903,
+      "note": "In June 2026, fashion retailer <a href=\"https://cybernews.com/security/ralph-lauren-data-breach-claims/\" target=\"_blank\" rel=\"noopener\">Ralph Lauren was targeted in a ShinyHunters \"pay or leak\" extortion campaign</a>. The group subsequently published hundreds of gigabytes of data they claimed was obtained from the organisation's Salesforce instance, including 140k unique email addresses along with names, phone numbers, genders and age groups."
+    },
+    {
+      "title": "Operation Endgame 4.0",
+      "type": "data breach",
+      "source": "Have I Been Pwned breach catalog",
+      "published": "2026-06-18T20:08:06Z",
+      "affectedAccounts": 4160519,
+      "note": "On 18 June 2026, the latest phase of <a href=\"https://www.politie.nl/en/news/2026/june/18/international-law-enforcement-initiate-hunt-on-malware-group-socgholish.html\" target=\"_blank\" rel=\"noopener\">Operation Endgame targeted the SocGholish malware operation</a>, a prolific malware distribution network used to compromise systems and facilitate further cybercrime. Coordinated by international law enforcement agencies with support from Europol and Eurojust, the operation remediated almost 15,000 c"
+    },
+    {
+      "title": "CFGI",
+      "type": "data breach",
+      "source": "Have I Been Pwned breach catalog",
+      "published": "2026-06-18T03:22:51Z",
+      "affectedAccounts": 248235,
+      "note": "In March 2026, the financial consulting and advisory firm <a href=\"https://x.com/AlvieriD/status/2029785330677936135\" target=\"_blank\" rel=\"noopener\">CFGI was the target of a ShinyHunters \"pay-or-leak\" extortion campaign</a>. The group subsequently publicised data allegedly obtained from CFGI comprising corporate contact information, including 243k unique email addresses, names, phone numbers and physical addresses."
+    },
+    {
+      "title": "June 2026 Stealer Logs",
+      "type": "data breach",
+      "source": "Have I Been Pwned breach catalog",
+      "published": "2026-06-15T19:30:15Z",
+      "affectedAccounts": 56278397,
+      "note": "In June 2026, a collection of accumulated stealer logs from various sources was added to HIBP. The corpus comprised 56M unique email addresses across hundreds of millions of stealer log records. The data also contained 124M unique passwords, which have been added to <a href=\"https://haveibeenpwned.com/Passwords\">Pwned Passwords</a> and are now searchable. Individuals can view any records captured against their email address in <a href=\"https://haveibeenpwned.com/Dashboard/Redirect/StealerLogs\">t"
+    },
+    {
+      "title": "Berkadia",
+      "type": "data breach",
+      "source": "Have I Been Pwned breach catalog",
+      "published": "2026-06-15T04:09:04Z",
+      "affectedAccounts": 305216,
+      "note": "In March 2026, the commercial real estate finance company <a href=\"https://x.com/AlvieriD/status/2034584125106000005\" target=\"_blank\" rel=\"noopener\">Berkadia was the target of a ShinyHunters \"pay or leak\" extortion campaign</a>. The group subsequently published data they alleged was taken from Berkadia's Salesforce instance, including over 300k unique email addresses as well as names, physical addresses and phone numbers, among other data."
+    },
+    {
+      "title": "Infinite Campus",
+      "type": "data breach",
+      "source": "Have I Been Pwned breach catalog",
+      "published": "2026-06-15T01:03:42Z",
+      "affectedAccounts": 137123,
+      "note": "In March 2026, the student information system <a href=\"https://www.bleepingcomputer.com/news/security/infinite-campus-warns-of-breach-after-shinyhunters-claims-data-theft/\" target=\"_blank\" rel=\"noopener\">Infinite Campus was targeted in a ShinyHunters \"pay or leak\" extortion campaign</a>. The group subsequently published data they alleged was taken from Infinite Campus, containing 137k unique email addresses along with names, phone numbers, physical addresses and support tickets. <a href=\"https:/"
+    },
+    {
+      "title": "University of Nottingham",
+      "type": "data breach",
+      "source": "Have I Been Pwned breach catalog",
+      "published": "2026-06-10T22:13:31Z",
+      "affectedAccounts": 454635,
+      "note": "In June 2026, <a href=\"https://www.bbc.com/news/articles/ckg0lkp042zo\" target=\"_blank\" rel=\"noopener\">the University of Nottingham was the target of a cyber attack</a>, later linked to a ShinyHunters \"pay or leak\" extortion campaign. Tens of gigabytes of data were subsequently published online and included 455k unique email addresses along with extensive personal information including names, addresses, phone numbers, ethnicities, disabilities, passport numbers and information relating to academi"
+    },
+    {
+      "title": "Baker Distributing",
+      "type": "data breach",
+      "source": "Have I Been Pwned breach catalog",
+      "published": "2026-06-07T06:16:36Z",
+      "affectedAccounts": 102935,
+      "note": "In May 2026, the HVAC/R wholesale distributor <a href=\"https://x.com/DailyDarkWeb/status/2062522924582502737\" target=\"_blank\" rel=\"noopener\">Baker Distributing Company was added to the ShinyHunters data extortion group's \"pay or leak\" site</a>. In early June, the group publicly published data they claimed had been obtained from Baker's SharePoint and Salesforce infrastructure including 103k unique email addresses along with names, physical addresses, phone numbers and tickets relating to the com"
+    },
+    {
+      "title": "BCD Travel",
+      "type": "data breach",
+      "source": "Have I Been Pwned breach catalog",
+      "published": "2026-06-05T06:53:15Z",
+      "affectedAccounts": 396313,
+      "note": "In May 2026, the corporate travel management company <a href=\"https://www.ictmagazine.nl/nieuws/shinyhunters-claimt-datadiefstal-bij-groot-internationaal-zakenreisbureau/\" target=\"_blank\" rel=\"noopener\">BCD Travel was claimed as a victim of the ShinyHunters \"pay or leak\" extortion campaign</a>. Data allegedly obtained from BCD was subsequently published publicly in early June and contained 396k unique email addresses. Other exposed data included names, addresses, phone numbers, job titles and em"
+    },
+    {
+      "title": "Data broker privacy watch",
+      "type": "data broker",
+      "source": "WireShield guidance",
+      "published": "2026-06-26",
+      "note": "Recheck broker opt-out results every 30-90 days; many brokers repopulate data. Keep broker name, profile URL, date requested, and confirmation emails."
+    }
+  ]
+}

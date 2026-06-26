@@ -1,0 +1,46 @@
+﻿name: Update WireShield threat relay
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+  issues:
+    types: [opened, edited, labeled]
+
+permissions:
+  contents: write
+  issues: read
+
+jobs:
+  update-relay:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Update relay from trusted feeds and approved reports
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          PHISHTANK_APP_KEY: ${{ secrets.PHISHTANK_APP_KEY }}
+          URLHAUS_FEED_URL: ${{ secrets.URLHAUS_FEED_URL }}
+        run: python scripts/update_threat_relay.py
+
+      - name: Commit relay changes
+        shell: bash
+        run: |
+          if git diff --quiet -- threat-relay; then
+            echo "No relay changes."
+            exit 0
+          fi
+          git config user.name "WireShield Relay Bot"
+          git config user.email "actions@github.com"
+          git add threat-relay
+          git commit -m "Update WireShield threat relay"
+          git push
+
