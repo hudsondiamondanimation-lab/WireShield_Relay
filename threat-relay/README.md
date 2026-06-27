@@ -2,7 +2,7 @@
 
 Public raw URL expected by the extension:
 
-`https://raw.githubusercontent.com/hudsondiamondanimation-lab/WireShield/main/threat-relay/wireshield-threat-feed.json`
+`https://raw.githubusercontent.com/hudsondiamondanimation-lab/WireShield_Relay/main/threat-relay/wireshield-threat-feed.json`
 
 ## Entry format
 
@@ -32,3 +32,4 @@ Do not auto-upload users' browsing history. The extension only reads this JSON a
 - OpenPhish community feed
 - URLhaus malware URL data, respecting their Auth-Key/rate/license requirements
 - Manually reviewed user submissions
+

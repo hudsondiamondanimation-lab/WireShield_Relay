@@ -1,24 +1,362 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-06-27T13:19:41Z",
-  "description": "WireShield trusted-intelligence relay for scams, breaches, malware/security alerts, and broker/privacy watch notes.",
-  "items": [
+  "schemaVersion": 2,
+  "generatedAt": "2026-06-27T13:49:35Z",
+  "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
+  "sources": [
     {
-      "title": "Source unavailable",
-      "source": "https://consumer.ftc.gov/consumer-alerts/rss",
-      "note": "HTTP Error 403: Forbidden",
-      "type": "source-status"
+      "name": "WireShield checked test entries",
+      "category": "scam/phishing",
+      "status": "ok",
+      "count": 2,
+      "url": "https://testsafebrowsing.appspot.com/",
+      "checkedAt": "2026-06-27T13:49:28Z",
+      "note": "Safe test-only block page entries added."
     },
     {
-      "title": "Source unavailable",
-      "source": "https://www.cisa.gov/news.xml",
-      "note": "HTTP Error 403: Forbidden",
-      "type": "source-status"
+      "name": "OpenPhish community feed",
+      "category": "scam/phishing",
+      "status": "ok",
+      "count": 300,
+      "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "checkedAt": "2026-06-27T13:49:29Z",
+      "note": "Public phishing URL feed imported."
+    },
+    {
+      "name": "PhishTank public verified feed",
+      "category": "scam/phishing",
+      "status": "ok",
+      "count": 65476,
+      "url": "https://data.phishtank.com/data/online-valid.csv",
+      "checkedAt": "2026-06-27T13:49:30Z",
+      "note": "PhishTank verified-online phishing database imported."
+    },
+    {
+      "name": "URLhaus public recent CSV",
+      "category": "malware",
+      "status": "ok",
+      "count": 22533,
+      "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
+      "checkedAt": "2026-06-27T13:49:31Z",
+      "note": "URLhaus malware URL/domain data imported."
+    },
+    {
+      "name": "Approved GitHub reports",
+      "category": "user reports",
+      "status": "skipped",
+      "count": 0,
+      "url": "GitHub API",
+      "checkedAt": "2026-06-27T13:49:31Z",
+      "note": "GITHUB_TOKEN/GITHUB_REPOSITORY unavailable outside Actions."
+    },
+    {
+      "name": "FTC consumer alerts",
+      "category": "scams",
+      "status": "failed",
+      "count": 0,
+      "url": "https://consumer.ftc.gov/consumer-alerts",
+      "checkedAt": "2026-06-27T13:49:31Z",
+      "note": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "CISA news feed",
+      "category": "intel/rss",
+      "status": "ok",
+      "count": 3,
+      "url": "https://www.cisa.gov/news.xml",
+      "checkedAt": "2026-06-27T13:49:32Z",
+      "note": "RSS/news items imported."
+    },
+    {
+      "name": "CISA Known Exploited Vulnerabilities",
+      "category": "hacks/vulnerabilities",
+      "status": "ok",
+      "count": 15,
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "checkedAt": "2026-06-27T13:49:32Z",
+      "note": "Recent exploited vulnerabilities imported."
+    },
+    {
+      "name": "NVD CVE API",
+      "category": "hacks/vulnerabilities",
+      "status": "ok",
+      "count": 12,
+      "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
+      "checkedAt": "2026-06-27T13:49:35Z",
+      "note": "Recent critical CVEs imported."
+    },
+    {
+      "name": "Have I Been Pwned breach catalog",
+      "category": "data breaches",
+      "status": "ok",
+      "count": 12,
+      "url": "https://haveibeenpwned.com/api/v3/breaches",
+      "checkedAt": "2026-06-27T13:49:35Z",
+      "note": "Recent breach catalog items imported."
+    },
+    {
+      "name": "WireShield static guidance",
+      "category": "guidance",
+      "status": "ok",
+      "count": 3,
+      "url": "local",
+      "checkedAt": "2026-06-27T13:49:35Z",
+      "note": "Data broker, bloatware, and scam safety guidance added."
+    }
+  ],
+  "items": [
+    {
+      "title": "FTC consumer alerts unavailable",
+      "type": "source-status",
+      "source": "FTC consumer alerts",
+      "url": "https://consumer.ftc.gov/consumer-alerts",
+      "published": "2026-06-27",
+      "note": "HTTP Error 403: Forbidden"
+    },
+    {
+      "title": "CISA Issues New Directive Improving How Federal Agencies Prioritize the Mitigation of Cyber Vulnerabilities",
+      "type": "trusted-source-item",
+      "source": "CISA news feed",
+      "url": "https://www.cisa.gov/news.xml",
+      "published": "Wed, 10 Jun 26 12:00:00 +0000",
+      "note": ""
+    },
+    {
+      "title": "CISA Enhances Known Exploited Vulnerabilities Catalog to Include New Nomination Form",
+      "type": "trusted-source-item",
+      "source": "CISA news feed",
+      "url": "https://www.cisa.gov/news.xml",
+      "published": "Thu, 21 May 26 12:00:00 +0000",
+      "note": ""
+    },
+    {
+      "title": "CISA, National Cyber Security Centre (NCSC) UK, and Global Partners Issue Advisory on Chinese Government-Linked Covert Cyber Networks",
+      "type": "trusted-source-item",
+      "source": "CISA news feed",
+      "url": "https://www.cisa.gov/news.xml",
+      "published": "Thu, 23 Apr 26 12:00:00 +0000",
+      "note": ""
+    },
+    {
+      "title": "CVE-2026-12569: exploited vulnerability in PTC Windchill and FlexPLM",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-06-25",
+      "note": "PTC Windchill and FlexPLM contains an improper input validation vulnerability allowing an unauthenticated, remote attacker to execute arbitrary code by sending a malicious request to the network."
+    },
+    {
+      "title": "CVE-2026-20230: exploited vulnerability in Cisco Unified Communications Manager",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-06-25",
+      "note": "Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM SME) contain a server-side request forgery (SSRF) Vulnerability that could allow an unauthenticated, remote attacker to write files to the underlying operating system that could be used later to elevate to root."
+    },
+    {
+      "title": "CVE-2025-67038: exploited vulnerability in Lantronix EDS5000",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-06-23",
+      "note": "Lantronix EDS5000 contains a code injection vulnerability that could allow attackers to inject arbitrary OS commands into the username parameter. Injected commands are executed with root privileges."
+    },
+    {
+      "title": "CVE-2026-34910: exploited vulnerability in Ubiquiti UniFi OS",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-06-23",
+      "note": "Ubiquiti UniFi OS contains an improper input validation vulnerability which could allow a malicious actor with access to the network to conduct command injection."
+    },
+    {
+      "title": "CVE-2026-34909: exploited vulnerability in Ubiquiti UniFi OS",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-06-23",
+      "note": "Ubiquiti UniFi OS contains a path traversal vulnerability which could allow a malicious actor with access to the network to access files on the underlying system that could be manipulated to access an underlying account."
+    },
+    {
+      "title": "CVE-2026-34908: exploited vulnerability in Ubiquiti UniFi OS",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-06-23",
+      "note": "Ubiquiti UniFi OS contains an improper access control vulnerability which could allow a malicious actor with access to the network to make unauthorized changes to the system."
+    },
+    {
+      "title": "CVE-2026-20253: exploited vulnerability in Splunk Enterprise",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-06-18",
+      "note": "Splunk Enterprise contains a missing authentication for critical function vulnerability which could allow an unauthenticated user to create or truncate arbitrary files through a PostgreSQL sidecar service endpoint."
+    },
+    {
+      "title": "CVE-2026-48907: exploited vulnerability in Widget Factory Joomla Content Editor ",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-06-16",
+      "note": "Widget Factory Joomla Content Editor contains an improper access control vulnerability which could allow for upload and execution of PHP code via the creation of new editor profiles for unauthenticated users. "
+    },
+    {
+      "title": "CVE-2026-54420: exploited vulnerability in LiteSpeed cPanel Plugin",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-06-15",
+      "note": "LiteSpeed cPanel plugin contains a UNIX symbolic link (Symlink) following vulnerability that could allow a user with FTP or web shell access on a shared hosting server running CloudLinux/CageFS."
+    },
+    {
+      "title": "CVE-2026-20262: exploited vulnerability in Cisco Catalyst SD-WAN Manager",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-06-15",
+      "note": "Cisco Catalyst SD-WAN Manager contains a directory or path traversal vulnerability that could allow an authenticated, remote attacker to create a file or overwrite any file on the filesystem of an affected system."
+    },
+    {
+      "title": "CVE-2026-35273: exploited vulnerability in Oracle  PeopleSoft Enterprise PeopleTools",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-06-12",
+      "note": "Oracle PeopleSoft Enterprise PeopleTools contains a missing authentication for critical function vulnerability which could allow an unauthenticated attacker to obtain takeover of PeopleSoft Enterprise PeopleTools."
+    },
+    {
+      "title": "CVE-2026-10520: exploited vulnerability in Ivanti Sentry",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-06-11",
+      "note": "Ivanti Sentry (formerly known as MobileIron Sentry) contains an OS command injection vulnerability which could allow a remote unauthenticated user to achieve root-level remote code execution. This vulnerability can be successfully exploited in cases where the Sentry appliance is in an unmanaged state with its endpoints externally reachable. The use of mTLS with EPMM or restricted HTTPS access through Neurons for MDM makes interfaces inaccessible to external actors."
+    },
+    {
+      "title": "CVE-2026-11645: exploited vulnerability in Google Chromium V8",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-06-09",
+      "note": "Google Chromium V8 out-of-bounds read and write vulnerability that could allow a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera."
+    },
+    {
+      "title": "CVE-2026-7473: exploited vulnerability in Arista Extensible Operating System",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-06-09",
+      "note": "Arista Extensible Operating System (EOS) contains an incomplete comparison with missing factors vulnerability when the switch incorrectly decapsulate and forwards other unexpected tunneled packet with a destination IP matching its configured decapsulation IP."
+    },
+    {
+      "title": "CVE-2026-20245: exploited vulnerability in Cisco Catalyst SD-WAN Manager",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-06-09",
+      "note": "Cisco Catalyst SD-WAN Manager formerly SD-WAN vManage contains an improper encoding or escaping of output vulnerability. This vulnerability could allow an authenticated, local attacker to execute arbitrary commands as root by supplying a crafted file to the affected system."
+    },
+    {
+      "title": "CVE-2015-5719: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-5719",
+      "published": "2026-06-23T13:42:00.707",
+      "note": "app/Controller/TemplatesController.php in Malware Information Sharing Platform (MISP) before 2.3.92 does not properly restrict filenames under the tmp/files/ directory, which has unspecified impact and attack vectors."
+    },
+    {
+      "title": "CVE-2015-5721: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-5721",
+      "published": "2026-06-23T13:42:00.707",
+      "note": "Malware Information Sharing Platform (MISP) before 2.3.90 allows remote attackers to conduct PHP object injection attacks via crafted serialized data, related to TemplatesController.php and populate_event_from_template_attributes.ctp."
+    },
+    {
+      "title": "CVE-2017-8046: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-8046",
+      "published": "2026-06-26T18:44:14.703",
+      "note": "Malicious PATCH requests submitted to servers using Spring Data REST versions prior to 2.6.9 (Ingalls SR9), versions prior to 3.0.1 (Kay SR1) and Spring Boot versions prior to 1.5.9, 2.0 M6 can use specially crafted JSON data to run arbitrary Java code."
+    },
+    {
+      "title": "CVE-2018-1273: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1273",
+      "published": "2026-06-26T18:44:14.703",
+      "note": "Spring Data Commons, versions prior to 1.13 to 1.13.10, 2.0 to 2.0.5, and older unsupported versions, contain a property binder vulnerability caused by improper neutralization of special elements. An unauthenticated remote malicious user (or attacker) can supply specially crafted request parameters against Spring Data REST backed HTTP resources or using Spring Data's projection-based request payload binding hat can lead to a remote code execution attack."
+    },
+    {
+      "title": "CVE-2018-12649: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-12649",
+      "published": "2026-06-22T19:23:18.580",
+      "note": "An issue was discovered in app/Controller/UsersController.php in MISP 2.4.92. An adversary can bypass the brute-force protection by using a PUT HTTP method instead of a POST HTTP method in the login part, because this protection was only covering POST requests."
+    },
+    {
+      "title": "CVE-2019-19576: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-19576",
+      "published": "2026-06-26T14:53:03.707",
+      "note": "class.upload.php in verot.net class.upload before 1.0.3 and 2.x before 2.0.4, as used in the K2 extension for Joomla! and other products, omits .phar from the set of dangerous file extensions."
+    },
+    {
+      "title": "CVE-2019-19634: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-19634",
+      "published": "2026-06-26T14:53:03.707",
+      "note": "class.upload.php in verot.net class.upload through 1.0.3 and 2.x through 2.0.4, as used in the K2 extension for Joomla! and other products, omits .pht from the set of dangerous file extensions, a similar issue to CVE-2019-19576."
+    },
+    {
+      "title": "CVE-2020-14967: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-14967",
+      "published": "2026-06-22T03:18:31.867",
+      "note": "An issue was discovered in the jsrsasign package before 8.0.18 for Node.js. Its RSA PKCS1 v1.5 decryption implementation does not detect ciphertext modification by prepending '\\0' bytes to ciphertexts (it decrypts modified ciphertexts without error). An attacker might prepend these bytes with the goal of triggering memory corruption issues."
+    },
+    {
+      "title": "CVE-2020-14968: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-14968",
+      "published": "2026-06-22T03:18:31.867",
+      "note": "An issue was discovered in the jsrsasign package before 8.0.17 for Node.js. Its RSASSA-PSS (RSA-PSS) implementation does not detect signature manipulation/modification by prepending '\\0' bytes to a signature (it accepts these modified signatures as valid). An attacker can abuse this behavior in an application by creating multiple valid signatures where only one signature should exist. Also, an attacker might prepend these bytes with the goal of triggering memory corruption issues."
+    },
+    {
+      "title": "CVE-2020-15411: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-15411",
+      "published": "2026-06-22T19:23:18.580",
+      "note": "An issue was discovered in MISP 2.4.128. app/Controller/AttributesController.php has insufficient ACL checks in the attachment downloader."
+    },
+    {
+      "title": "CVE-2020-29006: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-29006",
+      "published": "2026-06-22T19:23:18.580",
+      "note": "MISP before 2.4.135 lacks an ACL check, related to app/Controller/GalaxyElementsController.php and app/Model/GalaxyElement.php."
+    },
+    {
+      "title": "CVE-2021-25323: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-25323",
+      "published": "2026-06-22T19:23:18.580",
+      "note": "The default setting of MISP 2.4.136 did not enable the requirements (aka require_password_confirmation) to provide the previous password when changing a password."
     },
     {
       "title": "American Tower",
       "type": "data breach",
       "source": "Have I Been Pwned breach catalog",
+      "url": "https://haveibeenpwned.com/api/v3/breaches",
       "published": "2026-06-26T07:17:23Z",
       "affectedAccounts": 216601,
       "note": "In June 2026, telecommunications tower infrastructure company <a href=\"https://x.com/H4ckmanac/status/2065383723739046213\" target=\"_blank\" rel=\"noopener\">American Tower was the target of a ShinyHunters \"pay or leak\" extortion campaign</a>. The group subsequently published data allegedly taken from the company containing more than 200k unique email addresses belonging to employees, contractors, customers, and leads. Exposed data also included names, addresses, and phone numbers."
@@ -27,6 +365,7 @@
       "title": "Madison Square Garden Sports",
       "type": "data breach",
       "source": "Have I Been Pwned breach catalog",
+      "url": "https://haveibeenpwned.com/api/v3/breaches",
       "published": "2026-06-24T13:02:33Z",
       "affectedAccounts": 9796738,
       "note": "In June 2026, the sports and entertainment company <a href=\"https://www.404media.co/hackers-publish-knicks-and-madison-square-garden-data-online/\" target=\"_blank\" rel=\"noopener\">Madison Square Garden Sports was the target of a ShinyHunters \"pay or leak\" extortion campaign</a>. The group later published the alleged data, which included almost 10M unique email addresses spanning staff and customers, along with extensive personal, employment and customer relationship information."
@@ -35,6 +374,7 @@
       "title": "JCPenney",
       "type": "data breach",
       "source": "Have I Been Pwned breach catalog",
+      "url": "https://haveibeenpwned.com/api/v3/breaches",
       "published": "2026-06-20T03:02:45Z",
       "affectedAccounts": 368418,
       "note": "In June 2026, retailer <a href=\"https://breachnews.com/breaches/shinyhunters-threatens-council-of-europe-american-tower-jcpenney-and-others-with-imminent-data-leaks/\" target=\"_blank\" rel=\"noopener\">JCPenney and associated brands were targeted in a ShinyHunters \"pay or leak\" extortion campaign</a>. Data allegedly obtained from JCPenney through the exploitation of <a href=\"https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit\" target=\"_blank\""
@@ -43,6 +383,7 @@
       "title": "Ralph Lauren",
       "type": "data breach",
       "source": "Have I Been Pwned breach catalog",
+      "url": "https://haveibeenpwned.com/api/v3/breaches",
       "published": "2026-06-18T22:48:34Z",
       "affectedAccounts": 139903,
       "note": "In June 2026, fashion retailer <a href=\"https://cybernews.com/security/ralph-lauren-data-breach-claims/\" target=\"_blank\" rel=\"noopener\">Ralph Lauren was targeted in a ShinyHunters \"pay or leak\" extortion campaign</a>. The group subsequently published hundreds of gigabytes of data they claimed was obtained from the organisation's Salesforce instance, including 140k unique email addresses along with names, phone numbers, genders and age groups."
@@ -51,6 +392,7 @@
       "title": "Operation Endgame 4.0",
       "type": "data breach",
       "source": "Have I Been Pwned breach catalog",
+      "url": "https://haveibeenpwned.com/api/v3/breaches",
       "published": "2026-06-18T20:08:06Z",
       "affectedAccounts": 4160519,
       "note": "On 18 June 2026, the latest phase of <a href=\"https://www.politie.nl/en/news/2026/june/18/international-law-enforcement-initiate-hunt-on-malware-group-socgholish.html\" target=\"_blank\" rel=\"noopener\">Operation Endgame targeted the SocGholish malware operation</a>, a prolific malware distribution network used to compromise systems and facilitate further cybercrime. Coordinated by international law enforcement agencies with support from Europol and Eurojust, the operation remediated almost 15,000 c"
@@ -59,6 +401,7 @@
       "title": "CFGI",
       "type": "data breach",
       "source": "Have I Been Pwned breach catalog",
+      "url": "https://haveibeenpwned.com/api/v3/breaches",
       "published": "2026-06-18T03:22:51Z",
       "affectedAccounts": 248235,
       "note": "In March 2026, the financial consulting and advisory firm <a href=\"https://x.com/AlvieriD/status/2029785330677936135\" target=\"_blank\" rel=\"noopener\">CFGI was the target of a ShinyHunters \"pay-or-leak\" extortion campaign</a>. The group subsequently publicised data allegedly obtained from CFGI comprising corporate contact information, including 243k unique email addresses, names, phone numbers and physical addresses."
@@ -67,6 +410,7 @@
       "title": "June 2026 Stealer Logs",
       "type": "data breach",
       "source": "Have I Been Pwned breach catalog",
+      "url": "https://haveibeenpwned.com/api/v3/breaches",
       "published": "2026-06-15T19:30:15Z",
       "affectedAccounts": 56278397,
       "note": "In June 2026, a collection of accumulated stealer logs from various sources was added to HIBP. The corpus comprised 56M unique email addresses across hundreds of millions of stealer log records. The data also contained 124M unique passwords, which have been added to <a href=\"https://haveibeenpwned.com/Passwords\">Pwned Passwords</a> and are now searchable. Individuals can view any records captured against their email address in <a href=\"https://haveibeenpwned.com/Dashboard/Redirect/StealerLogs\">t"
@@ -75,6 +419,7 @@
       "title": "Berkadia",
       "type": "data breach",
       "source": "Have I Been Pwned breach catalog",
+      "url": "https://haveibeenpwned.com/api/v3/breaches",
       "published": "2026-06-15T04:09:04Z",
       "affectedAccounts": 305216,
       "note": "In March 2026, the commercial real estate finance company <a href=\"https://x.com/AlvieriD/status/2034584125106000005\" target=\"_blank\" rel=\"noopener\">Berkadia was the target of a ShinyHunters \"pay or leak\" extortion campaign</a>. The group subsequently published data they alleged was taken from Berkadia's Salesforce instance, including over 300k unique email addresses as well as names, physical addresses and phone numbers, among other data."
@@ -83,6 +428,7 @@
       "title": "Infinite Campus",
       "type": "data breach",
       "source": "Have I Been Pwned breach catalog",
+      "url": "https://haveibeenpwned.com/api/v3/breaches",
       "published": "2026-06-15T01:03:42Z",
       "affectedAccounts": 137123,
       "note": "In March 2026, the student information system <a href=\"https://www.bleepingcomputer.com/news/security/infinite-campus-warns-of-breach-after-shinyhunters-claims-data-theft/\" target=\"_blank\" rel=\"noopener\">Infinite Campus was targeted in a ShinyHunters \"pay or leak\" extortion campaign</a>. The group subsequently published data they alleged was taken from Infinite Campus, containing 137k unique email addresses along with names, phone numbers, physical addresses and support tickets. <a href=\"https:/"
@@ -91,6 +437,7 @@
       "title": "University of Nottingham",
       "type": "data breach",
       "source": "Have I Been Pwned breach catalog",
+      "url": "https://haveibeenpwned.com/api/v3/breaches",
       "published": "2026-06-10T22:13:31Z",
       "affectedAccounts": 454635,
       "note": "In June 2026, <a href=\"https://www.bbc.com/news/articles/ckg0lkp042zo\" target=\"_blank\" rel=\"noopener\">the University of Nottingham was the target of a cyber attack</a>, later linked to a ShinyHunters \"pay or leak\" extortion campaign. Tens of gigabytes of data were subsequently published online and included 455k unique email addresses along with extensive personal information including names, addresses, phone numbers, ethnicities, disabilities, passport numbers and information relating to academi"
@@ -99,6 +446,7 @@
       "title": "Baker Distributing",
       "type": "data breach",
       "source": "Have I Been Pwned breach catalog",
+      "url": "https://haveibeenpwned.com/api/v3/breaches",
       "published": "2026-06-07T06:16:36Z",
       "affectedAccounts": 102935,
       "note": "In May 2026, the HVAC/R wholesale distributor <a href=\"https://x.com/DailyDarkWeb/status/2062522924582502737\" target=\"_blank\" rel=\"noopener\">Baker Distributing Company was added to the ShinyHunters data extortion group's \"pay or leak\" site</a>. In early June, the group publicly published data they claimed had been obtained from Baker's SharePoint and Salesforce infrastructure including 103k unique email addresses along with names, physical addresses, phone numbers and tickets relating to the com"
@@ -107,16 +455,34 @@
       "title": "BCD Travel",
       "type": "data breach",
       "source": "Have I Been Pwned breach catalog",
+      "url": "https://haveibeenpwned.com/api/v3/breaches",
       "published": "2026-06-05T06:53:15Z",
       "affectedAccounts": 396313,
       "note": "In May 2026, the corporate travel management company <a href=\"https://www.ictmagazine.nl/nieuws/shinyhunters-claimt-datadiefstal-bij-groot-internationaal-zakenreisbureau/\" target=\"_blank\" rel=\"noopener\">BCD Travel was claimed as a victim of the ShinyHunters \"pay or leak\" extortion campaign</a>. Data allegedly obtained from BCD was subsequently published publicly in early June and contained 396k unique email addresses. Other exposed data included names, addresses, phone numbers, job titles and em"
     },
     {
       "title": "Data broker privacy watch",
-      "type": "data broker",
+      "type": "data broker / privacy",
       "source": "WireShield guidance",
+      "url": "https://consumer.ftc.gov/consumer-alerts",
       "published": "2026-06-27",
       "note": "Recheck broker opt-out results every 30-90 days; many brokers repopulate data. Keep broker name, profile URL, date requested, and confirmation emails."
+    },
+    {
+      "title": "Unwanted software / bloatware watch",
+      "type": "bloatware / potentially unwanted software",
+      "source": "Microsoft unwanted software evaluation criteria",
+      "url": "https://learn.microsoft.com/en-us/unified-secops/criteria",
+      "published": "2026-06-27",
+      "note": "Watch for software that changes browser settings, injects ads, bundles unwanted offers, hides removal paths, exaggerates cleanup claims, or uses misleading install prompts."
+    },
+    {
+      "title": "Remote-access scam reminder",
+      "type": "remote-access scam",
+      "source": "WireShield guidance from FTC/CISA-style scam prevention",
+      "url": "https://consumer.ftc.gov/consumer-alerts",
+      "published": "2026-06-27",
+      "note": "Treat unexpected requests to install AnyDesk, TeamViewer, UltraViewer, RustDesk, or ScreenConnect as high risk, especially when paired with refunds, bank warnings, crypto, or gift cards."
     }
   ]
 }

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-27T13:49:36Z",
+  "refreshPolicy": "GitHub Actions updates the relay about every 10 minutes. Individual sources may be hourly, 5-minute, keyed, or rate-limited depending on their published rules.",
+  "sources": [
+    {
+      "name": "WireShield checked test entries",
+      "category": "scam/phishing",
+      "status": "ok",
+      "count": 2,
+      "url": "https://testsafebrowsing.appspot.com/",
+      "checkedAt": "2026-06-27T13:49:28Z",
+      "note": "Safe test-only block page entries added."
+    },
+    {
+      "name": "OpenPhish community feed",
+      "category": "scam/phishing",
+      "status": "ok",
+      "count": 300,
+      "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
+      "checkedAt": "2026-06-27T13:49:29Z",
+      "note": "Public phishing URL feed imported."
+    },
+    {
+      "name": "PhishTank public verified feed",
+      "category": "scam/phishing",
+      "status": "ok",
+      "count": 65476,
+      "url": "https://data.phishtank.com/data/online-valid.csv",
+      "checkedAt": "2026-06-27T13:49:30Z",
+      "note": "PhishTank verified-online phishing database imported."
+    },
+    {
+      "name": "URLhaus public recent CSV",
+      "category": "malware",
+      "status": "ok",
+      "count": 22533,
+      "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
+      "checkedAt": "2026-06-27T13:49:31Z",
+      "note": "URLhaus malware URL/domain data imported."
+    },
+    {
+      "name": "Approved GitHub reports",
+      "category": "user reports",
+      "status": "skipped",
+      "count": 0,
+      "url": "GitHub API",
+      "checkedAt": "2026-06-27T13:49:31Z",
+      "note": "GITHUB_TOKEN/GITHUB_REPOSITORY unavailable outside Actions."
+    },
+    {
+      "name": "FTC consumer alerts",
+      "category": "scams",
+      "status": "failed",
+      "count": 0,
+      "url": "https://consumer.ftc.gov/consumer-alerts",
+      "checkedAt": "2026-06-27T13:49:31Z",
+      "note": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "CISA news feed",
+      "category": "intel/rss",
+      "status": "ok",
+      "count": 3,
+      "url": "https://www.cisa.gov/news.xml",
+      "checkedAt": "2026-06-27T13:49:32Z",
+      "note": "RSS/news items imported."
+    },
+    {
+      "name": "CISA Known Exploited Vulnerabilities",
+      "category": "hacks/vulnerabilities",
+      "status": "ok",
+      "count": 15,
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "checkedAt": "2026-06-27T13:49:32Z",
+      "note": "Recent exploited vulnerabilities imported."
+    },
+    {
+      "name": "NVD CVE API",
+      "category": "hacks/vulnerabilities",
+      "status": "ok",
+      "count": 12,
+      "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
+      "checkedAt": "2026-06-27T13:49:35Z",
+      "note": "Recent critical CVEs imported."
+    },
+    {
+      "name": "Have I Been Pwned breach catalog",
+      "category": "data breaches",
+      "status": "ok",
+      "count": 12,
+      "url": "https://haveibeenpwned.com/api/v3/breaches",
+      "checkedAt": "2026-06-27T13:49:35Z",
+      "note": "Recent breach catalog items imported."
+    },
+    {
+      "name": "WireShield static guidance",
+      "category": "guidance",
+      "status": "ok",
+      "count": 3,
+      "url": "local",
+      "checkedAt": "2026-06-27T13:49:35Z",
+      "note": "Data broker, bloatware, and scam safety guidance added."
+    }
+  ]
+}
