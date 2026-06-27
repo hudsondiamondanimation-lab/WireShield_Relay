@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-26T23:49:10Z",
+  "generatedAt": "2026-06-27T01:47:38Z",
   "description": "WireShield trusted-intelligence relay for scams, breaches, malware/security alerts, and broker/privacy watch notes.",
   "items": [
     {
@@ -115,7 +115,7 @@
       "title": "Data broker privacy watch",
       "type": "data broker",
       "source": "WireShield guidance",
-      "published": "2026-06-26",
+      "published": "2026-06-27",
       "note": "Recheck broker opt-out results every 30-90 days; many brokers repopulate data. Keep broker name, profile URL, date requested, and confirmation emails."
     }
   ]
