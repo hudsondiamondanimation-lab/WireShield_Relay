@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-06-27T23:18:13Z",
+  "generatedAt": "2026-06-28T00:18:10Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-06-27T23:18:07Z",
+      "checkedAt": "2026-06-28T00:17:56Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-06-27T23:18:07Z",
+      "checkedAt": "2026-06-28T00:17:56Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 65359,
+      "count": 65360,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-06-27T23:18:09Z",
+      "checkedAt": "2026-06-28T00:17:57Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 22721,
+      "count": 22062,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-06-27T23:18:09Z",
+      "checkedAt": "2026-06-28T00:17:58Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-06-27T23:18:10Z",
+      "checkedAt": "2026-06-28T00:17:58Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-06-27T23:18:10Z",
+      "checkedAt": "2026-06-28T00:17:59Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-06-27T23:18:10Z",
+      "checkedAt": "2026-06-28T00:17:59Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-06-27T23:18:10Z",
+      "checkedAt": "2026-06-28T00:17:59Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-06-27T23:18:13Z",
+      "checkedAt": "2026-06-28T00:18:10Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-06-27T23:18:13Z",
+      "checkedAt": "2026-06-28T00:18:10Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-06-27T23:18:13Z",
+      "checkedAt": "2026-06-28T00:18:10Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -109,7 +109,7 @@
       "type": "source-status",
       "source": "FTC consumer alerts",
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "published": "2026-06-27",
+      "published": "2026-06-28",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -118,7 +118,7 @@
       "url": "https://www.cisa.gov/news.xml",
       "note": "HTTP Error 403: Forbidden",
       "type": "source-status",
-      "published": "2026-06-27"
+      "published": "2026-06-28"
     },
     {
       "title": "CVE-2026-12569: exploited vulnerability in PTC Windchill and FlexPLM",
@@ -449,7 +449,7 @@
       "type": "data broker / privacy",
       "source": "WireShield guidance",
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "published": "2026-06-27",
+      "published": "2026-06-28",
       "note": "Recheck broker opt-out results every 30-90 days; many brokers repopulate data. Keep broker name, profile URL, date requested, and confirmation emails."
     },
     {
@@ -457,7 +457,7 @@
       "type": "bloatware / potentially unwanted software",
       "source": "Microsoft unwanted software evaluation criteria",
       "url": "https://learn.microsoft.com/en-us/unified-secops/criteria",
-      "published": "2026-06-27",
+      "published": "2026-06-28",
       "note": "Watch for software that changes browser settings, injects ads, bundles unwanted offers, hides removal paths, exaggerates cleanup claims, or uses misleading install prompts."
     },
     {
@@ -465,7 +465,7 @@
       "type": "remote-access scam",
       "source": "WireShield guidance from FTC/CISA-style scam prevention",
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "published": "2026-06-27",
+      "published": "2026-06-28",
       "note": "Treat unexpected requests to install AnyDesk, TeamViewer, UltraViewer, RustDesk, or ScreenConnect as high risk, especially when paired with refunds, bank warnings, crypto, or gift cards."
     }
   ]
