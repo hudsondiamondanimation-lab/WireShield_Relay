@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-06-29T20:04:56Z",
+  "generatedAt": "2026-06-29T21:42:34Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-06-29T20:04:50Z",
+      "checkedAt": "2026-06-29T21:42:27Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-06-29T20:04:50Z",
+      "checkedAt": "2026-06-29T21:42:27Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 65712,
-      "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-06-29T20:04:52Z",
+      "count": 65702,
+      "url": "https://data.phishtank.com/data/online-valid.json",
+      "checkedAt": "2026-06-29T21:42:29Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 22218,
+      "count": 22288,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-06-29T20:04:53Z",
+      "checkedAt": "2026-06-29T21:42:29Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-06-29T20:04:53Z",
+      "checkedAt": "2026-06-29T21:42:29Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-06-29T20:04:53Z",
+      "checkedAt": "2026-06-29T21:42:30Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-06-29T20:04:53Z",
+      "checkedAt": "2026-06-29T21:42:30Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-06-29T20:04:53Z",
+      "checkedAt": "2026-06-29T21:42:30Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-06-29T20:04:56Z",
+      "checkedAt": "2026-06-29T21:42:33Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-06-29T20:04:56Z",
+      "checkedAt": "2026-06-29T21:42:34Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-06-29T20:04:56Z",
+      "checkedAt": "2026-06-29T21:42:34Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -321,20 +321,20 @@
       "note": "Due to insecure session management, SAP Enable Now allows an unauthenticated attacker to gain access to user's account. On successful exploitation, an attacker can view or modify user data causing limited impact on confidentiality and integrity of the application."
     },
     {
+      "title": "CVE-2023-0645: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-0645",
+      "published": "2026-06-29T20:16:50.417",
+      "note": "An out of bounds read exists in libjxl. An attacker using a specifically crafted file could cause an out of bounds read in the exif handler. We recommend upgrading to version 0.8.1 or past commit  https://github.com/libjxl/libjxl/pull/2101/commits/d95b050c1822a5b1ede9e0dc937e43fca1b10159 https://github.com/libjxl/libjxl/pull/2101/commits/d95b050c1822a5b1ede9e0dc937e43fca1b10159 "
+    },
+    {
       "title": "CVE-2023-27971: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-27971",
       "published": "2026-06-25T18:08:03.510",
       "note": "Certain HP LaserJet Pro print products are potentially vulnerable to Buffer Overflow and/or Elevation of Privilege."
-    },
-    {
-      "title": "CVE-2023-27972: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-27972",
-      "published": "2026-06-25T18:09:05.847",
-      "note": "Certain HP LaserJet Pro print products are potentially vulnerable to Buffer Overflow and/or Remote Code Execution."
     },
     {
       "title": "Sysco",
