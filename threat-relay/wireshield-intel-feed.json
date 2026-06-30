@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-06-30T14:41:38Z",
+  "generatedAt": "2026-06-30T16:55:25Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-06-30T14:41:20Z",
+      "checkedAt": "2026-06-30T16:55:17Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-06-30T14:41:20Z",
+      "checkedAt": "2026-06-30T16:55:17Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 65642,
+      "count": 65626,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-06-30T14:41:23Z",
+      "checkedAt": "2026-06-30T16:55:19Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 22155,
+      "count": 22179,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-06-30T14:41:23Z",
+      "checkedAt": "2026-06-30T16:55:20Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-06-30T14:41:24Z",
+      "checkedAt": "2026-06-30T16:55:20Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-06-30T14:41:24Z",
+      "checkedAt": "2026-06-30T16:55:21Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-06-30T14:41:24Z",
+      "checkedAt": "2026-06-30T16:55:21Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-06-30T14:41:24Z",
+      "checkedAt": "2026-06-30T16:55:21Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-06-30T14:41:38Z",
+      "checkedAt": "2026-06-30T16:55:25Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-06-30T14:41:38Z",
+      "checkedAt": "2026-06-30T16:55:25Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-06-30T14:41:38Z",
+      "checkedAt": "2026-06-30T16:55:25Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -289,22 +289,6 @@
       "note": "Certain HP Print devices may be vulnerable to potential information disclosure, denial of service, or remote code execution."
     },
     {
-      "title": "CVE-2021-33643: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-33643",
-      "published": "2026-06-23T16:16:57.427",
-      "note": "An attacker who submits a crafted tar file with size in header struct being 0 may be able to trigger an calling of malloc(0) for a variable gnu_longlink, causing an out-of-bounds read."
-    },
-    {
-      "title": "CVE-2022-35293: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-35293",
-      "published": "2026-06-23T16:16:57.823",
-      "note": "Due to insecure session management, SAP Enable Now allows an unauthenticated attacker to gain access to user's account. On successful exploitation, an attacker can view or modify user data causing limited impact on confidentiality and integrity of the application."
-    },
-    {
       "title": "CVE-2023-0645: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
@@ -335,6 +319,22 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-27973",
       "published": "2026-06-25T18:07:46.100",
       "note": "Certain HP LaserJet Pro print products are potentially vulnerable to Heap Overflow and/or Remote Code Execution."
+    },
+    {
+      "title": "CVE-2023-35175: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-35175",
+      "published": "2026-06-25T18:08:51.790",
+      "note": "Certain HP LaserJet Pro print products are potentially vulnerable to Potential Remote Code Execution and/or Elevation of Privilege via Server-Side Request Forgery (SSRF) using the Web Service Eventing model."
+    },
+    {
+      "title": "CVE-2023-46233: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-46233",
+      "published": "2026-06-23T18:17:34.057",
+      "note": "crypto-js is a JavaScript library of crypto standards. Prior to version 4.2.0, crypto-js PBKDF2 is 1,000 times weaker than originally specified in 1993, and at least 1,300,000 times weaker than current industry standard. This is because it both defaults to SHA1, a cryptographic hash algorithm considered insecure since at least 2005, and defaults to one single iteration, a 'strength' or 'difficulty' value specified at 1,000 when specified in 1993. PBKDF2 relies on iteration count as a countermeas"
     },
     {
       "title": "Sysco",
