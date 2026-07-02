@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-02T09:56:26Z",
+  "generatedAt": "2026-07-02T12:07:35Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-07-02T09:56:07Z",
+      "checkedAt": "2026-07-02T12:07:30Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-07-02T09:56:07Z",
+      "checkedAt": "2026-07-02T12:07:30Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 65541,
+      "count": 65548,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-07-02T09:56:09Z",
+      "checkedAt": "2026-07-02T12:07:33Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 21655,
+      "count": 21708,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-07-02T09:56:10Z",
+      "checkedAt": "2026-07-02T12:07:34Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-07-02T09:56:10Z",
+      "checkedAt": "2026-07-02T12:07:34Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-07-02T09:56:10Z",
+      "checkedAt": "2026-07-02T12:07:34Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-07-02T09:56:10Z",
+      "checkedAt": "2026-07-02T12:07:34Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,17 +72,17 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-07-02T09:56:10Z",
+      "checkedAt": "2026-07-02T12:07:34Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
       "name": "NVD CVE API",
       "category": "hacks/vulnerabilities",
-      "status": "ok",
-      "count": 12,
+      "status": "failed",
+      "count": 0,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-07-02T09:56:25Z",
-      "note": "Recent critical CVEs imported."
+      "checkedAt": "2026-07-02T12:07:34Z",
+      "note": "HTTP Error 503: Service Unavailable"
     },
     {
       "name": "Have I Been Pwned breach catalog",
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-07-02T09:56:26Z",
+      "checkedAt": "2026-07-02T12:07:35Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-07-02T09:56:26Z",
+      "checkedAt": "2026-07-02T12:07:35Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -241,100 +241,12 @@
       "note": "Google Chromium V8 out-of-bounds read and write vulnerability that could allow a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera."
     },
     {
-      "title": "CVE-2017-8046: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
+      "title": "NVD CVE API unavailable",
+      "type": "source-status",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-8046",
-      "published": "2026-06-26T18:44:14.703",
-      "note": "Malicious PATCH requests submitted to servers using Spring Data REST versions prior to 2.6.9 (Ingalls SR9), versions prior to 3.0.1 (Kay SR1) and Spring Boot versions prior to 1.5.9, 2.0 M6 can use specially crafted JSON data to run arbitrary Java code."
-    },
-    {
-      "title": "CVE-2018-1273: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1273",
-      "published": "2026-06-26T18:44:14.703",
-      "note": "Spring Data Commons, versions prior to 1.13 to 1.13.10, 2.0 to 2.0.5, and older unsupported versions, contain a property binder vulnerability caused by improper neutralization of special elements. An unauthenticated remote malicious user (or attacker) can supply specially crafted request parameters against Spring Data REST backed HTTP resources or using Spring Data's projection-based request payload binding hat can lead to a remote code execution attack."
-    },
-    {
-      "title": "CVE-2019-19576: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-19576",
-      "published": "2026-06-26T14:53:03.707",
-      "note": "class.upload.php in verot.net class.upload before 1.0.3 and 2.x before 2.0.4, as used in the K2 extension for Joomla! and other products, omits .phar from the set of dangerous file extensions."
-    },
-    {
-      "title": "CVE-2019-19634: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-19634",
-      "published": "2026-06-26T14:53:03.707",
-      "note": "class.upload.php in verot.net class.upload through 1.0.3 and 2.x through 2.0.4, as used in the K2 extension for Joomla! and other products, omits .pht from the set of dangerous file extensions, a similar issue to CVE-2019-19576."
-    },
-    {
-      "title": "CVE-2022-24292: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-24292",
-      "published": "2026-06-25T18:08:20.993",
-      "note": "Certain HP Print devices may be vulnerable to potential information disclosure, denial of service, or remote code execution."
-    },
-    {
-      "title": "CVE-2022-24293: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-24293",
-      "published": "2026-06-25T18:09:18.057",
-      "note": "Certain HP Print devices may be vulnerable to potential information disclosure, denial of service, or remote code execution."
-    },
-    {
-      "title": "CVE-2023-0645: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-0645",
-      "published": "2026-06-29T20:16:50.417",
-      "note": "An out of bounds read exists in libjxl. An attacker using a specifically crafted file could cause an out of bounds read in the exif handler. We recommend upgrading to version 0.8.1 or past commit  https://github.com/libjxl/libjxl/pull/2101/commits/d95b050c1822a5b1ede9e0dc937e43fca1b10159 https://github.com/libjxl/libjxl/pull/2101/commits/d95b050c1822a5b1ede9e0dc937e43fca1b10159 "
-    },
-    {
-      "title": "CVE-2023-27971: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-27971",
-      "published": "2026-06-25T18:08:03.510",
-      "note": "Certain HP LaserJet Pro print products are potentially vulnerable to Buffer Overflow and/or Elevation of Privilege."
-    },
-    {
-      "title": "CVE-2023-27972: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-27972",
-      "published": "2026-06-25T18:09:05.847",
-      "note": "Certain HP LaserJet Pro print products are potentially vulnerable to Buffer Overflow and/or Remote Code Execution."
-    },
-    {
-      "title": "CVE-2023-27973: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-27973",
-      "published": "2026-06-25T18:07:46.100",
-      "note": "Certain HP LaserJet Pro print products are potentially vulnerable to Heap Overflow and/or Remote Code Execution."
-    },
-    {
-      "title": "CVE-2023-35175: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-35175",
-      "published": "2026-06-25T18:08:51.790",
-      "note": "Certain HP LaserJet Pro print products are potentially vulnerable to Potential Remote Code Execution and/or Elevation of Privilege via Server-Side Request Forgery (SSRF) using the Web Service Eventing model."
-    },
-    {
-      "title": "CVE-2025-14087: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14087",
-      "published": "2026-06-30T00:16:52.707",
-      "note": "A flaw was found in GLib (Gnome Lib). This vulnerability allows a remote attacker to cause heap corruption, leading to a denial of service or potential code execution via a buffer-underflow in the GVariant parser when processing maliciously crafted input strings."
+      "url": "https://nvd.nist.gov/developers/vulnerabilities",
+      "published": "2026-07-02",
+      "note": "HTTP Error 503: Service Unavailable"
     },
     {
       "title": "Sysco",
