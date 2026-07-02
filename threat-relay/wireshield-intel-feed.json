@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-02T18:05:23Z",
+  "generatedAt": "2026-07-02T19:46:14Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-07-02T18:05:17Z",
+      "checkedAt": "2026-07-02T19:46:09Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-07-02T18:05:17Z",
+      "checkedAt": "2026-07-02T19:46:09Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 65515,
-      "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-07-02T18:05:19Z",
+      "count": 65502,
+      "url": "https://data.phishtank.com/data/online-valid.json",
+      "checkedAt": "2026-07-02T19:46:11Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 22192,
+      "count": 22218,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-07-02T18:05:19Z",
+      "checkedAt": "2026-07-02T19:46:12Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-07-02T18:05:20Z",
+      "checkedAt": "2026-07-02T19:46:13Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-07-02T18:05:20Z",
+      "checkedAt": "2026-07-02T19:46:13Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-07-02T18:05:20Z",
+      "checkedAt": "2026-07-02T19:46:13Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-07-02T18:05:20Z",
+      "checkedAt": "2026-07-02T19:46:13Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-07-02T18:05:23Z",
+      "checkedAt": "2026-07-02T19:46:14Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-07-02T18:05:23Z",
+      "checkedAt": "2026-07-02T19:46:14Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-07-02T18:05:23Z",
+      "checkedAt": "2026-07-02T19:46:14Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -273,22 +273,6 @@
       "note": "class.upload.php in verot.net class.upload through 1.0.3 and 2.x through 2.0.4, as used in the K2 extension for Joomla! and other products, omits .pht from the set of dangerous file extensions, a similar issue to CVE-2019-19576."
     },
     {
-      "title": "CVE-2022-24292: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-24292",
-      "published": "2026-06-25T18:08:20.993",
-      "note": "Certain HP Print devices may be vulnerable to potential information disclosure, denial of service, or remote code execution."
-    },
-    {
-      "title": "CVE-2022-24293: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-24293",
-      "published": "2026-06-25T18:09:18.057",
-      "note": "Certain HP Print devices may be vulnerable to potential information disclosure, denial of service, or remote code execution."
-    },
-    {
       "title": "CVE-2023-0645: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
@@ -297,44 +281,60 @@
       "note": "An out of bounds read exists in libjxl. An attacker using a specifically crafted file could cause an out of bounds read in the exif handler. We recommend upgrading to version 0.8.1 or past commit  https://github.com/libjxl/libjxl/pull/2101/commits/d95b050c1822a5b1ede9e0dc937e43fca1b10159 https://github.com/libjxl/libjxl/pull/2101/commits/d95b050c1822a5b1ede9e0dc937e43fca1b10159 "
     },
     {
-      "title": "CVE-2023-27971: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-27971",
-      "published": "2026-06-25T18:08:03.510",
-      "note": "Certain HP LaserJet Pro print products are potentially vulnerable to Buffer Overflow and/or Elevation of Privilege."
-    },
-    {
-      "title": "CVE-2023-27972: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-27972",
-      "published": "2026-06-25T18:09:05.847",
-      "note": "Certain HP LaserJet Pro print products are potentially vulnerable to Buffer Overflow and/or Remote Code Execution."
-    },
-    {
-      "title": "CVE-2023-27973: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-27973",
-      "published": "2026-06-25T18:07:46.100",
-      "note": "Certain HP LaserJet Pro print products are potentially vulnerable to Heap Overflow and/or Remote Code Execution."
-    },
-    {
-      "title": "CVE-2023-35175: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-35175",
-      "published": "2026-06-25T18:08:51.790",
-      "note": "Certain HP LaserJet Pro print products are potentially vulnerable to Potential Remote Code Execution and/or Elevation of Privilege via Server-Side Request Forgery (SSRF) using the Web Service Eventing model."
-    },
-    {
       "title": "CVE-2025-14087: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14087",
       "published": "2026-06-30T00:16:52.707",
       "note": "A flaw was found in GLib (Gnome Lib). This vulnerability allows a remote attacker to cause heap corruption, leading to a denial of service or potential code execution via a buffer-underflow in the GVariant parser when processing maliciously crafted input strings."
+    },
+    {
+      "title": "CVE-2025-12543: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-12543",
+      "published": "2026-06-30T05:17:10.320",
+      "note": "A flaw was found in the Undertow HTTP server core, which is used in WildFly, JBoss EAP, and other Java applications. The Undertow library fails to properly validate the Host header in incoming HTTP requests.As a result, requests containing malformed or malicious Host headers are processed without rejection, enabling attackers to poison caches, perform internal network scans, or hijack user sessions."
+    },
+    {
+      "title": "CVE-2025-69264: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-69264",
+      "published": "2026-06-30T03:16:59.577",
+      "note": "pnpm is a package manager. Versions 10.0.0 through 10.25 allow git-hosted dependencies to execute arbitrary code during pnpm install, circumventing the v10 security feature \"Dependency lifecycle scripts execution disabled by default\". While pnpm v10 blocks postinstall scripts via the onlyBuiltDependencies mechanism, git dependencies can still execute prepare, prepublish, and prepack scripts during the fetch phase, enabling remote code execution without user consent or approval. This issue is fix"
+    },
+    {
+      "title": "CVE-2025-13761: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-13761",
+      "published": "2026-06-30T03:16:42.637",
+      "note": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.6 before 18.6.3, and 18.7 before 18.7.1 that could have allowed an unauthenticated user to execute arbitrary code in the context of an  authenticated user's browser by convincing the legitimate user to visit a specially crafted webpage."
+    },
+    {
+      "title": "CVE-2026-22853: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22853",
+      "published": "2026-06-30T03:17:28.650",
+      "note": "FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to 3.20.1, RDPEAR’s NDR array reader does not perform bounds checking on the on‑wire element count and can write past the heap buffer allocated from hints, causing a heap buffer overflow in ndr_read_uint8Array. This vulnerability is fixed in 3.20.1."
+    },
+    {
+      "title": "CVE-2026-22855: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22855",
+      "published": "2026-06-30T03:17:28.880",
+      "note": "FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to 3.20.1, a heap out-of-bounds read occurs in the smartcard SetAttrib path when cbAttrLen does not match the actual NDR buffer length. This vulnerability is fixed in 3.20.1."
+    },
+    {
+      "title": "CVE-2026-22858: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22858",
+      "published": "2026-06-30T03:17:29.147",
+      "note": "FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to 3.20.1, global-buffer-overflow was observed in FreeRDP's Base64 decoding path. The root cause appears to be implementation-defined char signedness: on Arm/AArch64 builds, plain char is treated as unsigned, so the guard c <= 0 can be optimized into a simple c != 0 check. As a result, non-ASCII bytes (e.g., 0x80-0xFF) may bypass the intended range restriction and be used as an index into a global lookup table, causing out-of"
     },
     {
       "title": "Sysco",
