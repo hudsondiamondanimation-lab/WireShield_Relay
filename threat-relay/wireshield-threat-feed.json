@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-03T20:11:24Z",
+  "generatedAt": "2026-07-03T21:33:33Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-07-03T20:11:19Z",
+      "checkedAt": "2026-07-03T21:33:29Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,25 +20,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-07-03T20:11:19Z",
+      "checkedAt": "2026-07-03T21:33:29Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 65442,
+      "count": 65455,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-07-03T20:11:21Z",
+      "checkedAt": "2026-07-03T21:33:30Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 22096,
+      "count": 22121,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-07-03T20:11:22Z",
+      "checkedAt": "2026-07-03T21:33:31Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-07-03T20:11:22Z",
+      "checkedAt": "2026-07-03T21:33:31Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -2407,6 +2407,17 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
+      "domain": "divisemos.click",
+      "url": "https://divisemos.click/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-02T12:25:55+00:00",
+      "lastSeen": "2026-07-02T12:52:21+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
       "domain": "jgpsmeydnemtihfmgtxt.supabase.co",
       "url": "https://jgpsmeydnemtihfmgtxt.supabase.co/functions/v1/redirect?code=ydiC2R",
       "type": "phishing",
@@ -2414,17 +2425,6 @@
       "confidence": 95,
       "source": "PhishTank public verified feed",
       "firstSeen": "2026-07-02T12:23:49+00:00",
-      "lastSeen": "2026-07-02T12:32:46+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
-      "domain": "divisemos.click",
-      "url": "http://divisemos.click/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-07-02T12:23:02+00:00",
       "lastSeen": "2026-07-02T12:32:46+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -57968,6 +57968,17 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
+      "domain": "trexor-appstarts.wixstudio.com",
+      "url": "https://trexor-appstarts.wixstudio.com/us-en",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-06-09T14:19:41+00:00",
+      "lastSeen": "2026-06-09T14:22:21+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
       "domain": "allegrolokalnie.pl-id74892939.cam",
       "url": "http://allegrolokalnie.pl-id74892939.cam",
       "type": "phishing",
@@ -58878,17 +58889,6 @@
       "source": "PhishTank public verified feed",
       "firstSeen": "2026-06-09T07:49:25+00:00",
       "lastSeen": "2026-06-09T08:03:40+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
-      "domain": "trexor-appstarts.wixstudio.com",
-      "url": "https://trexor-appstarts.wixstudio.com/en-us",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-06-09T07:40:09+00:00",
-      "lastSeen": "2026-06-09T07:52:19+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
@@ -381269,6 +381269,347 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
+      "domain": "atualizacaoecontratos.digital",
+      "url": "https://atualizacaoecontratos.digital/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-03T20:59:55+00:00",
+      "lastSeen": "2026-07-03T21:12:39+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "atualizacaopjtopaz.com",
+      "url": "https://atualizacaopjtopaz.com/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-03T20:58:22+00:00",
+      "lastSeen": "2026-07-03T21:12:39+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "atualizar-empresa.digital",
+      "url": "https://atualizar-empresa.digital/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-03T20:50:14+00:00",
+      "lastSeen": "2026-07-03T21:12:39+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "topazatendimento.digital",
+      "url": "https://topazatendimento.digital/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-03T20:47:21+00:00",
+      "lastSeen": "2026-07-03T20:52:20+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "atualizacaomodulopj.digital",
+      "url": "https://atualizacaomodulopj.digital/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-03T20:40:07+00:00",
+      "lastSeen": "2026-07-03T20:52:20+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "bradesco.netpjreapro.info",
+      "url": "https://bradesco.netpjreapro.info/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-03T20:25:30+00:00",
+      "lastSeen": "2026-07-03T20:32:36+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "system-limitsprojetoeverest.s3.us-east-005.backblazeb2.com",
+      "url": "https://system-limitsprojetoeverest.s3.us-east-005.backblazeb2.com/aumento.html",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-03T20:21:14+00:00",
+      "lastSeen": "2026-07-03T20:32:36+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "bradesco.validacaoempresanet.click",
+      "url": "https://bradesco.validacaoempresanet.click/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-03T20:20:50+00:00",
+      "lastSeen": "2026-07-03T20:32:36+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "baccredomaticc.sbs",
+      "url": "https://baccredomaticc.sbs/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-03T20:10:21+00:00",
+      "lastSeen": "2026-07-03T20:22:31+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "bacrewards.help",
+      "url": "https://bacrewards.help/pa",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-03T20:04:26+00:00",
+      "lastSeen": "2026-07-03T20:22:31+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "beneficiosbac.help",
+      "url": "https://beneficiosbac.help/pa",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-03T20:04:22+00:00",
+      "lastSeen": "2026-07-03T20:22:31+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "bacdigital.help",
+      "url": "https://bacdigital.help/pa",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-03T20:04:17+00:00",
+      "lastSeen": "2026-07-03T20:22:31+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "bacexperience.help",
+      "url": "https://bacexperience.help/pa",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-03T20:04:15+00:00",
+      "lastSeen": "2026-07-03T20:22:31+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "bacconnect.help",
+      "url": "https://bacconnect.help/pa",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-03T20:04:11+00:00",
+      "lastSeen": "2026-07-03T20:22:31+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "bacmipay.help",
+      "url": "https://bacmipay.help/pa",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-03T20:04:09+00:00",
+      "lastSeen": "2026-07-03T20:22:31+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "bacpromos.help",
+      "url": "https://bacpromos.help/pa",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-03T20:04:05+00:00",
+      "lastSeen": "2026-07-03T20:22:31+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "bacservices.help",
+      "url": "https://bacservices.help/pa",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-03T20:04:03+00:00",
+      "lastSeen": "2026-07-03T20:22:31+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "bacaccesoseguro.help",
+      "url": "https://bacaccesoseguro.help/pa",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-03T20:03:59+00:00",
+      "lastSeen": "2026-07-03T20:22:31+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "bacgestion.help",
+      "url": "https://bacgestion.help/pa",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-03T20:03:53+00:00",
+      "lastSeen": "2026-07-03T20:22:31+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "bacsolutions.help",
+      "url": "https://bacsolutions.help/pa",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-03T20:03:50+00:00",
+      "lastSeen": "2026-07-03T20:22:31+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "mibaconline.help",
+      "url": "https://mibaconline.help/pa",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-03T20:03:46+00:00",
+      "lastSeen": "2026-07-03T20:22:31+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "baccredomatic.help",
+      "url": "https://baccredomatic.help/pa",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-03T20:03:44+00:00",
+      "lastSeen": "2026-07-03T20:22:31+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "allegro.pl-0i1.shop",
+      "url": "http://allegro.pl-0i1.shop",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-03T19:56:38+00:00",
+      "lastSeen": "2026-07-03T20:03:55+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "bacmilife.help",
+      "url": "https://bacmilife.help/pa",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-03T19:49:58+00:00",
+      "lastSeen": "2026-07-03T20:03:55+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "bradesco.brindeslivelo.com",
+      "url": "https://bradesco.brindeslivelo.com/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-03T20:00:53+00:00",
+      "lastSeen": "2026-07-03T20:03:54+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "allegrolokalnie.pl-0i1.shop",
+      "url": "http://allegrolokalnie.pl-0i1.shop",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-03T19:58:10+00:00",
+      "lastSeen": "2026-07-03T20:03:54+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "bradesco.acessoportalempresas.com",
+      "url": "https://bradesco.acessoportalempresas.com/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-03T19:56:42+00:00",
+      "lastSeen": "2026-07-03T20:03:54+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "bacupdates.help",
+      "url": "https://bacupdates.help/pa",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-03T19:44:57+00:00",
+      "lastSeen": "2026-07-03T19:52:17+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "baconline.help",
+      "url": "https://baconline.help/pa",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-03T19:44:56+00:00",
+      "lastSeen": "2026-07-03T19:52:17+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "bacbancadigital.help",
+      "url": "https://bacbancadigital.help/pa",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-03T19:44:52+00:00",
+      "lastSeen": "2026-07-03T19:52:17+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "allegrolokalnie.9807213.cfd",
+      "url": "https://allegrolokalnie.9807213.cfd/oferta/sprzedam-meble-kuchenne-z-agd/97919",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-03T19:40:14+00:00",
+      "lastSeen": "2026-07-03T19:52:17+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
       "domain": "allegrolokalnie.60845862435.shop",
       "url": "https://allegrolokalnie.60845862435.shop/oferta/id-mvroyr9-playstation-5-konsola-slim-wersja-stan-bdb-gwarancja-zestaw",
       "type": "phishing",
@@ -460414,6 +460755,149 @@
       "note": "Imported automatically from URLhaus malware URL/domain data."
     },
     {
+      "domain": "59.103.121.32",
+      "url": "http://59.103.121.32:41365/i",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-06-27",
+      "lastSeen": "2026-07-03",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "42.239.74.140",
+      "url": "http://42.239.74.140:48416/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-03",
+      "lastSeen": "2026-07-03",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "lofybdv.megaparii.pro",
+      "url": "https://lofybdv.megaparii.pro/556ffabb-6029-4fd5-9860-2bb1dd443051",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-03",
+      "lastSeen": "2026-07-03",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "123.129.1.230",
+      "url": "http://123.129.1.230:35858/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-03",
+      "lastSeen": "2026-07-03",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "123.10.227.134",
+      "url": "http://123.10.227.134:53465/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-03",
+      "lastSeen": "2026-07-03",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "zov.ismak.icu",
+      "url": "http://zov.ismak.icu/nova.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-03",
+      "lastSeen": "2026-07-03",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "182.121.224.35",
+      "url": "http://182.121.224.35:36741/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-03",
+      "lastSeen": "2026-07-03",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "5732ru8p.1x303.casino",
+      "url": "https://5732ru8p.1x303.casino/?ublib=b62f6aaf-4d3a-48d7-87c4-b022b0f902c6",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-03",
+      "lastSeen": "2026-07-03",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "pg1mu94o.yek.baby",
+      "url": "https://pg1mu94o.yek.baby/?ublib=d537fd3e-47bc-489c-9101-b6400051a0c3",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-03",
+      "lastSeen": "2026-07-03",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "j29oqmyl.1xgame.net",
+      "url": "https://j29oqmyl.1xgame.net/?ublib=4381cd10-cd88-4dd6-8d00-b53074b8ffde",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-03",
+      "lastSeen": "2026-07-03",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "220.201.156.155",
+      "url": "http://220.201.156.155:43300/i",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-03",
+      "lastSeen": "2026-07-03",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "27.216.188.219",
+      "url": "http://27.216.188.219:41392/i",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-03",
+      "lastSeen": "2026-07-03",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "sfsgldq.1xx.games",
+      "url": "https://sfsgldq.1xx.games/1f64cf21-2062-460f-8877-2a610ba412dc",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-03",
+      "lastSeen": "2026-07-03",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
       "domain": "42.233.166.43",
       "url": "http://42.233.166.43:57433/bin.sh",
       "type": "malware",
@@ -467720,17 +468204,6 @@
     {
       "domain": "111.173.159.181",
       "url": "http://111.173.159.181:55707/bin.sh",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-06-29",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "59.103.121.32",
-      "url": "http://59.103.121.32:34933/bin.sh",
       "type": "malware",
       "reports": 1,
       "confidence": 86,
