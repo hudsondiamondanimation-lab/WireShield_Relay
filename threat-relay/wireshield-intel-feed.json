@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-03T14:39:12Z",
+  "generatedAt": "2026-07-03T16:12:12Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-07-03T14:39:07Z",
+      "checkedAt": "2026-07-03T16:12:05Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-07-03T14:39:07Z",
+      "checkedAt": "2026-07-03T16:12:06Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 65435,
+      "count": 65427,
       "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-07-03T14:39:09Z",
+      "checkedAt": "2026-07-03T16:12:08Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 22010,
+      "count": 22041,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-07-03T14:39:10Z",
+      "checkedAt": "2026-07-03T16:12:09Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-07-03T14:39:10Z",
+      "checkedAt": "2026-07-03T16:12:09Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-07-03T14:39:11Z",
+      "checkedAt": "2026-07-03T16:12:09Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-07-03T14:39:11Z",
+      "checkedAt": "2026-07-03T16:12:09Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-07-03T14:39:11Z",
+      "checkedAt": "2026-07-03T16:12:09Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-07-03T14:39:12Z",
+      "checkedAt": "2026-07-03T16:12:12Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-07-03T14:39:12Z",
+      "checkedAt": "2026-07-03T16:12:12Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-07-03T14:39:12Z",
+      "checkedAt": "2026-07-03T16:12:12Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -257,22 +257,6 @@
       "note": "Spring Data Commons, versions prior to 1.13 to 1.13.10, 2.0 to 2.0.5, and older unsupported versions, contain a property binder vulnerability caused by improper neutralization of special elements. An unauthenticated remote malicious user (or attacker) can supply specially crafted request parameters against Spring Data REST backed HTTP resources or using Spring Data's projection-based request payload binding hat can lead to a remote code execution attack."
     },
     {
-      "title": "CVE-2019-19576: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-19576",
-      "published": "2026-06-26T14:53:03.707",
-      "note": "class.upload.php in verot.net class.upload before 1.0.3 and 2.x before 2.0.4, as used in the K2 extension for Joomla! and other products, omits .phar from the set of dangerous file extensions."
-    },
-    {
-      "title": "CVE-2019-19634: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-19634",
-      "published": "2026-06-26T14:53:03.707",
-      "note": "class.upload.php in verot.net class.upload through 1.0.3 and 2.x through 2.0.4, as used in the K2 extension for Joomla! and other products, omits .pht from the set of dangerous file extensions, a similar issue to CVE-2019-19576."
-    },
-    {
       "title": "CVE-2023-0645: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
@@ -335,6 +319,31 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22858",
       "published": "2026-06-30T03:17:29.147",
       "note": "FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to 3.20.1, global-buffer-overflow was observed in FreeRDP's Base64 decoding path. The root cause appears to be implementation-defined char signedness: on Arm/AArch64 builds, plain char is treated as unsigned, so the guard c <= 0 can be optimized into a simple c != 0 check. As a result, non-ASCII bytes (e.g., 0x80-0xFF) may bypass the intended range restriction and be used as an index into a global lookup table, causing out-of"
+    },
+    {
+      "title": "CVE-2026-22859: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22859",
+      "published": "2026-06-30T03:17:29.430",
+      "note": "FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to 3.20.1, the URBDRC client does not perform bounds checking on server‑supplied MSUSB_INTERFACE_DESCRIPTOR values and uses them as indices in libusb_udev_complete_msconfig_setup, causing an out‑of‑bounds read. This vulnerability is fixed in 3.20.1."
+    },
+    {
+      "title": "CVE-2026-23530: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23530",
+      "published": "2026-06-30T03:17:31.740",
+      "note": "FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to version 3.21.0,`freerdp_bitmap_decompress_planar` does not validate `nSrcWidth`/`nSrcHeight` against `planar->maxWidth`/`maxHeight` before RLE decode. A malicious server can trigger a client‑side heap buffer overflow, causing a crash (DoS) and potential heap corruption with code‑execution risk depending on allocator behavior and surrounding heap layout. Version 3.21.0 contains a patch for the issue."
+    },
+    {
+      "title": "Moody Bible Institute",
+      "type": "data breach",
+      "source": "Have I Been Pwned breach catalog",
+      "url": "https://haveibeenpwned.com/api/v3/breaches",
+      "published": "2026-07-03T16:03:25Z",
+      "affectedAccounts": 2303416,
+      "note": "In June 2026, <a href=\"https://cyberinsider.com/moody-bible-institute-investigates-potential-data-breach-incident/\" target=\"_blank\" rel=\"noopener\">Moody Bible Institute was targeted by a ShinyHunters \"pay or leak\" extortion campaign</a>. Over 2.3M unique email addresses and other personal data were later published publicly, including names, physical addresses, phone numbers, dates of birth and other information relating to donors, supporters, students and alumni. <a href=\"https://www.moodybible."
     },
     {
       "title": "Sysco",
@@ -434,15 +443,6 @@
       "published": "2026-06-10T22:13:31Z",
       "affectedAccounts": 454635,
       "note": "In June 2026, <a href=\"https://www.bbc.com/news/articles/ckg0lkp042zo\" target=\"_blank\" rel=\"noopener\">the University of Nottingham was the target of a cyber attack</a>, later linked to a ShinyHunters \"pay or leak\" extortion campaign. Tens of gigabytes of data were subsequently published online and included 455k unique email addresses along with extensive personal information including names, addresses, phone numbers, ethnicities, disabilities, passport numbers and information relating to academi"
-    },
-    {
-      "title": "Baker Distributing",
-      "type": "data breach",
-      "source": "Have I Been Pwned breach catalog",
-      "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "published": "2026-06-07T06:16:36Z",
-      "affectedAccounts": 102935,
-      "note": "In May 2026, the HVAC/R wholesale distributor <a href=\"https://x.com/DailyDarkWeb/status/2062522924582502737\" target=\"_blank\" rel=\"noopener\">Baker Distributing Company was added to the ShinyHunters data extortion group's \"pay or leak\" site</a>. In early June, the group publicly published data they claimed had been obtained from Baker's SharePoint and Salesforce infrastructure including 103k unique email addresses along with names, physical addresses, phone numbers and tickets relating to the com"
     },
     {
       "title": "Data broker privacy watch",
