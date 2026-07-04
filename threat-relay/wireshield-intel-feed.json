@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-04T15:34:05Z",
+  "generatedAt": "2026-07-04T16:36:41Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-07-04T15:33:59Z",
+      "checkedAt": "2026-07-04T16:36:36Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-07-04T15:33:59Z",
+      "checkedAt": "2026-07-04T16:36:36Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 65326,
+      "count": 65308,
       "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-07-04T15:34:02Z",
+      "checkedAt": "2026-07-04T16:36:38Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 22447,
+      "count": 22463,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-07-04T15:34:03Z",
+      "checkedAt": "2026-07-04T16:36:39Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-07-04T15:34:03Z",
+      "checkedAt": "2026-07-04T16:36:39Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-07-04T15:34:04Z",
+      "checkedAt": "2026-07-04T16:36:39Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-07-04T15:34:04Z",
+      "checkedAt": "2026-07-04T16:36:39Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-07-04T15:34:04Z",
+      "checkedAt": "2026-07-04T16:36:39Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-07-04T15:34:05Z",
+      "checkedAt": "2026-07-04T16:36:40Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-07-04T15:34:05Z",
+      "checkedAt": "2026-07-04T16:36:40Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-07-04T15:34:05Z",
+      "checkedAt": "2026-07-04T16:36:41Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -249,6 +249,14 @@
       "note": "An out of bounds read exists in libjxl. An attacker using a specifically crafted file could cause an out of bounds read in the exif handler. We recommend upgrading to version 0.8.1 or past commit  https://github.com/libjxl/libjxl/pull/2101/commits/d95b050c1822a5b1ede9e0dc937e43fca1b10159 https://github.com/libjxl/libjxl/pull/2101/commits/d95b050c1822a5b1ede9e0dc937e43fca1b10159 "
     },
     {
+      "title": "CVE-2024-21488: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-21488",
+      "published": "2026-07-04T16:17:12.927",
+      "note": "Versions of the package network before 0.7.0 are vulnerable to Arbitrary Command Injection due to use of the child_process exec function without input sanitization. If (attacker-controlled) user input is given to the mac_address_for function of the package, it is possible for the attacker to execute arbitrary commands on the operating system that this package is being run on."
+    },
+    {
       "title": "CVE-2025-14087: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
@@ -327,14 +335,6 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23531",
       "published": "2026-06-30T03:17:32.027",
       "note": "FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to version 3.21.0, in ClearCodec, when `glyphData` is present, `clear_decompress` calls `freerdp_image_copy_no_overlap` without validating the destination rectangle, allowing an out-of-bounds read/write via crafted RDPGFX surface updates. A malicious server can trigger a client‑side heap buffer overflow, causing a crash (DoS) and potential heap corruption with code‑execution risk depending on allocator behavior and surroundin"
-    },
-    {
-      "title": "CVE-2026-23532: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23532",
-      "published": "2026-06-30T03:17:32.287",
-      "note": "FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to version 3.21.0, a client-side heap buffer overflow occurs in the  FreeRDP client’s `gdi_SurfaceToSurface` path due to a mismatch between destination rectangle clamping and the actual copy size. A malicious server can trigger a client‑side heap buffer overflow, causing a crash (DoS) and potential heap corruption with code‑execution risk depending on allocator behavior and surrounding heap layout. Version 3.21.0 contains a p"
     },
     {
       "title": "Moody Bible Institute",
