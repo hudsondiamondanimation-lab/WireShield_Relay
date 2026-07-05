@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-05T15:24:06Z",
+  "generatedAt": "2026-07-05T16:32:35Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-07-05T15:24:01Z",
+      "checkedAt": "2026-07-05T16:32:31Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-07-05T15:24:01Z",
+      "checkedAt": "2026-07-05T16:32:31Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 65139,
+      "count": 65136,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-07-05T15:24:03Z",
+      "checkedAt": "2026-07-05T16:32:33Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 22068,
+      "count": 22083,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-07-05T15:24:04Z",
+      "checkedAt": "2026-07-05T16:32:34Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-07-05T15:24:04Z",
+      "checkedAt": "2026-07-05T16:32:34Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-07-05T15:24:05Z",
+      "checkedAt": "2026-07-05T16:32:34Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-07-05T15:24:05Z",
+      "checkedAt": "2026-07-05T16:32:34Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-07-05T15:24:05Z",
+      "checkedAt": "2026-07-05T16:32:34Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-07-05T15:24:06Z",
+      "checkedAt": "2026-07-05T16:32:35Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-07-05T15:24:06Z",
+      "checkedAt": "2026-07-05T16:32:35Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-07-05T15:24:06Z",
+      "checkedAt": "2026-07-05T16:32:35Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -277,7 +277,7 @@
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-35276",
-      "published": "2026-07-05T00:16:59.423",
+      "published": "2026-07-05T16:16:56.767",
       "note": "EgavilanMedia ECM Address Book 1.0 is affected by SQL injection. An attacker can bypass the Admin Login panel through SQLi and get Admin access and add or remove any user."
     },
     {
@@ -325,7 +325,7 @@
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-17674",
-      "published": "2026-07-05T00:16:46.973",
+      "published": "2026-07-05T16:16:50.953",
       "note": "BMC Remedy Mid Tier 9.1SP3 is affected by remote and local file inclusion. Due to the lack of restrictions on what can be targeted, the system can be vulnerable to attacks such as system fingerprinting, internal port scanning, Server Side Request Forgery (SSRF), or remote code execution (RCE)."
     },
     {
