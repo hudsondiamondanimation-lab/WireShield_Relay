@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-08T23:40:55Z",
+  "generatedAt": "2026-07-09T01:18:56Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-07-08T23:40:51Z",
+      "checkedAt": "2026-07-09T01:18:50Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-07-08T23:40:51Z",
+      "checkedAt": "2026-07-09T01:18:50Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 64860,
+      "count": 64847,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-07-08T23:40:53Z",
+      "checkedAt": "2026-07-09T01:18:53Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 22585,
+      "count": 21891,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-07-08T23:40:54Z",
+      "checkedAt": "2026-07-09T01:18:54Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-07-08T23:40:54Z",
+      "checkedAt": "2026-07-09T01:18:54Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-07-08T23:40:54Z",
+      "checkedAt": "2026-07-09T01:18:54Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-07-08T23:40:54Z",
+      "checkedAt": "2026-07-09T01:18:54Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-07-08T23:40:54Z",
+      "checkedAt": "2026-07-09T01:18:55Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-07-08T23:40:55Z",
+      "checkedAt": "2026-07-09T01:18:56Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-07-08T23:40:55Z",
+      "checkedAt": "2026-07-09T01:18:56Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-07-08T23:40:55Z",
+      "checkedAt": "2026-07-09T01:18:56Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -109,7 +109,7 @@
       "type": "source-status",
       "source": "FTC consumer alerts",
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "published": "2026-07-08",
+      "published": "2026-07-09",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -118,7 +118,7 @@
       "url": "https://www.cisa.gov/news.xml",
       "note": "HTTP Error 403: Forbidden",
       "type": "source-status",
-      "published": "2026-07-08"
+      "published": "2026-07-09"
     },
     {
       "title": "CVE-2026-48908: exploited vulnerability in JoomShaper SP Page Builder",
@@ -245,7 +245,7 @@
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-24193",
-      "published": "2026-07-05T00:16:54.250",
+      "published": "2026-07-09T00:17:00.460",
       "note": "A SQL injection vulnerability in login in Sourcecodetester Daily Tracker System 1.0 allows unauthenticated user to execute authentication bypass with SQL injection via the email parameter."
     },
     {
@@ -253,7 +253,7 @@
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-5353",
-      "published": "2026-07-05T00:16:47.253",
+      "published": "2026-07-09T00:16:50.177",
       "note": "The custom GINA/CP module in Zoho ManageEngine ADSelfService Plus before 5.5 build 5517 allows remote attackers to execute code and escalate privileges via spoofing. It does not authenticate the intended server before opening a browser window. An unauthenticated attacker capable of conducting a spoofing attack can redirect the browser to gain execution in the context of the WinLogon.exe process. If Network Level Authentication is not enforced, the vulnerability can be exploited via RDP. Addition"
     },
     {
@@ -261,7 +261,7 @@
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-25466",
-      "published": "2026-07-05T00:16:55.220",
+      "published": "2026-07-09T00:17:01.850",
       "note": "A SSRF vulnerability exists in the downloadimage interface of CRMEB 3.0, which can remotely download arbitrary files on the server and remotely execute arbitrary code."
     },
     {
@@ -269,7 +269,7 @@
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-15681",
-      "published": "2026-07-05T00:16:46.600",
+      "published": "2026-07-09T00:16:48.950",
       "note": "In Crafter CMS Crafter Studio 3.0.1 a directory traversal vulnerability exists which allows unauthenticated attackers to overwrite files from the operating system which can lead to RCE."
     },
     {
@@ -277,7 +277,7 @@
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-35276",
-      "published": "2026-07-05T16:16:56.767",
+      "published": "2026-07-09T01:16:45.613",
       "note": "EgavilanMedia ECM Address Book 1.0 is affected by SQL injection. An attacker can bypass the Admin Login panel through SQLi and get Admin access and add or remove any user."
     },
     {
@@ -285,7 +285,7 @@
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-24841",
-      "published": "2026-07-05T00:16:54.620",
+      "published": "2026-07-09T00:17:00.980",
       "note": "PNPSCADA 2.200816204020 allows SQL injection via parameter 'interf' in /browse.jsp. Exploiting this issue could allow an attacker to compromise the application, access or modify data, or exploit latent vulnerabilities in the underlying database."
     },
     {
@@ -293,7 +293,7 @@
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-27132",
-      "published": "2026-07-05T01:17:17.353",
+      "published": "2026-07-09T01:16:48.483",
       "note": "SerComm AG Combo VD625 AGSOT_2.1.0 devices allow CRLF injection (for HTTP header injection) in the download function via the Content-Disposition header."
     },
     {
@@ -301,7 +301,7 @@
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-24913",
-      "published": "2026-07-05T00:16:54.747",
+      "published": "2026-07-09T00:17:01.227",
       "note": "A SQL injection vulnerability in qcubed (all versions including 3.1.1) in profile.php via the strQuery parameter allows an unauthenticated attacker to access the database by injecting SQL code via a crafted POST request."
     },
     {
@@ -309,7 +309,7 @@
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-24914",
-      "published": "2026-07-05T00:16:54.863",
+      "published": "2026-07-09T00:17:01.347",
       "note": "A PHP object injection bug in profile.php in qcubed (all versions including 3.1.1) unserializes the untrusted data of the POST-variable \"strProfileData\" and allows an unauthenticated attacker to execute code via a crafted POST request."
     },
     {
@@ -317,7 +317,7 @@
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-28860",
-      "published": "2026-07-05T00:17:01.487",
+      "published": "2026-07-09T01:16:49.603",
       "note": "In Node.js mixme, prior to v0.5.1, an attacker can add or alter properties of an object via '__proto__' through the mutate() and merge() functions. The polluted attribute will be directly assigned to every object in the program. This will put the availability of the program at risk causing a potential denial of service (DoS)."
     },
     {
@@ -325,7 +325,7 @@
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-17674",
-      "published": "2026-07-05T16:16:50.953",
+      "published": "2026-07-09T00:16:49.543",
       "note": "BMC Remedy Mid Tier 9.1SP3 is affected by remote and local file inclusion. Due to the lack of restrictions on what can be targeted, the system can be vulnerable to attacks such as system fingerprinting, internal port scanning, Server Side Request Forgery (SSRF), or remote code execution (RCE)."
     },
     {
@@ -333,7 +333,7 @@
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-36581",
-      "published": "2026-07-05T01:17:27.310",
+      "published": "2026-07-09T01:16:57.643",
       "note": "Kooboo CMS 2.1.1.0 is vulnerable to Insecure file upload. It is possible to upload any file extension to the server. The server does not verify the extension of the file and the tester was able to upload an aspx to the server."
     },
     {
@@ -449,7 +449,7 @@
       "type": "data broker / privacy",
       "source": "WireShield guidance",
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "published": "2026-07-08",
+      "published": "2026-07-09",
       "note": "Recheck broker opt-out results every 30-90 days; many brokers repopulate data. Keep broker name, profile URL, date requested, and confirmation emails."
     },
     {
@@ -457,7 +457,7 @@
       "type": "bloatware / potentially unwanted software",
       "source": "Microsoft unwanted software evaluation criteria",
       "url": "https://learn.microsoft.com/en-us/unified-secops/criteria",
-      "published": "2026-07-08",
+      "published": "2026-07-09",
       "note": "Watch for software that changes browser settings, injects ads, bundles unwanted offers, hides removal paths, exaggerates cleanup claims, or uses misleading install prompts."
     },
     {
@@ -465,7 +465,7 @@
       "type": "remote-access scam",
       "source": "WireShield guidance from FTC/CISA-style scam prevention",
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "published": "2026-07-08",
+      "published": "2026-07-09",
       "note": "Treat unexpected requests to install AnyDesk, TeamViewer, UltraViewer, RustDesk, or ScreenConnect as high risk, especially when paired with refunds, bank warnings, crypto, or gift cards."
     }
   ]
