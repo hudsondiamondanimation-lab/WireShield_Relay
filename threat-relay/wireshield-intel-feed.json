@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-11T09:56:10Z",
+  "generatedAt": "2026-07-11T11:01:22Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-07-11T09:56:05Z",
+      "checkedAt": "2026-07-11T11:01:18Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-07-11T09:56:05Z",
+      "checkedAt": "2026-07-11T11:01:18Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 64704,
+      "count": 64690,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-07-11T09:56:07Z",
+      "checkedAt": "2026-07-11T11:01:19Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 21263,
+      "count": 21370,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-07-11T09:56:08Z",
+      "checkedAt": "2026-07-11T11:01:20Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-07-11T09:56:08Z",
+      "checkedAt": "2026-07-11T11:01:20Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-07-11T09:56:08Z",
+      "checkedAt": "2026-07-11T11:01:21Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-07-11T09:56:09Z",
+      "checkedAt": "2026-07-11T11:01:21Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-07-11T09:56:09Z",
+      "checkedAt": "2026-07-11T11:01:21Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-07-11T09:56:10Z",
+      "checkedAt": "2026-07-11T11:01:22Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-07-11T09:56:10Z",
+      "checkedAt": "2026-07-11T11:01:22Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-07-11T09:56:10Z",
+      "checkedAt": "2026-07-11T11:01:22Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -337,6 +337,15 @@
       "note": "In Node.js mixme, prior to v0.5.1, an attacker can add or alter properties of an object via '__proto__' through the mutate() and merge() functions. The polluted attribute will be directly assigned to every object in the program. This will put the availability of the program at risk causing a potential denial of service (DoS)."
     },
     {
+      "title": "Glendale Community College",
+      "type": "data breach",
+      "source": "Have I Been Pwned breach catalog",
+      "url": "https://haveibeenpwned.com/api/v3/breaches",
+      "published": "2026-07-11T10:40:09Z",
+      "affectedAccounts": 793925,
+      "note": "In June 2026, <a href=\"https://x.com/DarkWebInformer/status/2066611727106715692\" target=\"_blank\" rel=\"noopener\">Glendale Community College was the target of a ShinyHunters \"pay or leak\" extortion campaign</a>. Data allegedly obtained from Glendale was later published online and included almost 800k unique email addresses along with various other data fields, including names, addresses, phone numbers, Social Security numbers and other information relating to student enrolments. <a href=\"https://g"
+    },
+    {
       "title": "Moody Bible Institute",
       "type": "data breach",
       "source": "Have I Been Pwned breach catalog",
@@ -434,15 +443,6 @@
       "published": "2026-06-15T01:03:42Z",
       "affectedAccounts": 137123,
       "note": "In March 2026, the student information system <a href=\"https://www.bleepingcomputer.com/news/security/infinite-campus-warns-of-breach-after-shinyhunters-claims-data-theft/\" target=\"_blank\" rel=\"noopener\">Infinite Campus was targeted in a ShinyHunters \"pay or leak\" extortion campaign</a>. The group subsequently published data they alleged was taken from Infinite Campus, containing 137k unique email addresses along with names, phone numbers, physical addresses and support tickets. <a href=\"https:/"
-    },
-    {
-      "title": "University of Nottingham",
-      "type": "data breach",
-      "source": "Have I Been Pwned breach catalog",
-      "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "published": "2026-06-10T22:13:31Z",
-      "affectedAccounts": 454635,
-      "note": "In June 2026, <a href=\"https://www.bbc.com/news/articles/ckg0lkp042zo\" target=\"_blank\" rel=\"noopener\">the University of Nottingham was the target of a cyber attack</a>, later linked to a ShinyHunters \"pay or leak\" extortion campaign. Tens of gigabytes of data were subsequently published online and included 455k unique email addresses along with extensive personal information including names, addresses, phone numbers, ethnicities, disabilities, passport numbers and information relating to academi"
     },
     {
       "title": "Data broker privacy watch",
