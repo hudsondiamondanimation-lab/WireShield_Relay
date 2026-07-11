@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-11T16:31:37Z",
+  "generatedAt": "2026-07-11T17:36:04Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-07-11T16:31:32Z",
+      "checkedAt": "2026-07-11T17:35:58Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,25 +20,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-07-11T16:31:32Z",
+      "checkedAt": "2026-07-11T17:35:58Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 64625,
+      "count": 64621,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-07-11T16:31:34Z",
+      "checkedAt": "2026-07-11T17:36:00Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 21489,
+      "count": 21511,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-07-11T16:31:35Z",
+      "checkedAt": "2026-07-11T17:36:01Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-07-11T16:31:35Z",
+      "checkedAt": "2026-07-11T17:36:02Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -394568,6 +394568,17 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
+      "domain": "reactivation-acces.bolt.host",
+      "url": "https://reactivation-acces.bolt.host/index.html",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-11T16:54:01+00:00",
+      "lastSeen": "2026-07-11T17:03:11+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
       "domain": "allegro.ofeta-ogloszenie563462134.sbs",
       "url": "http://allegro.ofeta-ogloszenie563462134.sbs",
       "type": "phishing",
@@ -468534,6 +468545,83 @@
     {
       "domain": "xb7ea3kq.betturkey.bet",
       "url": "https://xb7ea3kq.betturkey.bet/?ublib=264b8747-abf1-43ac-b247-b213012b8388",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-11",
+      "lastSeen": "2026-07-11",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "42.178.60.31",
+      "url": "http://42.178.60.31:34929/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-11",
+      "lastSeen": "2026-07-11",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "115.57.249.71",
+      "url": "http://115.57.249.71:55271/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-11",
+      "lastSeen": "2026-07-11",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "wrryvujx.zaribbala.bet",
+      "url": "https://wrryvujx.zaribbala.bet/08b7f398-c406-4d05-bcf9-175ca871c62e",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-11",
+      "lastSeen": "2026-07-11",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "uyxg.behtarin-site-shartbandi-football.bet",
+      "url": "https://uyxg.behtarin-site-shartbandi-football.bet/5db8636a-c81c-434b-bfb6-f7bec049131f",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-11",
+      "lastSeen": "2026-07-11",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "59.44.133.78",
+      "url": "http://59.44.133.78:57678/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-11",
+      "lastSeen": "2026-07-11",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "182.122.246.125",
+      "url": "http://182.122.246.125:47263/i",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-11",
+      "lastSeen": "2026-07-11",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "196.188.141.17",
+      "url": "http://196.188.141.17:38188/i",
       "type": "malware",
       "reports": 1,
       "confidence": 86,
@@ -549956,94 +550044,6 @@
     {
       "domain": "www.365vip77.win",
       "url": "http://www.365vip77.win/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-01",
-      "lastSeen": "2026-07-01",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "www.3652vip3.cc",
-      "url": "http://www.3652vip3.cc/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-01",
-      "lastSeen": "2026-07-01",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "www.centralconsultafinanceira.online",
-      "url": "https://www.centralconsultafinanceira.online/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-01",
-      "lastSeen": "2026-07-01",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "centralconsultafinanceira.online",
-      "url": "http://centralconsultafinanceira.online/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-01",
-      "lastSeen": "2026-07-01",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "j106l.vip",
-      "url": "https://j106l.vip/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-01",
-      "lastSeen": "2026-07-01",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "j106o.vip",
-      "url": "https://j106o.vip/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-01",
-      "lastSeen": "2026-07-01",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "flower-germany.com",
-      "url": "https://flower-germany.com/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-01",
-      "lastSeen": "2026-07-01",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "www.j98p.vip",
-      "url": "http://www.j98p.vip/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-01",
-      "lastSeen": "2026-07-01",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "www.18910.xyz",
-      "url": "http://www.18910.xyz/",
       "type": "phishing",
       "reports": 1,
       "confidence": 78,
