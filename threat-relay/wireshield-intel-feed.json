@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-14T18:33:36Z",
+  "generatedAt": "2026-07-14T19:53:20Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-07-14T18:33:31Z",
+      "checkedAt": "2026-07-14T19:53:13Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-07-14T18:33:31Z",
+      "checkedAt": "2026-07-14T19:53:13Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 64923,
+      "count": 64930,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-07-14T18:33:33Z",
+      "checkedAt": "2026-07-14T19:53:16Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 21383,
+      "count": 21397,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-07-14T18:33:33Z",
+      "checkedAt": "2026-07-14T19:53:16Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-07-14T18:33:34Z",
+      "checkedAt": "2026-07-14T19:53:17Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-07-14T18:33:34Z",
+      "checkedAt": "2026-07-14T19:53:17Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-07-14T18:33:34Z",
+      "checkedAt": "2026-07-14T19:53:17Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-07-14T18:33:34Z",
+      "checkedAt": "2026-07-14T19:53:18Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-07-14T18:33:36Z",
+      "checkedAt": "2026-07-14T19:53:20Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-07-14T18:33:36Z",
+      "checkedAt": "2026-07-14T19:53:20Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-07-14T18:33:36Z",
+      "checkedAt": "2026-07-14T19:53:20Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -135,6 +135,22 @@
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
       "published": "2026-07-14",
       "note": "Microsoft SharePoint contains a missing authentication for critical function vulnerability that allows an unauthorized attacker to elevate privileges over a network."
+    },
+    {
+      "title": "CVE-2026-15409: exploited vulnerability in SonicWall SMA1000 Appliances",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-07-14",
+      "note": "SonicWall SMA1000 Appliances contain a server-side request forgery vulnerability that could allow a remote unauthenticated attacker to potentially cause the appliance to make requests to unintended location."
+    },
+    {
+      "title": "CVE-2026-15410: exploited vulnerability in SonicWall SMA1000 Appliances",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-07-14",
+      "note": "SonicWall SMA1000 Appliances contain a code injection vulnerability which in specific conditions could potentially enable a remote authenticated attacker as administrator to execute arbitrary OS commands."
     },
     {
       "title": "CVE-2008-4128: exploited vulnerability in Cisco IOS",
@@ -223,22 +239,6 @@
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
       "published": "2026-06-25",
       "note": "Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM SME) contain a server-side request forgery (SSRF) Vulnerability that could allow an unauthenticated, remote attacker to write files to the underlying operating system that could be used later to elevate to root."
-    },
-    {
-      "title": "CVE-2025-67038: exploited vulnerability in Lantronix EDS5000",
-      "type": "known exploited vulnerability / hack risk",
-      "source": "CISA Known Exploited Vulnerabilities catalog",
-      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "published": "2026-06-23",
-      "note": "Lantronix EDS5000 contains a code injection vulnerability that could allow attackers to inject arbitrary OS commands into the username parameter. Injected commands are executed with root privileges."
-    },
-    {
-      "title": "CVE-2026-34910: exploited vulnerability in Ubiquiti UniFi OS",
-      "type": "known exploited vulnerability / hack risk",
-      "source": "CISA Known Exploited Vulnerabilities catalog",
-      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "published": "2026-06-23",
-      "note": "Ubiquiti UniFi OS contains an improper input validation vulnerability which could allow a malicious actor with access to the network to conduct command injection."
     },
     {
       "title": "CVE-2016-9841: recently changed critical CVE",
