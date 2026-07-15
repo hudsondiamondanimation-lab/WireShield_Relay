@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-15T06:29:29Z",
+  "generatedAt": "2026-07-15T08:55:58Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-07-15T06:29:24Z",
+      "checkedAt": "2026-07-15T08:55:53Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-07-15T06:29:24Z",
+      "checkedAt": "2026-07-15T08:55:53Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 65198,
+      "count": 65164,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-07-15T06:29:26Z",
+      "checkedAt": "2026-07-15T08:55:55Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 21121,
+      "count": 21220,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-07-15T06:29:27Z",
+      "checkedAt": "2026-07-15T08:55:56Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-07-15T06:29:27Z",
+      "checkedAt": "2026-07-15T08:55:56Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-07-15T06:29:27Z",
+      "checkedAt": "2026-07-15T08:55:56Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-07-15T06:29:28Z",
+      "checkedAt": "2026-07-15T08:55:57Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-07-15T06:29:28Z",
+      "checkedAt": "2026-07-15T08:55:57Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-07-15T06:29:29Z",
+      "checkedAt": "2026-07-15T08:55:58Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-07-15T06:29:29Z",
+      "checkedAt": "2026-07-15T08:55:58Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-07-15T06:29:29Z",
+      "checkedAt": "2026-07-15T08:55:58Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -337,6 +337,15 @@
       "note": "A PHP object injection bug in profile.php in qcubed (all versions including 3.1.1) unserializes the untrusted data of the POST-variable \"strProfileData\" and allows an unauthenticated attacker to execute code via a crafted POST request."
     },
     {
+      "title": "Fluke",
+      "type": "data breach",
+      "source": "Have I Been Pwned breach catalog",
+      "url": "https://haveibeenpwned.com/api/v3/breaches",
+      "published": "2026-07-15T08:01:04Z",
+      "affectedAccounts": 821100,
+      "note": "In July 2026, electronic test and measurement equipment company <a href=\"https://breachnews.com/breaches/shinyhunters-adds-ingram-content-group-and-fluke-corporation-to-leak-site/\" target=\"_blank\" rel=\"noopener\">Fluke was targeted in a ShinyHunters \"pay or leak\" extortion campaign</a>. The group subsequently published more than 100GB of data allegedly taken from the company. The corpus contained largely corporate contact information, including over 800k unique email addresses, names, phone numbe"
+    },
+    {
       "title": "Goose Creek",
       "type": "data breach",
       "source": "Have I Been Pwned breach catalog",
@@ -434,15 +443,6 @@
       "published": "2026-06-15T19:30:15Z",
       "affectedAccounts": 56278397,
       "note": "In June 2026, a collection of accumulated stealer logs from various sources was added to HIBP. The corpus comprised 56M unique email addresses across hundreds of millions of stealer log records. The data also contained 124M unique passwords, which have been added to <a href=\"https://haveibeenpwned.com/Passwords\">Pwned Passwords</a> and are now searchable. Individuals can view any records captured against their email address in <a href=\"https://haveibeenpwned.com/Dashboard/Redirect/StealerLogs\">t"
-    },
-    {
-      "title": "Berkadia",
-      "type": "data breach",
-      "source": "Have I Been Pwned breach catalog",
-      "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "published": "2026-06-15T04:09:04Z",
-      "affectedAccounts": 305216,
-      "note": "In March 2026, the commercial real estate finance company <a href=\"https://x.com/AlvieriD/status/2034584125106000005\" target=\"_blank\" rel=\"noopener\">Berkadia was the target of a ShinyHunters \"pay or leak\" extortion campaign</a>. The group subsequently published data they alleged was taken from Berkadia's Salesforce instance, including over 300k unique email addresses as well as names, physical addresses and phone numbers, among other data."
     },
     {
       "title": "Data broker privacy watch",
