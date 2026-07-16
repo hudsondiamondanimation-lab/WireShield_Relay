@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-15T23:35:35Z",
+  "generatedAt": "2026-07-16T01:03:55Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-07-15T23:35:31Z",
+      "checkedAt": "2026-07-16T01:03:33Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-07-15T23:35:31Z",
+      "checkedAt": "2026-07-16T01:03:33Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 64926,
+      "count": 64899,
       "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-07-15T23:35:33Z",
+      "checkedAt": "2026-07-16T01:03:36Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 21446,
+      "count": 20884,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-07-15T23:35:34Z",
+      "checkedAt": "2026-07-16T01:03:37Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-07-15T23:35:34Z",
+      "checkedAt": "2026-07-16T01:03:37Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-07-15T23:35:34Z",
+      "checkedAt": "2026-07-16T01:03:37Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-07-15T23:35:34Z",
+      "checkedAt": "2026-07-16T01:03:37Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-07-15T23:35:34Z",
+      "checkedAt": "2026-07-16T01:03:38Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-07-15T23:35:35Z",
+      "checkedAt": "2026-07-16T01:03:55Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-07-15T23:35:35Z",
+      "checkedAt": "2026-07-16T01:03:55Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-07-15T23:35:35Z",
+      "checkedAt": "2026-07-16T01:03:55Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -109,7 +109,7 @@
       "type": "source-status",
       "source": "FTC consumer alerts",
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "published": "2026-07-15",
+      "published": "2026-07-16",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -118,7 +118,7 @@
       "url": "https://www.cisa.gov/news.xml",
       "note": "HTTP Error 403: Forbidden",
       "type": "source-status",
-      "published": "2026-07-15"
+      "published": "2026-07-16"
     },
     {
       "title": "CVE-2026-46817: exploited vulnerability in Oracle E-Business Suite",
@@ -249,36 +249,12 @@
       "note": "inffast.c in zlib 1.2.8 might allow context-dependent attackers to have unspecified impact by leveraging improper pointer arithmetic."
     },
     {
-      "title": "CVE-2020-24193: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-24193",
-      "published": "2026-07-09T00:17:00.460",
-      "note": "A SQL injection vulnerability in login in Sourcecodetester Daily Tracker System 1.0 allows unauthenticated user to execute authentication bypass with SQL injection via the email parameter."
-    },
-    {
-      "title": "CVE-2018-5353: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-5353",
-      "published": "2026-07-09T00:16:50.177",
-      "note": "The custom GINA/CP module in Zoho ManageEngine ADSelfService Plus before 5.5 build 5517 allows remote attackers to execute code and escalate privileges via spoofing. It does not authenticate the intended server before opening a browser window. An unauthenticated attacker capable of conducting a spoofing attack can redirect the browser to gain execution in the context of the WinLogon.exe process. If Network Level Authentication is not enforced, the vulnerability can be exploited via RDP. Addition"
-    },
-    {
       "title": "CVE-2020-26867: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-26867",
       "published": "2026-07-09T18:32:08.463",
       "note": "ARC Informatique PcVue prior to version 12.0.17 is vulnerable due to the deserialization of untrusted data, which may allow an attacker to remotely execute arbitrary code on the web and mobile back-end server."
-    },
-    {
-      "title": "CVE-2020-25466: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-25466",
-      "published": "2026-07-09T00:17:01.850",
-      "note": "A SSRF vulnerability exists in the downloadimage interface of CRMEB 3.0, which can remotely download arbitrary files on the server and remotely execute arbitrary code."
     },
     {
       "title": "CVE-2020-24881: recently changed critical CVE",
@@ -289,28 +265,12 @@
       "note": "SSRF exists in osTicket before 1.14.3, where an attacker can add malicious file to server or perform port scanning."
     },
     {
-      "title": "CVE-2017-15681: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-15681",
-      "published": "2026-07-09T00:16:48.950",
-      "note": "In Crafter CMS Crafter Studio 3.0.1 a directory traversal vulnerability exists which allows unauthenticated attackers to overwrite files from the operating system which can lead to RCE."
-    },
-    {
       "title": "CVE-2020-35276: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-35276",
       "published": "2026-07-09T01:16:45.613",
       "note": "EgavilanMedia ECM Address Book 1.0 is affected by SQL injection. An attacker can bypass the Admin Login panel through SQLi and get Admin access and add or remove any user."
-    },
-    {
-      "title": "CVE-2020-24841: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-24841",
-      "published": "2026-07-09T00:17:00.980",
-      "note": "PNPSCADA 2.200816204020 allows SQL injection via parameter 'interf' in /browse.jsp. Exploiting this issue could allow an attacker to compromise the application, access or modify data, or exploit latent vulnerabilities in the underlying database."
     },
     {
       "title": "CVE-2021-27132: recently changed critical CVE",
@@ -321,20 +281,60 @@
       "note": "SerComm AG Combo VD625 AGSOT_2.1.0 devices allow CRLF injection (for HTTP header injection) in the download function via the Content-Disposition header."
     },
     {
-      "title": "CVE-2020-24913: recently changed critical CVE",
+      "title": "CVE-2021-28860: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-24913",
-      "published": "2026-07-09T00:17:01.227",
-      "note": "A SQL injection vulnerability in qcubed (all versions including 3.1.1) in profile.php via the strQuery parameter allows an unauthenticated attacker to access the database by injecting SQL code via a crafted POST request."
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-28860",
+      "published": "2026-07-09T01:16:49.603",
+      "note": "In Node.js mixme, prior to v0.5.1, an attacker can add or alter properties of an object via '__proto__' through the mutate() and merge() functions. The polluted attribute will be directly assigned to every object in the program. This will put the availability of the program at risk causing a potential denial of service (DoS)."
     },
     {
-      "title": "CVE-2020-24914: recently changed critical CVE",
+      "title": "CVE-2021-36581: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-24914",
-      "published": "2026-07-09T00:17:01.347",
-      "note": "A PHP object injection bug in profile.php in qcubed (all versions including 3.1.1) unserializes the untrusted data of the POST-variable \"strProfileData\" and allows an unauthenticated attacker to execute code via a crafted POST request."
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-36581",
+      "published": "2026-07-09T01:16:57.643",
+      "note": "Kooboo CMS 2.1.1.0 is vulnerable to Insecure file upload. It is possible to upload any file extension to the server. The server does not verify the extension of the file and the tester was able to upload an aspx to the server."
+    },
+    {
+      "title": "CVE-2021-36582: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-36582",
+      "published": "2026-07-09T01:16:57.780",
+      "note": "In Kooboo CMS 2.1.1.0, it is possible to upload a remote shell (e.g., aspx) to the server and then call upon it to receive a reverse shell from the victim server. The files are uploaded to /Content/Template/root/reverse-shell.aspx and can be simply triggered by browsing that URL."
+    },
+    {
+      "title": "CVE-2021-42237: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-42237",
+      "published": "2026-07-09T13:57:14.483",
+      "note": "Sitecore XP 7.5 Initial Release to Sitecore XP 8.2 Update-7 is vulnerable to an insecure deserialization attack where it is possible to achieve remote command execution on the machine. No authentication or special configuration is required to exploit this vulnerability."
+    },
+    {
+      "title": "CVE-2021-41653: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-41653",
+      "published": "2026-07-09T01:17:03.770",
+      "note": "The PING function on the TP-Link TL-WR840N EU v5 router with firmware through TL-WR840N(EU)_V5_171211 is vulnerable to remote code execution via a crafted payload in an IP address input field."
+    },
+    {
+      "title": "CVE-2021-41435: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-41435",
+      "published": "2026-07-09T01:17:02.653",
+      "note": "A brute-force protection bypass in CAPTCHA protection in ASUS ROG Rapture GT-AX11000, RT-AX3000, RT-AX55, RT-AX56U, RT-AX56U_V2, RT-AX58U, RT-AX82U, RT-AX82U GUNDAM EDITION, RT-AX86 Series(RT-AX86U/RT-AX86S), RT-AX86U ZAKU II EDITION, RT-AX88U, RT-AX92U, TUF Gaming AX3000, TUF Gaming AX5400 (TUF-AX5400), ASUS ZenWiFi XD6, ASUS ZenWiFi AX (XT8) before 3.0.0.4.386.45898, and RT-AX68U before 3.0.0.4.386.45911, allows a remote attacker to attempt any number of login attempts via sending a specific H"
+    },
+    {
+      "title": "CVE-2021-41716: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-41716",
+      "published": "2026-07-09T01:17:04.277",
+      "note": "Maharashtra State Electricity Board Mahavitara Android Application 8.20 and prior is vulnerable to remote account takeover due to OTP fixation vulnerability in password rest function"
     },
     {
       "title": "Fluke",
@@ -449,7 +449,7 @@
       "type": "data broker / privacy",
       "source": "WireShield guidance",
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "published": "2026-07-15",
+      "published": "2026-07-16",
       "note": "Recheck broker opt-out results every 30-90 days; many brokers repopulate data. Keep broker name, profile URL, date requested, and confirmation emails."
     },
     {
@@ -457,7 +457,7 @@
       "type": "bloatware / potentially unwanted software",
       "source": "Microsoft unwanted software evaluation criteria",
       "url": "https://learn.microsoft.com/en-us/unified-secops/criteria",
-      "published": "2026-07-15",
+      "published": "2026-07-16",
       "note": "Watch for software that changes browser settings, injects ads, bundles unwanted offers, hides removal paths, exaggerates cleanup claims, or uses misleading install prompts."
     },
     {
@@ -465,7 +465,7 @@
       "type": "remote-access scam",
       "source": "WireShield guidance from FTC/CISA-style scam prevention",
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "published": "2026-07-15",
+      "published": "2026-07-16",
       "note": "Treat unexpected requests to install AnyDesk, TeamViewer, UltraViewer, RustDesk, or ScreenConnect as high risk, especially when paired with refunds, bank warnings, crypto, or gift cards."
     }
   ]
