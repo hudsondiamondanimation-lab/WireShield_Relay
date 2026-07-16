@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-16T22:40:30Z",
+  "generatedAt": "2026-07-16T23:40:46Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-07-16T22:40:26Z",
+      "checkedAt": "2026-07-16T23:40:40Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,7 +20,7 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-07-16T22:40:26Z",
+      "checkedAt": "2026-07-16T23:40:41Z",
       "note": "Public phishing URL feed imported."
     },
     {
@@ -29,16 +29,16 @@
       "status": "ok",
       "count": 64676,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-07-16T22:40:28Z",
+      "checkedAt": "2026-07-16T23:40:43Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 21289,
+      "count": 21297,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-07-16T22:40:28Z",
+      "checkedAt": "2026-07-16T23:40:44Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -47,7 +47,7 @@
       "status": "failed",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-07-16T22:40:28Z",
+      "checkedAt": "2026-07-16T23:40:44Z",
       "note": "HTTP Error 503: Service Unavailable"
     }
   ],
@@ -481369,6 +481369,61 @@
       "note": "Imported automatically from URLhaus malware URL/domain data."
     },
     {
+      "domain": "bkgtqeai.derbi.football",
+      "url": "https://bkgtqeai.derbi.football/2233564f-6d03-4137-a7c8-b9e0d778c79f",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-16",
+      "lastSeen": "2026-07-16",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "124.129.180.130",
+      "url": "http://124.129.180.130:55508/i",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-16",
+      "lastSeen": "2026-07-16",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "42.239.177.59",
+      "url": "http://42.239.177.59:46786/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-16",
+      "lastSeen": "2026-07-16",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "eprqnfyeb.hazzarat.com",
+      "url": "https://eprqnfyeb.hazzarat.com/f9e59df2-38ae-4d8e-ad09-8d33a886fbfc",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-16",
+      "lastSeen": "2026-07-16",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "39.87.0.220",
+      "url": "http://39.87.0.220:57104/i",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-16",
+      "lastSeen": "2026-07-16",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
       "domain": "61.53.149.240",
       "url": "http://61.53.149.240:42612/bin.sh",
       "type": "malware",
@@ -549989,61 +550044,6 @@
     {
       "domain": "rxb3x4b4x.pages.dev",
       "url": "https://rxb3x4b4x.pages.dev/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-11",
-      "lastSeen": "2026-07-11",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "amit-sahu11.github.io",
-      "url": "https://amit-sahu11.github.io/Netflix/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-11",
-      "lastSeen": "2026-07-11",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "shyam091.github.io",
-      "url": "https://shyam091.github.io/netflix-clone",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-11",
-      "lastSeen": "2026-07-11",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "www.deniz-mobil-com-promosyonn-giris-yeni.duckdns.org",
-      "url": "http://www.deniz-mobil-com-promosyonn-giris-yeni.duckdns.org/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-11",
-      "lastSeen": "2026-07-11",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "www.deniz-mobil-com-promosyonn-giris-herdaim.duckdns.org",
-      "url": "http://www.deniz-mobil-com-promosyonn-giris-herdaim.duckdns.org/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-11",
-      "lastSeen": "2026-07-11",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "exdswllet-secrty.pages.dev",
-      "url": "http://exdswllet-secrty.pages.dev/",
       "type": "phishing",
       "reports": 1,
       "confidence": 78,
