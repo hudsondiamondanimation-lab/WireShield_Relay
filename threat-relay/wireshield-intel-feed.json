@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-16T17:36:04Z",
+  "generatedAt": "2026-07-16T18:43:52Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-07-16T17:35:48Z",
+      "checkedAt": "2026-07-16T18:43:47Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,7 +18,7 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-07-16T17:35:48Z",
+      "checkedAt": "2026-07-16T18:43:47Z",
       "note": "Public phishing URL feed imported."
     },
     {
@@ -26,17 +26,17 @@
       "category": "scam/phishing",
       "status": "ok",
       "count": 64676,
-      "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-07-16T17:35:50Z",
+      "url": "https://data.phishtank.com/data/online-valid.csv",
+      "checkedAt": "2026-07-16T18:43:49Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 21197,
+      "count": 21205,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-07-16T17:35:50Z",
+      "checkedAt": "2026-07-16T18:43:50Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-07-16T17:35:51Z",
+      "checkedAt": "2026-07-16T18:43:50Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-07-16T17:35:51Z",
+      "checkedAt": "2026-07-16T18:43:50Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-07-16T17:35:51Z",
+      "checkedAt": "2026-07-16T18:43:50Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-07-16T17:35:52Z",
+      "checkedAt": "2026-07-16T18:43:50Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-07-16T17:36:03Z",
+      "checkedAt": "2026-07-16T18:43:51Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-07-16T17:36:04Z",
+      "checkedAt": "2026-07-16T18:43:52Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-07-16T17:36:04Z",
+      "checkedAt": "2026-07-16T18:43:52Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -119,6 +119,30 @@
       "note": "HTTP Error 403: Forbidden",
       "type": "source-status",
       "published": "2026-07-16"
+    },
+    {
+      "title": "CVE-2026-58644: exploited vulnerability in Microsoft SharePoint",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-07-16",
+      "note": "Microsoft SharePoint contains a deserialization of untrusted data vulnerability that allows an unauthorized attacker to execute code over a network."
+    },
+    {
+      "title": "CVE-2026-25089: exploited vulnerability in Fortinet FortiSandbox",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-07-16",
+      "note": "Fortinet FortiSandbox, FortiSandbox Cloud, and FortiSandbox PaaS contain an OS command injection vulnerability that allows an unauthenticated attacker to execute unauthorized commands via specifically crafted HTTP requests."
+    },
+    {
+      "title": "CVE-2026-39808: exploited vulnerability in Fortinet FortiSandbox",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-07-16",
+      "note": "Fortinet FortiSandbox contains an OS command injection vulnerability that could allow an unauthenticated attacker to execute unauthorized code or commands via crafted HTTP requests."
     },
     {
       "title": "CVE-2026-46817: exploited vulnerability in Oracle E-Business Suite",
@@ -217,44 +241,12 @@
       "note": "Joomlack Page Builder contains an improper access control vulnerability that could allow for remote code execution via unauthenticated arbitrary file upload."
     },
     {
-      "title": "CVE-2026-48282: exploited vulnerability in Adobe ColdFusion",
-      "type": "known exploited vulnerability / hack risk",
-      "source": "CISA Known Exploited Vulnerabilities catalog",
-      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "published": "2026-07-07",
-      "note": "Adobe ColdFusion contains a path traversal vulnerability that could lead to arbitrary code execution in the context of the current user."
-    },
-    {
-      "title": "CVE-2026-45659: exploited vulnerability in Microsoft SharePoint Server",
-      "type": "known exploited vulnerability / hack risk",
-      "source": "CISA Known Exploited Vulnerabilities catalog",
-      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "published": "2026-07-01",
-      "note": "Microsoft SharePoint Server contains a deserialization of untrusted data vulnerability which allows an authorized attacker to execute code over a network."
-    },
-    {
-      "title": "CVE-2026-48558: exploited vulnerability in SimpleHelp  SimpleHelp",
-      "type": "known exploited vulnerability / hack risk",
-      "source": "CISA Known Exploited Vulnerabilities catalog",
-      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "published": "2026-06-29",
-      "note": "SimpleHelp contains an authentication bypass vulnerability in the OIDC authentication flow. When OIDC authentication is configured, identity tokens submitted during login are accepted without verifying their cryptographic signature. In a vulnerable configuration, a remote, unauthenticated attacker can submit a forged token containing arbitrary identity claims to obtain a fully authenticated technician session. In some configurations, this may also allow bypass of multi-factor authentication."
-    },
-    {
       "title": "CVE-2016-9841: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-9841",
       "published": "2026-07-14T12:16:45.867",
       "note": "inffast.c in zlib 1.2.8 might allow context-dependent attackers to have unspecified impact by leveraging improper pointer arithmetic."
-    },
-    {
-      "title": "CVE-2020-26867: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-26867",
-      "published": "2026-07-09T18:32:08.463",
-      "note": "ARC Informatique PcVue prior to version 12.0.17 is vulnerable due to the deserialization of untrusted data, which may allow an attacker to remotely execute arbitrary code on the web and mobile back-end server."
     },
     {
       "title": "CVE-2020-24881: recently changed critical CVE",
@@ -335,6 +327,14 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-23687",
       "published": "2026-07-14T23:17:17.187",
       "note": "Hard-coded credentials in FOLIO mod-data-export-spring versions before 1.5.4 and from 2.0.0 to 2.0.2 allows unauthenticated users to access critical APIs, modify user data, modify configurations including single-sign-on, and manipulate fees/fines."
+    },
+    {
+      "title": "CVE-2024-1212: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-1212",
+      "published": "2026-07-13T19:49:31.120",
+      "note": "Unauthenticated remote attackers can access the system through the LoadMaster management interface, enabling arbitrary system command execution."
     },
     {
       "title": "Fluke",
