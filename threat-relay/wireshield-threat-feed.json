@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-16T21:41:33Z",
+  "generatedAt": "2026-07-16T22:40:30Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-07-16T21:41:28Z",
+      "checkedAt": "2026-07-16T22:40:26Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,7 +20,7 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-07-16T21:41:28Z",
+      "checkedAt": "2026-07-16T22:40:26Z",
       "note": "Public phishing URL feed imported."
     },
     {
@@ -29,26 +29,26 @@
       "status": "ok",
       "count": 64676,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-07-16T21:41:30Z",
+      "checkedAt": "2026-07-16T22:40:28Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 21267,
+      "count": 21289,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-07-16T21:41:31Z",
+      "checkedAt": "2026-07-16T22:40:28Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
       "name": "Approved GitHub reports",
       "category": "user reports",
-      "status": "ok",
+      "status": "failed",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-07-16T21:41:31Z",
-      "note": "Only issues labeled approved-threat are added to the global feed."
+      "checkedAt": "2026-07-16T22:40:28Z",
+      "note": "HTTP Error 503: Service Unavailable"
     }
   ],
   "entries": [
@@ -481303,6 +481303,72 @@
       "note": "Imported automatically from URLhaus malware URL/domain data."
     },
     {
+      "domain": "zetkskre.funxbet.casino",
+      "url": "https://zetkskre.funxbet.casino/a9f9fe03-3951-4393-966f-29574f80f358",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-16",
+      "lastSeen": "2026-07-16",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "45.135.194.50",
+      "url": "http://45.135.194.50/mips",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-16",
+      "lastSeen": "2026-07-16",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "175.174.94.240",
+      "url": "http://175.174.94.240:58713/i",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-16",
+      "lastSeen": "2026-07-16",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "eqodjhwk.enfejartime.com",
+      "url": "https://eqodjhwk.enfejartime.com/8ff1732b-e6e2-4c17-8d2a-4dff9dc008ce",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-16",
+      "lastSeen": "2026-07-16",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "42.239.246.177",
+      "url": "http://42.239.246.177:48714/i",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-16",
+      "lastSeen": "2026-07-16",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "drkynxdcu.gem90bet.com",
+      "url": "https://drkynxdcu.gem90bet.com/59c8c774-acd0-4a32-a95a-6ba802d66e2b",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-16",
+      "lastSeen": "2026-07-16",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
       "domain": "61.53.149.240",
       "url": "http://61.53.149.240:42612/bin.sh",
       "type": "malware",
@@ -549978,72 +550044,6 @@
     {
       "domain": "exdswllet-secrty.pages.dev",
       "url": "http://exdswllet-secrty.pages.dev/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-11",
-      "lastSeen": "2026-07-11",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "elreb7-mn-el-facebook.blogspot.com",
-      "url": "https://elreb7-mn-el-facebook.blogspot.com/?m=1",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-11",
-      "lastSeen": "2026-07-11",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "sp19ct7-vurem-biz-lorek-fonis.pages.dev",
-      "url": "https://sp19ct7-vurem-biz-lorek-fonis.pages.dev/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-11",
-      "lastSeen": "2026-07-11",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "disclosurew23adobeonedrive.evslimited.com",
-      "url": "https://disclosurew23adobeonedrive.evslimited.com/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-11",
-      "lastSeen": "2026-07-11",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "deniz-mobil-com-promosyonn-giris-yeni.duckdns.org",
-      "url": "http://deniz-mobil-com-promosyonn-giris-yeni.duckdns.org/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-11",
-      "lastSeen": "2026-07-11",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "deniz-mobil-com-promosyonn-giris-herdaim.duckdns.org",
-      "url": "http://deniz-mobil-com-promosyonn-giris-herdaim.duckdns.org/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-11",
-      "lastSeen": "2026-07-11",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "8kbb.com",
-      "url": "https://8kbb.com/MiulgWFm/?id=vN6UbN7b",
       "type": "phishing",
       "reports": 1,
       "confidence": 78,
