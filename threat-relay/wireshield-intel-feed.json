@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-16T12:46:08Z",
+  "generatedAt": "2026-07-16T14:47:55Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-07-16T12:46:02Z",
+      "checkedAt": "2026-07-16T14:47:49Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-07-16T12:46:03Z",
+      "checkedAt": "2026-07-16T14:47:50Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 64630,
+      "count": 64676,
       "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-07-16T12:46:05Z",
+      "checkedAt": "2026-07-16T14:47:52Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 21115,
+      "count": 21158,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-07-16T12:46:05Z",
+      "checkedAt": "2026-07-16T14:47:52Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-07-16T12:46:06Z",
+      "checkedAt": "2026-07-16T14:47:53Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-07-16T12:46:06Z",
+      "checkedAt": "2026-07-16T14:47:53Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-07-16T12:46:06Z",
+      "checkedAt": "2026-07-16T14:47:53Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-07-16T12:46:06Z",
+      "checkedAt": "2026-07-16T14:47:53Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-07-16T12:46:08Z",
+      "checkedAt": "2026-07-16T14:47:55Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-07-16T12:46:08Z",
+      "checkedAt": "2026-07-16T14:47:55Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-07-16T12:46:08Z",
+      "checkedAt": "2026-07-16T14:47:55Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -265,14 +265,6 @@
       "note": "SSRF exists in osTicket before 1.14.3, where an attacker can add malicious file to server or perform port scanning."
     },
     {
-      "title": "CVE-2021-42237: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-42237",
-      "published": "2026-07-09T13:57:14.483",
-      "note": "Sitecore XP 7.5 Initial Release to Sitecore XP 8.2 Update-7 is vulnerable to an insecure deserialization attack where it is possible to achieve remote command execution on the machine. No authentication or special configuration is required to exploit this vulnerability."
-    },
-    {
       "title": "CVE-2022-23303: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
@@ -287,14 +279,6 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-23304",
       "published": "2026-07-14T12:16:47.523",
       "note": "The implementations of EAP-pwd in hostapd before 2.10 and wpa_supplicant before 2.10 are vulnerable to side-channel attacks as a result of cache access patterns. NOTE: this issue exists because of an incomplete fix for CVE-2019-9495."
-    },
-    {
-      "title": "CVE-2022-26258: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-26258",
-      "published": "2026-07-09T13:57:20.300",
-      "note": "D-Link DIR-820L 1.05B03 was discovered to contain remote command execution (RCE) vulnerability via HTTP POST to get set ccp."
     },
     {
       "title": "CVE-2022-37434: recently changed critical CVE",
@@ -335,6 +319,22 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-22051",
       "published": "2026-07-14T23:17:15.487",
       "note": "CommonMarker versions prior to 0.23.4 are at risk of an integer overflow vulnerability. This vulnerability can result in possibly unauthenticated remote attackers to cause heap memory corruption, potentially leading to an information leak or remote code execution, via parsing tables with marker rows that contain more than UINT16_MAX columns."
+    },
+    {
+      "title": "CVE-2024-23679: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-23679",
+      "published": "2026-07-14T23:17:15.660",
+      "note": "Enonic XP versions less than 7.7.4 are vulnerable to a session fixation issue. An remote and unauthenticated attacker can use prior sessions due to the lack of invalidating session attributes."
+    },
+    {
+      "title": "CVE-2024-23687: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-23687",
+      "published": "2026-07-14T23:17:17.187",
+      "note": "Hard-coded credentials in FOLIO mod-data-export-spring versions before 1.5.4 and from 2.0.0 to 2.0.2 allows unauthenticated users to access critical APIs, modify user data, modify configurations including single-sign-on, and manipulate fees/fines."
     },
     {
       "title": "Fluke",
