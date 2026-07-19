@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-19T22:22:41Z",
+  "generatedAt": "2026-07-19T23:26:10Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-07-19T22:22:36Z",
+      "checkedAt": "2026-07-19T23:26:05Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,7 +18,7 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-07-19T22:22:36Z",
+      "checkedAt": "2026-07-19T23:26:05Z",
       "note": "Public phishing URL feed imported."
     },
     {
@@ -26,17 +26,17 @@
       "category": "scam/phishing",
       "status": "ok",
       "count": 65213,
-      "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-07-19T22:22:38Z",
+      "url": "https://data.phishtank.com/data/online-valid.json",
+      "checkedAt": "2026-07-19T23:26:07Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 20912,
+      "count": 20921,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-07-19T22:22:39Z",
+      "checkedAt": "2026-07-19T23:26:08Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-07-19T22:22:39Z",
+      "checkedAt": "2026-07-19T23:26:08Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-07-19T22:22:40Z",
+      "checkedAt": "2026-07-19T23:26:09Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-07-19T22:22:40Z",
+      "checkedAt": "2026-07-19T23:26:09Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-07-19T22:22:40Z",
+      "checkedAt": "2026-07-19T23:26:09Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-07-19T22:22:41Z",
+      "checkedAt": "2026-07-19T23:26:10Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-07-19T22:22:41Z",
+      "checkedAt": "2026-07-19T23:26:10Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-07-19T22:22:41Z",
+      "checkedAt": "2026-07-19T23:26:10Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -337,6 +337,15 @@
       "note": "An issue in WuKongOpenSource WukongCRM v.72crm_9.0.1_20191202 allows a remote attacker to execute arbitrary code via the parseObject() function in the fastjson component."
     },
     {
+      "title": "Paidwork",
+      "type": "data breach",
+      "source": "Have I Been Pwned breach catalog",
+      "url": "https://haveibeenpwned.com/api/v3/breaches",
+      "published": "2026-07-19T22:57:18Z",
+      "affectedAccounts": 23272765,
+      "note": "In March 2026, <a href=\"https://cybernews.com/security/paidwork-data-breach-22-million-users/\" target=\"_blank\" rel=\"noopener\">hackers claimed they had obtained data from the gig economy platform Paidwork which they then listed for sale</a>. Almost 11GB of data allegedly obtained from the platform was subsequently <a href=\"https://x.com/dailydarkweb/status/2078527237809131674?s=61&t=beHN95Zd9G3fQiuO1h_jzA\" target=\"_blank\" rel=\"noopener\">posted publicly in July</a> and contained over 23M unique em"
+    },
+    {
       "title": "Fluke",
       "type": "data breach",
       "source": "Have I Been Pwned breach catalog",
@@ -434,15 +443,6 @@
       "published": "2026-06-18T03:22:51Z",
       "affectedAccounts": 248235,
       "note": "In March 2026, the financial consulting and advisory firm <a href=\"https://x.com/AlvieriD/status/2029785330677936135\" target=\"_blank\" rel=\"noopener\">CFGI was the target of a ShinyHunters \"pay-or-leak\" extortion campaign</a>. The group subsequently publicised data allegedly obtained from CFGI comprising corporate contact information, including 243k unique email addresses, names, phone numbers and physical addresses."
-    },
-    {
-      "title": "June 2026 Stealer Logs",
-      "type": "data breach",
-      "source": "Have I Been Pwned breach catalog",
-      "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "published": "2026-06-15T19:30:15Z",
-      "affectedAccounts": 56278397,
-      "note": "In June 2026, a collection of accumulated stealer logs from various sources was added to HIBP. The corpus comprised 56M unique email addresses across hundreds of millions of stealer log records. The data also contained 124M unique passwords, which have been added to <a href=\"https://haveibeenpwned.com/Passwords\">Pwned Passwords</a> and are now searchable. Individuals can view any records captured against their email address in <a href=\"https://haveibeenpwned.com/Dashboard/Redirect/StealerLogs\">t"
     },
     {
       "title": "Data broker privacy watch",
