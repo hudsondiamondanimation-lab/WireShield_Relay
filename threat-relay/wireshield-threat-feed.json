@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-20T14:52:32Z",
+  "generatedAt": "2026-07-20T16:20:52Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-07-20T14:52:25Z",
+      "checkedAt": "2026-07-20T16:20:47Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,7 +20,7 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-07-20T14:52:25Z",
+      "checkedAt": "2026-07-20T16:20:47Z",
       "note": "Public phishing URL feed imported."
     },
     {
@@ -29,16 +29,16 @@
       "status": "ok",
       "count": 65213,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-07-20T14:52:27Z",
+      "checkedAt": "2026-07-20T16:20:49Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 20450,
+      "count": 20505,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-07-20T14:52:29Z",
+      "checkedAt": "2026-07-20T16:20:50Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-07-20T14:52:29Z",
+      "checkedAt": "2026-07-20T16:20:50Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -485098,6 +485098,226 @@
       "note": "Imported automatically from URLhaus malware URL/domain data."
     },
     {
+      "domain": "nodemetrics9095.com",
+      "url": "https://nodemetrics9095.com/update/package",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-20",
+      "lastSeen": "2026-07-20",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "42.231.93.248",
+      "url": "http://42.231.93.248:46492/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-20",
+      "lastSeen": "2026-07-20",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "zpbn.comptonanimalrescue.com",
+      "url": "https://zpbn.comptonanimalrescue.com/73544089-4bf3-4db8-a557-12f35080b488",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-20",
+      "lastSeen": "2026-07-20",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "lxlwn.nextbahis.one",
+      "url": "https://lxlwn.nextbahis.one/00a99672-f781-4f27-811f-8b413a9037d0",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-20",
+      "lastSeen": "2026-07-20",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "glmm.colg1.org",
+      "url": "https://glmm.colg1.org/92c6b1d3-bc11-4483-a193-96a8e1e0db6c",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-20",
+      "lastSeen": "2026-07-20",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "lcare.mrslopezsings.org",
+      "url": "https://lcare.mrslopezsings.org/6dec0d7f-ed1c-459f-baac-10b3625d1785",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-20",
+      "lastSeen": "2026-07-20",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "182.113.36.109",
+      "url": "http://182.113.36.109:39127/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-20",
+      "lastSeen": "2026-07-20",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "wctvn.mrslopezsings.org",
+      "url": "https://wctvn.mrslopezsings.org/f4f2e98a-a4e4-4522-8a2d-2c9380c26d70",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-20",
+      "lastSeen": "2026-07-20",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "222.140.185.230",
+      "url": "http://222.140.185.230:40566/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-20",
+      "lastSeen": "2026-07-20",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "61.52.159.76",
+      "url": "http://61.52.159.76:46604/i",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-20",
+      "lastSeen": "2026-07-20",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "lvcrn.monicarobles.org",
+      "url": "https://lvcrn.monicarobles.org/6ee8c245-13af-4e7c-9eff-09d8b7505fac",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-20",
+      "lastSeen": "2026-07-20",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "123.4.239.199",
+      "url": "http://123.4.239.199:43678/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-20",
+      "lastSeen": "2026-07-20",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "drsvt.nextbahis.poker",
+      "url": "https://drsvt.nextbahis.poker/376006c0-89eb-49b6-8f8b-1b232e72442a",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-20",
+      "lastSeen": "2026-07-20",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "182.112.28.37",
+      "url": "http://182.112.28.37:40375/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-20",
+      "lastSeen": "2026-07-20",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "222.243.95.50",
+      "url": "http://222.243.95.50:56045/i",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-20",
+      "lastSeen": "2026-07-20",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "222.137.159.214",
+      "url": "http://222.137.159.214:44514/i",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-20",
+      "lastSeen": "2026-07-20",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "axoo.colg1.org",
+      "url": "https://axoo.colg1.org/63b36ad3-1c67-4418-ad17-e73c334f5600",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-20",
+      "lastSeen": "2026-07-20",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "221.203.232.209",
+      "url": "http://221.203.232.209:44311/i",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-20",
+      "lastSeen": "2026-07-20",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "115.51.252.97",
+      "url": "http://115.51.252.97:51648/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-20",
+      "lastSeen": "2026-07-20",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "xhbgt.nextbahis.blog",
+      "url": "https://xhbgt.nextbahis.blog/14712a3f-82a5-450a-8965-25d6f3f5f047",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-20",
+      "lastSeen": "2026-07-20",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
       "domain": "175.44.152.14",
       "url": "http://175.44.152.14:59224/bin.sh",
       "type": "malware",
@@ -549824,226 +550044,6 @@
     {
       "domain": "www.facebookloginsafeaccount.blogspot.com",
       "url": "http://www.facebookloginsafeaccount.blogspot.com/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-19",
-      "lastSeen": "2026-07-19",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "pages-io-desktop.pages.dev",
-      "url": "https://pages-io-desktop.pages.dev/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-19",
-      "lastSeen": "2026-07-19",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "sakthii4.github.io",
-      "url": "https://sakthii4.github.io/netflix-clone-project/browse.html",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-17",
-      "lastSeen": "2026-07-19",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "rushikesh-rane.github.io",
-      "url": "https://rushikesh-rane.github.io/javascript-amazon-project/checkout.html",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-18",
-      "lastSeen": "2026-07-19",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "acyd.cl",
-      "url": "https://acyd.cl/cyd/payslip.html",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-17",
-      "lastSeen": "2026-07-19",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "brohihafsa57-hash.github.io",
-      "url": "https://brohihafsa57-hash.github.io/Amazon-Clone/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-19",
-      "lastSeen": "2026-07-19",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "www.css-ch.blogspot.com",
-      "url": "https://www.css-ch.blogspot.com/?m=1",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-19",
-      "lastSeen": "2026-07-19",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "fnxx.info",
-      "url": "https://fnxx.info/0eebad9ba891cd477bk8e11cfc5aa6db13b6.html",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-19",
-      "lastSeen": "2026-07-19",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "www.metamaskloginu.blogspot.com",
-      "url": "https://www.metamaskloginu.blogspot.com/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-19",
-      "lastSeen": "2026-07-19",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "cn.lumxza.com",
-      "url": "https://cn.lumxza.com/home/register?code=41878",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-19",
-      "lastSeen": "2026-07-19",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "www.sk-facebook.blogspot.com",
-      "url": "http://www.sk-facebook.blogspot.com/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-19",
-      "lastSeen": "2026-07-19",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "www.7umtbmn7.vercel.app",
-      "url": "https://www.7umtbmn7.vercel.app/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-19",
-      "lastSeen": "2026-07-19",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "armantraders.com",
-      "url": "https://armantraders.com/wp/wp-content/doc/payslip.html",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-19",
-      "lastSeen": "2026-07-19",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "www.70365app.net",
-      "url": "http://www.70365app.net/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-19",
-      "lastSeen": "2026-07-19",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "metsxmasklognux.gitbook.io",
-      "url": "http://metsxmasklognux.gitbook.io/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-19",
-      "lastSeen": "2026-07-19",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "www.16284.xyz",
-      "url": "http://www.16284.xyz/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-19",
-      "lastSeen": "2026-07-19",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "ambil-hadiah-10juta-anda-sekarang.netlify.app",
-      "url": "http://ambil-hadiah-10juta-anda-sekarang.netlify.app/az.html",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-19",
-      "lastSeen": "2026-07-19",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "daaanaapaylater.afttern.my.id",
-      "url": "https://daaanaapaylater.afttern.my.id/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-19",
-      "lastSeen": "2026-07-19",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "pemulihan-akun.costom.web.id",
-      "url": "https://pemulihan-akun.costom.web.id/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-19",
-      "lastSeen": "2026-07-19",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "ani-facebook.blogspot.com",
-      "url": "https://ani-facebook.blogspot.com/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-19",
-      "lastSeen": "2026-07-19",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "paiementleboncoin.trxf.fr",
-      "url": "http://paiementleboncoin.trxf.fr/",
       "type": "phishing",
       "reports": 1,
       "confidence": 78,
