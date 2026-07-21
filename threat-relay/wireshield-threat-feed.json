@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-21T18:57:11Z",
+  "generatedAt": "2026-07-21T20:18:29Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-07-21T18:57:05Z",
+      "checkedAt": "2026-07-21T20:18:06Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,7 +20,7 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-07-21T18:57:05Z",
+      "checkedAt": "2026-07-21T20:18:06Z",
       "note": "Public phishing URL feed imported."
     },
     {
@@ -29,16 +29,16 @@
       "status": "ok",
       "count": 65167,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-07-21T18:57:07Z",
+      "checkedAt": "2026-07-21T20:18:09Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 20546,
+      "count": 20569,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-07-21T18:57:07Z",
+      "checkedAt": "2026-07-21T20:18:10Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-07-21T18:57:08Z",
+      "checkedAt": "2026-07-21T20:18:10Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -485494,6 +485494,94 @@
       "note": "Imported automatically from URLhaus malware URL/domain data."
     },
     {
+      "domain": "45.177.33.169",
+      "url": "http://45.177.33.169:47045/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-21",
+      "lastSeen": "2026-07-21",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "116.207.220.63",
+      "url": "http://116.207.220.63:57284/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-21",
+      "lastSeen": "2026-07-21",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "123.11.195.103",
+      "url": "http://123.11.195.103:56665/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-21",
+      "lastSeen": "2026-07-21",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "110.37.115.167",
+      "url": "http://110.37.115.167:49664/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-21",
+      "lastSeen": "2026-07-21",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "60.22.169.167",
+      "url": "http://60.22.169.167:53741/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-21",
+      "lastSeen": "2026-07-21",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "42.228.221.60",
+      "url": "http://42.228.221.60:34020/i",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-21",
+      "lastSeen": "2026-07-21",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "175.148.159.236",
+      "url": "http://175.148.159.236:43123/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-21",
+      "lastSeen": "2026-07-21",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "117.9.1.156",
+      "url": "http://117.9.1.156:38039/i",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-21",
+      "lastSeen": "2026-07-21",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
       "domain": "222.138.118.196",
       "url": "http://222.138.118.196:57773/i",
       "type": "malware",
@@ -549956,94 +550044,6 @@
     {
       "domain": "coin999.cc",
       "url": "https://coin999.cc/?shiny",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-21",
-      "lastSeen": "2026-07-21",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "demandletter.b-cdn.net",
-      "url": "http://demandletter.b-cdn.net/Court%20Order-Summons.html",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-21",
-      "lastSeen": "2026-07-21",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "admin.nfd967f.com",
-      "url": "http://admin.nfd967f.com/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-21",
-      "lastSeen": "2026-07-21",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "wialiobrandios.mystagingwebsite.com",
-      "url": "https://wialiobrandios.mystagingwebsite.com/wp-content/upgrade/gridkdo/login.html",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-21",
-      "lastSeen": "2026-07-21",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "www.facebook-marketplace-listings.myaddr.tools",
-      "url": "http://www.facebook-marketplace-listings.myaddr.tools/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-21",
-      "lastSeen": "2026-07-21",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "bridgs-ustrezor.wasmer.app",
-      "url": "http://bridgs-ustrezor.wasmer.app/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-21",
-      "lastSeen": "2026-07-21",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "www.qq00.vip",
-      "url": "http://www.qq00.vip/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-21",
-      "lastSeen": "2026-07-21",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "www.f31h.top",
-      "url": "http://www.f31h.top/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 78,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-07-21",
-      "lastSeen": "2026-07-21",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "www.f27p.top",
-      "url": "http://www.f27p.top/",
       "type": "phishing",
       "reports": 1,
       "confidence": 78,
