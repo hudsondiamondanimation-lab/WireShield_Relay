@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-21T11:16:30Z",
+  "generatedAt": "2026-07-21T12:45:06Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-07-21T11:16:24Z",
+      "checkedAt": "2026-07-21T12:45:00Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,7 +18,7 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-07-21T11:16:24Z",
+      "checkedAt": "2026-07-21T12:45:01Z",
       "note": "Public phishing URL feed imported."
     },
     {
@@ -27,16 +27,16 @@
       "status": "ok",
       "count": 65167,
       "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-07-21T11:16:27Z",
+      "checkedAt": "2026-07-21T12:45:02Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 20450,
+      "count": 20459,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-07-21T11:16:27Z",
+      "checkedAt": "2026-07-21T12:45:03Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-07-21T11:16:28Z",
+      "checkedAt": "2026-07-21T12:45:03Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-07-21T11:16:28Z",
+      "checkedAt": "2026-07-21T12:45:03Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-07-21T11:16:28Z",
+      "checkedAt": "2026-07-21T12:45:03Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-07-21T11:16:28Z",
+      "checkedAt": "2026-07-21T12:45:03Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-07-21T11:16:30Z",
+      "checkedAt": "2026-07-21T12:45:06Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-07-21T11:16:30Z",
+      "checkedAt": "2026-07-21T12:45:06Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-07-21T11:16:30Z",
+      "checkedAt": "2026-07-21T12:45:06Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -241,54 +241,6 @@
       "note": "Joomlack Page Builder contains an improper access control vulnerability that could allow for remote code execution via unauthenticated arbitrary file upload."
     },
     {
-      "title": "CVE-2016-9841: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-9841",
-      "published": "2026-07-14T12:16:45.867",
-      "note": "inffast.c in zlib 1.2.8 might allow context-dependent attackers to have unspecified impact by leveraging improper pointer arithmetic."
-    },
-    {
-      "title": "CVE-2022-23303: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-23303",
-      "published": "2026-07-14T12:16:47.380",
-      "note": "The implementations of SAE in hostapd before 2.10 and wpa_supplicant before 2.10 are vulnerable to side channel attacks as a result of cache access patterns. NOTE: this issue exists because of an incomplete fix for CVE-2019-9494."
-    },
-    {
-      "title": "CVE-2022-23304: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-23304",
-      "published": "2026-07-14T12:16:47.523",
-      "note": "The implementations of EAP-pwd in hostapd before 2.10 and wpa_supplicant before 2.10 are vulnerable to side-channel attacks as a result of cache access patterns. NOTE: this issue exists because of an incomplete fix for CVE-2019-9495."
-    },
-    {
-      "title": "CVE-2022-37434: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-37434",
-      "published": "2026-07-14T12:16:47.660",
-      "note": "zlib through 1.2.12 has a heap-based buffer over-read or buffer overflow in inflate in inflate.c via a large gzip header extra field. NOTE: only applications that call inflateGetHeader are affected. Some common applications bundle the affected zlib source code but may be unable to call inflateGetHeader (e.g., see the nodejs/node reference)."
-    },
-    {
-      "title": "CVE-2023-28531: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-28531",
-      "published": "2026-07-14T12:16:48.417",
-      "note": "ssh-add in OpenSSH before 9.3 adds smartcard keys to ssh-agent without the intended per-hop destination constraints. The earliest affected version is 8.9."
-    },
-    {
-      "title": "CVE-2022-48174: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-48174",
-      "published": "2026-07-14T12:16:48.240",
-      "note": "There is a stack overflow vulnerability in ash.c:6030 in busybox before 1.35. In the environment of Internet of Vehicles, this vulnerability can be executed from command to arbitrary code execution."
-    },
-    {
       "title": "CVE-2023-45853: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
@@ -335,6 +287,54 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-23052",
       "published": "2026-07-14T15:06:01.100",
       "note": "An issue in WuKongOpenSource WukongCRM v.72crm_9.0.1_20191202 allows a remote attacker to execute arbitrary code via the parseObject() function in the fastjson component."
+    },
+    {
+      "title": "CVE-2024-35260: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-35260",
+      "published": "2026-07-20T16:16:52.307",
+      "note": "An authenticated attacker can exploit an untrusted search path vulnerability in Microsoft Dataverse to execute code over a network."
+    },
+    {
+      "title": "CVE-2024-11680: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-11680",
+      "published": "2026-07-14T23:17:13.570",
+      "note": "ProjectSend versions prior to r1720 are affected by an improper authentication vulnerability. Remote, unauthenticated attackers can exploit this flaw by sending crafted HTTP requests to options.php, enabling unauthorized modification of the application's configuration. Successful exploitation allows attackers to create accounts, upload webshells, and embed malicious JavaScript."
+    },
+    {
+      "title": "CVE-2025-3248: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-3248",
+      "published": "2026-07-14T23:17:27.010",
+      "note": "Langflow versions prior to 1.3.0 are susceptible to code injection in \nthe /api/v1/validate/code endpoint. A remote and unauthenticated attacker can send crafted HTTP requests to execute arbitrary\ncode."
+    },
+    {
+      "title": "CVE-2010-20103: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2010-20103",
+      "published": "2026-07-15T02:16:56.140",
+      "note": "A malicious backdoor was embedded in the official ProFTPD 1.3.3c source tarball distributed between November 28 and December 2, 2010. The backdoor implements a hidden FTP command trigger that, when invoked, causes the server to execute arbitrary shell commands with root privileges. This allows remote, unauthenticated attackers to run any OS command on the FTP server host."
+    },
+    {
+      "title": "CVE-2025-34157: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-34157",
+      "published": "2026-07-14T23:17:20.720",
+      "note": "Coolify versions prior to v4.0.0-beta.420.6 are vulnerable to a stored cross-site scripting (XSS) attack in the project creation workflow. An authenticated user with low privileges can create a project with a maliciously crafted name containing embedded JavaScript. When an administrator attempts to delete the project or its associated resource, the payload executes in the admin’s browser context. This results in full compromise of the Coolify instance, including theft of API tokens, session cook"
+    },
+    {
+      "title": "CVE-2025-10585: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-10585",
+      "published": "2026-07-14T15:21:36.793",
+      "note": "Type confusion in V8 in Google Chrome prior to 140.0.7339.185 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)"
     },
     {
       "title": "Suno",
