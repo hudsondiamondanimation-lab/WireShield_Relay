@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-23T15:20:33Z",
+  "generatedAt": "2026-07-23T16:54:47Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-07-23T15:20:28Z",
+      "checkedAt": "2026-07-23T16:54:42Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,7 +20,7 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-07-23T15:20:28Z",
+      "checkedAt": "2026-07-23T16:54:42Z",
       "note": "Public phishing URL feed imported."
     },
     {
@@ -29,16 +29,16 @@
       "status": "ok",
       "count": 65628,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-07-23T15:20:30Z",
+      "checkedAt": "2026-07-23T16:54:44Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 15360,
+      "count": 15373,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-07-23T15:20:31Z",
+      "checkedAt": "2026-07-23T16:54:44Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-07-23T15:20:31Z",
+      "checkedAt": "2026-07-23T16:54:44Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -490334,6 +490334,61 @@
       "note": "Imported automatically from URLhaus malware URL/domain data."
     },
     {
+      "domain": "27.207.227.95",
+      "url": "http://27.207.227.95:37522/i",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-23",
+      "lastSeen": "2026-07-23",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "59.42.89.228",
+      "url": "http://59.42.89.228:56735/i",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-23",
+      "lastSeen": "2026-07-23",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "182.119.221.36",
+      "url": "http://182.119.221.36:37593/i",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-23",
+      "lastSeen": "2026-07-23",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "105.184.236.200",
+      "url": "http://105.184.236.200:57839/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-23",
+      "lastSeen": "2026-07-23",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "115.63.50.113",
+      "url": "http://115.63.50.113:53912/i",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-07-23",
+      "lastSeen": "2026-07-23",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
       "domain": "61.53.90.141",
       "url": "http://61.53.90.141:51894/i",
       "type": "malware",
@@ -549989,61 +550044,6 @@
     {
       "domain": "115.57.248.98",
       "url": "http://115.57.248.98:53607/bin.sh",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-06-29",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "27.37.104.134",
-      "url": "http://27.37.104.134:57989/bin.sh",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-06-29",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "sybxhd9s.stgsolar.hu",
-      "url": "https://sybxhd9s.stgsolar.hu/?ublib=42bab1f1-c925-4cfa-a62f-a7251a7e3a00",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-06-29",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "t5kfgfm1.stgsolar.hu",
-      "url": "https://t5kfgfm1.stgsolar.hu/?ublib=862160bd-f5cf-4e24-968e-db4773bf36f6",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-06-29",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "wjyfieh.evaz.io",
-      "url": "https://wjyfieh.evaz.io/c841dc5d-d5c0-409d-b4d1-0c5d59e90e1c",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-06-29",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "bphiipa.evaz.io",
-      "url": "https://bphiipa.evaz.io/47e13163-4936-44f4-9177-dca343b7f257",
       "type": "malware",
       "reports": 1,
       "confidence": 86,
