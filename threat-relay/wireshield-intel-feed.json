@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-28T13:11:10Z",
+  "generatedAt": "2026-07-28T15:35:55Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-07-28T13:11:04Z",
+      "checkedAt": "2026-07-28T15:35:50Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-07-28T13:11:04Z",
+      "checkedAt": "2026-07-28T15:35:50Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 66546,
-      "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-07-28T13:11:06Z",
+      "count": 66580,
+      "url": "https://data.phishtank.com/data/online-valid.json",
+      "checkedAt": "2026-07-28T15:35:52Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 15092,
+      "count": 15197,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-07-28T13:11:07Z",
+      "checkedAt": "2026-07-28T15:35:53Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-07-28T13:11:07Z",
+      "checkedAt": "2026-07-28T15:35:53Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-07-28T13:11:08Z",
+      "checkedAt": "2026-07-28T15:35:53Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-07-28T13:11:08Z",
+      "checkedAt": "2026-07-28T15:35:53Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-07-28T13:11:08Z",
+      "checkedAt": "2026-07-28T15:35:54Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-07-28T13:11:10Z",
+      "checkedAt": "2026-07-28T15:35:55Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-07-28T13:11:10Z",
+      "checkedAt": "2026-07-28T15:35:55Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-07-28T13:11:10Z",
+      "checkedAt": "2026-07-28T15:35:55Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -261,7 +261,7 @@
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-12543",
-      "published": "2026-07-27T16:16:57.907",
+      "published": "2026-07-28T13:17:12.190",
       "note": "A flaw was found in the Undertow HTTP server core, which is used in WildFly, JBoss EAP, and other Java applications. The Undertow library fails to properly validate the Host header in incoming HTTP requests.As a result, requests containing malformed or malicious Host headers are processed without rejection, enabling attackers to poison caches, perform internal network scans, or hijack user sessions."
     },
     {
@@ -277,7 +277,7 @@
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-29063",
-      "published": "2026-07-24T13:17:44.873",
+      "published": "2026-07-28T13:17:52.583",
       "note": "Immutable.js provides many Persistent Immutable data structures. Prior to versions 3.8.3, 4.3.7, and 5.1.5, Prototype Pollution is possible in immutable via the mergeDeep(), mergeDeepWith(), merge(), Map.toJS(), and Map.toObject() APIs. This issue has been patched in versions 3.8.3, 4.3.7, and 5.1.5."
     },
     {
