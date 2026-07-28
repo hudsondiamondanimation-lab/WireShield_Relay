@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-28T11:29:05Z",
+  "generatedAt": "2026-07-28T13:11:10Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-07-28T11:28:58Z",
+      "checkedAt": "2026-07-28T13:11:04Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-07-28T11:28:59Z",
+      "checkedAt": "2026-07-28T13:11:04Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 66536,
-      "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-07-28T11:29:02Z",
+      "count": 66546,
+      "url": "https://data.phishtank.com/data/online-valid.csv",
+      "checkedAt": "2026-07-28T13:11:06Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 15076,
+      "count": 15092,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-07-28T11:29:03Z",
+      "checkedAt": "2026-07-28T13:11:07Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-07-28T11:29:03Z",
+      "checkedAt": "2026-07-28T13:11:07Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-07-28T11:29:03Z",
+      "checkedAt": "2026-07-28T13:11:08Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-07-28T11:29:03Z",
+      "checkedAt": "2026-07-28T13:11:08Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-07-28T11:29:03Z",
+      "checkedAt": "2026-07-28T13:11:08Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-07-28T11:29:04Z",
+      "checkedAt": "2026-07-28T13:11:10Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-07-28T11:29:05Z",
+      "checkedAt": "2026-07-28T13:11:10Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-07-28T11:29:05Z",
+      "checkedAt": "2026-07-28T13:11:10Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -265,14 +265,6 @@
       "note": "A flaw was found in the Undertow HTTP server core, which is used in WildFly, JBoss EAP, and other Java applications. The Undertow library fails to properly validate the Host header in incoming HTTP requests.As a result, requests containing malformed or malicious Host headers are processed without rejection, enabling attackers to poison caches, perform internal network scans, or hijack user sessions."
     },
     {
-      "title": "CVE-2026-22807: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22807",
-      "published": "2026-07-21T12:17:29.847",
-      "note": "vLLM is an inference and serving engine for large language models (LLMs). Starting in version 0.10.1 and prior to version 0.14.0, vLLM loads Hugging Face `auto_map` dynamic modules during model resolution without gating on `trust_remote_code`, allowing attacker-controlled Python code in a model repo/path to execute at server startup. An attacker who can influence the model repo/path (local directory or remote Hugging Face repo) can achieve arbitrary code execution on the vLLM host during model l"
-    },
-    {
       "title": "CVE-2026-27577: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
@@ -289,28 +281,12 @@
       "note": "Immutable.js provides many Persistent Immutable data structures. Prior to versions 3.8.3, 4.3.7, and 5.1.5, Prototype Pollution is possible in immutable via the mergeDeep(), mergeDeepWith(), merge(), Map.toJS(), and Map.toObject() APIs. This issue has been patched in versions 3.8.3, 4.3.7, and 5.1.5."
     },
     {
-      "title": "CVE-2026-25960: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25960",
-      "published": "2026-07-21T12:17:46.680",
-      "note": "vLLM is an inference and serving engine for large language models (LLMs). The SSRF protection fix for CVE-2026-24779 add in 0.15.1 can be bypassed in the load_from_url_async method due to inconsistent URL parsing behavior between the validation layer and the actual HTTP client. The SSRF fix uses urllib3.util.parse_url() to validate and extract the hostname from user-provided URLs. However, load_from_url_async uses aiohttp for making the actual HTTP requests, and aiohttp internally uses the yarl "
-    },
-    {
       "title": "CVE-2026-23941: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23941",
       "published": "2026-07-24T15:17:14.157",
       "note": "Inconsistent Interpretation of HTTP Requests ('HTTP Request Smuggling') vulnerability in Erlang OTP (inets httpd module) allows HTTP Request Smuggling.\n\nThis vulnerability is associated with program files lib/inets/src/http_server/httpd_request.erl and program routines httpd_request:parse_headers/7.\n\nThe server does not reject or normalize duplicate Content-Length headers. The earliest Content-Length in the request is used for body parsing while common reverse proxies (nginx, Apache httpd, Envoy"
-    },
-    {
-      "title": "CVE-2026-33210: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33210",
-      "published": "2026-07-21T12:18:07.287",
-      "note": "Ruby JSON is a JSON implementation for Ruby. From version 2.14.0 to before versions 2.15.2.1, 2.17.1.2, and 2.19.2, a format string injection vulnerability can lead to denial of service attacks or information disclosure, when the allow_duplicate_key: false parsing option is used to parse user supplied documents. This issue has been patched in versions 2.15.2.1, 2.17.1.2, and 2.19.2."
     },
     {
       "title": "CVE-2026-33211: recently changed critical CVE",
@@ -335,6 +311,30 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32916",
       "published": "2026-07-25T10:10:00.167",
       "note": "OpenClaw versions 2026.3.7 before 2026.3.11 contain an authorization bypass vulnerability where plugin subagent routes execute gateway methods through a synthetic operator client with broad administrative scopes. Remote unauthenticated requests to plugin-owned routes can invoke runtime.subagent methods to perform privileged gateway actions including session deletion and agent execution."
+    },
+    {
+      "title": "CVE-2026-34156: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34156",
+      "published": "2026-07-24T22:10:00.140",
+      "note": "NocoBase is an AI-powered no-code/low-code platform for building business applications and enterprise solutions. Prior to version 2.0.28, NocoBase's Workflow Script Node executes user-supplied JavaScript inside a Node.js vm sandbox with a custom require allowlist (controlled by WORKFLOW_SCRIPT_MODULES env var). However, the console object passed into the sandbox context exposes host-realm WritableWorkerStdio stream objects via console._stdout and console._stderr. An authenticated attacker can tr"
+    },
+    {
+      "title": "CVE-2026-34162: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34162",
+      "published": "2026-07-24T21:10:00.143",
+      "note": "FastGPT is an AI Agent building platform. Prior to version 4.14.9.5, the FastGPT HTTP tools testing endpoint (/api/core/app/httpTools/runTool) is exposed without any authentication. This endpoint acts as a full HTTP proxy — it accepts a user-supplied baseUrl, toolPath, HTTP method, custom headers, and body, then makes a server-side HTTP request and returns the complete response to the caller. This issue has been patched in version 4.14.9.5."
+    },
+    {
+      "title": "CVE-2026-34532: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34532",
+      "published": "2026-07-24T20:10:00.147",
+      "note": "Parse Server is an open source backend that can be deployed to any infrastructure that can run Node.js. Prior to versions 8.6.67 and 9.7.0-alpha.11, an attacker can bypass Cloud Function validator access controls by appending \"prototype.constructor\" to the function name in the URL. When a Cloud Function handler is declared using the function keyword and its validator is a plain object or arrow function, the trigger store traversal resolves the handler through its own prototype chain while the va"
     },
     {
       "title": "Houston City College",
