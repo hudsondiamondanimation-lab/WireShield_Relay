@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-01T10:55:16Z",
+  "generatedAt": "2026-08-01T11:58:09Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-08-01T10:55:11Z",
+      "checkedAt": "2026-08-01T11:58:04Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,25 +20,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-08-01T10:55:11Z",
+      "checkedAt": "2026-08-01T11:58:04Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 68463,
+      "count": 68467,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-08-01T10:55:13Z",
+      "checkedAt": "2026-08-01T11:58:06Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 15514,
+      "count": 15521,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-08-01T10:55:14Z",
+      "checkedAt": "2026-08-01T11:58:07Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-08-01T10:55:14Z",
+      "checkedAt": "2026-08-01T11:58:07Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -514941,6 +514941,28 @@
       "note": "Imported automatically from URLhaus malware URL/domain data."
     },
     {
+      "domain": "110.37.53.160",
+      "url": "http://110.37.53.160:36907/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-08-01",
+      "lastSeen": "2026-08-01",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "115.49.126.243",
+      "url": "http://115.49.126.243:40911/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-08-01",
+      "lastSeen": "2026-08-01",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
       "domain": "cdn.jsdelivr.net",
       "url": "https://cdn.jsdelivr.net/gh/recavrylog/roandatech@1cc983d/rp_4",
       "type": "malware",
@@ -550022,28 +550044,6 @@
     {
       "domain": "xiazx.azmoonzare.online",
       "url": "https://xiazx.azmoonzare.online/a5735095-434f-4e01-9b16-d7b66d90ec96",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-07-15",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "bgfwrtgo.jam-jahani.com",
-      "url": "https://bgfwrtgo.jam-jahani.com/bcde484a-5c02-4f55-b844-02551a80424c",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-07-15",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "182.116.118.163",
-      "url": "http://182.116.118.163:43726/i",
       "type": "malware",
       "reports": 1,
       "confidence": 86,
