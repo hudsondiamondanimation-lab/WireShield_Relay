@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-01T04:40:13Z",
+  "generatedAt": "2026-08-01T07:13:24Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-08-01T04:40:07Z",
+      "checkedAt": "2026-08-01T07:13:19Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-08-01T04:40:07Z",
+      "checkedAt": "2026-08-01T07:13:19Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 68448,
+      "count": 68451,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-08-01T04:40:09Z",
+      "checkedAt": "2026-08-01T07:13:22Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 15346,
+      "count": 15408,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-08-01T04:40:09Z",
+      "checkedAt": "2026-08-01T07:13:22Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-08-01T04:40:10Z",
+      "checkedAt": "2026-08-01T07:13:22Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-08-01T04:40:10Z",
+      "checkedAt": "2026-08-01T07:13:23Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-08-01T04:40:10Z",
+      "checkedAt": "2026-08-01T07:13:23Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-08-01T04:40:10Z",
+      "checkedAt": "2026-08-01T07:13:23Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-08-01T04:40:13Z",
+      "checkedAt": "2026-08-01T07:13:24Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-08-01T04:40:13Z",
+      "checkedAt": "2026-08-01T07:13:24Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-08-01T04:40:13Z",
+      "checkedAt": "2026-08-01T07:13:24Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -241,6 +241,22 @@
       "note": "Microsoft Active Directory Federation Services contains an insufficient granularity of access control vulnerability that allows an authorized attacker to elevate privileges locally."
     },
     {
+      "title": "CVE-2021-22205: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-22205",
+      "published": "2026-08-01T05:16:54.287",
+      "note": "An issue has been discovered in GitLab CE/EE affecting all versions starting from 11.9. GitLab was not properly validating image files that were passed to a file parser which resulted in a remote command execution."
+    },
+    {
+      "title": "CVE-2021-40438: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-40438",
+      "published": "2026-08-01T05:16:54.497",
+      "note": "A crafted request uri-path can cause mod_proxy to forward the request to an origin server choosen by the remote user. This issue affects Apache HTTP Server 2.4.48 and earlier."
+    },
+    {
       "title": "CVE-2022-31340: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
@@ -321,20 +337,13 @@
       "note": "n8n is an open source workflow automation platform. Prior to versions 2.10.1, 2.9.3, and 1.123.22, additional exploits in the expression evaluation of n8n have been identified and patched following CVE-2025-68613. An authenticated user with permission to create or modify workflows could abuse crafted expressions in workflow parameters to trigger unintended system command execution on the host running n8n. The issues have been fixed in n8n versions 2.10.1, 2.9.3, and 1.123.22. Users should upgrad"
     },
     {
-      "title": "CVE-2026-29063: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-29063",
-      "published": "2026-07-31T13:17:42.643",
-      "note": "Immutable.js provides many Persistent Immutable data structures. Prior to versions 3.8.3, 4.3.7, and 5.1.5, Prototype Pollution is possible in immutable via the mergeDeep(), mergeDeepWith(), merge(), Map.toJS(), and Map.toObject() APIs. This issue has been patched in versions 3.8.3, 4.3.7, and 5.1.5."
-    },
-    {
-      "title": "CVE-2026-27459: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27459",
-      "published": "2026-07-30T12:17:58.653",
-      "note": "pyOpenSSL is a Python wrapper around the OpenSSL library. Starting in version 22.0.0 and prior to version 26.0.0, if a user provided callback to `set_cookie_generate_callback` returned a cookie value greater than 256 bytes, pyOpenSSL would overflow an OpenSSL provided buffer. Starting in version 26.0.0, cookie values that are too long are now rejected."
+      "title": "SplitVPN",
+      "type": "data breach",
+      "source": "Have I Been Pwned breach catalog",
+      "url": "https://haveibeenpwned.com/api/v3/breaches",
+      "published": "2026-08-01T05:29:26Z",
+      "affectedAccounts": 865336,
+      "note": "In July 2026, <a href=\"https://securityaffairs.com/196197/security/vpn-breach-exposes-58-million-connection-logs-despite-no-logs-claims.html\" target=\"_blank\" rel=\"noopener\">the Russian VPN service SplitVPN (previously known as NotVPN) suffered a data breach</a>. The incident exposed millions of customer records, including 865k unique email addresses. Other impacted data included IP addresses, the user's country, and partial payment card data (first 6 and last 4 digits plus expiry date)."
     },
     {
       "title": "Houston City College",
@@ -434,15 +443,6 @@
       "published": "2026-06-20T03:02:45Z",
       "affectedAccounts": 368418,
       "note": "In June 2026, retailer <a href=\"https://breachnews.com/breaches/shinyhunters-threatens-council-of-europe-american-tower-jcpenney-and-others-with-imminent-data-leaks/\" target=\"_blank\" rel=\"noopener\">JCPenney and associated brands were targeted in a ShinyHunters \"pay or leak\" extortion campaign</a>. Data allegedly obtained from JCPenney through the exploitation of <a href=\"https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit\" target=\"_blank\""
-    },
-    {
-      "title": "Ralph Lauren",
-      "type": "data breach",
-      "source": "Have I Been Pwned breach catalog",
-      "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "published": "2026-06-18T22:48:34Z",
-      "affectedAccounts": 139903,
-      "note": "In June 2026, fashion retailer <a href=\"https://cybernews.com/security/ralph-lauren-data-breach-claims/\" target=\"_blank\" rel=\"noopener\">Ralph Lauren was targeted in a ShinyHunters \"pay or leak\" extortion campaign</a>. The group subsequently published hundreds of gigabytes of data they claimed was obtained from the organisation's Salesforce instance, including 140k unique email addresses along with names, phone numbers, genders and age groups."
     },
     {
       "title": "Data broker privacy watch",
