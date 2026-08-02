@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-02T10:57:27Z",
+  "generatedAt": "2026-08-02T12:01:59Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-08-02T10:57:23Z",
+      "checkedAt": "2026-08-02T12:01:56Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,25 +20,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-08-02T10:57:23Z",
+      "checkedAt": "2026-08-02T12:01:56Z",
       "note": "Public phishing URL feed imported."
     },
     {
-      "name": "PhishTank public verified feed",
+      "name": "PhishTank",
       "category": "scam/phishing",
-      "status": "ok",
-      "count": 68506,
-      "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-08-02T10:57:25Z",
-      "note": "PhishTank verified-online phishing database imported."
+      "status": "failed",
+      "count": 0,
+      "url": "https://www.phishtank.com/developer_info.php",
+      "checkedAt": "2026-08-02T12:01:56Z",
+      "note": "https://data.phishtank.com/data/online-valid.json: HTTP 404; https://data.phishtank.com/data/online-valid.csv: HTTP 404"
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 15074,
+      "count": 15084,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-08-02T10:57:25Z",
+      "checkedAt": "2026-08-02T12:01:57Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-08-02T10:57:25Z",
+      "checkedAt": "2026-08-02T12:01:57Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -137,6 +137,204 @@
       "confidence": 95,
       "source": "OpenPhish community feed",
       "firstSeen": "2026-04-26T23:42:21+00:00",
+      "lastSeen": "2026-08-02",
+      "note": "Imported automatically from OpenPhish community feed."
+    },
+    {
+      "domain": "paketshop.9-160-165-249.cpanel.site",
+      "url": "https://paketshop.9-160-165-249.cpanel.site/eu/kasse.php?msw8dttcr8fg6",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-08-01T16:28:08+00:00",
+      "lastSeen": "2026-08-02",
+      "note": "Imported automatically from OpenPhish community feed."
+    },
+    {
+      "domain": "coinbase-invest--camrongraves4.replit.app",
+      "url": "https://coinbase-invest--camrongraves4.replit.app/...",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-08-01T03:39:40+00:00",
+      "lastSeen": "2026-08-02",
+      "note": "Imported automatically from OpenPhish community feed."
+    },
+    {
+      "domain": "kloclibkblink-dp73tqm8r6w5.edgeone.dev",
+      "url": "https://kloclibkblink-dp73tqm8r6w5.edgeone.dev/AUXILL?eta=",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-07-31T18:08:23+00:00",
+      "lastSeen": "2026-08-02",
+      "note": "Imported automatically from OpenPhish community feed."
+    },
+    {
+      "domain": "terminaltransport.vercel.app",
+      "url": "https://terminaltransport.vercel.app/tunsr.html",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-07-31T18:07:01+00:00",
+      "lastSeen": "2026-08-02",
+      "note": "Imported automatically from OpenPhish community feed."
+    },
+    {
+      "domain": "neon59903-alt.github.io",
+      "url": "https://neon59903-alt.github.io/Instagram-login-page-/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-07-31T18:04:42+00:00",
+      "lastSeen": "2026-08-02",
+      "note": "Imported automatically from OpenPhish community feed."
+    },
+    {
+      "domain": "global-accelerationr3que5f-dpojca32e2u6.edgeone.dev",
+      "url": "https://global-accelerationr3que5f-dpojca32e2u6.edgeone.dev/index.html",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-07-31T18:03:37+00:00",
+      "lastSeen": "2026-08-02",
+      "note": "Imported automatically from OpenPhish community feed."
+    },
+    {
+      "domain": "vigilance89.github.io",
+      "url": "https://vigilance89.github.io/vigilane8viewdocument/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-07-31T18:02:29+00:00",
+      "lastSeen": "2026-08-02",
+      "note": "Imported automatically from OpenPhish community feed."
+    },
+    {
+      "domain": "ingresos-itau.vercel.app",
+      "url": "https://ingresos-itau.vercel.app/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-07-18T15:26:15+00:00",
+      "lastSeen": "2026-08-02",
+      "note": "Imported automatically from OpenPhish community feed."
+    },
+    {
+      "domain": "yourmailaccount.edgeone.dev",
+      "url": "https://yourmailaccount.edgeone.dev/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-07-18T01:54:42+00:00",
+      "lastSeen": "2026-08-02",
+      "note": "Imported automatically from OpenPhish community feed."
+    },
+    {
+      "domain": "www.roblox.com.mu",
+      "url": "https://www.roblox.com.mu/users/9659744573/profile",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-06-29T03:18:17+00:00",
+      "lastSeen": "2026-08-02",
+      "note": "Imported automatically from OpenPhish community feed."
+    },
+    {
+      "domain": "roblox.com.kz",
+      "url": "https://roblox.com.kz/users/1406173134/profile",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-06-20T19:33:59+00:00",
+      "lastSeen": "2026-08-02",
+      "note": "Imported automatically from OpenPhish community feed."
+    },
+    {
+      "domain": "s4w.in",
+      "url": "https://s4w.in/www-roblox-com-users-3621710584-profile",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-06-20T19:33:56+00:00",
+      "lastSeen": "2026-08-02",
+      "note": "Imported automatically from OpenPhish community feed."
+    },
+    {
+      "domain": "faecbook.vn",
+      "url": "https://faecbook.vn/t09whebqopj?a",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-06-16T20:32:20+00:00",
+      "lastSeen": "2026-08-02",
+      "note": "Imported automatically from OpenPhish community feed."
+    },
+    {
+      "domain": "www.r.oblox.com.et",
+      "url": "https://www.r.oblox.com.et/users/1342590866/profile",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-06-12T20:15:31+00:00",
+      "lastSeen": "2026-08-02",
+      "note": "Imported automatically from OpenPhish community feed."
+    },
+    {
+      "domain": "www.roblox.com.ml",
+      "url": "https://www.roblox.com.ml/users/257735636162/profile",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-05-30T23:30:23+00:00",
+      "lastSeen": "2026-08-02",
+      "note": "Imported automatically from OpenPhish community feed."
+    },
+    {
+      "domain": "www.robiox.com.py",
+      "url": "https://www.robiox.com.py/users/264900388871/profile",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-03-19T12:01:37+00:00",
+      "lastSeen": "2026-08-02",
+      "note": "Imported automatically from OpenPhish community feed."
+    },
+    {
+      "domain": "to.lk",
+      "url": "https://to.lk/FfAoJW",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2024-07-15T12:32:47+00:00",
+      "lastSeen": "2026-08-02",
+      "note": "Imported automatically from OpenPhish community feed."
+    },
+    {
+      "domain": "ipfs.io",
+      "url": "https://ipfs.io/ipfs/bafkreih6t3naoh76ahsn5mg5hexvtqfupwqrgvmyxtafm7hmbgn4gw3xem",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2023-04-05T03:52:05+00:00",
       "lastSeen": "2026-08-02",
       "note": "Imported automatically from OpenPhish community feed."
     },
@@ -614,17 +812,6 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
-      "domain": "paketshop.9-160-165-249.cpanel.site",
-      "url": "https://paketshop.9-160-165-249.cpanel.site/eu/kasse.php?msw8dttcr8fg65hbb2y2",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-08-01T16:28:08+00:00",
-      "lastSeen": "2026-08-01T16:32:38+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
       "domain": "mvm-nexthu.com",
       "url": "https://mvm-nexthu.com/captcha",
       "type": "phishing",
@@ -875,17 +1062,6 @@
       "source": "PhishTank public verified feed",
       "firstSeen": "2026-08-01T03:48:09+00:00",
       "lastSeen": "2026-08-01T03:52:16+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
-      "domain": "coinbase-invest--camrongraves4.replit.app",
-      "url": "https://coinbase-invest--camrongraves4.replit.app/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-08-01T03:39:40+00:00",
-      "lastSeen": "2026-08-01T03:42:29+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
@@ -1769,17 +1945,6 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
-      "domain": "kloclibkblink-dp73tqm8r6w5.edgeone.dev",
-      "url": "https://kloclibkblink-dp73tqm8r6w5.edgeone.dev/AUXILL?eta=",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-07-31T18:08:23+00:00",
-      "lastSeen": "2026-07-31T19:42:34+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
       "domain": "www.verkrs.vercel.app",
       "url": "https://www.verkrs.vercel.app/",
       "type": "phishing",
@@ -2074,17 +2239,6 @@
       "source": "PhishTank public verified feed",
       "firstSeen": "2026-07-31T18:06:02+00:00",
       "lastSeen": "2026-07-31T19:32:31+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
-      "domain": "terminaltransport.vercel.app",
-      "url": "https://terminaltransport.vercel.app/tunsr.html",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-07-31T18:07:01+00:00",
-      "lastSeen": "2026-07-31T19:32:30+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
@@ -2407,17 +2561,6 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
-      "domain": "neon59903-alt.github.io",
-      "url": "https://neon59903-alt.github.io/Instagram-login-page-/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-07-31T18:04:42+00:00",
-      "lastSeen": "2026-07-31T19:22:46+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
       "domain": "nasrgdfjhtrf.eu.cc",
       "url": "https://nasrgdfjhtrf.eu.cc/es",
       "type": "phishing",
@@ -2646,28 +2789,6 @@
       "source": "PhishTank public verified feed",
       "firstSeen": "2026-07-31T18:04:36+00:00",
       "lastSeen": "2026-07-31T19:22:46+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
-      "domain": "global-accelerationr3que5f-dpojca32e2u6.edgeone.dev",
-      "url": "https://global-accelerationr3que5f-dpojca32e2u6.edgeone.dev/index.html",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-07-31T18:03:37+00:00",
-      "lastSeen": "2026-07-31T19:12:34+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
-      "domain": "vigilance89.github.io",
-      "url": "https://vigilance89.github.io/vigilane8viewdocument/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-07-31T18:02:29+00:00",
-      "lastSeen": "2026-07-31T19:12:34+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
@@ -23967,17 +24088,6 @@
       "note": "Imported automatically from PhishTank verified-online feed."
     },
     {
-      "domain": "ingresos-itau.vercel.app",
-      "url": "https://ingresos-itau.vercel.app/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-07-18T15:26:15+00:00",
-      "lastSeen": "2026-07-22T00:05:24+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
       "domain": "frontend-clone-alkosto.vercel.app",
       "url": "https://frontend-clone-alkosto.vercel.app/",
       "type": "phishing",
@@ -29992,17 +30102,6 @@
       "source": "PhishTank public verified feed",
       "firstSeen": "2026-07-17T06:52:47+00:00",
       "lastSeen": "2026-07-18T06:12:30+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
-      "domain": "yourmailaccount.edgeone.dev",
-      "url": "https://yourmailaccount.edgeone.dev/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-07-18T01:54:42+00:00",
-      "lastSeen": "2026-07-18T06:12:29+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
@@ -71718,17 +71817,6 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
-      "domain": "www.roblox.com.mu",
-      "url": "https://www.roblox.com.mu/games/16732694052/Fisch-KING-CRABSTLE?privateServerLinkCode=35531403359803472002930024214540",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-06-29T03:18:17+00:00",
-      "lastSeen": "2026-06-29T03:52:29+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
       "domain": "finessa-uitgawgus.cc",
       "url": "https://finessa-uitgawgus.cc/9346",
       "type": "phishing",
@@ -89065,28 +89153,6 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
-      "domain": "roblox.com.kz",
-      "url": "https://roblox.com.kz/users/1618139589/profile",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-06-20T19:33:59+00:00",
-      "lastSeen": "2026-06-20T19:52:08+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
-      "domain": "s4w.in",
-      "url": "https://s4w.in/https-roblox-com-users-1318139589-profile",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-06-20T19:33:56+00:00",
-      "lastSeen": "2026-06-20T19:52:08+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
       "domain": "roblox.com.mu",
       "url": "http://roblox.com.mu/communities/1721764381/REDLINER",
       "type": "phishing",
@@ -97907,17 +97973,6 @@
       "firstSeen": "2026-06-16T17:27:37+00:00",
       "lastSeen": "2026-06-16T20:52:42+00:00",
       "note": "Imported automatically from PhishTank verified-online feed."
-    },
-    {
-      "domain": "faecbook.vn",
-      "url": "https://faecbook.vn/aigapbannayodaulienhecohauta?a",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-06-16T20:32:20+00:00",
-      "lastSeen": "2026-06-16T20:52:41+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
       "domain": "absolutecaninepa.com",
@@ -108961,17 +109016,6 @@
       "source": "PhishTank public verified feed",
       "firstSeen": "2026-06-12T20:02:47+00:00",
       "lastSeen": "2026-06-12T20:22:44+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
-      "domain": "www.r.oblox.com.et",
-      "url": "https://www.r.oblox.com.et/users/3674226821/profile",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-06-12T20:15:31+00:00",
-      "lastSeen": "2026-06-12T20:22:43+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
@@ -138826,17 +138870,6 @@
       "source": "PhishTank public verified feed",
       "firstSeen": "2026-05-30T23:33:04+00:00",
       "lastSeen": "2026-05-30T23:52:33+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
-      "domain": "www.roblox.com.ml",
-      "url": "https://www.roblox.com.ml/users/132558458859/profile",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-05-30T23:30:23+00:00",
-      "lastSeen": "2026-05-30T23:32:58+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
@@ -248122,17 +248155,6 @@
       "source": "PhishTank public verified feed",
       "firstSeen": "2026-03-19T12:08:20+00:00",
       "lastSeen": "2026-03-19T12:22:00+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
-      "domain": "www.robiox.com.py",
-      "url": "https://www.robiox.com.py/users/470452629646/profile",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-03-19T12:01:37+00:00",
-      "lastSeen": "2026-03-19T12:12:01+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
@@ -359115,17 +359137,6 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
-      "domain": "to.lk",
-      "url": "https://to.lk/FaHBIe",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2024-07-15T12:32:47+00:00",
-      "lastSeen": "2024-07-15T16:53:13+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
       "domain": "tradesafe-info.webflow.io",
       "url": "https://tradesafe-info.webflow.io/eu/home",
       "type": "phishing",
@@ -419252,17 +419263,6 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
-      "domain": "ipfs.io",
-      "url": "https://ipfs.io/ipfs/QmURGbRPW3o6WmdiRMV7SHbashuUFkyaStL3V6WPT8g8q4",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2023-04-05T03:52:05+00:00",
-      "lastSeen": "2023-04-05T04:43:27+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
       "domain": "owa-90837.web.app",
       "url": "https://owa-90837.web.app/",
       "type": "phishing",
@@ -440504,61 +440504,6 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
-      "domain": "wellsfraudsupport.com",
-      "url": "https://wellsfraudsupport.com/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 90,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-08-02T08:41:43+00:00",
-      "lastSeen": "2026-08-02T08:52:20+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
-      "domain": "coenbaze.framer.ai",
-      "url": "https://coenbaze.framer.ai/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 90,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-08-02T08:47:58+00:00",
-      "lastSeen": "2026-08-02T08:52:20+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
-      "domain": "doc-ythvvbc.vercel.app",
-      "url": "https://doc-ythvvbc.vercel.app/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 90,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-08-02T08:49:40+00:00",
-      "lastSeen": "2026-08-02T08:52:20+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
-      "domain": "timeupdatecharter.framer.website",
-      "url": "https://timeupdatecharter.framer.website/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 90,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-08-02T08:44:59+00:00",
-      "lastSeen": "2026-08-02T08:52:20+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
-      "domain": "giant-ways-340713.framer.app",
-      "url": "https://giant-ways-340713.framer.app/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 90,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-08-02T08:46:44+00:00",
-      "lastSeen": "2026-08-02T08:52:20+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
       "domain": "www.wellsfraudsupport.com",
       "url": "https://www.wellsfraudsupport.com/",
       "type": "phishing",
@@ -440567,17 +440512,6 @@
       "source": "PhishTank public verified feed",
       "firstSeen": "2026-08-02T08:41:57+00:00",
       "lastSeen": "2026-08-02T08:52:20+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
-      "domain": "sharp-material-234227.framer.app",
-      "url": "https://sharp-material-234227.framer.app/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 90,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-08-02T08:37:56+00:00",
-      "lastSeen": "2026-08-02T08:42:37+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
@@ -440832,6 +440766,72 @@
       "firstSeen": "2026-08-02T03:05:31+00:00",
       "lastSeen": "2026-08-02T03:12:24+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "wellsfraudsupport.com",
+      "url": "https://wellsfraudsupport.com/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-08-02T08:41:43+00:00",
+      "lastSeen": "2026-08-02",
+      "note": "Imported automatically from OpenPhish community feed."
+    },
+    {
+      "domain": "coenbaze.framer.ai",
+      "url": "https://coenbaze.framer.ai/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-08-02T08:47:58+00:00",
+      "lastSeen": "2026-08-02",
+      "note": "Imported automatically from OpenPhish community feed."
+    },
+    {
+      "domain": "doc-ythvvbc.vercel.app",
+      "url": "https://doc-ythvvbc.vercel.app/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-08-02T08:49:40+00:00",
+      "lastSeen": "2026-08-02",
+      "note": "Imported automatically from OpenPhish community feed."
+    },
+    {
+      "domain": "timeupdatecharter.framer.website",
+      "url": "https://timeupdatecharter.framer.website/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-08-02T08:44:59+00:00",
+      "lastSeen": "2026-08-02",
+      "note": "Imported automatically from OpenPhish community feed."
+    },
+    {
+      "domain": "giant-ways-340713.framer.app",
+      "url": "http://giant-ways-340713.framer.app/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-08-02T08:46:44+00:00",
+      "lastSeen": "2026-08-02",
+      "note": "Imported automatically from OpenPhish community feed."
+    },
+    {
+      "domain": "sharp-material-234227.framer.app",
+      "url": "http://sharp-material-234227.framer.app/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-08-02T08:37:56+00:00",
+      "lastSeen": "2026-08-02",
+      "note": "Imported automatically from OpenPhish community feed."
     },
     {
       "domain": "factura-confirmacion.com",
@@ -513753,6 +513753,72 @@
       "note": "Imported automatically from URLhaus malware URL/domain data."
     },
     {
+      "domain": "218.56.204.114",
+      "url": "http://218.56.204.114:55973/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-08-02",
+      "lastSeen": "2026-08-02",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "112.248.143.58",
+      "url": "http://112.248.143.58:38518/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-08-02",
+      "lastSeen": "2026-08-02",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "123.9.195.250",
+      "url": "http://123.9.195.250:39192/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-08-02",
+      "lastSeen": "2026-08-02",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "27.202.209.142",
+      "url": "http://27.202.209.142:59324/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-08-02",
+      "lastSeen": "2026-08-02",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "123.12.198.224",
+      "url": "http://123.12.198.224:45753/i",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-08-02",
+      "lastSeen": "2026-08-02",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "182.117.76.135",
+      "url": "http://182.117.76.135:58019/i",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-08-02",
+      "lastSeen": "2026-08-02",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
       "domain": "46.163.134.250",
       "url": "http://46.163.134.250:44332/bin.sh",
       "type": "malware",
@@ -549978,72 +550044,6 @@
     {
       "domain": "175.23.100.11",
       "url": "http://175.23.100.11:54273/i",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-07-16",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "61.136.87.50",
-      "url": "http://61.136.87.50:36410/bin.sh",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-07-16",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "112.248.63.250",
-      "url": "http://112.248.63.250:57422/bin.sh",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-07-16",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "nvxwrvxi.tasisathosseini.shop",
-      "url": "https://nvxwrvxi.tasisathosseini.shop/9c260b7a-8b28-4593-af59-20a690d2d14a",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-07-16",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "222.141.42.12",
-      "url": "http://222.141.42.12:46172/bin.sh",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-07-16",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "shfbucmg.tarikhravannovin.shop",
-      "url": "https://shfbucmg.tarikhravannovin.shop/05f6b9a8-639e-432f-867d-0f987be08642",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-07-16",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "113.53.124.176",
-      "url": "http://113.53.124.176:41747/bin.sh",
       "type": "malware",
       "reports": 1,
       "confidence": 86,
