@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-03T18:01:24Z",
+  "generatedAt": "2026-08-03T19:52:01Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-08-03T18:01:16Z",
+      "checkedAt": "2026-08-03T19:51:57Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-08-03T18:01:16Z",
+      "checkedAt": "2026-08-03T19:51:57Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 69294,
-      "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-08-03T18:01:19Z",
+      "count": 69297,
+      "url": "https://data.phishtank.com/data/online-valid.csv",
+      "checkedAt": "2026-08-03T19:51:59Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 15473,
+      "count": 15482,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-08-03T18:01:20Z",
+      "checkedAt": "2026-08-03T19:51:59Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-08-03T18:01:20Z",
+      "checkedAt": "2026-08-03T19:52:00Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-08-03T18:01:20Z",
+      "checkedAt": "2026-08-03T19:52:00Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-08-03T18:01:20Z",
+      "checkedAt": "2026-08-03T19:52:00Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-08-03T18:01:21Z",
+      "checkedAt": "2026-08-03T19:52:00Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-08-03T18:01:23Z",
+      "checkedAt": "2026-08-03T19:52:01Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-08-03T18:01:24Z",
+      "checkedAt": "2026-08-03T19:52:01Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-08-03T18:01:24Z",
+      "checkedAt": "2026-08-03T19:52:01Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -119,6 +119,14 @@
       "note": "HTTP Error 403: Forbidden",
       "type": "source-status",
       "published": "2026-08-03"
+    },
+    {
+      "title": "CVE-2026-18577: exploited vulnerability in N-able N-central",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-08-03",
+      "note": "N-able N-central contains an authentication bypass using an alternate path or channel allows for authentication bypass and account takeover in N-central. This vulnerability is the result of an incomplete patch for CVE-2026-18556."
     },
     {
       "title": "CVE-2026-20316: exploited vulnerability in Cisco Secure Firewall Management Center (FMC)",
@@ -231,14 +239,6 @@
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
       "published": "2026-07-15",
       "note": "KNX Association KNX Protocol Connection Authorization Option 1 contains an overly restrictive account lockout mechanism vulnerability that could allow an attacker to purge all devices without additional security options enabled and set a BCU key to lock the device. "
-    },
-    {
-      "title": "CVE-2026-56155: exploited vulnerability in Microsoft Active Directory Federation Services",
-      "type": "known exploited vulnerability / hack risk",
-      "source": "CISA Known Exploited Vulnerabilities catalog",
-      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "published": "2026-07-14",
-      "note": "Microsoft Active Directory Federation Services contains an insufficient granularity of access control vulnerability that allows an authorized attacker to elevate privileges locally."
     },
     {
       "title": "CVE-2021-22205: recently changed critical CVE",
