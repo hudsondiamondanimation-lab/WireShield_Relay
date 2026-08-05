@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-05T20:16:22Z",
+  "generatedAt": "2026-08-05T21:35:44Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-08-05T20:16:15Z",
+      "checkedAt": "2026-08-05T21:35:39Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-08-05T20:16:15Z",
+      "checkedAt": "2026-08-05T21:35:39Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 69842,
+      "count": 69863,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-08-05T20:16:18Z",
+      "checkedAt": "2026-08-05T21:35:41Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 15600,
+      "count": 15613,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-08-05T20:16:19Z",
+      "checkedAt": "2026-08-05T21:35:42Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-08-05T20:16:19Z",
+      "checkedAt": "2026-08-05T21:35:42Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-08-05T20:16:19Z",
+      "checkedAt": "2026-08-05T21:35:42Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-08-05T20:16:20Z",
+      "checkedAt": "2026-08-05T21:35:42Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-08-05T20:16:20Z",
+      "checkedAt": "2026-08-05T21:35:43Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-08-05T20:16:21Z",
+      "checkedAt": "2026-08-05T21:35:44Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-08-05T20:16:22Z",
+      "checkedAt": "2026-08-05T21:35:44Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-08-05T20:16:22Z",
+      "checkedAt": "2026-08-05T21:35:44Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -253,7 +253,7 @@
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2012-4681",
-      "published": "2026-08-04T05:16:26.010",
+      "published": "2026-08-05T21:16:56.153",
       "note": "Multiple vulnerabilities in the Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 6 and earlier allow remote attackers to execute arbitrary code via a crafted applet that bypasses SecurityManager restrictions by (1) using com.sun.beans.finder.ClassFinder.findClass and leveraging an exception with the forName method to access restricted classes from arbitrary packages such as sun.awt.SunToolkit, then (2) using \"reflection with a trusted immediate caller\" to leverage the getField"
     },
     {
@@ -261,7 +261,7 @@
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-15107",
-      "published": "2026-08-04T05:16:26.863",
+      "published": "2026-08-05T21:16:56.520",
       "note": "An issue was discovered in Webmin <=1.920. The parameter old in password_change.cgi contains a command injection vulnerability."
     },
     {
@@ -269,7 +269,7 @@
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-22205",
-      "published": "2026-08-01T05:16:54.287",
+      "published": "2026-08-05T20:17:03.493",
       "note": "An issue has been discovered in GitLab CE/EE affecting all versions starting from 11.9. GitLab was not properly validating image files that were passed to a file parser which resulted in a remote command execution."
     },
     {
@@ -277,7 +277,7 @@
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-40438",
-      "published": "2026-08-01T05:16:54.497",
+      "published": "2026-08-05T20:17:03.720",
       "note": "A crafted request uri-path can cause mod_proxy to forward the request to an origin server choosen by the remote user. This issue affects Apache HTTP Server 2.4.48 and earlier."
     },
     {
