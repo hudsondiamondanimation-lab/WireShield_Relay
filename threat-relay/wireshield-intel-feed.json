@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-06T16:04:22Z",
+  "generatedAt": "2026-08-06T22:36:20Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-08-06T16:03:44Z",
+      "checkedAt": "2026-08-06T22:36:10Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-08-06T16:03:44Z",
+      "checkedAt": "2026-08-06T22:36:10Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 69904,
-      "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-08-06T16:03:46Z",
+      "count": 70042,
+      "url": "https://data.phishtank.com/data/online-valid.json",
+      "checkedAt": "2026-08-06T22:36:15Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 15766,
+      "count": 16092,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-08-06T16:03:46Z",
+      "checkedAt": "2026-08-06T22:36:16Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-08-06T16:03:47Z",
+      "checkedAt": "2026-08-06T22:36:16Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-08-06T16:03:47Z",
+      "checkedAt": "2026-08-06T22:36:17Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-08-06T16:03:47Z",
+      "checkedAt": "2026-08-06T22:36:17Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,17 +72,17 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-08-06T16:03:47Z",
+      "checkedAt": "2026-08-06T22:36:17Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
       "name": "NVD CVE API",
       "category": "hacks/vulnerabilities",
-      "status": "failed",
-      "count": 0,
+      "status": "ok",
+      "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-08-06T16:04:22Z",
-      "note": "The read operation timed out"
+      "checkedAt": "2026-08-06T22:36:19Z",
+      "note": "Recent critical CVEs imported."
     },
     {
       "name": "Have I Been Pwned breach catalog",
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-08-06T16:04:22Z",
+      "checkedAt": "2026-08-06T22:36:20Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-08-06T16:04:22Z",
+      "checkedAt": "2026-08-06T22:36:20Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -142,7 +142,7 @@
       "source": "CISA Known Exploited Vulnerabilities catalog",
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
       "published": "2026-08-04",
-      "note": "Apache Tomcat contains a missing encryption of sensitive data vulnerability that allows the bypass of the EncryptInterceptor."
+      "note": "Apache Tomcat contains a missing encryption of sensitive data vulnerability that allows the bypass of the EncryptInterceptor. This vulnerability can be chained with CVE‑2025‑24813."
     },
     {
       "title": "CVE-2026-9198: exploited vulnerability in IBM Langflow",
@@ -241,12 +241,100 @@
       "note": "Microsoft SharePoint contains a deserialization of untrusted data vulnerability that allows an unauthorized attacker to execute code over a network."
     },
     {
-      "title": "NVD CVE API unavailable",
-      "type": "source-status",
+      "title": "CVE-2012-1710: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/developers/vulnerabilities",
-      "published": "2026-08-06",
-      "note": "The read operation timed out"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2012-1710",
+      "published": "2026-08-04T05:16:24.223",
+      "note": "Unspecified vulnerability in the Oracle WebCenter Forms Recognition component in Oracle Fusion Middleware 10.1.3.5 allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Designer, a different vulnerability than CVE-2012-1709."
+    },
+    {
+      "title": "CVE-2012-4681: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2012-4681",
+      "published": "2026-08-06T05:16:34.310",
+      "note": "Multiple vulnerabilities in the Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 6 and earlier allow remote attackers to execute arbitrary code via a crafted applet that bypasses SecurityManager restrictions by (1) using com.sun.beans.finder.ClassFinder.findClass and leveraging an exception with the forName method to access restricted classes from arbitrary packages such as sun.awt.SunToolkit, then (2) using \"reflection with a trusted immediate caller\" to leverage the getField"
+    },
+    {
+      "title": "CVE-2019-15107: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-15107",
+      "published": "2026-08-06T05:16:35.140",
+      "note": "An issue was discovered in Webmin <=1.920. The parameter old in password_change.cgi contains a command injection vulnerability."
+    },
+    {
+      "title": "CVE-2021-22205: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-22205",
+      "published": "2026-08-06T05:16:35.427",
+      "note": "An issue has been discovered in GitLab CE/EE affecting all versions starting from 11.9. GitLab was not properly validating image files that were passed to a file parser which resulted in a remote command execution."
+    },
+    {
+      "title": "CVE-2021-40438: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-40438",
+      "published": "2026-08-06T05:16:35.670",
+      "note": "A crafted request uri-path can cause mod_proxy to forward the request to an origin server choosen by the remote user. This issue affects Apache HTTP Server 2.4.48 and earlier."
+    },
+    {
+      "title": "CVE-2021-44529: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-44529",
+      "published": "2026-08-04T05:16:27.567",
+      "note": "A code injection vulnerability in the Ivanti EPM Cloud Services Appliance (CSA) allows an unauthenticated user to execute arbitrary code with limited permissions (nobody)."
+    },
+    {
+      "title": "CVE-2022-29499: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-29499",
+      "published": "2026-08-06T05:16:37.230",
+      "note": "The Service Appliance component in Mitel MiVoice Connect through 19.2 SP3 allows remote code execution because of incorrect data validation. The Service Appliances are SA 100, SA 400, and Virtual SA."
+    },
+    {
+      "title": "CVE-2022-37042: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-37042",
+      "published": "2026-08-04T05:16:29.020",
+      "note": "Zimbra Collaboration Suite (ZCS) 8.8.15 and 9.0 has mboximport functionality that receives a ZIP archive and extracts files from it. By bypassing authentication (i.e., not having an authtoken), an attacker can upload arbitrary files to the system, leading to directory traversal and remote code execution. NOTE: this issue exists because of an incomplete fix for CVE-2022-27925."
+    },
+    {
+      "title": "CVE-2022-40684: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-40684",
+      "published": "2026-08-06T05:16:37.827",
+      "note": "An authentication bypass using an alternate path or channel [CWE-288] in Fortinet FortiOS version 7.2.0 through 7.2.1 and 7.0.0 through 7.0.6, FortiProxy version 7.2.0 and version 7.0.0 through 7.0.6 and FortiSwitchManager version 7.2.0 and 7.0.0 allows an unauthenticated atttacker to perform operations on the administrative interface via specially crafted HTTP or HTTPS requests."
+    },
+    {
+      "title": "CVE-2022-47966: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-47966",
+      "published": "2026-07-31T04:16:41.843",
+      "note": "Multiple Zoho ManageEngine on-premise products, such as ServiceDesk Plus through 14003, allow remote code execution due to use of Apache Santuario xmlsec (aka XML Security for Java) 1.4.1, because the xmlsec XSLT features, by design in that version, make the application responsible for certain security protections, and the ManageEngine applications did not provide those protections. This affects Access Manager Plus before 4308, Active Directory 360 before 4310, ADAudit Plus before 7081, ADManage"
+    },
+    {
+      "title": "CVE-2023-28461: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-28461",
+      "published": "2026-08-05T05:16:37.477",
+      "note": "Array Networks Array AG Series and vxAG (9.4.0.481 and earlier) allow remote code execution. An attacker can browse the filesystem on the SSL VPN gateway using a flags attribute in an HTTP header without authentication. The product could then be exploited through a vulnerable URL. The 2023-03-09 vendor advisory stated \"a new Array AG release with the fix will be available soon.\""
+    },
+    {
+      "title": "CVE-2023-2206: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-2206",
+      "published": "2026-07-31T18:26:49.717",
+      "note": "A vulnerability classified as critical has been found in Campcodes Retro Basketball Shoes Online Store 1.0. This affects an unknown part of the file contactus.php. The manipulation of the argument email leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-226971."
     },
     {
       "title": "Inter-Con Security",
