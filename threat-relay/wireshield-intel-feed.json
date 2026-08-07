@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-07T04:13:42Z",
+  "generatedAt": "2026-08-07T05:51:59Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-08-07T04:13:36Z",
+      "checkedAt": "2026-08-07T05:51:52Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,16 +18,16 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-08-07T04:13:36Z",
+      "checkedAt": "2026-08-07T05:51:52Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 70129,
+      "count": 70335,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-08-07T04:13:38Z",
+      "checkedAt": "2026-08-07T05:51:54Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
@@ -36,7 +36,7 @@
       "status": "ok",
       "count": 14625,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-08-07T04:13:38Z",
+      "checkedAt": "2026-08-07T05:51:55Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-08-07T04:13:39Z",
+      "checkedAt": "2026-08-07T05:51:55Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-08-07T04:13:39Z",
+      "checkedAt": "2026-08-07T05:51:55Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-08-07T04:13:39Z",
+      "checkedAt": "2026-08-07T05:51:55Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-08-07T04:13:39Z",
+      "checkedAt": "2026-08-07T05:51:56Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-08-07T04:13:41Z",
+      "checkedAt": "2026-08-07T05:51:58Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-08-07T04:13:42Z",
+      "checkedAt": "2026-08-07T05:51:59Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-08-07T04:13:42Z",
+      "checkedAt": "2026-08-07T05:51:59Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -313,14 +313,6 @@
       "note": "An authentication bypass using an alternate path or channel [CWE-288] in Fortinet FortiOS version 7.2.0 through 7.2.1 and 7.0.0 through 7.0.6, FortiProxy version 7.2.0 and version 7.0.0 through 7.0.6 and FortiSwitchManager version 7.2.0 and 7.0.0 allows an unauthenticated atttacker to perform operations on the administrative interface via specially crafted HTTP or HTTPS requests."
     },
     {
-      "title": "CVE-2022-47966: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-47966",
-      "published": "2026-07-31T04:16:41.843",
-      "note": "Multiple Zoho ManageEngine on-premise products, such as ServiceDesk Plus through 14003, allow remote code execution due to use of Apache Santuario xmlsec (aka XML Security for Java) 1.4.1, because the xmlsec XSLT features, by design in that version, make the application responsible for certain security protections, and the ManageEngine applications did not provide those protections. This affects Access Manager Plus before 4308, Active Directory 360 before 4310, ADAudit Plus before 7081, ADManage"
-    },
-    {
       "title": "CVE-2023-28461: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
@@ -335,6 +327,14 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-2206",
       "published": "2026-07-31T18:26:49.717",
       "note": "A vulnerability classified as critical has been found in Campcodes Retro Basketball Shoes Online Store 1.0. This affects an unknown part of the file contactus.php. The manipulation of the argument email leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-226971."
+    },
+    {
+      "title": "CVE-2023-3519: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-3519",
+      "published": "2026-08-05T05:16:39.130",
+      "note": "Unauthenticated remote code execution"
     },
     {
       "title": "Inter-Con Security",
