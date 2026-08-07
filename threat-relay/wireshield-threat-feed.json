@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-07T15:13:02Z",
+  "generatedAt": "2026-08-07T16:09:50Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-08-07T15:12:57Z",
+      "checkedAt": "2026-08-07T16:09:45Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,25 +20,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-08-07T15:12:57Z",
+      "checkedAt": "2026-08-07T16:09:45Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 70394,
+      "count": 70398,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-08-07T15:12:59Z",
+      "checkedAt": "2026-08-07T16:09:47Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 14856,
+      "count": 14866,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-08-07T15:13:00Z",
+      "checkedAt": "2026-08-07T16:09:47Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-08-07T15:13:00Z",
+      "checkedAt": "2026-08-07T16:09:48Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -454749,6 +454749,39 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
+      "domain": "prime-gerer-abonnement.com",
+      "url": "https://prime-gerer-abonnement.com/captcha.php",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-08-07T14:34:28+00:00",
+      "lastSeen": "2026-08-07T14:42:32+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "www.prime-gerer-abonnement.com",
+      "url": "https://www.prime-gerer-abonnement.com/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-08-07T14:34:03+00:00",
+      "lastSeen": "2026-08-07T14:42:32+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "pay.app-tools.online",
+      "url": "https://pay.app-tools.online/6a6d220c31a470da2704282a",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-08-07T14:25:44+00:00",
+      "lastSeen": "2026-08-07T14:32:23+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
       "domain": "us--start-en-trazor-io-com-cdn--en.typedream.app",
       "url": "https://us--start-en-trazor-io-com-cdn--en.typedream.app/",
       "type": "phishing",
@@ -526172,6 +526205,61 @@
       "note": "Imported automatically from URLhaus malware URL/domain data."
     },
     {
+      "domain": "124.95.24.225",
+      "url": "http://124.95.24.225:32836/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-08-07",
+      "lastSeen": "2026-08-07",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "222.137.25.131",
+      "url": "http://222.137.25.131:51261/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-08-07",
+      "lastSeen": "2026-08-07",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "123.14.181.142",
+      "url": "http://123.14.181.142:56703/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-08-07",
+      "lastSeen": "2026-08-07",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "quick-load.vercel.app",
+      "url": "https://quick-load.vercel.app/api/settings/windows",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-08-07",
+      "lastSeen": "2026-08-07",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "196.189.98.110",
+      "url": "http://196.189.98.110:42979/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-08-07",
+      "lastSeen": "2026-08-07",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
       "domain": "blue-paper-f69f.acrypters.workers.dev",
       "url": "https://blue-paper-f69f.acrypters.workers.dev/FTM0-40PO-AO28-G98E/img_zsykvq.png",
       "type": "malware",
@@ -549956,94 +550044,6 @@
     {
       "domain": "105.224.14.166",
       "url": "http://105.224.14.166:57541/bin.sh",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-07-26",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "182.117.68.242",
-      "url": "http://182.117.68.242:53312/i",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-07-26",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "105.184.80.27",
-      "url": "http://105.184.80.27:37441/bin.sh",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-07-26",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "185.205.226.191",
-      "url": "http://185.205.226.191:58124/bin.sh",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-07-26",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "171.213.175.245",
-      "url": "http://171.213.175.245:60875/i",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-07-26",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "rfhudhbz.313betsingup.casino",
-      "url": "https://rfhudhbz.313betsingup.casino/?ublib=25c2a4b7-0168-4108-ac3b-71609dc02175",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-07-26",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "110.37.32.20",
-      "url": "http://110.37.32.20:32966/bin.sh",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-07-26",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "182.119.228.137",
-      "url": "http://182.119.228.137:52060/bin.sh",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-07-26",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "110.38.230.102",
-      "url": "http://110.38.230.102:46215/bin.sh",
       "type": "malware",
       "reports": 1,
       "confidence": 86,
