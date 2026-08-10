@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-10T11:35:51Z",
+  "generatedAt": "2026-08-10T12:28:06Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-08-10T11:35:47Z",
+      "checkedAt": "2026-08-10T12:28:02Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,25 +20,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-08-10T11:35:48Z",
+      "checkedAt": "2026-08-10T12:28:02Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 71175,
+      "count": 71178,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-08-10T11:35:49Z",
+      "checkedAt": "2026-08-10T12:28:04Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 16242,
+      "count": 16246,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-08-10T11:35:50Z",
+      "checkedAt": "2026-08-10T12:28:04Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-08-10T11:35:50Z",
+      "checkedAt": "2026-08-10T12:28:04Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -766,6 +766,17 @@
       "firstSeen": "2026-07-29T11:45:50+00:00",
       "lastSeen": "2026-08-10",
       "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "i.gal",
+      "url": "https://i.gal/ZmUim",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-04-26T23:42:21+00:00",
+      "lastSeen": "2026-08-10",
+      "note": "Imported automatically from OpenPhish community feed."
     },
     {
       "domain": "ulys-rappel.fr",
@@ -19928,17 +19939,6 @@
       "firstSeen": "2026-08-02T03:05:31+00:00",
       "lastSeen": "2026-08-02T03:12:24+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
-      "domain": "i.gal",
-      "url": "https://i.gal/gmnrV",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-04-26T23:42:21+00:00",
-      "lastSeen": "2026-08-02",
-      "note": "Imported automatically from OpenPhish community feed."
     },
     {
       "domain": "factura-confirmacion.com",
@@ -460293,6 +460293,17 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
+      "domain": "fb-security-team.netlify.app",
+      "url": "https://fb-security-team.netlify.app/live",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-08-10T11:12:45+00:00",
+      "lastSeen": "2026-08-10T11:22:17+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
       "domain": "allegrolokalnie.pl-oferta63263263.surf",
       "url": "https://allegrolokalnie.pl-oferta63263263.surf/offer?id=9f950b4f64a849f59569c6afae18df07",
       "type": "phishing",
@@ -550033,17 +550044,6 @@
     {
       "domain": "221.15.184.63",
       "url": "http://221.15.184.63:56527/i",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-07-02",
-      "lastSeen": "2026-08-01",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "klqxthu.enfejar.poker",
-      "url": "https://klqxthu.enfejar.poker/1e70be9f-6442-432f-b0b8-cdd49eed1d86",
       "type": "malware",
       "reports": 1,
       "confidence": 86,
