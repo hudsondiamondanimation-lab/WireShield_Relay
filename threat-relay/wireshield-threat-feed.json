@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-11T22:06:43Z",
+  "generatedAt": "2026-08-11T22:57:42Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-08-11T22:06:37Z",
+      "checkedAt": "2026-08-11T22:57:38Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,7 +20,7 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-08-11T22:06:38Z",
+      "checkedAt": "2026-08-11T22:57:38Z",
       "note": "Public phishing URL feed imported."
     },
     {
@@ -29,16 +29,16 @@
       "status": "ok",
       "count": 71311,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-08-11T22:06:40Z",
+      "checkedAt": "2026-08-11T22:57:40Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 17000,
+      "count": 17002,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-08-11T22:06:41Z",
+      "checkedAt": "2026-08-11T22:57:40Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-08-11T22:06:41Z",
+      "checkedAt": "2026-08-11T22:57:41Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
