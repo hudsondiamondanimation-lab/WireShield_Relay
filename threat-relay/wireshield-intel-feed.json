@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-11T04:04:57Z",
+  "generatedAt": "2026-08-11T05:18:16Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-08-11T04:04:52Z",
+      "checkedAt": "2026-08-11T05:18:12Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-08-11T04:04:52Z",
+      "checkedAt": "2026-08-11T05:18:12Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 71279,
-      "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-08-11T04:04:54Z",
+      "count": 71287,
+      "url": "https://data.phishtank.com/data/online-valid.csv",
+      "checkedAt": "2026-08-11T05:18:14Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 15949,
+      "count": 15961,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-08-11T04:04:55Z",
+      "checkedAt": "2026-08-11T05:18:14Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-08-11T04:04:55Z",
+      "checkedAt": "2026-08-11T05:18:14Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-08-11T04:04:56Z",
+      "checkedAt": "2026-08-11T05:18:15Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-08-11T04:04:56Z",
+      "checkedAt": "2026-08-11T05:18:15Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-08-11T04:04:56Z",
+      "checkedAt": "2026-08-11T05:18:15Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-08-11T04:04:57Z",
+      "checkedAt": "2026-08-11T05:18:16Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-08-11T04:04:57Z",
+      "checkedAt": "2026-08-11T05:18:16Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-08-11T04:04:57Z",
+      "checkedAt": "2026-08-11T05:18:16Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -241,14 +241,6 @@
       "note": "DD-WRT contains a stack-based buffer overflow vulnerability that could allow an unauthenticated attacker to overflow an internal buffer used by UPnP and trigger a code execution vulnerability."
     },
     {
-      "title": "CVE-2012-1710: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2012-1710",
-      "published": "2026-08-04T05:16:24.223",
-      "note": "Unspecified vulnerability in the Oracle WebCenter Forms Recognition component in Oracle Fusion Middleware 10.1.3.5 allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Designer, a different vulnerability than CVE-2012-1709."
-    },
-    {
       "title": "CVE-2012-4681: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
@@ -289,28 +281,12 @@
       "note": "A crafted request uri-path can cause mod_proxy to forward the request to an origin server choosen by the remote user. This issue affects Apache HTTP Server 2.4.48 and earlier."
     },
     {
-      "title": "CVE-2021-44529: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-44529",
-      "published": "2026-08-04T05:16:27.567",
-      "note": "A code injection vulnerability in the Ivanti EPM Cloud Services Appliance (CSA) allows an unauthenticated user to execute arbitrary code with limited permissions (nobody)."
-    },
-    {
       "title": "CVE-2022-29499: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-29499",
       "published": "2026-08-06T05:16:37.230",
       "note": "The Service Appliance component in Mitel MiVoice Connect through 19.2 SP3 allows remote code execution because of incorrect data validation. The Service Appliances are SA 100, SA 400, and Virtual SA."
-    },
-    {
-      "title": "CVE-2022-37042: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-37042",
-      "published": "2026-08-04T05:16:29.020",
-      "note": "Zimbra Collaboration Suite (ZCS) 8.8.15 and 9.0 has mboximport functionality that receives a ZIP archive and extracts files from it. By bypassing authentication (i.e., not having an authtoken), an attacker can upload arbitrary files to the system, leading to directory traversal and remote code execution. NOTE: this issue exists because of an incomplete fix for CVE-2022-27925."
     },
     {
       "title": "CVE-2022-40684: recently changed critical CVE",
@@ -335,6 +311,30 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-3519",
       "published": "2026-08-05T05:16:39.130",
       "note": "Unauthenticated remote code execution"
+    },
+    {
+      "title": "CVE-2023-35078: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-35078",
+      "published": "2026-08-05T05:16:38.037",
+      "note": "An authentication bypass vulnerability in Ivanti EPMM allows unauthorized users to access restricted functionality or resources of the application without proper authentication."
+    },
+    {
+      "title": "CVE-2023-36903: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-36903",
+      "published": "2026-08-10T16:18:32.520",
+      "note": "Windows System Assessment Tool Elevation of Privilege Vulnerability"
+    },
+    {
+      "title": "CVE-2023-38186: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-38186",
+      "published": "2026-08-10T16:18:38.443",
+      "note": "Windows Mobile Device Management Elevation of Privilege Vulnerability"
     },
     {
       "title": "Alcon",
