@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-13T10:34:26Z",
+  "generatedAt": "2026-08-13T11:24:28Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-08-13T10:34:20Z",
+      "checkedAt": "2026-08-13T11:24:24Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-08-13T10:34:20Z",
+      "checkedAt": "2026-08-13T11:24:24Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 71609,
+      "count": 71613,
       "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-08-13T10:34:23Z",
+      "checkedAt": "2026-08-13T11:24:26Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 17045,
+      "count": 17047,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-08-13T10:34:23Z",
+      "checkedAt": "2026-08-13T11:24:26Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-08-13T10:34:24Z",
+      "checkedAt": "2026-08-13T11:24:27Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-08-13T10:34:24Z",
+      "checkedAt": "2026-08-13T11:24:27Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-08-13T10:34:24Z",
+      "checkedAt": "2026-08-13T11:24:27Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-08-13T10:34:24Z",
+      "checkedAt": "2026-08-13T11:24:27Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-08-13T10:34:25Z",
+      "checkedAt": "2026-08-13T11:24:28Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-08-13T10:34:26Z",
+      "checkedAt": "2026-08-13T11:24:28Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-08-13T10:34:26Z",
+      "checkedAt": "2026-08-13T11:24:28Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -337,6 +337,15 @@
       "note": "An issue was discovered in Citrix Application Delivery Controller (ADC) and Gateway 10.5, 11.1, 12.0, 12.1, and 13.0. They allow Directory Traversal."
     },
     {
+      "title": "RingCentral",
+      "type": "data breach",
+      "source": "Have I Been Pwned breach catalog",
+      "url": "https://haveibeenpwned.com/api/v3/breaches",
+      "published": "2026-08-13T10:54:40Z",
+      "affectedAccounts": 1596490,
+      "note": "In July 2026, the cloud-based business communications platform <a href=\"https://x.com/AlvieriD/status/2084262989448749447\" target=\"_blank\" rel=\"noopener\">RingCentral was the target of a ShinyHunters \"pay or leak\" extortion campaign</a>. The group subsequently published data they claimed was obtained from the platform, which included 1.6M unique email addresses along with names, physical addresses and phone numbers. <a href=\"https://www.ringcentral.com/trust-center/security-bulletin.html\" target="
+    },
+    {
       "title": "Alcon",
       "type": "data breach",
       "source": "Have I Been Pwned breach catalog",
@@ -434,15 +443,6 @@
       "published": "2026-07-11T10:40:09Z",
       "affectedAccounts": 793925,
       "note": "In June 2026, <a href=\"https://x.com/DarkWebInformer/status/2066611727106715692\" target=\"_blank\" rel=\"noopener\">Glendale Community College was the target of a ShinyHunters \"pay or leak\" extortion campaign</a>. Data allegedly obtained from Glendale was later published online and included almost 800k unique email addresses along with various other data fields, including names, addresses, phone numbers, Social Security numbers and other information relating to student enrolments. <a href=\"https://g"
-    },
-    {
-      "title": "Moody Bible Institute",
-      "type": "data breach",
-      "source": "Have I Been Pwned breach catalog",
-      "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "published": "2026-07-03T16:03:25Z",
-      "affectedAccounts": 2303416,
-      "note": "In June 2026, <a href=\"https://cyberinsider.com/moody-bible-institute-investigates-potential-data-breach-incident/\" target=\"_blank\" rel=\"noopener\">Moody Bible Institute was targeted by a ShinyHunters \"pay or leak\" extortion campaign</a>. Over 2.3M unique email addresses and other personal data were later published publicly, including names, physical addresses, phone numbers, dates of birth and other information relating to donors, supporters, students and alumni. <a href=\"https://www.moodybible."
     },
     {
       "title": "Data broker privacy watch",
