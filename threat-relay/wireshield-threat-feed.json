@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-15T21:51:48Z",
+  "generatedAt": "2026-08-15T22:13:39Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-08-15T21:51:42Z",
+      "checkedAt": "2026-08-15T22:13:34Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,7 +20,7 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-08-15T21:51:43Z",
+      "checkedAt": "2026-08-15T22:13:34Z",
       "note": "Public phishing URL feed imported."
     },
     {
@@ -29,16 +29,16 @@
       "status": "ok",
       "count": 71962,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-08-15T21:51:45Z",
+      "checkedAt": "2026-08-15T22:13:37Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 17073,
+      "count": 17076,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-08-15T21:51:45Z",
+      "checkedAt": "2026-08-15T22:13:37Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-08-15T21:51:46Z",
+      "checkedAt": "2026-08-15T22:13:38Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -536182,6 +536182,39 @@
       "note": "Imported automatically from URLhaus malware URL/domain data."
     },
     {
+      "domain": "123.10.155.173",
+      "url": "http://123.10.155.173:55027/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-08-15",
+      "lastSeen": "2026-08-15",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "182.116.118.104",
+      "url": "http://182.116.118.104:55662/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-08-15",
+      "lastSeen": "2026-08-15",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "39.90.150.62",
+      "url": "http://39.90.150.62:51319/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-08-15",
+      "lastSeen": "2026-08-15",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
       "domain": "110.39.231.61",
       "url": "http://110.39.231.61:53539/bin.sh",
       "type": "malware",
@@ -550011,39 +550044,6 @@
     {
       "domain": "98.91.254.110",
       "url": "http://98.91.254.110/bins/kalon.arm4",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-07-09",
-      "lastSeen": "2026-08-08",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "123.5.173.7",
-      "url": "http://123.5.173.7:58528/i",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-07-09",
-      "lastSeen": "2026-08-08",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "136.0.213.106",
-      "url": "https://136.0.213.106:5173/api/build/download/agent-windows-amd64-13949790.exe",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-07-09",
-      "lastSeen": "2026-08-08",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "221.15.191.16",
-      "url": "http://221.15.191.16:48827/bin.sh",
       "type": "malware",
       "reports": 1,
       "confidence": 86,
