@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-17T18:59:24Z",
+  "generatedAt": "2026-08-17T19:31:41Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-08-17T18:59:18Z",
+      "checkedAt": "2026-08-17T19:31:36Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,25 +20,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-08-17T18:59:18Z",
+      "checkedAt": "2026-08-17T19:31:37Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 72200,
+      "count": 72202,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-08-17T18:59:20Z",
+      "checkedAt": "2026-08-17T19:31:38Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 17107,
+      "count": 17109,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-08-17T18:59:21Z",
+      "checkedAt": "2026-08-17T19:31:39Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-08-17T18:59:21Z",
+      "checkedAt": "2026-08-17T19:31:39Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -469280,6 +469280,28 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
+      "domain": "allegrolokalnie.shttp.sbs",
+      "url": "http://allegrolokalnie.shttp.sbs",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-08-17T18:39:55+00:00",
+      "lastSeen": "2026-08-17T18:42:39+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "allegrolokalnie.pl-867387177425245.lol",
+      "url": "https://allegrolokalnie.pl-867387177425245.lol/gopro-hero-13-black-ultra-wide/78317",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-08-17T18:17:50+00:00",
+      "lastSeen": "2026-08-17T18:22:22+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
       "domain": "cimobile178.info",
       "url": "https://cimobile178.info/?vrair1chesse",
       "type": "phishing",
@@ -550022,28 +550044,6 @@
     {
       "domain": "ltvz.jadoou.biz",
       "url": "https://ltvz.jadoou.biz/8860b420-6636-47f5-9366-bc931f7e2d17",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-07-12",
-      "lastSeen": "2026-08-11",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "219.155.11.95",
-      "url": "http://219.155.11.95:50263/i",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-07-12",
-      "lastSeen": "2026-08-11",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "peiry.casinomilyon.bet",
-      "url": "https://peiry.casinomilyon.bet/746f1c39-d1a6-41f9-a6fa-e0602a2c4d76",
       "type": "malware",
       "reports": 1,
       "confidence": 86,
