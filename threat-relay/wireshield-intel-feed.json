@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-19T16:13:08Z",
+  "generatedAt": "2026-08-19T16:48:26Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-08-19T16:12:49Z",
+      "checkedAt": "2026-08-19T16:48:19Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-08-19T16:12:49Z",
+      "checkedAt": "2026-08-19T16:48:19Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 72485,
-      "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-08-19T16:12:51Z",
+      "count": 72495,
+      "url": "https://data.phishtank.com/data/online-valid.json",
+      "checkedAt": "2026-08-19T16:48:23Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 16888,
+      "count": 16889,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-08-19T16:12:52Z",
+      "checkedAt": "2026-08-19T16:48:23Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-08-19T16:12:52Z",
+      "checkedAt": "2026-08-19T16:48:24Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-08-19T16:12:53Z",
+      "checkedAt": "2026-08-19T16:48:24Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-08-19T16:12:53Z",
+      "checkedAt": "2026-08-19T16:48:24Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,17 +72,17 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-08-19T16:12:53Z",
+      "checkedAt": "2026-08-19T16:48:24Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
       "name": "NVD CVE API",
       "category": "hacks/vulnerabilities",
-      "status": "failed",
-      "count": 0,
+      "status": "ok",
+      "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-08-19T16:13:08Z",
-      "note": "HTTP Error 502: Bad Gateway"
+      "checkedAt": "2026-08-19T16:48:25Z",
+      "note": "Recent critical CVEs imported."
     },
     {
       "name": "Have I Been Pwned breach catalog",
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-08-19T16:13:08Z",
+      "checkedAt": "2026-08-19T16:48:26Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-08-19T16:13:08Z",
+      "checkedAt": "2026-08-19T16:48:26Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -241,12 +241,100 @@
       "note": "Cisco Secure Firewall Management Center (FMC) formerly known as Firepower Management Center contains a use of hard-coded password vulnerability that could allow an unauthenticated, remote attacker to log in to an affected device using a low-privileged account to access sensitive data within the impacted systems."
     },
     {
-      "title": "NVD CVE API unavailable",
-      "type": "source-status",
+      "title": "CVE-2010-2861: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/developers/vulnerabilities",
-      "published": "2026-08-19",
-      "note": "HTTP Error 502: Bad Gateway"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2010-2861",
+      "published": "2026-08-14T05:16:51.440",
+      "note": "Multiple directory traversal vulnerabilities in the administrator console in Adobe ColdFusion 9.0.1 and earlier allow remote attackers to read arbitrary files via the locale parameter to (1) CFIDE/administrator/settings/mappings.cfm, (2) logging/settings.cfm, (3) datasources/index.cfm, (4) j2eepackaging/editarchive.cfm, and (5) enter.cfm in CFIDE/administrator/."
+    },
+    {
+      "title": "CVE-2016-1019: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-1019",
+      "published": "2026-08-14T05:16:53.280",
+      "note": "Adobe Flash Player 21.0.0.197 and earlier allows remote attackers to cause a denial of service (application crash) or possibly execute arbitrary code via unspecified vectors, as exploited in the wild in April 2016."
+    },
+    {
+      "title": "CVE-2017-11357: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-11357",
+      "published": "2026-08-14T05:16:54.257",
+      "note": "Progress Telerik UI for ASP.NET AJAX before R2 2017 SP2 does not properly restrict user input to RadAsyncUpload, which allows remote attackers to perform arbitrary file uploads or execute arbitrary code."
+    },
+    {
+      "title": "CVE-2017-12149: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-12149",
+      "published": "2026-08-13T05:17:15.230",
+      "note": "In Jboss Application Server as shipped with Red Hat Enterprise Application Platform 5.2, it was found that the doFilter method in the ReadOnlyAccessFilter of the HTTP Invoker does not restrict classes for which it performs deserialization and thus allowing an attacker to execute arbitrary code via crafted serialized data."
+    },
+    {
+      "title": "CVE-2018-11138: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-11138",
+      "published": "2026-08-13T05:17:15.700",
+      "note": "The '/common/download_agent_installer.php' script in the Quest KACE System Management Appliance 8.0.318 is accessible by anonymous users and can be abused to execute arbitrary commands on the system."
+    },
+    {
+      "title": "CVE-2018-7602: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-7602",
+      "published": "2026-08-13T05:17:18.667",
+      "note": "A remote code execution vulnerability exists within multiple subsystems of Drupal 7.x and 8.x. This potentially allows attackers to exploit multiple attack vectors on a Drupal site, which could result in the site being compromised. This vulnerability is related to Drupal core - Highly critical - Remote Code Execution - SA-CORE-2018-002. Both SA-CORE-2018-002 and this vulnerability are being exploited in the wild."
+    },
+    {
+      "title": "CVE-2018-9206: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-9206",
+      "published": "2026-08-12T21:17:07.160",
+      "note": "Unauthenticated arbitrary file upload vulnerability in Blueimp jQuery-File-Upload <= v9.22.0"
+    },
+    {
+      "title": "CVE-2018-19323: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-19323",
+      "published": "2026-08-13T05:17:17.040",
+      "note": "The GDrv low-level driver in GIGABYTE APP Center v1.05.21 and earlier, AORUS GRAPHICS ENGINE before 1.57, XTREME GAMING ENGINE before 1.26, and OC GURU II v2.08 exposes functionality to read and write Machine Specific Registers (MSRs)."
+    },
+    {
+      "title": "CVE-2017-18362: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-18362",
+      "published": "2026-08-13T05:17:15.457",
+      "note": "ConnectWise ManagedITSync integration through 2017 for Kaseya VSA is vulnerable to unauthenticated remote commands that allow full direct access to the Kaseya VSA database. In February 2019, attackers have actively exploited this in the wild to download and execute ransomware payloads on all endpoints managed by the VSA server. If the ManagedIT.asmx page is available via the Kaseya VSA web interface, anyone with access to the page is able to run arbitrary SQL queries, both read and write, withou"
+    },
+    {
+      "title": "CVE-2018-20753: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-20753",
+      "published": "2026-08-13T05:17:18.220",
+      "note": "Kaseya VSA RMM before R9.3 9.3.0.35, R9.4 before 9.4.0.36, and R9.5 before 9.5.0.5 allows unprivileged remote attackers to execute PowerShell payloads on all managed devices. In January 2018, attackers actively exploited this vulnerability in the wild."
+    },
+    {
+      "title": "CVE-2019-11049: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-11049",
+      "published": "2026-08-17T14:50:49.470",
+      "note": "In PHP versions 7.3.x below 7.3.13 and 7.4.0 on Windows, when supplying custom headers to mail() function, due to mistake introduced in commit 78f4b4a2dcf92ddbccea1bb95f8390a18ac3342e, if the header is supplied in lowercase, this can result in double-freeing certain memory locations."
+    },
+    {
+      "title": "CVE-2018-19949: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-19949",
+      "published": "2026-08-13T05:17:17.430",
+      "note": "If exploited, this command injection vulnerability could allow remote attackers to run arbitrary commands. QNAP has already fixed the issue in the following QTS versions. QTS 4.4.2.1231 on build 20200302; QTS 4.4.1.1201 on build 20200130; QTS 4.3.6.1218 on build 20200214; QTS 4.3.4.1190 on build 20200107; QTS 4.3.3.1161 on build 20200109; QTS 4.2.6 on build 20200109."
     },
     {
       "title": "Oz Hair and Beauty",
