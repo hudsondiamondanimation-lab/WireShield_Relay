@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-20T18:00:40Z",
+  "generatedAt": "2026-08-20T18:54:44Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-08-20T18:00:34Z",
+      "checkedAt": "2026-08-20T18:54:39Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,25 +20,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-08-20T18:00:34Z",
+      "checkedAt": "2026-08-20T18:54:39Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 72704,
+      "count": 72713,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-08-20T18:00:36Z",
+      "checkedAt": "2026-08-20T18:54:41Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 16893,
+      "count": 16897,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-08-20T18:00:37Z",
+      "checkedAt": "2026-08-20T18:54:42Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-08-20T18:00:37Z",
+      "checkedAt": "2026-08-20T18:54:42Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -473636,6 +473636,94 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
+      "domain": "cz.pb3.duckdns.org",
+      "url": "https://cz.pb3.duckdns.org/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-08-20T17:57:59+00:00",
+      "lastSeen": "2026-08-20T18:03:03+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "allegrolokalnie.623655tp.top",
+      "url": "http://allegrolokalnie.623655tp.top",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-08-20T17:54:58+00:00",
+      "lastSeen": "2026-08-20T18:03:03+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "allegrolokalnie.pl-oferta921.top",
+      "url": "https://allegrolokalnie.pl-oferta921.top/oferta/Valve-Steam-Deck-OLED-1TB-stan-idealny-gwarancja-do-2028/898009302",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-08-20T17:54:07+00:00",
+      "lastSeen": "2026-08-20T18:03:03+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "dm.pb3.duckdns.org",
+      "url": "https://dm.pb3.duckdns.org/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-08-20T17:53:02+00:00",
+      "lastSeen": "2026-08-20T18:03:03+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "bn.pb3.duckdns.org",
+      "url": "https://bn.pb3.duckdns.org/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-08-20T17:44:35+00:00",
+      "lastSeen": "2026-08-20T17:52:36+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "antiavast.com",
+      "url": "https://antiavast.com/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-08-20T17:32:01+00:00",
+      "lastSeen": "2026-08-20T17:42:27+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "crear-solicitud-51892-produ.vercel.app",
+      "url": "https://crear-solicitud-51892-produ.vercel.app/creditos.html",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-08-20T17:27:20+00:00",
+      "lastSeen": "2026-08-20T17:32:24+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "signin2-accounts.prime-membership.com.wji.ont.mybluehost.me",
+      "url": "https://signin2-accounts.prime-membership.com.wji.ont.mybluehost.me/desktop/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-08-20T17:16:40+00:00",
+      "lastSeen": "2026-08-20T17:22:25+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
       "domain": "allegrolokalnie.pl-aibt8.sbs",
       "url": "https://allegrolokalnie.pl-aibt8.sbs/oferta/apple-macbook-air-13-inch-m2-8gb-ram-256gb-f5zh2",
       "type": "phishing",
@@ -538228,6 +538316,17 @@
       "note": "Imported automatically from URLhaus malware URL/domain data."
     },
     {
+      "domain": "42.56.136.70",
+      "url": "http://42.56.136.70:46446/i",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-08-20",
+      "lastSeen": "2026-08-20",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
       "domain": "124.6.169.54",
       "url": "http://124.6.169.54:35580/i",
       "type": "malware",
@@ -549945,105 +550044,6 @@
     {
       "domain": "leo-deluca.gamer.gd",
       "url": "https://leo-deluca.gamer.gd/img_063641.png",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-07-16",
-      "lastSeen": "2026-08-15",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "fortune-66seven.com",
-      "url": "https://fortune-66seven.com/fe6502e7eadd0f3f",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-07-16",
-      "lastSeen": "2026-08-15",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "89.106.83.40",
-      "url": "http://89.106.83.40/MayData/coursehope.ps1",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-07-16",
-      "lastSeen": "2026-08-15",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "115.48.162.25",
-      "url": "http://115.48.162.25:39646/i",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-07-16",
-      "lastSeen": "2026-08-15",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "tehseen.infinityfreeapp.com",
-      "url": "https://tehseen.infinityfreeapp.com/img_214410.png",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-07-16",
-      "lastSeen": "2026-08-15",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "usafansweepstakes2026.us",
-      "url": "http://usafansweepstakes2026.us/pure/1.jpg",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-07-16",
-      "lastSeen": "2026-08-15",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "91.92.240.121",
-      "url": "http://91.92.240.121/?sid=1782980667485-xm43ngcn",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-07-16",
-      "lastSeen": "2026-08-15",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "obele.rf.gd",
-      "url": "https://obele.rf.gd/img_015012.png",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-07-16",
-      "lastSeen": "2026-08-15",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "01pr.com.tr",
-      "url": "https://01pr.com.tr/shed/MSI_PRODJ5TH.png",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-07-16",
-      "lastSeen": "2026-08-15",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "tturfmcfk.adsbln4.xyz",
-      "url": "https://tturfmcfk.adsbln4.xyz/92adb49f-a237-46d4-8470-2e6a6f7f1b51",
       "type": "malware",
       "reports": 1,
       "confidence": 86,
