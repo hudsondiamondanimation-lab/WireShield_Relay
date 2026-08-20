@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-20T05:17:04Z",
+  "generatedAt": "2026-08-20T05:49:17Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-08-20T05:16:58Z",
+      "checkedAt": "2026-08-20T05:49:10Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,7 +18,7 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-08-20T05:16:58Z",
+      "checkedAt": "2026-08-20T05:49:10Z",
       "note": "Public phishing URL feed imported."
     },
     {
@@ -26,17 +26,17 @@
       "category": "scam/phishing",
       "status": "ok",
       "count": 72583,
-      "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-08-20T05:17:01Z",
+      "url": "https://data.phishtank.com/data/online-valid.json",
+      "checkedAt": "2026-08-20T05:49:13Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 16621,
+      "count": 16669,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-08-20T05:17:02Z",
+      "checkedAt": "2026-08-20T05:49:14Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-08-20T05:17:02Z",
+      "checkedAt": "2026-08-20T05:49:15Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-08-20T05:17:02Z",
+      "checkedAt": "2026-08-20T05:49:15Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-08-20T05:17:02Z",
+      "checkedAt": "2026-08-20T05:49:15Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-08-20T05:17:03Z",
+      "checkedAt": "2026-08-20T05:49:15Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-08-20T05:17:04Z",
+      "checkedAt": "2026-08-20T05:49:17Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-08-20T05:17:04Z",
+      "checkedAt": "2026-08-20T05:49:17Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-08-20T05:17:04Z",
+      "checkedAt": "2026-08-20T05:49:17Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -265,60 +265,12 @@
       "note": "Progress Telerik UI for ASP.NET AJAX before R2 2017 SP2 does not properly restrict user input to RadAsyncUpload, which allows remote attackers to perform arbitrary file uploads or execute arbitrary code."
     },
     {
-      "title": "CVE-2017-12149: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-12149",
-      "published": "2026-08-13T05:17:15.230",
-      "note": "In Jboss Application Server as shipped with Red Hat Enterprise Application Platform 5.2, it was found that the doFilter method in the ReadOnlyAccessFilter of the HTTP Invoker does not restrict classes for which it performs deserialization and thus allowing an attacker to execute arbitrary code via crafted serialized data."
-    },
-    {
-      "title": "CVE-2018-11138: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-11138",
-      "published": "2026-08-13T05:17:15.700",
-      "note": "The '/common/download_agent_installer.php' script in the Quest KACE System Management Appliance 8.0.318 is accessible by anonymous users and can be abused to execute arbitrary commands on the system."
-    },
-    {
-      "title": "CVE-2018-7602: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-7602",
-      "published": "2026-08-13T05:17:18.667",
-      "note": "A remote code execution vulnerability exists within multiple subsystems of Drupal 7.x and 8.x. This potentially allows attackers to exploit multiple attack vectors on a Drupal site, which could result in the site being compromised. This vulnerability is related to Drupal core - Highly critical - Remote Code Execution - SA-CORE-2018-002. Both SA-CORE-2018-002 and this vulnerability are being exploited in the wild."
-    },
-    {
       "title": "CVE-2018-18861: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-18861",
       "published": "2026-08-19T17:19:07.717",
       "note": "Buffer overflow in PCMan FTP Server 2.0.7 allows for remote code execution via the APPE command."
-    },
-    {
-      "title": "CVE-2018-19323: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-19323",
-      "published": "2026-08-13T05:17:17.040",
-      "note": "The GDrv low-level driver in GIGABYTE APP Center v1.05.21 and earlier, AORUS GRAPHICS ENGINE before 1.57, XTREME GAMING ENGINE before 1.26, and OC GURU II v2.08 exposes functionality to read and write Machine Specific Registers (MSRs)."
-    },
-    {
-      "title": "CVE-2017-18362: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-18362",
-      "published": "2026-08-13T05:17:15.457",
-      "note": "ConnectWise ManagedITSync integration through 2017 for Kaseya VSA is vulnerable to unauthenticated remote commands that allow full direct access to the Kaseya VSA database. In February 2019, attackers have actively exploited this in the wild to download and execute ransomware payloads on all endpoints managed by the VSA server. If the ManagedIT.asmx page is available via the Kaseya VSA web interface, anyone with access to the page is able to run arbitrary SQL queries, both read and write, withou"
-    },
-    {
-      "title": "CVE-2018-20753: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-20753",
-      "published": "2026-08-13T05:17:18.220",
-      "note": "Kaseya VSA RMM before R9.3 9.3.0.35, R9.4 before 9.4.0.36, and R9.5 before 9.5.0.5 allows unprivileged remote attackers to execute PowerShell payloads on all managed devices. In January 2018, attackers actively exploited this vulnerability in the wild."
     },
     {
       "title": "CVE-2019-11049: recently changed critical CVE",
@@ -335,6 +287,54 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-0901",
       "published": "2026-08-19T17:17:07.190",
       "note": "A remote code execution vulnerability exists in Microsoft Excel software when the software fails to properly handle objects in memory. An attacker who successfully exploited the vulnerability could run arbitrary code in the context of the current user. If the current user is logged on with administrative user rights, an attacker could take control of the affected system. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users who"
+    },
+    {
+      "title": "CVE-2020-25576: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-25576",
+      "published": "2026-08-19T19:21:55.070",
+      "note": "An issue was discovered in the rand_core crate before 0.4.2 for Rust. Casting of byte slices to integer slices mishandles alignment constraints."
+    },
+    {
+      "title": "CVE-2020-29574: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-29574",
+      "published": "2026-08-15T04:17:56.567",
+      "note": "An SQL injection vulnerability in the WebAdmin of Cyberoam OS through 2020-12-04 allows unauthenticated attackers to execute arbitrary SQL statements remotely."
+    },
+    {
+      "title": "CVE-2021-30116: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-30116",
+      "published": "2026-08-14T05:16:54.497",
+      "note": "Kaseya VSA before 9.5.7 allows credential disclosure, as exploited in the wild in July 2021. By default Kaseya VSA on premise offers a download page where the clients for the installation can be downloaded. The default URL for this page is https://x.x.x.x/dl.asp When an attacker download a client for Windows and installs it, the file KaseyaD.ini is generated (C:\\Program Files (x86)\\Kaseya\\XXXXXXXXXX\\KaseyaD.ini) which contains an Agent_Guid and AgentPassword This Agent_Guid and AgentPassword can"
+    },
+    {
+      "title": "CVE-2022-26486: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-26486",
+      "published": "2026-08-19T15:29:21.807",
+      "note": "An unexpected message in the WebGPU IPC framework could lead to a use-after-free and exploitable sandbox escape. We have had reports of attacks in the wild abusing this flaw. This vulnerability affects Firefox < 97.0.2, Firefox ESR < 91.6.1, Firefox for Android < 97.3.0, Thunderbird < 91.6.2, and Focus < 97.3.0."
+    },
+    {
+      "title": "CVE-2023-21716: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-21716",
+      "published": "2026-08-19T17:18:12.320",
+      "note": "Microsoft Word Remote Code Execution Vulnerability"
+    },
+    {
+      "title": "CVE-2023-0946: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-0946",
+      "published": "2026-08-19T15:53:48.010",
+      "note": "A vulnerability has been found in SourceCodester Best POS Management System 1.0 and classified as critical. Affected by this vulnerability is an unknown functionality of the file billing/index.php?id=9. The manipulation of the argument id leads to sql injection. The attack can be launched remotely. The identifier VDB-221593 was assigned to this vulnerability."
     },
     {
       "title": "Oz Hair and Beauty",
