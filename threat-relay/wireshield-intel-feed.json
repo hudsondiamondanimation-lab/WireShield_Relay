@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-22T03:53:41Z",
+  "generatedAt": "2026-08-22T04:25:08Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-08-22T03:53:36Z",
+      "checkedAt": "2026-08-22T04:25:03Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-08-22T03:53:36Z",
+      "checkedAt": "2026-08-22T04:25:03Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 72866,
+      "count": 72868,
       "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-08-22T03:53:38Z",
+      "checkedAt": "2026-08-22T04:25:06Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 16314,
+      "count": 16316,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-08-22T03:53:39Z",
+      "checkedAt": "2026-08-22T04:25:06Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-08-22T03:53:39Z",
+      "checkedAt": "2026-08-22T04:25:06Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-08-22T03:53:40Z",
+      "checkedAt": "2026-08-22T04:25:07Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-08-22T03:53:40Z",
+      "checkedAt": "2026-08-22T04:25:07Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-08-22T03:53:40Z",
+      "checkedAt": "2026-08-22T04:25:07Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-08-22T03:53:41Z",
+      "checkedAt": "2026-08-22T04:25:08Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-08-22T03:53:41Z",
+      "checkedAt": "2026-08-22T04:25:08Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-08-22T03:53:41Z",
+      "checkedAt": "2026-08-22T04:25:08Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -273,14 +273,6 @@
       "note": "An issue was discovered in the rand_core crate before 0.4.2 for Rust. Casting of byte slices to integer slices mishandles alignment constraints."
     },
     {
-      "title": "CVE-2020-29574: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-29574",
-      "published": "2026-08-15T04:17:56.567",
-      "note": "An SQL injection vulnerability in the WebAdmin of Cyberoam OS through 2020-12-04 allows unauthenticated attackers to execute arbitrary SQL statements remotely."
-    },
-    {
       "title": "CVE-2022-26486: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
@@ -335,6 +327,14 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-27205",
       "published": "2026-08-19T15:53:48.010",
       "note": "Best POS Management System 1.0 was discovered to contain a SQL injection vulnerability via the month parameter at /kruxton/sales_report.php."
+    },
+    {
+      "title": "CVE-2023-29534: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-29534",
+      "published": "2026-08-19T15:29:21.807",
+      "note": "Different techniques existed to obscure the fullscreen notification in Firefox and Focus for Android.  These could have led to potential user confusion and spoofing attacks.\n\n*This bug only affects Firefox and Focus for Android. Other versions of Firefox are unaffected.* This vulnerability affects Firefox for Android < 112 and Focus for Android < 112.\n\n"
     },
     {
       "title": "Oz Hair and Beauty",
