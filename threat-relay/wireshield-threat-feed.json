@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-22T22:14:30Z",
+  "generatedAt": "2026-08-22T22:40:51Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-08-22T22:14:25Z",
+      "checkedAt": "2026-08-22T22:40:46Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,25 +20,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-08-22T22:14:25Z",
+      "checkedAt": "2026-08-22T22:40:46Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 73006,
+      "count": 73011,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-08-22T22:14:27Z",
+      "checkedAt": "2026-08-22T22:40:48Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 16683,
+      "count": 16687,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-08-22T22:14:28Z",
+      "checkedAt": "2026-08-22T22:40:49Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-08-22T22:14:28Z",
+      "checkedAt": "2026-08-22T22:40:49Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -476199,6 +476199,50 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
+      "domain": "allegro.pi-ofeta089139.shop",
+      "url": "http://allegro.pi-ofeta089139.shop",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-08-22T22:10:30+00:00",
+      "lastSeen": "2026-08-22T22:12:27+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "ovh.auth-eu-manager.com",
+      "url": "https://ovh.auth-eu-manager.com/index.html",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-08-22T21:55:10+00:00",
+      "lastSeen": "2026-08-22T22:02:51+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "gtttt.top",
+      "url": "https://gtttt.top/jp",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-08-22T21:38:10+00:00",
+      "lastSeen": "2026-08-22T21:42:18+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "aomiaojituan.com",
+      "url": "https://aomiaojituan.com/uu/rCTqvwR4x2qafE01",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-08-22T20:05:49+00:00",
+      "lastSeen": "2026-08-22T21:22:21+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
       "domain": "www.xfinityrefunds.com",
       "url": "https://www.xfinityrefunds.com/token/A040ECD6920448619F6EE9C86AD3FEF8",
       "type": "phishing",
@@ -540571,6 +540615,28 @@
       "note": "Imported automatically from URLhaus malware URL/domain data."
     },
     {
+      "domain": "116.138.47.10",
+      "url": "http://116.138.47.10:38730/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-08-22",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "185.233.94.151",
+      "url": "http://185.233.94.151:57893/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-08-22",
+      "lastSeen": "2026-08-22",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
       "domain": "110.36.31.132",
       "url": "http://110.36.31.132:35333/i",
       "type": "malware",
@@ -549978,72 +550044,6 @@
     {
       "domain": "ktkxw.shimiaodaoflushing.com",
       "url": "https://ktkxw.shimiaodaoflushing.com/7e1ec835-3fbd-46e1-bf2f-16c135b18a52",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-07-18",
-      "lastSeen": "2026-08-17",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "115.50.26.53",
-      "url": "http://115.50.26.53:43885/bin.sh",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-07-18",
-      "lastSeen": "2026-08-17",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "8hrhd061.noodlesbymomi.com",
-      "url": "https://8hrhd061.noodlesbymomi.com/?ublib=5c06ebba-5495-4a7e-b9be-659530b8a60b",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-07-18",
-      "lastSeen": "2026-08-17",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "105.184.213.19",
-      "url": "http://105.184.213.19:56501/bin.sh",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-07-18",
-      "lastSeen": "2026-08-17",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "subterranean-mineral-map.garden",
-      "url": "https://subterranean-mineral-map.garden/440ca003-deeb-445c-a659-c09c09c88610/google.ct",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-07-18",
-      "lastSeen": "2026-08-17",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "spamgym.asia",
-      "url": "https://spamgym.asia/7a28b2c1-d858-4730-a6c5-efb8b85d586d/ton.ch/",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-07-18",
-      "lastSeen": "2026-08-17",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "125.43.8.8",
-      "url": "http://125.43.8.8:34827/i",
       "type": "malware",
       "reports": 1,
       "confidence": 86,
