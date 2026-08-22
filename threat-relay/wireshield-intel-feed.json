@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-22T07:09:31Z",
+  "generatedAt": "2026-08-22T07:44:06Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-08-22T07:09:26Z",
+      "checkedAt": "2026-08-22T07:44:01Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-08-22T07:09:26Z",
+      "checkedAt": "2026-08-22T07:44:01Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 72892,
+      "count": 72899,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-08-22T07:09:29Z",
+      "checkedAt": "2026-08-22T07:44:03Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 16354,
+      "count": 16361,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-08-22T07:09:30Z",
+      "checkedAt": "2026-08-22T07:44:04Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-08-22T07:09:30Z",
+      "checkedAt": "2026-08-22T07:44:04Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-08-22T07:09:30Z",
+      "checkedAt": "2026-08-22T07:44:04Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-08-22T07:09:30Z",
+      "checkedAt": "2026-08-22T07:44:04Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-08-22T07:09:31Z",
+      "checkedAt": "2026-08-22T07:44:05Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-08-22T07:09:31Z",
+      "checkedAt": "2026-08-22T07:44:06Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-08-22T07:09:31Z",
+      "checkedAt": "2026-08-22T07:44:06Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-08-22T07:09:31Z",
+      "checkedAt": "2026-08-22T07:44:06Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -337,6 +337,15 @@
       "note": "Different techniques existed to obscure the fullscreen notification in Firefox and Focus for Android.  These could have led to potential user confusion and spoofing attacks.\n\n*This bug only affects Firefox and Focus for Android. Other versions of Firefox are unaffected.* This vulnerability affects Firefox for Android < 112 and Focus for Android < 112.\n\n"
     },
     {
+      "title": "Golf Canada",
+      "type": "data breach",
+      "source": "Have I Been Pwned breach catalog",
+      "url": "https://haveibeenpwned.com/api/v3/breaches",
+      "published": "2026-08-22T07:17:23Z",
+      "affectedAccounts": 568972,
+      "note": "In mid-2026, hundreds of thousands of user records allegedly sourced from Golf Canada began circulating via Telegram. The data included 569k unique email addresses along with names, usernames, dates of birth, genders and approximate geographic locations (city, province and postcode). Golf Canada didn't respond to multiple attempts to make contact, and it remains unclear whether the data was obtained via unintentionally exposed website features or a security vulnerability."
+    },
+    {
       "title": "Oz Hair and Beauty",
       "type": "data breach",
       "source": "Have I Been Pwned breach catalog",
@@ -434,15 +443,6 @@
       "published": "2026-07-19T22:57:18Z",
       "affectedAccounts": 23272765,
       "note": "In March 2026, <a href=\"https://cybernews.com/security/paidwork-data-breach-22-million-users/\" target=\"_blank\" rel=\"noopener\">hackers claimed they had obtained data from the gig economy platform Paidwork which they then listed for sale</a>. Almost 11GB of data allegedly obtained from the platform was subsequently <a href=\"https://x.com/dailydarkweb/status/2078527237809131674?s=61&t=beHN95Zd9G3fQiuO1h_jzA\" target=\"_blank\" rel=\"noopener\">posted publicly in July</a> and contained over 23M unique em"
-    },
-    {
-      "title": "Fluke",
-      "type": "data breach",
-      "source": "Have I Been Pwned breach catalog",
-      "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "published": "2026-07-15T08:01:04Z",
-      "affectedAccounts": 821100,
-      "note": "In July 2026, electronic test and measurement equipment company <a href=\"https://breachnews.com/breaches/shinyhunters-adds-ingram-content-group-and-fluke-corporation-to-leak-site/\" target=\"_blank\" rel=\"noopener\">Fluke was targeted in a ShinyHunters \"pay or leak\" extortion campaign</a>. The group subsequently published more than 100GB of data allegedly taken from the company. The corpus contained largely corporate contact information, including over 800k unique email addresses, names, phone numbe"
     },
     {
       "title": "Data broker privacy watch",
