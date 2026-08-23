@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-23T22:14:43Z",
+  "generatedAt": "2026-08-23T22:40:31Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-08-23T22:14:39Z",
+      "checkedAt": "2026-08-23T22:40:25Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-08-23T22:14:39Z",
+      "checkedAt": "2026-08-23T22:40:25Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 73157,
+      "count": 73161,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-08-23T22:14:41Z",
+      "checkedAt": "2026-08-23T22:40:28Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 16358,
+      "count": 16360,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-08-23T22:14:41Z",
+      "checkedAt": "2026-08-23T22:40:28Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-08-23T22:14:41Z",
+      "checkedAt": "2026-08-23T22:40:29Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-08-23T22:14:42Z",
+      "checkedAt": "2026-08-23T22:40:29Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-08-23T22:14:42Z",
+      "checkedAt": "2026-08-23T22:40:29Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-08-23T22:14:42Z",
+      "checkedAt": "2026-08-23T22:40:29Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-08-23T22:14:43Z",
+      "checkedAt": "2026-08-23T22:40:31Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-08-23T22:14:43Z",
+      "checkedAt": "2026-08-23T22:40:31Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-08-23T22:14:43Z",
+      "checkedAt": "2026-08-23T22:40:31Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -337,6 +337,15 @@
       "note": "Different techniques existed to obscure the fullscreen notification in Firefox and Focus for Android.  These could have led to potential user confusion and spoofing attacks.\n\n*This bug only affects Firefox and Focus for Android. Other versions of Firefox are unaffected.* This vulnerability affects Firefox for Android < 112 and Focus for Android < 112.\n\n"
     },
     {
+      "title": "NIUS",
+      "type": "data breach",
+      "source": "Have I Been Pwned breach catalog",
+      "url": "https://haveibeenpwned.com/api/v3/breaches",
+      "published": "2026-08-23T22:25:44Z",
+      "affectedAccounts": 6090,
+      "note": "In July 2025, the German news service <a href=\"https://www.heise.de/en/news/Nius-data-leak-Stolen-data-is-genuine-10489398.html\" target=\"_blank\" rel=\"noopener\">NIUS suffered a data breach which was subsequently leaked publicly</a>. The data included 6k unique email addresses along with names, physical addresses and payment details for purchases including either IBANs or partial credit card data (masked card number, type and expiry)."
+    },
+    {
       "title": "Golf Canada",
       "type": "data breach",
       "source": "Have I Been Pwned breach catalog",
@@ -434,15 +443,6 @@
       "published": "2026-07-20T19:49:51Z",
       "affectedAccounts": 55282226,
       "note": "In November 2025, <a href=\"https://www.404media.co/hack-reveals-suno-ai-music-generator-scraped-youtube-deezer-and-genius/\" target=\"_blank\" rel=\"noopener\">AI music generation tool Suno suffered a data breach that later came to light in July the following year</a>. The data contained over 55M unique email addresses. Phone numbers were also present where they had been used as the sign-up method. Although representing a small portion of the corpus, the breach also included tens of thousands of Stri"
-    },
-    {
-      "title": "Paidwork",
-      "type": "data breach",
-      "source": "Have I Been Pwned breach catalog",
-      "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "published": "2026-07-19T22:57:18Z",
-      "affectedAccounts": 23272765,
-      "note": "In March 2026, <a href=\"https://cybernews.com/security/paidwork-data-breach-22-million-users/\" target=\"_blank\" rel=\"noopener\">hackers claimed they had obtained data from the gig economy platform Paidwork which they then listed for sale</a>. Almost 11GB of data allegedly obtained from the platform was subsequently <a href=\"https://x.com/dailydarkweb/status/2078527237809131674?s=61&t=beHN95Zd9G3fQiuO1h_jzA\" target=\"_blank\" rel=\"noopener\">posted publicly in July</a> and contained over 23M unique em"
     },
     {
       "title": "Data broker privacy watch",
