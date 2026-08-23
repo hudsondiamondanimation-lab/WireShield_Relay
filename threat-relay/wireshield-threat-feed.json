@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-23T14:02:26Z",
+  "generatedAt": "2026-08-23T14:34:31Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-08-23T14:02:22Z",
+      "checkedAt": "2026-08-23T14:34:27Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,25 +20,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-08-23T14:02:22Z",
+      "checkedAt": "2026-08-23T14:34:27Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 73071,
+      "count": 73073,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-08-23T14:02:24Z",
+      "checkedAt": "2026-08-23T14:34:29Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 16250,
+      "count": 16253,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-08-23T14:02:25Z",
+      "checkedAt": "2026-08-23T14:34:29Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-08-23T14:02:25Z",
+      "checkedAt": "2026-08-23T14:34:29Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -476628,6 +476628,17 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
+      "domain": "allegrolokalnie.lokalna-666.sbs",
+      "url": "http://allegrolokalnie.lokalna-666.sbs",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-08-23T13:44:17+00:00",
+      "lastSeen": "2026-08-23T13:52:28+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
       "domain": "www.wathi.org",
       "url": "https://www.wathi.org/am/nicktez/home/nkl-log.php",
       "type": "phishing",
@@ -537821,6 +537832,28 @@
       "note": "Imported automatically from URLhaus malware URL/domain data."
     },
     {
+      "domain": "123.11.11.199",
+      "url": "http://123.11.11.199:52066/bin.sh",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-08-23",
+      "lastSeen": "2026-08-23",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
+      "domain": "115.56.125.101",
+      "url": "http://115.56.125.101:36109/i",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-08-23",
+      "lastSeen": "2026-08-23",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
       "domain": "110.36.89.246",
       "url": "http://110.36.89.246:52906/bin.sh",
       "type": "malware",
@@ -550011,39 +550044,6 @@
     {
       "domain": "61.53.87.113",
       "url": "http://61.53.87.113:47958/i",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-07-19",
-      "lastSeen": "2026-08-18",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "yferx.gepco-energy.com",
-      "url": "https://yferx.gepco-energy.com/60aeb789-814e-4ec9-b068-c60fb2f29805",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-07-19",
-      "lastSeen": "2026-08-18",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "xxklt.gamehazarat.bet",
-      "url": "https://xxklt.gamehazarat.bet/54b765ef-e7c4-4460-aa6b-046dee5d0504",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-07-19",
-      "lastSeen": "2026-08-18",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "90.174.94.96",
-      "url": "http://90.174.94.96:45230/i",
       "type": "malware",
       "reports": 1,
       "confidence": 86,
