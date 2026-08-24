@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-24T18:03:24Z",
+  "generatedAt": "2026-08-24T18:54:15Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-08-24T18:02:44Z",
+      "checkedAt": "2026-08-24T18:54:10Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-08-24T18:02:44Z",
+      "checkedAt": "2026-08-24T18:54:10Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 73291,
+      "count": 73298,
       "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-08-24T18:02:47Z",
+      "checkedAt": "2026-08-24T18:54:13Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 16289,
+      "count": 16296,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-08-24T18:02:47Z",
+      "checkedAt": "2026-08-24T18:54:13Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-08-24T18:02:48Z",
+      "checkedAt": "2026-08-24T18:54:13Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-08-24T18:02:48Z",
+      "checkedAt": "2026-08-24T18:54:14Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-08-24T18:02:48Z",
+      "checkedAt": "2026-08-24T18:54:14Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,17 +72,17 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-08-24T18:02:48Z",
+      "checkedAt": "2026-08-24T18:54:14Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
       "name": "NVD CVE API",
       "category": "hacks/vulnerabilities",
-      "status": "failed",
-      "count": 0,
+      "status": "ok",
+      "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-08-24T18:03:23Z",
-      "note": "The read operation timed out"
+      "checkedAt": "2026-08-24T18:54:15Z",
+      "note": "Recent critical CVEs imported."
     },
     {
       "name": "Have I Been Pwned breach catalog",
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-08-24T18:03:24Z",
+      "checkedAt": "2026-08-24T18:54:15Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-08-24T18:03:24Z",
+      "checkedAt": "2026-08-24T18:54:15Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -119,6 +119,14 @@
       "note": "HTTP Error 403: Forbidden",
       "type": "source-status",
       "published": "2026-08-24"
+    },
+    {
+      "title": "CVE-2026-21962: exploited vulnerability in Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-08-24",
+      "note": "Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in contain an improper access control vulnerability that can result in unauthorized creation, deletion or modification access to critical data as well as unauthorized access to critical data or complete access to all Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in accessible data."
     },
     {
       "title": "CVE-2026-73570: exploited vulnerability in Synacor Zimbra Collaboration Suite (ZCS)",
@@ -233,20 +241,100 @@
       "note": "JetBrains TeamCity contains a deserialization of untrusted data vulnerability that could allow unauthenticated remote code execution via the agent polling protocol."
     },
     {
-      "title": "CVE-2026-18556: exploited vulnerability in N-able N-central",
-      "type": "known exploited vulnerability / hack risk",
-      "source": "CISA Known Exploited Vulnerabilities catalog",
-      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "published": "2026-08-04",
-      "note": "N-able N-central contains an authentication bypass using an alternate path or channel that allows for authentication bypass."
+      "title": "CVE-2018-18861: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-18861",
+      "published": "2026-08-19T17:19:07.717",
+      "note": "Buffer overflow in PCMan FTP Server 2.0.7 allows for remote code execution via the APPE command."
     },
     {
-      "title": "NVD CVE API unavailable",
-      "type": "source-status",
+      "title": "CVE-2019-1895: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/developers/vulnerabilities",
-      "published": "2026-08-24",
-      "note": "The read operation timed out"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-1895",
+      "published": "2026-08-24T18:22:58.150",
+      "note": "A vulnerability in the Virtual Network Computing (VNC) console implementation of Cisco Enterprise NFV Infrastructure Software (NFVIS) could allow an unauthenticated, remote attacker to access the VNC console session of an administrative user on an affected device. The vulnerability is due to an insufficient authentication mechanism used to establish a VNC session. An attacker could exploit this vulnerability by intercepting an administrator VNC session request prior to login. A successful exploi"
+    },
+    {
+      "title": "CVE-2019-1971: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-1971",
+      "published": "2026-08-24T18:22:58.150",
+      "note": "A vulnerability in the web portal of Cisco Enterprise NFV Infrastructure Software (NFVIS) could allow an unauthenticated, remote attacker to perform a command injection attack and execute arbitrary commands with root privileges. The vulnerability is due to insufficient input validation by the web portal framework. An attacker could exploit this vulnerability by providing malicious input during web portal authentication. A successful exploit could allow the attacker to execute arbitrary commands "
+    },
+    {
+      "title": "CVE-2020-0901: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-0901",
+      "published": "2026-08-19T17:17:07.190",
+      "note": "A remote code execution vulnerability exists in Microsoft Excel software when the software fails to properly handle objects in memory. An attacker who successfully exploited the vulnerability could run arbitrary code in the context of the current user. If the current user is logged on with administrative user rights, an attacker could take control of the affected system. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users who"
+    },
+    {
+      "title": "CVE-2020-25576: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-25576",
+      "published": "2026-08-19T19:21:55.070",
+      "note": "An issue was discovered in the rand_core crate before 0.4.2 for Rust. Casting of byte slices to integer slices mishandles alignment constraints."
+    },
+    {
+      "title": "CVE-2022-26486: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-26486",
+      "published": "2026-08-19T15:29:21.807",
+      "note": "An unexpected message in the WebGPU IPC framework could lead to a use-after-free and exploitable sandbox escape. We have had reports of attacks in the wild abusing this flaw. This vulnerability affects Firefox < 97.0.2, Firefox ESR < 91.6.1, Firefox for Android < 97.3.0, Thunderbird < 91.6.2, and Focus < 97.3.0."
+    },
+    {
+      "title": "CVE-2023-21716: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-21716",
+      "published": "2026-08-19T17:18:12.320",
+      "note": "Microsoft Word Remote Code Execution Vulnerability"
+    },
+    {
+      "title": "CVE-2023-0946: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-0946",
+      "published": "2026-08-19T15:53:48.010",
+      "note": "A vulnerability has been found in SourceCodester Best POS Management System 1.0 and classified as critical. Affected by this vulnerability is an unknown functionality of the file billing/index.php?id=9. The manipulation of the argument id leads to sql injection. The attack can be launched remotely. The identifier VDB-221593 was assigned to this vulnerability."
+    },
+    {
+      "title": "CVE-2023-27202: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-27202",
+      "published": "2026-08-19T15:53:48.010",
+      "note": "Best POS Management System 1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /kruxton/receipt.php."
+    },
+    {
+      "title": "CVE-2023-27203: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-27203",
+      "published": "2026-08-19T15:53:48.010",
+      "note": "Best POS Management System 1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /billing/home.php."
+    },
+    {
+      "title": "CVE-2023-27204: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-27204",
+      "published": "2026-08-19T15:53:48.010",
+      "note": "Best POS Management System 1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /kruxton/manage_user.php."
+    },
+    {
+      "title": "CVE-2023-27205: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-27205",
+      "published": "2026-08-19T15:53:48.010",
+      "note": "Best POS Management System 1.0 was discovered to contain a SQL injection vulnerability via the month parameter at /kruxton/sales_report.php."
     },
     {
       "title": "NIUS",
