@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-25T11:45:53Z",
+  "generatedAt": "2026-08-25T12:16:03Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-08-25T11:45:47Z",
+      "checkedAt": "2026-08-25T12:15:58Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,7 +20,7 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-08-25T11:45:47Z",
+      "checkedAt": "2026-08-25T12:15:58Z",
       "note": "Public phishing URL feed imported."
     },
     {
@@ -29,16 +29,16 @@
       "status": "ok",
       "count": 73366,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-08-25T11:45:50Z",
+      "checkedAt": "2026-08-25T12:16:00Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 16347,
+      "count": 16348,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-08-25T11:45:50Z",
+      "checkedAt": "2026-08-25T12:16:01Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-08-25T11:45:51Z",
+      "checkedAt": "2026-08-25T12:16:01Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -479456,7 +479456,7 @@
     },
     {
       "domain": "www.xfinityrefunds.com",
-      "url": "https://www.xfinityrefunds.com/token/C8856F283BB343BB8398A65D130AABCE",
+      "url": "https://www.xfinityrefunds.com/cardlogin",
       "type": "phishing",
       "reports": 1,
       "confidence": 90,
@@ -541803,6 +541803,17 @@
       "note": "Imported automatically from URLhaus malware URL/domain data."
     },
     {
+      "domain": "540239621396215402.raymelo.vu",
+      "url": "https://540239621396215402.raymelo.vu/en/ScreenConnect.ClientSetup.msi",
+      "type": "malware",
+      "reports": 1,
+      "confidence": 86,
+      "source": "URLhaus public recent CSV",
+      "firstSeen": "2026-08-25",
+      "lastSeen": "2026-08-25",
+      "note": "Imported automatically from URLhaus malware URL/domain data."
+    },
+    {
       "domain": "45.177.32.104",
       "url": "http://45.177.32.104:48133/bin.sh",
       "type": "malware",
@@ -550033,17 +550044,6 @@
     {
       "domain": "125.43.23.193",
       "url": "http://125.43.23.193:59317/bin.sh",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-07-21",
-      "lastSeen": "2026-08-21",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "219.155.82.113",
-      "url": "http://219.155.82.113:33700/bin.sh",
       "type": "malware",
       "reports": 1,
       "confidence": 86,
