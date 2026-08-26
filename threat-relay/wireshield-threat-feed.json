@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-26T01:53:42Z",
+  "generatedAt": "2026-08-26T02:58:29Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-08-26T01:53:35Z",
+      "checkedAt": "2026-08-26T02:58:23Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,25 +20,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-08-26T01:53:35Z",
+      "checkedAt": "2026-08-26T02:58:23Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 73500,
+      "count": 73502,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-08-26T01:53:37Z",
+      "checkedAt": "2026-08-26T02:58:25Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 15726,
+      "count": 15727,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-08-26T01:53:37Z",
+      "checkedAt": "2026-08-26T02:58:26Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-08-26T01:53:38Z",
+      "checkedAt": "2026-08-26T02:58:26Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -480533,6 +480533,17 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
+      "domain": "dvfbvvdvshghfdhhdhv.weebly.com",
+      "url": "https://dvfbvvdvshghfdhhdhv.weebly.com",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-08-26T02:08:07+00:00",
+      "lastSeen": "2026-08-26T02:12:10+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
       "domain": "ne12atualizaempresas.com",
       "url": "https://ne12atualizaempresas.com/fileira",
       "type": "phishing",
@@ -550033,17 +550044,6 @@
     {
       "domain": "110.39.237.192",
       "url": "http://110.39.237.192:56284/bin.sh",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-08-21",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "110.36.27.209",
-      "url": "http://110.36.27.209:46596/bin.sh",
       "type": "malware",
       "reports": 1,
       "confidence": 86,
