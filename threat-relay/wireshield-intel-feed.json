@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-28T04:03:56Z",
+  "generatedAt": "2026-08-28T16:33:30Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-08-28T04:03:50Z",
+      "checkedAt": "2026-08-28T16:33:24Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-08-28T04:03:50Z",
+      "checkedAt": "2026-08-28T16:33:25Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 73717,
-      "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-08-28T04:03:52Z",
+      "count": 73794,
+      "url": "https://data.phishtank.com/data/online-valid.json",
+      "checkedAt": "2026-08-28T16:33:27Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 15779,
+      "count": 16072,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-08-28T04:03:53Z",
+      "checkedAt": "2026-08-28T16:33:28Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-08-28T04:03:53Z",
+      "checkedAt": "2026-08-28T16:33:28Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-08-28T04:03:53Z",
+      "checkedAt": "2026-08-28T16:33:28Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-08-28T04:03:53Z",
+      "checkedAt": "2026-08-28T16:33:28Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-08-28T04:03:54Z",
+      "checkedAt": "2026-08-28T16:33:29Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-08-28T04:03:55Z",
+      "checkedAt": "2026-08-28T16:33:30Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-08-28T04:03:56Z",
+      "checkedAt": "2026-08-28T16:33:30Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-08-28T04:03:56Z",
+      "checkedAt": "2026-08-28T16:33:30Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -325,15 +325,15 @@
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-43902",
-      "published": "2026-08-27T16:57:46.303",
-      "note": "Incorrect access control in the Forgot Your Password function of EMSigner v2.8.7 allows unauthenticated attackers to access accounts of all registered users, including those with administrator privileges via a crafted password reset token."
+      "published": "2026-08-28T16:16:49.700",
+      "note": "Incorrect access control in the Forgot Your Password function of eMudhra emSigner v2.8.7 allows unauthenticated attackers to access accounts of all registered users, including those with administrator privileges via a crafted password reset token."
     },
     {
       "title": "CVE-2023-49105: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-49105",
-      "published": "2026-08-27T20:16:59.120",
+      "published": "2026-08-28T12:21:09.753",
       "note": "An issue was discovered in ownCloud owncloud/core before 10.13.1. An attacker can access, modify, or delete any file without authentication if the username of a victim is known, and the victim has no signing-key configured. This occurs because pre-signed URLs can be accepted even when no signing-key is configured for the owner of the files. The earliest affected version is 10.6.0."
     },
     {
