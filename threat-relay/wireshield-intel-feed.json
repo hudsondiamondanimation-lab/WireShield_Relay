@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-03T00:36:00Z",
+  "generatedAt": "2026-09-03T04:59:58Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-09-03T00:35:52Z",
+      "checkedAt": "2026-09-03T04:59:52Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,7 +18,7 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-09-03T00:35:52Z",
+      "checkedAt": "2026-09-03T04:59:52Z",
       "note": "Public phishing URL feed imported."
     },
     {
@@ -27,16 +27,16 @@
       "status": "ok",
       "count": 74280,
       "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-09-03T00:35:56Z",
+      "checkedAt": "2026-09-03T04:59:54Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 15198,
+      "count": 15229,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-09-03T00:35:57Z",
+      "checkedAt": "2026-09-03T04:59:55Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-09-03T00:35:57Z",
+      "checkedAt": "2026-09-03T04:59:55Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-09-03T00:35:58Z",
+      "checkedAt": "2026-09-03T04:59:56Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-09-03T00:35:58Z",
+      "checkedAt": "2026-09-03T04:59:56Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-09-03T00:35:58Z",
+      "checkedAt": "2026-09-03T04:59:56Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-09-03T00:36:00Z",
+      "checkedAt": "2026-09-03T04:59:57Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-09-03T00:36:00Z",
+      "checkedAt": "2026-09-03T04:59:58Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-09-03T00:36:00Z",
+      "checkedAt": "2026-09-03T04:59:58Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -257,14 +257,6 @@
       "note": "In Versa Director, the command injection is an attack in which the goal is execution of arbitrary commands on the host operating system via a vulnerable application. Command injection attacks are possible when an application passes unsafe user supplied data (forms, cookies, HTTP headers etc.) to a system shell. In this attack, the attacker-supplied operating system commands are usually executed with the privileges of the vulnerable application. Command injection attacks are possible largely due "
     },
     {
-      "title": "CVE-2021-23758: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-23758",
-      "published": "2026-08-27T04:16:38.863",
-      "note": "All versions of package ajaxpro.2 are vulnerable to Deserialization of Untrusted Data due to the possibility of deserialization of arbitrary .NET classes, which can be abused to gain remote code execution."
-    },
-    {
       "title": "CVE-2023-43902: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
@@ -281,60 +273,68 @@
       "note": "An issue was discovered in ownCloud owncloud/core before 10.13.1. An attacker can access, modify, or delete any file without authentication if the username of a victim is known, and the victim has no signing-key configured. This occurs because pre-signed URLs can be accepted even when no signing-key is configured for the owner of the files. The earliest affected version is 10.6.0."
     },
     {
-      "title": "CVE-2026-24874: recently changed critical CVE",
+      "title": "CVE-2023-7249: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24874",
-      "published": "2026-08-31T13:17:04.350",
-      "note": "Access of Resource Using Incompatible Type ('Type Confusion') vulnerability in themrdemonized xray-monolith.This issue affects xray-monolith: before 2025.12.30."
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-7249",
+      "published": "2026-09-03T02:15:17.453",
+      "note": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in OpenText OpenText Directory Services allows Path Traversal.This issue affects OpenText Directory Services: from 16.4.2 before 24.1."
     },
     {
-      "title": "CVE-2026-29063: recently changed critical CVE",
+      "title": "CVE-2023-7299: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-29063",
-      "published": "2026-08-31T13:17:33.920",
-      "note": "Immutable.js provides many Persistent Immutable data structures. Prior to versions 3.8.3, 4.3.7, and 5.1.5, Prototype Pollution is possible in immutable via the mergeDeep(), mergeDeepWith(), merge(), Map.toJS(), and Map.toObject() APIs. This issue has been patched in versions 3.8.3, 4.3.7, and 5.1.5."
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-7299",
+      "published": "2026-09-03T02:15:22.637",
+      "note": "A vulnerability was found in DataGear up to 4.60. It has been declared as critical. This vulnerability affects unknown code of the file /dataSet/resolveSql. The manipulation of the argument sql leads to sql injection. The attack can be initiated remotely. Upgrading to version 4.7.0 is able to address this issue. It is recommended to upgrade the affected component."
     },
     {
-      "title": "CVE-2026-1524: recently changed critical CVE",
+      "title": "CVE-2025-13786: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1524",
-      "published": "2026-08-28T16:08:38.363",
-      "note": "An edgecase in SSO implementation in Neo4j Enterprise edition versions prior to version 2026.02 can lead to unauthorised access under the following conditions:\n\n\nIf a neo4j admin configures two or more OIDC providers AND configures one or more of them to be an authorization provider AND configures one or more of them to be authentication-only, then those that are authentication-only will also provide authorization. This edgecase becomes a security problem only if the authentication-only provider"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-13786",
+      "published": "2026-09-03T03:15:08.610",
+      "note": "A vulnerability was detected in taosir WTCMS up to 01a5f68a3dfc2fdddb44eed967bb2d4f60487665. Impacted is the function fetch of the file /index.php. Performing manipulation of the argument content results in code injection. It is possible to initiate the attack remotely. The exploit is now public and may be used. This product is using a rolling release to provide continious delivery. Therefore, no version details for affected nor updated releases are available. The vendor was contacted early abou"
     },
     {
-      "title": "CVE-2026-27459: recently changed critical CVE",
+      "title": "CVE-2025-13787: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27459",
-      "published": "2026-08-31T13:17:33.347",
-      "note": "pyOpenSSL is a Python wrapper around the OpenSSL library. Starting in version 22.0.0 and prior to version 26.0.0, if a user provided callback to `set_cookie_generate_callback` returned a cookie value greater than 256 bytes, pyOpenSSL would overflow an OpenSSL provided buffer. Starting in version 26.0.0, cookie values that are too long are now rejected."
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-13787",
+      "published": "2026-09-03T03:15:09.007",
+      "note": "A flaw has been found in ZenTao up to 21.7.6-8564. The affected element is the function file::delete of the file module/file/control.php of the component File Handler. Executing manipulation of the argument fileID can lead to improper privilege management. It is possible to launch the attack remotely. Upgrading to version 21.7.7 is sufficient to fix this issue. You should upgrade the affected component."
     },
     {
-      "title": "CVE-2026-33228: recently changed critical CVE",
+      "title": "CVE-2025-13788: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33228",
-      "published": "2026-08-31T13:17:42.787",
-      "note": "flatted is a circular JSON parser. Prior to version 3.4.2, the parse() function in flatted can use attacker-controlled string values from the parsed JSON as direct array index keys, without validating that they are numeric. Since the internal input buffer is a JavaScript Array, accessing it with the key \"__proto__\" returns Array.prototype via the inherited getter. This object is then treated as a legitimate parsed value and assigned as a property of the output object, effectively leaking a live "
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-13788",
+      "published": "2026-09-03T03:15:09.387",
+      "note": "A vulnerability has been found in Chanjet CRM up to 20251106. The impacted element is an unknown function of the file /tools/upgradeattribute.php. The manipulation of the argument gblOrgID leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way."
     },
     {
-      "title": "CVE-2026-33896: recently changed critical CVE",
+      "title": "CVE-2025-13797: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33896",
-      "published": "2026-08-31T13:18:00.510",
-      "note": "Forge (also called `node-forge`) is a native implementation of Transport Layer Security in JavaScript. Prior to version 1.4.0, `pki.verifyCertificateChain()` does not enforce RFC 5280 basicConstraints requirements when an intermediate certificate lacks both the `basicConstraints` and `keyUsage` extensions. This allows any leaf certificate (without these extensions) to act as a CA and sign other certificates, which node-forge will accept as valid. Version 1.4.0 patches the issue."
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-13797",
+      "published": "2026-09-03T03:15:12.367",
+      "note": "A vulnerability was detected in ADSLR B-QE2W401 250814-r037c. Affected by this issue is the function parameterdel_swifimac of the file /send_order.cgi. Performing manipulation of the argument del_swifimac results in command injection. The attack is possible to be carried out remotely. The exploit is now public and may be used. The vendor was contacted early about this disclosure but did not respond in any way."
     },
     {
-      "title": "CVE-2026-4800: recently changed critical CVE",
+      "title": "CVE-2025-13799: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4800",
-      "published": "2026-08-31T13:18:20.320",
-      "note": "Impact:\n\nThe fix for CVE-2021-23337 (https://github.com/advisories/GHSA-35jh-r3h4-6jhm) added validation for the variable option in _.template but did not apply the same validation to options.imports key names. Both paths flow into the same Function() constructor sink.\n\nWhen an application passes untrusted input as options.imports key names, an attacker can inject default-parameter expressions that execute arbitrary code at template compilation time.\n\nAdditionally, _.template uses assignInWith t"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-13799",
+      "published": "2026-09-03T03:15:12.833",
+      "note": "A vulnerability has been found in ADSLR NBR1005GPEV2 250814-r037c. This vulnerability affects the function ap_macfilter_del of the file /send_order.cgi. The manipulation of the argument mac leads to command injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way."
+    },
+    {
+      "title": "CVE-2025-13800: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-13800",
+      "published": "2026-09-03T03:15:13.163",
+      "note": "A vulnerability was found in ADSLR NBR1005GPEV2 250814-r037c. This issue affects the function set_mesh_disconnect of the file /send_order.cgi. The manipulation of the argument mac results in command injection. It is possible to launch the attack remotely. The exploit has been made public and could be used. The vendor was contacted early about this disclosure but did not respond in any way."
     },
     {
       "title": "Manchester Airports Group",
@@ -342,7 +342,7 @@
       "source": "Have I Been Pwned breach catalog",
       "url": "https://haveibeenpwned.com/api/v3/breaches",
       "published": "2026-09-02T07:36:59Z",
-      "affectedAccounts": 8728451,
+      "affectedAccounts": 8849657,
       "note": "In August 2026, <a href=\"https://www.bleepingcomputer.com/news/security/manchester-airports-group-says-hackers-stole-travelers-data/\" target=\"_blank\" rel=\"noopener\">Manchester Airports Group (MAG) disclosed a data breach impacting their services</a>. The incident was <a href=\"https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/\" target=\"_blank\" rel=\"noopener\">later claimed by the FulcrumSec hacking group</a>, who subsequently published"
     },
     {
