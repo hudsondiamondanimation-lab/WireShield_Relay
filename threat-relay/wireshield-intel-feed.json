@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-04T13:08:53Z",
+  "generatedAt": "2026-09-04T16:50:24Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-09-04T13:08:47Z",
+      "checkedAt": "2026-09-04T16:50:17Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-09-04T13:08:47Z",
+      "checkedAt": "2026-09-04T16:50:17Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 74344,
+      "count": 74367,
       "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-09-04T13:08:50Z",
+      "checkedAt": "2026-09-04T16:50:22Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 15207,
+      "count": 15228,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-09-04T13:08:50Z",
+      "checkedAt": "2026-09-04T16:50:22Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-09-04T13:08:50Z",
+      "checkedAt": "2026-09-04T16:50:23Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-09-04T13:08:51Z",
+      "checkedAt": "2026-09-04T16:50:23Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-09-04T13:08:51Z",
+      "checkedAt": "2026-09-04T16:50:23Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-09-04T13:08:51Z",
+      "checkedAt": "2026-09-04T16:50:23Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-09-04T13:08:52Z",
+      "checkedAt": "2026-09-04T16:50:24Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-09-04T13:08:53Z",
+      "checkedAt": "2026-09-04T16:50:24Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-09-04T13:08:53Z",
+      "checkedAt": "2026-09-04T16:50:24Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -241,6 +241,14 @@
       "note": "Red Hat Automatic Bug Reporting Tool (ABRT) contains a privilege escalation vulnerability that could allow local users with certain permissions to gain privileges via a symlink attack on a file with a predictable name. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version."
     },
     {
+      "title": "CVE-2019-3773: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-3773",
+      "published": "2026-09-04T13:45:35.430",
+      "note": "Spring Web Services, versions 2.4.3, 3.0.4, and older unsupported versions of all three projects, were susceptible to XML External Entity Injection (XXE) when receiving XML data from untrusted sources."
+    },
+    {
       "title": "CVE-2019-3774: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
@@ -255,14 +263,6 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25029",
       "published": "2026-08-31T18:08:14.137",
       "note": "In Versa Director, the command injection is an attack in which the goal is execution of arbitrary commands on the host operating system via a vulnerable application. Command injection attacks are possible when an application passes unsafe user supplied data (forms, cookies, HTTP headers etc.) to a system shell. In this attack, the attacker-supplied operating system commands are usually executed with the privileges of the vulnerable application. Command injection attacks are possible largely due "
-    },
-    {
-      "title": "CVE-2023-43902: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-43902",
-      "published": "2026-08-28T16:16:49.700",
-      "note": "Incorrect access control in the Forgot Your Password function of eMudhra emSigner v2.8.7 allows unauthenticated attackers to access accounts of all registered users, including those with administrator privileges via a crafted password reset token."
     },
     {
       "title": "CVE-2023-7249: recently changed critical CVE",
