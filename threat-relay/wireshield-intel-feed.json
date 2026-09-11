@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-11T15:13:53Z",
+  "generatedAt": "2026-09-11T18:36:19Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-09-11T15:13:48Z",
+      "checkedAt": "2026-09-11T18:36:08Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-09-11T15:13:48Z",
+      "checkedAt": "2026-09-11T18:36:08Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 75472,
+      "count": 75517,
       "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-09-11T15:13:51Z",
+      "checkedAt": "2026-09-11T18:36:11Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 12916,
+      "count": 12931,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-09-11T15:13:52Z",
+      "checkedAt": "2026-09-11T18:36:16Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-09-11T15:13:52Z",
+      "checkedAt": "2026-09-11T18:36:16Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-09-11T15:13:52Z",
+      "checkedAt": "2026-09-11T18:36:17Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-09-11T15:13:52Z",
+      "checkedAt": "2026-09-11T18:36:17Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-09-11T15:13:52Z",
+      "checkedAt": "2026-09-11T18:36:17Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-09-11T15:13:53Z",
+      "checkedAt": "2026-09-11T18:36:18Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-09-11T15:13:53Z",
+      "checkedAt": "2026-09-11T18:36:19Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-09-11T15:13:53Z",
+      "checkedAt": "2026-09-11T18:36:19Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -119,6 +119,30 @@
       "note": "HTTP Error 403: Forbidden",
       "type": "source-status",
       "published": "2026-09-11"
+    },
+    {
+      "title": "CVE-2026-84869: exploited vulnerability in ConnectWise ScreenConnect",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-09-11",
+      "note": "ConnectWise ScreenConnect contains both an improper privilege management and missing authorization vulnerability that may allow an attacker to file transfer and execution through an active remote sessions without authorization or host confirmation."
+    },
+    {
+      "title": "CVE-2026-42016: exploited vulnerability in JFrog Artifactory",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-09-11",
+      "note": "JFrog Artifactory contains an incorrect authorization vulnerability that allows leads to privilege escalation attack due to a validation check of the token signature/issuer and not the token’s scope."
+    },
+    {
+      "title": "CVE-2026-42018: exploited vulnerability in JFrog Artifactory",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-09-11",
+      "note": "JFrog Artifactory contains an improper authentication vulnerability that could return an internal anonymous-user token to an unauthenticated caller when anonymous access is disabled, potentially exposing sensitive resources."
     },
     {
       "title": "CVE-2026-86060: exploited vulnerability in MikroTik RouterOS",
@@ -217,30 +241,6 @@
       "note": "BerriAI LiteLLM contains an improper authentication vulnerability in the MCP Streamable HTTP endpoint that could allow an unauthenticated attacker to establish an authenticated MCP session using an arbitrary Bearer token."
     },
     {
-      "title": "CVE-2026-48710: exploited vulnerability in Kludex Starlette",
-      "type": "known exploited vulnerability / hack risk",
-      "source": "CISA Known Exploited Vulnerabilities catalog",
-      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "published": "2026-09-02",
-      "note": "Kludex Starlette contains a HTTP request/response smuggling vulnerability that could allow attackers to inject paths into the host part, prepending the actual path leading to issues such as authentication bypass when the authentication depends on the reconstructed URL’s path. This vulnerability could be chaned with CVE-2026-42271."
-    },
-    {
-      "title": "CVE-2026-49869: exploited vulnerability in Kestra Kestra OSS",
-      "type": "known exploited vulnerability / hack risk",
-      "source": "CISA Known Exploited Vulnerabilities catalog",
-      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "published": "2026-09-02",
-      "note": "Kestra OSS contains an OS command injection vulnerability that could allow an unauthenticated remote attacker to create and execute arbitrary workflows without credentials."
-    },
-    {
-      "title": "CVE-2026-82329: exploited vulnerability in JFrog Artifactory",
-      "type": "known exploited vulnerability / hack risk",
-      "source": "CISA Known Exploited Vulnerabilities catalog",
-      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "published": "2026-09-02",
-      "note": "JFrog Artifactory contains an improper authentication vulnerability that under default configuration can allow an unauthenticated attacker with network access to obtain administrative privileges. "
-    },
-    {
       "title": "CVE-2016-4117: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
@@ -321,20 +321,20 @@
       "note": "Immutable.js provides many Persistent Immutable data structures. Prior to versions 3.8.3, 4.3.7, and 5.1.5, Prototype Pollution is possible in immutable via the mergeDeep(), mergeDeepWith(), merge(), Map.toJS(), and Map.toObject() APIs. This issue has been patched in versions 3.8.3, 4.3.7, and 5.1.5."
     },
     {
+      "title": "CVE-2026-28384: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28384",
+      "published": "2026-09-11T15:33:43.067",
+      "note": "An improper sanitization of the compression_algorithm parameter in Canonical LXD allows an authenticated, unprivileged user to execute commands as the LXD daemon on the LXD server via API calls to the image and backup endpoints. This issue affected LXD from 4.12 through 6.6 and was fixed in the snap versions 5.0.6-e49d9f4 (channel 5.0/stable), 5.21.4-1374f39 (channel 5.21/stable), and 6.7-1f11451 (channel 6.0 stable). The channel 4.0/stable is not affected as it contains version 4.0.10."
+    },
+    {
       "title": "CVE-2026-27459: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27459",
       "published": "2026-09-10T13:17:59.900",
       "note": "pyOpenSSL is a Python wrapper around the OpenSSL library. Starting in version 22.0.0 and prior to version 26.0.0, if a user provided callback to `set_cookie_generate_callback` returned a cookie value greater than 256 bytes, pyOpenSSL would overflow an OpenSSL provided buffer. Starting in version 26.0.0, cookie values that are too long are now rejected."
-    },
-    {
-      "title": "CVE-2026-4600: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4600",
-      "published": "2026-09-10T13:20:22.247",
-      "note": "Versions of the package jsrsasign before 11.1.1 are vulnerable to Improper Verification of Cryptographic Signature via the DSA domain-parameter validation in KJUR.crypto.DSA.setPublic (and the related DSA/X509 verification flow in src/dsa-2.0.js). An attacker can forge DSA signatures or X.509 certificates that X509.verifySignature() accepts by supplying malicious domain parameters such as g=1, y=1, and a fixed r=1, which make the verification equation true for any hash."
     },
     {
       "title": "McKesson",
