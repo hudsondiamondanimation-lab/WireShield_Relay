@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-12T09:54:03Z",
+  "generatedAt": "2026-09-12T13:17:17Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-09-12T09:53:58Z",
+      "checkedAt": "2026-09-12T13:17:14Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,25 +20,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-09-12T09:53:58Z",
+      "checkedAt": "2026-09-12T13:17:14Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 75721,
+      "count": 75724,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-09-12T09:54:00Z",
+      "checkedAt": "2026-09-12T13:17:15Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 12476,
+      "count": 12627,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-09-12T09:54:01Z",
+      "checkedAt": "2026-09-12T13:17:15Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-09-12T09:54:01Z",
+      "checkedAt": "2026-09-12T13:17:16Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -500278,6 +500278,28 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
+      "domain": "dpd.774021938.cfd",
+      "url": "https://dpd.774021938.cfd/3uyom7F8NwvNcDrj",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-09-12T11:02:33+00:00",
+      "lastSeen": "2026-09-12T11:11:35+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "allegrolokalnie.u04ba.lat",
+      "url": "https://allegrolokalnie.u04ba.lat/jacuzzi-intex-pure-spa-6-osobo/27233",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-09-12T09:35:39+00:00",
+      "lastSeen": "2026-09-12T09:41:10+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
       "domain": "ma-facturation-amz.com",
       "url": "https://ma-facturation-amz.com/pages/mobile/remboursement/prime/confirmation.php",
       "type": "phishing",
@@ -550022,28 +550044,6 @@
     {
       "domain": "59.96.138.6",
       "url": "http://59.96.138.6:59793/bin.sh",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-09-12",
-      "lastSeen": "2026-09-12",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "115.52.179.227",
-      "url": "http://115.52.179.227:44220/i",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-09-12",
-      "lastSeen": "2026-09-12",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "115.50.218.143",
-      "url": "http://115.50.218.143:58288/bin.sh",
       "type": "malware",
       "reports": 1,
       "confidence": 86,
