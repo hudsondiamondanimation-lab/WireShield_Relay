@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-15T15:03:13Z",
+  "generatedAt": "2026-09-15T18:54:56Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-09-15T15:03:08Z",
+      "checkedAt": "2026-09-15T18:54:50Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-09-15T15:03:08Z",
+      "checkedAt": "2026-09-15T18:54:50Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 76089,
+      "count": 76129,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-09-15T15:03:10Z",
+      "checkedAt": "2026-09-15T18:54:52Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 12858,
+      "count": 12932,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-09-15T15:03:10Z",
+      "checkedAt": "2026-09-15T18:54:53Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-09-15T15:03:11Z",
+      "checkedAt": "2026-09-15T18:54:53Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-09-15T15:03:11Z",
+      "checkedAt": "2026-09-15T18:54:53Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-09-15T15:03:11Z",
+      "checkedAt": "2026-09-15T18:54:53Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-09-15T15:03:11Z",
+      "checkedAt": "2026-09-15T18:54:53Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-09-15T15:03:12Z",
+      "checkedAt": "2026-09-15T18:54:55Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-09-15T15:03:13Z",
+      "checkedAt": "2026-09-15T18:54:56Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-09-15T15:03:13Z",
+      "checkedAt": "2026-09-15T18:54:56Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -249,6 +249,22 @@
       "note": "Adobe Flash Player 21.0.0.226 and earlier allows remote attackers to execute arbitrary code via unspecified vectors, as exploited in the wild in May 2016."
     },
     {
+      "title": "CVE-2019-7105: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-7105",
+      "published": "2026-09-15T15:33:14.803",
+      "note": "Adobe XD versions 16.0 and earlier have a path traversal vulnerability. Successful exploitation could lead to arbitrary code execution."
+    },
+    {
+      "title": "CVE-2019-7106: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-7106",
+      "published": "2026-09-15T15:33:05.933",
+      "note": "Adobe XD versions 16.0 and earlier have a path traversal vulnerability. Successful exploitation could lead to arbitrary code execution."
+    },
+    {
       "title": "CVE-2020-14498: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
@@ -319,22 +335,6 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-29063",
       "published": "2026-09-10T13:18:02.623",
       "note": "Immutable.js provides many Persistent Immutable data structures. Prior to versions 3.8.3, 4.3.7, and 5.1.5, Prototype Pollution is possible in immutable via the mergeDeep(), mergeDeepWith(), merge(), Map.toJS(), and Map.toObject() APIs. This issue has been patched in versions 3.8.3, 4.3.7, and 5.1.5."
-    },
-    {
-      "title": "CVE-2026-28384: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28384",
-      "published": "2026-09-11T15:33:43.067",
-      "note": "An improper sanitization of the compression_algorithm parameter in Canonical LXD allows an authenticated, unprivileged user to execute commands as the LXD daemon on the LXD server via API calls to the image and backup endpoints. This issue affected LXD from 4.12 through 6.6 and was fixed in the snap versions 5.0.6-e49d9f4 (channel 5.0/stable), 5.21.4-1374f39 (channel 5.21/stable), and 6.7-1f11451 (channel 6.0 stable). The channel 4.0/stable is not affected as it contains version 4.0.10."
-    },
-    {
-      "title": "CVE-2026-27459: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27459",
-      "published": "2026-09-10T13:17:59.900",
-      "note": "pyOpenSSL is a Python wrapper around the OpenSSL library. Starting in version 22.0.0 and prior to version 26.0.0, if a user provided callback to `set_cookie_generate_callback` returned a cookie value greater than 256 bytes, pyOpenSSL would overflow an OpenSSL provided buffer. Starting in version 26.0.0, cookie values that are too long are now rejected."
     },
     {
       "title": "Chess.com (2026)",
