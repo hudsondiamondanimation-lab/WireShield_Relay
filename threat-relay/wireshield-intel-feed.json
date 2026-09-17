@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-17T06:12:02Z",
+  "generatedAt": "2026-09-17T11:46:29Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-09-17T06:11:56Z",
+      "checkedAt": "2026-09-17T11:46:18Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-09-17T06:11:56Z",
+      "checkedAt": "2026-09-17T11:46:19Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 76334,
-      "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-09-17T06:11:58Z",
+      "count": 76362,
+      "url": "https://data.phishtank.com/data/online-valid.json",
+      "checkedAt": "2026-09-17T11:46:21Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 12836,
+      "count": 12872,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-09-17T06:11:58Z",
+      "checkedAt": "2026-09-17T11:46:22Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-09-17T06:11:58Z",
+      "checkedAt": "2026-09-17T11:46:22Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-09-17T06:11:59Z",
+      "checkedAt": "2026-09-17T11:46:22Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-09-17T06:11:59Z",
+      "checkedAt": "2026-09-17T11:46:22Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-09-17T06:11:59Z",
+      "checkedAt": "2026-09-17T11:46:22Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-09-17T06:12:01Z",
+      "checkedAt": "2026-09-17T11:46:28Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-09-17T06:12:02Z",
+      "checkedAt": "2026-09-17T11:46:29Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-09-17T06:12:02Z",
+      "checkedAt": "2026-09-17T11:46:29Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -281,14 +281,6 @@
       "note": "An arbitrary file upload vulnerability in Xpand IT Write-back Manager v2.3.1 allows attackers to execute arbitrary code via a crafted jsp file."
     },
     {
-      "title": "CVE-2024-22373: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-22373",
-      "published": "2026-09-10T06:17:01.230",
-      "note": "An out-of-bounds write vulnerability exists in the JPEG2000Codec::DecodeByStreamsCommon functionality of Mathieu Malaterre Grassroot DICOM 3.0.23. A specially crafted DICOM file can lead to a heap buffer overflow. An attacker can provide a malicious file to trigger this vulnerability."
-    },
-    {
       "title": "CVE-2025-25249: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
@@ -335,6 +327,14 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28384",
       "published": "2026-09-11T15:33:43.067",
       "note": "An improper sanitization of the compression_algorithm parameter in Canonical LXD allows an authenticated, unprivileged user to execute commands as the LXD daemon on the LXD server via API calls to the image and backup endpoints. This issue affected LXD from 4.12 through 6.6 and was fixed in the snap versions 5.0.6-e49d9f4 (channel 5.0/stable), 5.21.4-1374f39 (channel 5.21/stable), and 6.7-1f11451 (channel 6.0 stable). The channel 4.0/stable is not affected as it contains version 4.0.10."
+    },
+    {
+      "title": "CVE-2026-27459: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27459",
+      "published": "2026-09-10T13:17:59.900",
+      "note": "pyOpenSSL is a Python wrapper around the OpenSSL library. Starting in version 22.0.0 and prior to version 26.0.0, if a user provided callback to `set_cookie_generate_callback` returned a cookie value greater than 256 bytes, pyOpenSSL would overflow an OpenSSL provided buffer. Starting in version 26.0.0, cookie values that are too long are now rejected."
     },
     {
       "title": "Chess.com (2026)",
