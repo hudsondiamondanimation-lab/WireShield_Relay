@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-18T13:42:25Z",
+  "generatedAt": "2026-09-18T17:15:35Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-09-18T13:42:19Z",
+      "checkedAt": "2026-09-18T17:15:30Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-09-18T13:42:19Z",
+      "checkedAt": "2026-09-18T17:15:30Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 76519,
-      "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-09-18T13:42:22Z",
+      "count": 76524,
+      "url": "https://data.phishtank.com/data/online-valid.csv",
+      "checkedAt": "2026-09-18T17:15:32Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 12985,
+      "count": 13075,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-09-18T13:42:22Z",
+      "checkedAt": "2026-09-18T17:15:32Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-09-18T13:42:23Z",
+      "checkedAt": "2026-09-18T17:15:32Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-09-18T13:42:23Z",
+      "checkedAt": "2026-09-18T17:15:33Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-09-18T13:42:23Z",
+      "checkedAt": "2026-09-18T17:15:33Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-09-18T13:42:23Z",
+      "checkedAt": "2026-09-18T17:15:33Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-09-18T13:42:24Z",
+      "checkedAt": "2026-09-18T17:15:34Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-09-18T13:42:25Z",
+      "checkedAt": "2026-09-18T17:15:35Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-09-18T13:42:25Z",
+      "checkedAt": "2026-09-18T17:15:35Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -119,6 +119,22 @@
       "note": "HTTP Error 403: Forbidden",
       "type": "source-status",
       "published": "2026-09-18"
+    },
+    {
+      "title": "CVE-2025-39964: exploited vulnerability in Linux Kernel",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-09-18",
+      "note": "Linux Kernel contains a race condition vulnerability which allows concurrent writes to the same AF_ALG socket causing data to be unpredictably interleaved and creating inconsistencies in the socket's internal state."
+    },
+    {
+      "title": "CVE-2026-53266: exploited vulnerability in Linux Kernel",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-09-18",
+      "note": "Linux Kernel contains an out-of-bounds write vulnerability in the ebtables SNAT target which allows an ARP sender hardware address rewrite to write directly into a nonlinear socket-buffer fragment backed by a splice-imported file page. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version."
     },
     {
       "title": "CVE-2026-58704: exploited vulnerability in Google Pixel",
@@ -225,22 +241,6 @@
       "note": "Google Chromium V8 contains an out of bounds write vulnerability that allows a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera."
     },
     {
-      "title": "CVE-2026-20079: exploited vulnerability in Cisco Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management",
-      "type": "known exploited vulnerability / hack risk",
-      "source": "CISA Known Exploited Vulnerabilities catalog",
-      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "published": "2026-09-09",
-      "note": "Cisco Secure Firewall Management Center (FMC) Software and Cisco Security Cloud Control (SCC) Firewall Management contain an authentication Bypass using an alternate path or channel vulnerability that could allow an unauthenticated, remote attacker to bypass authentication and execute script files on an affected device to obtain root access to the underlying operating system."
-    },
-    {
-      "title": "CVE-2026-75650: exploited vulnerability in Adobe Commerce and Magento",
-      "type": "known exploited vulnerability / hack risk",
-      "source": "CISA Known Exploited Vulnerabilities catalog",
-      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "published": "2026-09-08",
-      "note": "Adobe Commerce and Magento Open Source contain an improper neutralization of special elements used in a template engine vulnerability that could allow an attacker to execute arbitrary code."
-    },
-    {
       "title": "CVE-2018-13410: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
@@ -301,8 +301,16 @@
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28384",
-      "published": "2026-09-11T15:33:43.067",
+      "published": "2026-09-18T14:08:53.590",
       "note": "An improper sanitization of the compression_algorithm parameter in Canonical LXD allows an authenticated, unprivileged user to execute commands as the LXD daemon on the LXD server via API calls to the image and backup endpoints. This issue affected LXD from 4.12 through 6.6 and was fixed in the snap versions 5.0.6-e49d9f4 (channel 5.0/stable), 5.21.4-1374f39 (channel 5.21/stable), and 6.7-1f11451 (channel 6.0 stable). The channel 4.0/stable is not affected as it contains version 4.0.10."
+    },
+    {
+      "title": "CVE-2026-5189: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5189",
+      "published": "2026-09-18T15:37:12.463",
+      "note": "CWE-798: Use of Hard-coded Credentials in Sonatype Nexus Repository Manager versions 3.0.0 through 3.70.5 allows an unauthenticated attacker with network access to gain unauthorized read/write access to the internal database and execute arbitrary OS commands as the Nexus process user. Exploitation requires the non-default nexus.orient.binaryListenerEnabled=true configuration to be enabled."
     },
     {
       "title": "CVE-2026-33845: recently changed critical CVE",
@@ -327,14 +335,6 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42579",
       "published": "2026-09-18T13:18:19.477",
       "note": "Netty is an asynchronous, event-driven network application framework. Prior to 4.2.13.Final and 4.1.133.Final, Netty's DNS codec does not enforce RFC 1035 domain name constraints during either encoding or decoding. This creates a bidirectional attack surface: malicious DNS responses can exploit the decoder, and user-influenced hostnames can exploit the encoder. This vulnerability is fixed in 4.2.13.Final and 4.1.133.Final."
-    },
-    {
-      "title": "CVE-2026-42581: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42581",
-      "published": "2026-09-18T13:18:20.120",
-      "note": "Netty is an asynchronous, event-driven network application framework. Prior to 4.2.13.Final and 4.1.133.Final, HttpObjectDecoder strips a conflicting Content-Length header when a request carries both Transfer-Encoding: chunked and Content-Length, but only for HTTP/1.1 messages. The guard is absent for HTTP/1.0. An attacker that sends an HTTP/1.0 request with both headers causes Netty to decode the body as chunked while leaving Content-Length intact in the forwarded HttpMessage. Any downstream pr"
     },
     {
       "title": "Chess.com (2026)",
