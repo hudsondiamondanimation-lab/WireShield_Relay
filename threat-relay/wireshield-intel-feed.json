@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-18T17:15:35Z",
+  "generatedAt": "2026-09-18T19:40:09Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-09-18T17:15:30Z",
+      "checkedAt": "2026-09-18T19:40:05Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-09-18T17:15:30Z",
+      "checkedAt": "2026-09-18T19:40:05Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 76524,
+      "count": 76548,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-09-18T17:15:32Z",
+      "checkedAt": "2026-09-18T19:40:07Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 13075,
+      "count": 13100,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-09-18T17:15:32Z",
+      "checkedAt": "2026-09-18T19:40:07Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-09-18T17:15:32Z",
+      "checkedAt": "2026-09-18T19:40:07Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-09-18T17:15:33Z",
+      "checkedAt": "2026-09-18T19:40:08Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-09-18T17:15:33Z",
+      "checkedAt": "2026-09-18T19:40:08Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-09-18T17:15:33Z",
+      "checkedAt": "2026-09-18T19:40:08Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-09-18T17:15:34Z",
+      "checkedAt": "2026-09-18T19:40:09Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-09-18T17:15:35Z",
+      "checkedAt": "2026-09-18T19:40:09Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-09-18T17:15:35Z",
+      "checkedAt": "2026-09-18T19:40:09Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -135,6 +135,14 @@
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
       "published": "2026-09-18",
       "note": "Linux Kernel contains an out-of-bounds write vulnerability in the ebtables SNAT target which allows an ARP sender hardware address rewrite to write directly into a nonlinear socket-buffer fragment backed by a splice-imported file page. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version."
+    },
+    {
+      "title": "CVE-2025-39682: exploited vulnerability in Linux Kernel",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-09-18",
+      "note": "Linux Kernel contains an improper check for unusual or exceptional conditions vulnerability in the TLS receive path which allows a zero-length record retrieved from the rx_list to bypass the intended recvmsg() record-type handling, potentially causing subsequent TLS records to be processed using incorrect zero-copy and queuing assumptions. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version."
     },
     {
       "title": "CVE-2026-58704: exploited vulnerability in Google Pixel",
@@ -231,14 +239,6 @@
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
       "published": "2026-09-09",
       "note": "Fortinet FortiOS, FortiSwitchManager, and FortiSASE contain a heap-based buffer overflow vulnerability that allows an attacker to execute unauthorized code or commands via specially crafted packets."
-    },
-    {
-      "title": "CVE-2026-87491: exploited vulnerability in Google Chromium V8",
-      "type": "known exploited vulnerability / hack risk",
-      "source": "CISA Known Exploited Vulnerabilities catalog",
-      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "published": "2026-09-09",
-      "note": "Google Chromium V8 contains an out of bounds write vulnerability that allows a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera."
     },
     {
       "title": "CVE-2018-13410: recently changed critical CVE",
