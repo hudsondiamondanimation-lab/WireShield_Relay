@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-19T17:28:08Z",
+  "generatedAt": "2026-09-19T19:29:21Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-09-19T17:28:01Z",
+      "checkedAt": "2026-09-19T19:29:18Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,25 +20,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-09-19T17:28:02Z",
+      "checkedAt": "2026-09-19T19:29:18Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 76645,
+      "count": 76648,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-09-19T17:28:05Z",
+      "checkedAt": "2026-09-19T19:29:19Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 13028,
+      "count": 13051,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-09-19T17:28:05Z",
+      "checkedAt": "2026-09-19T19:29:19Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-09-19T17:28:06Z",
+      "checkedAt": "2026-09-19T19:29:20Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -508748,6 +508748,28 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
+      "domain": "sinarmasmarketing-product.pages.dev",
+      "url": "https://sinarmasmarketing-product.pages.dev/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-09-19T18:43:18+00:00",
+      "lastSeen": "2026-09-19T18:51:26+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "allegrolokalnie.oferta324452.cfd",
+      "url": "https://allegrolokalnie.oferta324452.cfd",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-09-19T18:31:33+00:00",
+      "lastSeen": "2026-09-19T18:41:24+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
       "domain": "allegrolokalnie.lokalna-ofeta78685134.sbs",
       "url": "http://allegrolokalnie.lokalna-ofeta78685134.sbs",
       "type": "phishing",
@@ -550022,28 +550044,6 @@
     {
       "domain": "217.60.195.239",
       "url": "http://217.60.195.239/x86",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-09-19",
-      "lastSeen": "2026-09-19",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "59.97.249.41",
-      "url": "http://59.97.249.41:39681/i",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-09-19",
-      "lastSeen": "2026-09-19",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "221.15.255.59",
-      "url": "http://221.15.255.59:52731/bin.sh",
       "type": "malware",
       "reports": 1,
       "confidence": 86,
