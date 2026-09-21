@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-21T16:59:36Z",
+  "generatedAt": "2026-09-21T20:55:09Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-09-21T16:59:31Z",
+      "checkedAt": "2026-09-21T20:55:02Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-09-21T16:59:31Z",
+      "checkedAt": "2026-09-21T20:55:02Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 76811,
+      "count": 76868,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-09-21T16:59:34Z",
+      "checkedAt": "2026-09-21T20:55:04Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 13338,
+      "count": 13530,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-09-21T16:59:34Z",
+      "checkedAt": "2026-09-21T20:55:05Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-09-21T16:59:35Z",
+      "checkedAt": "2026-09-21T20:55:06Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-09-21T16:59:35Z",
+      "checkedAt": "2026-09-21T20:55:06Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-09-21T16:59:35Z",
+      "checkedAt": "2026-09-21T20:55:06Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-09-21T16:59:35Z",
+      "checkedAt": "2026-09-21T20:55:06Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-09-21T16:59:36Z",
+      "checkedAt": "2026-09-21T20:55:08Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-09-21T16:59:36Z",
+      "checkedAt": "2026-09-21T20:55:09Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-09-21T16:59:36Z",
+      "checkedAt": "2026-09-21T20:55:09Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -119,6 +119,14 @@
       "note": "HTTP Error 403: Forbidden",
       "type": "source-status",
       "published": "2026-09-21"
+    },
+    {
+      "title": "CVE-2026-7273: exploited vulnerability in Zyxel GS1900 Series Switches",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-09-21",
+      "note": "Zyxel GS1900 series switches contain a stack-based buffer overflow vulnerability in the CGI program which could allow a LAN-based, unauthenticated attacker to exploit the flaw and potentially execute OS commands via a crafted HTTP request."
     },
     {
       "title": "CVE-2025-39964: exploited vulnerability in Linux Kernel",
@@ -233,14 +241,6 @@
       "note": "Citrix NetScaler ADC and NetScaler Gateway contain an authentication-bypass vulnerability involving an alternate path or channel. When the NetScaler appliance is configured as an AAA virtual server or as a Gateway (SSL VPN, ICA Proxy, CVPN, or RDP Proxy), an unauthenticated remote threat actor may be able to bypass authentication."
     },
     {
-      "title": "CVE-2025-25249: exploited vulnerability in Fortinet Multiple Products",
-      "type": "known exploited vulnerability / hack risk",
-      "source": "CISA Known Exploited Vulnerabilities catalog",
-      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "published": "2026-09-09",
-      "note": "Fortinet FortiOS, FortiSwitchManager, and FortiSASE contain a heap-based buffer overflow vulnerability that allows an attacker to execute unauthorized code or commands via specially crafted packets."
-    },
-    {
       "title": "CVE-2018-13410: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
@@ -305,6 +305,14 @@
       "note": "Multiple Cisco products are affected by a vulnerability in the Snort 3 HTTP Decoder that could allow an unauthenticated, remote attacker to cause the disclosure of possible sensitive data or cause the Snort 3 Detection Engine to crash.\r\n\r\nThis vulnerability is due to an error in the logic of buffer handling when the MIME fields of the HTTP header are parsed. This can result in a buffer under-read. An attacker could exploit this vulnerability by sending crafted HTTP packets through an established"
     },
     {
+      "title": "CVE-2026-2771: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2771",
+      "published": "2026-09-21T20:17:24.503",
+      "note": "Undefined behavior in the DOM: Core & HTML component. This vulnerability was fixed in Firefox 148, Firefox ESR 115.33, Firefox ESR 140.8, Thunderbird 148, and Thunderbird 140.8."
+    },
+    {
       "title": "CVE-2026-27446: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
@@ -327,14 +335,6 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28367",
       "published": "2026-09-21T14:17:15.060",
       "note": "A flaw was found in Undertow. A remote attacker can exploit this vulnerability by sending `\\r\\r\\r` as a header block terminator. This can be used for request smuggling with certain proxy servers, such as older versions of Apache Traffic Server and Google Cloud Classic Application Load Balancer, potentially leading to unauthorized access or manipulation of web requests."
-    },
-    {
-      "title": "CVE-2026-28368: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28368",
-      "published": "2026-09-21T14:17:15.340",
-      "note": "A flaw was found in Undertow. This vulnerability allows a remote attacker to construct specially crafted requests where header names are parsed differently by Undertow compared to upstream proxies. This discrepancy in header interpretation can be exploited to launch request smuggling attacks, potentially bypassing security controls and accessing unauthorized resources."
     },
     {
       "title": "Burger King Russia",
