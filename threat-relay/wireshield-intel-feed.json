@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-22T07:09:23Z",
+  "generatedAt": "2026-09-22T12:34:39Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-09-22T07:09:18Z",
+      "checkedAt": "2026-09-22T12:34:34Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-09-22T07:09:18Z",
+      "checkedAt": "2026-09-22T12:34:34Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 76916,
+      "count": 76978,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-09-22T07:09:20Z",
+      "checkedAt": "2026-09-22T12:34:36Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 13664,
+      "count": 13756,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-09-22T07:09:21Z",
+      "checkedAt": "2026-09-22T12:34:36Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-09-22T07:09:21Z",
+      "checkedAt": "2026-09-22T12:34:37Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-09-22T07:09:22Z",
+      "checkedAt": "2026-09-22T12:34:37Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-09-22T07:09:22Z",
+      "checkedAt": "2026-09-22T12:34:37Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-09-22T07:09:22Z",
+      "checkedAt": "2026-09-22T12:34:37Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-09-22T07:09:23Z",
+      "checkedAt": "2026-09-22T12:34:39Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-09-22T07:09:23Z",
+      "checkedAt": "2026-09-22T12:34:39Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-09-22T07:09:23Z",
+      "checkedAt": "2026-09-22T12:34:39Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -265,6 +265,14 @@
       "note": "Adobe XD versions 16.0 and earlier have a path traversal vulnerability. Successful exploitation could lead to arbitrary code execution."
     },
     {
+      "title": "CVE-2023-4548: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-4548",
+      "published": "2026-09-22T09:17:04.100",
+      "note": "A vulnerability has been found in SPA-Cart eCommerce CMS 1.9.0.3. The impacted element is an unknown function of the file /search of the component GET Parameter Handler. Such manipulation of the argument filter[brandid] leads to sql injection. The attack may be performed from remote. The exploit has been disclosed to the public and may be used. Upgrading to version 1.9.1.4 is sufficient to resolve this issue. You should upgrade the affected component."
+    },
+    {
       "title": "CVE-2023-27172: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
@@ -329,12 +337,13 @@
       "note": "Missing Authentication for Critical Function (CWE-306) vulnerability in Apache Artemis, Apache ActiveMQ Artemis. An unauthenticated remote attacker can use the Core protocol to force a target broker to establish an outbound Core federation connection to an attacker-controlled rogue broker. This could potentially result in message injection into any queue and/or message exfiltration from any queue via the rogue broker. This impacts environments that allow both:\n\n- incoming Core protocol connectio"
     },
     {
-      "title": "CVE-2026-28384: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28384",
-      "published": "2026-09-18T14:08:53.590",
-      "note": "An improper sanitization of the compression_algorithm parameter in Canonical LXD allows an authenticated, unprivileged user to execute commands as the LXD daemon on the LXD server via API calls to the image and backup endpoints. This issue affected LXD from 4.12 through 6.6 and was fixed in the snap versions 5.0.6-e49d9f4 (channel 5.0/stable), 5.21.4-1374f39 (channel 5.21/stable), and 6.7-1f11451 (channel 6.0 stable). The channel 4.0/stable is not affected as it contains version 4.0.10."
+      "title": "LimeLeads",
+      "type": "data breach",
+      "source": "Have I Been Pwned breach catalog",
+      "url": "https://haveibeenpwned.com/api/v3/breaches",
+      "published": "2026-09-22T08:02:37Z",
+      "affectedAccounts": 17838396,
+      "note": "In 2019, the now-defunct B2B marketing leads database service <a href=\"https://www.zdnet.com/article/49-million-user-records-from-us-data-broker-limeleads-put-up-for-sale-online/\" target=\"_blank\" rel=\"noopener\">LimeLeads suffered a data breach</a> due to an exposed, unsecured Elasticsearch server. The incident exposed tens of millions of records of largely corporate contact data containing 17.8M unique email addresses, along with phone numbers, employers, job titles and geographic locations incl"
     },
     {
       "title": "Burger King Russia",
@@ -434,15 +443,6 @@
       "published": "2026-08-13T10:54:40Z",
       "affectedAccounts": 1596490,
       "note": "In July 2026, the cloud-based business communications platform <a href=\"https://x.com/AlvieriD/status/2084262989448749447\" target=\"_blank\" rel=\"noopener\">RingCentral was the target of a ShinyHunters \"pay or leak\" extortion campaign</a>. The group subsequently published data they claimed was obtained from the platform, which included 1.6M unique email addresses along with names, physical addresses and phone numbers. <a href=\"https://www.ringcentral.com/trust-center/security-bulletin.html\" target="
-    },
-    {
-      "title": "Alcon",
-      "type": "data breach",
-      "source": "Have I Been Pwned breach catalog",
-      "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "published": "2026-08-09T10:04:34Z",
-      "affectedAccounts": 218395,
-      "note": "In August 2026, <a href=\"https://x.com/h4ckmanac/status/2084157760933949852\" target=\"_blank\" rel=\"noopener\">the Alcon eye care company was named in a ShinyHunters \"pay or leak\" extortion campaign</a>. The group subsequently published data allegedly sourced from Alcon containing 218k unique email addresses along with other largely corporate B2B contact fields, including name, phone number and physical address."
     },
     {
       "title": "Data broker privacy watch",
