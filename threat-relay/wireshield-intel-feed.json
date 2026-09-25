@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-25T10:21:15Z",
+  "generatedAt": "2026-09-25T15:22:41Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-09-25T10:21:09Z",
+      "checkedAt": "2026-09-25T15:22:36Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,7 +18,7 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-09-25T10:21:09Z",
+      "checkedAt": "2026-09-25T15:22:36Z",
       "note": "Public phishing URL feed imported."
     },
     {
@@ -27,16 +27,16 @@
       "status": "ok",
       "count": 77324,
       "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-09-25T10:21:12Z",
+      "checkedAt": "2026-09-25T15:22:38Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 14339,
+      "count": 14473,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-09-25T10:21:13Z",
+      "checkedAt": "2026-09-25T15:22:39Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-09-25T10:21:13Z",
+      "checkedAt": "2026-09-25T15:22:39Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-09-25T10:21:13Z",
+      "checkedAt": "2026-09-25T15:22:39Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-09-25T10:21:13Z",
+      "checkedAt": "2026-09-25T15:22:39Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,16 +72,16 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-09-25T10:21:13Z",
+      "checkedAt": "2026-09-25T15:22:39Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
       "name": "NVD CVE API",
       "category": "hacks/vulnerabilities",
       "status": "ok",
-      "count": 0,
+      "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-09-25T10:21:15Z",
+      "checkedAt": "2026-09-25T15:22:40Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-09-25T10:21:15Z",
+      "checkedAt": "2026-09-25T15:22:41Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-09-25T10:21:15Z",
+      "checkedAt": "2026-09-25T15:22:41Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -119,6 +119,22 @@
       "note": "HTTP Error 403: Forbidden",
       "type": "source-status",
       "published": "2026-09-25"
+    },
+    {
+      "title": "CVE-2026-67279: exploited vulnerability in MikroTik RouterOS",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-09-25",
+      "note": "Mikrotik RouterOS contains an improper enforcement of behavioral workflow vulnerability that could allow an unauthenticated client to open a session channel and send an exec request. This vulnerability can be chained to achieve unauthenticated exploitation of CVE-2026-86060."
+    },
+    {
+      "title": "CVE-2026-65660: exploited vulnerability in Microsoft SharePoint",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-09-25",
+      "note": "Microsoft SharePoint contains a code injection vulnerability which could allow an authorized attacker to execute code over a network."
     },
     {
       "title": "CVE-2026-5430: exploited vulnerability in WSO2 Multiple Products",
@@ -225,20 +241,100 @@
       "note": "Acronis Backup plugin for cPanel & WHM and extension for Plesk contains an incorrect default permissions vulnerability that could allow for privilege escalation."
     },
     {
-      "title": "CVE-2026-76461: exploited vulnerability in Cisco Secure Email Gateway",
-      "type": "known exploited vulnerability / hack risk",
-      "source": "CISA Known Exploited Vulnerabilities catalog",
-      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "published": "2026-09-14",
-      "note": "Cisco AsyncOS software for Cisco Secure Email Gateway (SEG) contains a SQL injection vulnerability that could allow an unauthenticated, remote attacker to execute arbitrary commands with root privileges on the underlying operating system."
+      "title": "CVE-2000-0944: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2000-0944",
+      "published": "2026-09-23T10:10:00.673",
+      "note": "CGI Script Center News Update 1.1 does not properly validate the original news administration password during a password change operation, which allows remote attackers to modify the password without knowing the original password."
     },
     {
-      "title": "CVE-2026-84869: exploited vulnerability in ConnectWise ScreenConnect",
-      "type": "known exploited vulnerability / hack risk",
-      "source": "CISA Known Exploited Vulnerabilities catalog",
-      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "published": "2026-09-11",
-      "note": "ConnectWise ScreenConnect contains both an improper privilege management and missing authorization vulnerability that may allow an attacker to transfer and execute files through an active remote session without authorization or host confirmation."
+      "title": "CVE-2023-4548: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-4548",
+      "published": "2026-09-22T09:17:04.100",
+      "note": "A vulnerability has been found in SPA-Cart eCommerce CMS 1.9.0.3. The impacted element is an unknown function of the file /search of the component GET Parameter Handler. Such manipulation of the argument filter[brandid] leads to sql injection. The attack may be performed from remote. The exploit has been disclosed to the public and may be used. Upgrading to version 1.9.1.4 is sufficient to resolve this issue. You should upgrade the affected component."
+    },
+    {
+      "title": "CVE-2024-26305: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-26305",
+      "published": "2026-09-22T19:52:37.933",
+      "note": "There is a buffer overflow vulnerability in the underlying Utility daemon that could lead to unauthenticated remote code execution by sending specially crafted packets destined to the PAPI (Aruba's access point management protocol) UDP port (8211). Successful exploitation of this vulnerability results in the ability to execute arbitrary code as a privileged user on the underlying operating system. \n\n"
+    },
+    {
+      "title": "CVE-2024-40766: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-40766",
+      "published": "2026-09-21T21:17:02.403",
+      "note": "An improper access control vulnerability has been identified in the SonicWall SonicOS management access, potentially leading to unauthorized resource access and in specific conditions, causing the firewall to crash. This issue affects SonicWall Firewall Gen 5 and Gen 6 devices, as well as Gen 7 devices running SonicOS 7.0.1-5035 and older versions."
+    },
+    {
+      "title": "CVE-2024-50492: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-50492",
+      "published": "2026-09-21T14:14:35.717",
+      "note": "Improper Control of Generation of Code ('Code Injection') vulnerability in Scott Paterson ScottCart scottcart allows Code Injection.This issue affects ScottCart: from n/a through <= 1.1."
+    },
+    {
+      "title": "CVE-2025-23006: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23006",
+      "published": "2026-09-24T13:10:00.320",
+      "note": "Pre-authentication deserialization of untrusted data vulnerability has been identified in the SMA1000 Appliance Management Console (AMC) and Central Management Console (CMC), which in specific conditions could potentially enable a remote unauthenticated attacker to execute arbitrary OS commands."
+    },
+    {
+      "title": "CVE-2025-0108: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-0108",
+      "published": "2026-09-24T13:10:00.320",
+      "note": "An authentication bypass in the Palo Alto Networks PAN-OS software enables an unauthenticated attacker with network access to the management web interface to bypass the authentication otherwise required by the PAN-OS management web interface and invoke certain PHP scripts. While invoking these PHP scripts does not enable remote code execution, it can negatively impact integrity and confidentiality of PAN-OS.\n\nYou can greatly reduce the risk of this issue by restricting access to the management w"
+    },
+    {
+      "title": "CVE-2025-42599: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-42599",
+      "published": "2026-09-24T13:10:00.320",
+      "note": "Active! mail 6 BuildInfo: 6.60.05008561 and earlier contains a stack-based buffer overflow vulnerability. Receiving a specially crafted request created and sent by a remote unauthenticated attacker may lead to arbitrary code execution and/or a denial-of-service (DoS) condition."
+    },
+    {
+      "title": "CVE-2025-32432: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32432",
+      "published": "2026-09-24T13:10:00.320",
+      "note": "Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond. Starting from version 3.0.0-RC1 to before 3.9.15, 4.0.0-RC1 to before 4.14.15, and 5.0.0-RC1 to before 5.6.17, Craft is vulnerable to remote code execution. This is a high-impact, low-complexity attack vector. This issue has been patched in versions 3.9.15, 4.14.15, and 5.6.17, and is an additional fix for CVE-2023-41892."
+    },
+    {
+      "title": "CVE-2025-39682: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-39682",
+      "published": "2026-09-21T12:00:36.613",
+      "note": "In the Linux kernel, the following vulnerability has been resolved:\n\ntls: fix handling of zero-length records on the rx_list\n\nEach recvmsg() call must process either\n - only contiguous DATA records (any number of them)\n - one non-DATA record\n\nIf the next record has different type than what has already been\nprocessed we break out of the main processing loop. If the record\nhas already been decrypted (which may be the case for TLS 1.3 where\nwe don't know type until decryption) we queue the pending "
+    },
+    {
+      "title": "CVE-2025-1255: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1255",
+      "published": "2026-09-22T18:17:09.823",
+      "note": "Untrusted Pointer Dereference vulnerability in RTI Connext Professional (Core Libraries) allows Pointer Manipulation. This issue affects Connext Professional: from 7.4.0 before 7.6.0, from 7.2.0 before 7.3.0.9."
+    },
+    {
+      "title": "CVE-2025-4993: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-4993",
+      "published": "2026-09-22T18:17:10.183",
+      "note": "Untrusted Pointer Dereference vulnerability in RTI Connext Professional (Core Libraries) allows Pointer Manipulation. This issue affects Connext Professional: from 7.4.0 before 7.6.0, from 7.0.0 before 7.3.0.10, from 6.1.0 before 6.1.2.27, from 6.0.0 before 6.0.1.43, from 5.3.0 before 5.3.*, from 5.2.0 before 5.2.*, from 4.4a before 5.1.*."
     },
     {
       "title": "LimeLeads",
