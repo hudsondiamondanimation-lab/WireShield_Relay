@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-25T19:22:50Z",
+  "generatedAt": "2026-09-25T22:34:44Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-09-25T19:22:43Z",
+      "checkedAt": "2026-09-25T22:34:38Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,7 +18,7 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-09-25T19:22:43Z",
+      "checkedAt": "2026-09-25T22:34:38Z",
       "note": "Public phishing URL feed imported."
     },
     {
@@ -27,16 +27,16 @@
       "status": "ok",
       "count": 77324,
       "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-09-25T19:22:45Z",
+      "checkedAt": "2026-09-25T22:34:41Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 14543,
+      "count": 14630,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-09-25T19:22:46Z",
+      "checkedAt": "2026-09-25T22:34:41Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-09-25T19:22:47Z",
+      "checkedAt": "2026-09-25T22:34:42Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-09-25T19:22:47Z",
+      "checkedAt": "2026-09-25T22:34:42Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-09-25T19:22:47Z",
+      "checkedAt": "2026-09-25T22:34:42Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-09-25T19:22:48Z",
+      "checkedAt": "2026-09-25T22:34:42Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-09-25T19:22:50Z",
+      "checkedAt": "2026-09-25T22:34:44Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-09-25T19:22:50Z",
+      "checkedAt": "2026-09-25T22:34:44Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-09-25T19:22:50Z",
+      "checkedAt": "2026-09-25T22:34:44Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -135,6 +135,14 @@
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
       "published": "2026-09-25",
       "note": "Microsoft SharePoint contains a code injection vulnerability which could allow an authorized attacker to execute code over a network."
+    },
+    {
+      "title": "CVE-2026-87902: exploited vulnerability in WordPress Core",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-09-25",
+      "note": "WordPress Core contains a remote file inclusion vulnerability which could allow an unauthenticated attacker to make page-template resolution include a chosen readable local `.php` file outside the active theme directories, leading to remote code execution."
     },
     {
       "title": "CVE-2026-5430: exploited vulnerability in WSO2 Multiple Products",
@@ -233,20 +241,20 @@
       "note": "Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) contain an incorrect use of privileged APIs vulnerability that could allow an unauthenticated, remote attacker to gain unauthorized access to the affected device by bypassing the web-based management interface."
     },
     {
-      "title": "CVE-2026-87886: exploited vulnerability in Acronis Backup",
-      "type": "known exploited vulnerability / hack risk",
-      "source": "CISA Known Exploited Vulnerabilities catalog",
-      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "published": "2026-09-16",
-      "note": "Acronis Backup plugin for cPanel & WHM and extension for Plesk contains an incorrect default permissions vulnerability that could allow for privilege escalation."
-    },
-    {
       "title": "CVE-2000-0944: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2000-0944",
       "published": "2026-09-23T10:10:00.673",
       "note": "CGI Script Center News Update 1.1 does not properly validate the original news administration password during a password change operation, which allows remote attackers to modify the password without knowing the original password."
+    },
+    {
+      "title": "CVE-1999-0199: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0199",
+      "published": "2026-09-25T20:10:00.123",
+      "note": "manual/search.texi in the GNU C Library (aka glibc) before 2.2 lacks a statement about the unspecified tdelete return value upon deletion of a tree's root, which might allow attackers to access a dangling pointer in an application whose developer was unaware of a documentation update from 1999."
     },
     {
       "title": "CVE-2023-4548: recently changed critical CVE",
@@ -327,14 +335,6 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1255",
       "published": "2026-09-22T18:17:09.823",
       "note": "Untrusted Pointer Dereference vulnerability in RTI Connext Professional (Core Libraries) allows Pointer Manipulation. This issue affects Connext Professional: from 7.4.0 before 7.6.0, from 7.2.0 before 7.3.0.9."
-    },
-    {
-      "title": "CVE-2025-4993: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-4993",
-      "published": "2026-09-22T18:17:10.183",
-      "note": "Untrusted Pointer Dereference vulnerability in RTI Connext Professional (Core Libraries) allows Pointer Manipulation. This issue affects Connext Professional: from 7.4.0 before 7.6.0, from 7.0.0 before 7.3.0.10, from 6.1.0 before 6.1.2.27, from 6.0.0 before 6.0.1.43, from 5.3.0 before 5.3.*, from 5.2.0 before 5.2.*, from 4.4a before 5.1.*."
     },
     {
       "title": "LimeLeads",
