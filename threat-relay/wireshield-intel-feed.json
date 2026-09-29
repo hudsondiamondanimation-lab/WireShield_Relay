@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-29T07:09:42Z",
+  "generatedAt": "2026-09-29T14:02:05Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-09-29T07:09:37Z",
+      "checkedAt": "2026-09-29T14:02:00Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-09-29T07:09:37Z",
+      "checkedAt": "2026-09-29T14:02:00Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 77609,
-      "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-09-29T07:09:40Z",
+      "count": 77702,
+      "url": "https://data.phishtank.com/data/online-valid.json",
+      "checkedAt": "2026-09-29T14:02:02Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 14971,
+      "count": 15136,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-09-29T07:09:40Z",
+      "checkedAt": "2026-09-29T14:02:02Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-09-29T07:09:40Z",
+      "checkedAt": "2026-09-29T14:02:02Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-09-29T07:09:41Z",
+      "checkedAt": "2026-09-29T14:02:03Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-09-29T07:09:41Z",
+      "checkedAt": "2026-09-29T14:02:03Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-09-29T07:09:41Z",
+      "checkedAt": "2026-09-29T14:02:03Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-09-29T07:09:42Z",
+      "checkedAt": "2026-09-29T14:02:05Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-09-29T07:09:42Z",
+      "checkedAt": "2026-09-29T14:02:05Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-09-29T07:09:42Z",
+      "checkedAt": "2026-09-29T14:02:05Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -257,12 +257,12 @@
       "note": "manual/search.texi in the GNU C Library (aka glibc) before 2.2 lacks a statement about the unspecified tdelete return value upon deletion of a tree's root, which might allow attackers to access a dangling pointer in an application whose developer was unaware of a documentation update from 1999."
     },
     {
-      "title": "CVE-2023-4548: recently changed critical CVE",
+      "title": "CVE-2023-6394: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-4548",
-      "published": "2026-09-22T09:17:04.100",
-      "note": "A vulnerability has been found in SPA-Cart eCommerce CMS 1.9.0.3. The impacted element is an unknown function of the file /search of the component GET Parameter Handler. Such manipulation of the argument filter[brandid] leads to sql injection. The attack may be performed from remote. The exploit has been disclosed to the public and may be used. Upgrading to version 1.9.1.4 is sufficient to resolve this issue. You should upgrade the affected component."
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-6394",
+      "published": "2026-09-29T10:17:10.133",
+      "note": "A flaw was found in Quarkus. This issue occurs when receiving a request over websocket with no role-based permission specified on the GraphQL operation, Quarkus processes the request without authentication despite the endpoint being secured. This can allow an attacker to access information and functionality outside of normal granted API permissions."
     },
     {
       "title": "CVE-2024-26305: recently changed critical CVE",
