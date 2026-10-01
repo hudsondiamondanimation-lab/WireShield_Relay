@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-01T16:20:38Z",
+  "generatedAt": "2026-10-01T21:10:06Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-10-01T16:20:31Z",
+      "checkedAt": "2026-10-01T21:09:59Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-10-01T16:20:31Z",
+      "checkedAt": "2026-10-01T21:09:59Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 76660,
-      "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-10-01T16:20:34Z",
+      "count": 76390,
+      "url": "https://data.phishtank.com/data/online-valid.csv",
+      "checkedAt": "2026-10-01T21:10:00Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 15764,
+      "count": 15864,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-10-01T16:20:34Z",
+      "checkedAt": "2026-10-01T21:10:00Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-10-01T16:20:34Z",
+      "checkedAt": "2026-10-01T21:10:01Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-10-01T16:20:35Z",
+      "checkedAt": "2026-10-01T21:10:01Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-10-01T16:20:35Z",
+      "checkedAt": "2026-10-01T21:10:01Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-10-01T16:20:35Z",
+      "checkedAt": "2026-10-01T21:10:01Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-10-01T16:20:37Z",
+      "checkedAt": "2026-10-01T21:10:06Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-10-01T16:20:38Z",
+      "checkedAt": "2026-10-01T21:10:06Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-10-01T16:20:38Z",
+      "checkedAt": "2026-10-01T21:10:06Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -119,6 +119,14 @@
       "note": "HTTP Error 403: Forbidden",
       "type": "source-status",
       "published": "2026-10-01"
+    },
+    {
+      "title": "CVE-2026-104286: exploited vulnerability in Fortinet FortiMail",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-10-01",
+      "note": "Fortinet FortiMail contains a path traversal and an improper neutralization of NULL byte or NULL character vulnerability that may allow an unauthenticated attacker to write arbitrary files on the underlying system via crafted HTTP or HTTPS requests."
     },
     {
       "title": "CVE-2026-76504: exploited vulnerability in Cisco Catalyst SD-WAN Manager",
@@ -233,12 +241,36 @@
       "note": "Zyxel GS1900 series switches contain a stack-based buffer overflow vulnerability in the CGI program which could allow a LAN-based, unauthenticated attacker to exploit the flaw and potentially execute OS commands via a crafted HTTP request."
     },
     {
-      "title": "CVE-2025-39964: exploited vulnerability in Linux Kernel",
-      "type": "known exploited vulnerability / hack risk",
-      "source": "CISA Known Exploited Vulnerabilities catalog",
-      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "published": "2026-09-18",
-      "note": "Linux Kernel contains a race condition vulnerability which allows concurrent writes to the same AF_ALG socket causing data to be unpredictably interleaved and creating inconsistencies in the socket's internal state."
+      "title": "CVE-2010-2861: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2010-2861",
+      "published": "2026-10-01T20:17:14.700",
+      "note": "Multiple directory traversal vulnerabilities in the administrator console in Adobe ColdFusion 9.0.1 and earlier allow remote attackers to read arbitrary files via the locale parameter to (1) CFIDE/administrator/settings/mappings.cfm, (2) logging/settings.cfm, (3) datasources/index.cfm, (4) j2eepackaging/editarchive.cfm, and (5) enter.cfm in CFIDE/administrator/."
+    },
+    {
+      "title": "CVE-2012-1710: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2012-1710",
+      "published": "2026-10-01T20:17:14.953",
+      "note": "Unspecified vulnerability in the Oracle WebCenter Forms Recognition component in Oracle Fusion Middleware 10.1.3.5 allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Designer, a different vulnerability than CVE-2012-1709."
+    },
+    {
+      "title": "CVE-2016-1019: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-1019",
+      "published": "2026-10-01T20:17:16.080",
+      "note": "Adobe Flash Player 21.0.0.197 and earlier allows remote attackers to cause a denial of service (application crash) or possibly execute arbitrary code via unspecified vectors, as exploited in the wild in April 2016."
+    },
+    {
+      "title": "CVE-2020-0796: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-0796",
+      "published": "2026-10-01T20:17:17.727",
+      "note": "A remote code execution vulnerability exists in the way that the Microsoft Server Message Block 3.1.1 (SMBv3) protocol handles certain requests, aka 'Windows SMBv3 Client/Server Remote Code Execution Vulnerability'."
     },
     {
       "title": "CVE-1999-0199: recently changed critical CVE",
@@ -247,6 +279,22 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0199",
       "published": "2026-09-25T20:10:00.123",
       "note": "manual/search.texi in the GNU C Library (aka glibc) before 2.2 lacks a statement about the unspecified tdelete return value upon deletion of a tree's root, which might allow attackers to access a dangling pointer in an application whose developer was unaware of a documentation update from 1999."
+    },
+    {
+      "title": "CVE-2018-19949: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-19949",
+      "published": "2026-10-01T20:17:16.787",
+      "note": "If exploited, this command injection vulnerability could allow remote attackers to run arbitrary commands. QNAP has already fixed the issue in the following QTS versions. QTS 4.4.2.1231 on build 20200302; QTS 4.4.1.1201 on build 20200130; QTS 4.3.6.1218 on build 20200214; QTS 4.3.4.1190 on build 20200107; QTS 4.3.3.1161 on build 20200109; QTS 4.2.6 on build 20200109."
+    },
+    {
+      "title": "CVE-2021-22175: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-22175",
+      "published": "2026-10-01T19:17:14.190",
+      "note": "When requests to the internal network for webhooks are enabled, a server-side request forgery vulnerability in GitLab affecting all versions starting from 10.5 was possible to exploit for an unauthenticated attacker even on a GitLab instance where registration is disabled"
     },
     {
       "title": "CVE-2022-25863: recently changed critical CVE",
@@ -265,76 +313,28 @@
       "note": "A flaw was found in Quarkus. This issue occurs when receiving a request over websocket with no role-based permission specified on the GraphQL operation, Quarkus processes the request without authentication despite the endpoint being secured. This can allow an attacker to access information and functionality outside of normal granted API permissions."
     },
     {
+      "title": "CVE-2024-7399: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-7399",
+      "published": "2026-10-01T19:17:15.393",
+      "note": "Improper limitation of a pathname to a restricted directory vulnerability in Samsung MagicINFO 9 Server version before 21.1050 allows attackers to write arbitrary file as system authority."
+    },
+    {
+      "title": "CVE-2025-0282: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-0282",
+      "published": "2026-10-01T19:17:15.743",
+      "note": "A stack-based buffer overflow in Ivanti Connect Secure before version 22.7R2.5, Ivanti Policy Secure before version 22.7R1.2, and Ivanti Neurons for ZTA gateways before version 22.7R2.3 allows a remote unauthenticated attacker to achieve remote code execution."
+    },
+    {
       "title": "CVE-2025-1009: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1009",
       "published": "2026-09-30T18:10:00.190",
       "note": "An attacker could have caused a use-after-free via crafted XSLT data, leading to a potentially exploitable crash. This vulnerability was fixed in Firefox 135, Firefox ESR 115.20, Firefox ESR 128.7, Thunderbird 128.7, and Thunderbird 135."
-    },
-    {
-      "title": "CVE-2025-1016: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1016",
-      "published": "2026-09-30T19:10:01.007",
-      "note": "Memory safety bugs present in Firefox 134, Thunderbird 134, Firefox ESR 115.19, Firefox ESR 128.6, Thunderbird 115.19, and Thunderbird 128.6. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 135, Firefox ESR 115.20, Firefox ESR 128.7, Thunderbird 128.7, and Thunderbird 135."
-    },
-    {
-      "title": "CVE-2025-1017: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1017",
-      "published": "2026-09-30T19:10:01.007",
-      "note": "Memory safety bugs present in Firefox 134, Thunderbird 134, Firefox ESR 128.6, and Thunderbird 128.6. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 135, Firefox ESR 128.7, Thunderbird 128.7, and Thunderbird 135."
-    },
-    {
-      "title": "CVE-2025-1020: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1020",
-      "published": "2026-09-30T19:10:01.007",
-      "note": "Memory safety bugs present in Firefox 134 and Thunderbird 134. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 135 and Thunderbird 135."
-    },
-    {
-      "title": "CVE-2025-9187: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-9187",
-      "published": "2026-09-30T19:10:01.007",
-      "note": "Memory safety bugs present in Firefox 141 and Thunderbird 141. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 142 and Thunderbird 142."
-    },
-    {
-      "title": "CVE-2025-34520: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-34520",
-      "published": "2026-09-26T00:10:00.127",
-      "note": "An authentication bypass vulnerability in Arcserve Unified Data Protection (UDP) allows unauthenticated attackers to gain unauthorized access to protected functionality or user accounts. By manipulating specific request parameters or exploiting a logic flaw, an attacker can bypass login mechanisms without valid credentials and access administrator-level features. This vulnerability affects all UDP versions prior to 10.2. UDP 10.2 includes the necessary patches and requires no action. Versions 8."
-    },
-    {
-      "title": "CVE-2025-34522: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-34522",
-      "published": "2026-09-26T00:10:00.127",
-      "note": "A heap-based buffer overflow vulnerability exists in the input parsing logic of Arcserve Unified Data Protection (UDP). This flaw can be triggered without authentication by sending specially crafted input to the target system. Improper bounds checking allows an attacker to overwrite heap memory, potentially leading to application crashes or remote code execution. Exploitation occurs in the context of the affected process and does not require user interaction. The vulnerability poses a high risk "
-    },
-    {
-      "title": "CVE-2025-34523: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-34523",
-      "published": "2026-09-26T00:10:00.127",
-      "note": "A heap-based buffer overflow vulnerability exists in the network-facing input handling routines of Arcserve Unified Data Protection (UDP). This flaw is reachable without authentication and results from improper bounds checking when processing attacker-controlled input. By sending specially crafted data, a remote attacker can corrupt heap memory, potentially causing a denial of service or enabling arbitrary code execution depending on the memory layout and exploitation techniques used. This vulne"
-    },
-    {
-      "title": "CVE-2025-57819: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-57819",
-      "published": "2026-09-26T00:10:00.127",
-      "note": "FreePBX is an open-source web-based graphical user interface. FreePBX 15, 16, and 17 endpoints are vulnerable due to insufficiently sanitized user-supplied data allowing unauthenticated access to FreePBX Administrator leading to arbitrary database manipulation and remote code execution. This issue has been patched in endpoint versions 15.0.66, 16.0.89, and 17.0.3."
     },
     {
       "title": "Medela",
