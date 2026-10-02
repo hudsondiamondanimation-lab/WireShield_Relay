@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-02T12:45:47Z",
+  "generatedAt": "2026-10-02T18:03:32Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-10-02T12:45:41Z",
+      "checkedAt": "2026-10-02T18:03:28Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-10-02T12:45:41Z",
+      "checkedAt": "2026-10-02T18:03:28Z",
       "note": "Public phishing URL feed imported."
     },
     {
-      "name": "PhishTank public verified feed",
+      "name": "PhishTank",
       "category": "scam/phishing",
-      "status": "ok",
-      "count": 75717,
-      "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-10-02T12:45:44Z",
-      "note": "PhishTank verified-online phishing database imported."
+      "status": "failed",
+      "count": 0,
+      "url": "https://www.phishtank.com/developer_info.php",
+      "checkedAt": "2026-10-02T18:03:29Z",
+      "note": "https://data.phishtank.com/data/online-valid.json: HTTP 404; https://data.phishtank.com/data/online-valid.csv: HTTP 404"
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 15765,
+      "count": 15862,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-10-02T12:45:44Z",
+      "checkedAt": "2026-10-02T18:03:30Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-10-02T12:45:44Z",
+      "checkedAt": "2026-10-02T18:03:30Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-10-02T12:45:45Z",
+      "checkedAt": "2026-10-02T18:03:30Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-10-02T12:45:45Z",
+      "checkedAt": "2026-10-02T18:03:31Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-10-02T12:45:45Z",
+      "checkedAt": "2026-10-02T18:03:31Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-10-02T12:45:46Z",
+      "checkedAt": "2026-10-02T18:03:32Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-10-02T12:45:47Z",
+      "checkedAt": "2026-10-02T18:03:32Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-10-02T12:45:47Z",
+      "checkedAt": "2026-10-02T18:03:32Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -119,6 +119,22 @@
       "note": "HTTP Error 403: Forbidden",
       "type": "source-status",
       "published": "2026-10-02"
+    },
+    {
+      "title": "CVE-2026-102490: exploited vulnerability in Zammad GmbH Zammad",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-10-02",
+      "note": "Zammad GmbH Zammad contains an improper privilege management vulnerability that can allow the local zammad user to escalate privileges to root. This vulnerability can be chained with CVE-2026-102489."
+    },
+    {
+      "title": "CVE-2026-102489: exploited vulnerability in Zammad GmbH Zammad",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-10-02",
+      "note": "Zammad GmbH Zammad contains a session fixation vulnerability that can lead to remote code execution as the zammad user. This vulnerability can be chained with CVE-2026-102490."
     },
     {
       "title": "CVE-2026-104286: exploited vulnerability in Fortinet FortiMail",
@@ -225,27 +241,11 @@
       "note": "Check Point Security Management Server, Multi-Domain Security Management Server, Log Server, Multi-Domain Log Server, and SmartEvent contain a path traversal vulnerability that allows an unauthenticated attacker to upload and execute arbitrary scripts."
     },
     {
-      "title": "CVE-2026-85102: exploited vulnerability in Check Point Multiple Products",
-      "type": "known exploited vulnerability / hack risk",
-      "source": "CISA Known Exploited Vulnerabilities catalog",
-      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "published": "2026-09-22",
-      "note": "Check Point Security Gateway and Check Point Spark Firewall using Site to Site VPN or Remote Access VPN contain an improper certificate validation vulnerability which could allow an unauthenticated remote attacker to execute arbitrary code on the Gateway."
-    },
-    {
-      "title": "CVE-2026-7273: exploited vulnerability in Zyxel GS1900 Series Switches",
-      "type": "known exploited vulnerability / hack risk",
-      "source": "CISA Known Exploited Vulnerabilities catalog",
-      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "published": "2026-09-21",
-      "note": "Zyxel GS1900 series switches contain a stack-based buffer overflow vulnerability in the CGI program which could allow a LAN-based, unauthenticated attacker to exploit the flaw and potentially execute OS commands via a crafted HTTP request."
-    },
-    {
       "title": "CVE-2010-2861: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2010-2861",
-      "published": "2026-10-01T20:17:14.700",
+      "published": "2026-10-02T14:55:20.233",
       "note": "Multiple directory traversal vulnerabilities in the administrator console in Adobe ColdFusion 9.0.1 and earlier allow remote attackers to read arbitrary files via the locale parameter to (1) CFIDE/administrator/settings/mappings.cfm, (2) logging/settings.cfm, (3) datasources/index.cfm, (4) j2eepackaging/editarchive.cfm, and (5) enter.cfm in CFIDE/administrator/."
     },
     {
@@ -269,7 +269,7 @@
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-7602",
-      "published": "2026-10-01T21:17:14.457",
+      "published": "2026-10-02T14:54:58.763",
       "note": "A remote code execution vulnerability exists within multiple subsystems of Drupal 7.x and 8.x. This potentially allows attackers to exploit multiple attack vectors on a Drupal site, which could result in the site being compromised. This vulnerability is related to Drupal core - Highly critical - Remote Code Execution - SA-CORE-2018-002. Both SA-CORE-2018-002 and this vulnerability are being exploited in the wild."
     },
     {
@@ -301,7 +301,7 @@
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-12812",
-      "published": "2026-10-01T21:17:15.577",
+      "published": "2026-10-02T14:54:53.040",
       "note": "An improper authentication vulnerability in SSL VPN in FortiOS 6.4.0, 6.2.0 to 6.2.3, 6.0.9 and below may result in a user being able to log in successfully without being prompted for the second factor of authentication (FortiToken) if they changed the case of their username."
     },
     {
