@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-04T05:45:30Z",
+  "generatedAt": "2026-10-04T11:19:46Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-10-04T05:45:23Z",
+      "checkedAt": "2026-10-04T11:19:42Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,25 +20,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-10-04T05:45:23Z",
+      "checkedAt": "2026-10-04T11:19:42Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 74068,
+      "count": 73722,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-10-04T05:45:26Z",
+      "checkedAt": "2026-10-04T11:19:43Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 16144,
+      "count": 16398,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-10-04T05:45:27Z",
+      "checkedAt": "2026-10-04T11:19:44Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-10-04T05:45:27Z",
+      "checkedAt": "2026-10-04T11:19:44Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -11779,6 +11779,17 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
+      "domain": "allegro.123190h485g74.beer",
+      "url": "https://allegro.123190h485g74.beer/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-09-22T06:41:22+00:00",
+      "lastSeen": "2026-09-22T06:51:18+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
       "domain": "hachleh.com",
       "url": "https://hachleh.com",
       "type": "phishing",
@@ -12061,17 +12072,6 @@
       "confidence": 95,
       "source": "PhishTank public verified feed",
       "firstSeen": "2026-09-22T00:34:22+00:00",
-      "lastSeen": "2026-09-22T00:42:12+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
-      "domain": "allegro.123190h485g74.beer",
-      "url": "https://allegro.123190h485g74.beer",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-09-22T00:34:19+00:00",
       "lastSeen": "2026-09-22T00:42:12+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -14365,12 +14365,12 @@
     },
     {
       "domain": "allegrolokalnie.oferta902342.shop",
-      "url": "http://allegrolokalnie.oferta902342.shop",
+      "url": "https://allegrolokalnie.oferta902342.shop",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-09-19T06:51:44+00:00",
+      "firstSeen": "2026-09-19T06:52:06+00:00",
       "lastSeen": "2026-09-19T07:01:47+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -59410,12 +59410,12 @@
     },
     {
       "domain": "allegrolokalnie.8841821248.lat",
-      "url": "https://allegrolokalnie.8841821248.lat/macbook-neo-512-gb/75087/wiadomosci/",
+      "url": "https://allegrolokalnie.8841821248.lat/logowanie?referrer=http://allegrolokalnie.8841821248.lat/macbook-neo-512-gb/75087/wiadomosci/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-08-12T19:01:55+00:00",
+      "firstSeen": "2026-08-12T19:01:56+00:00",
       "lastSeen": "2026-08-12T19:12:28+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -67473,7 +67473,7 @@
     },
     {
       "domain": "sp12ct-hormik-biz-zaldek-vansor.pages.dev",
-      "url": "https://sp12ct-hormik-biz-zaldek-vansor.pages.dev/",
+      "url": "http://sp12ct-hormik-biz-zaldek-vansor.pages.dev/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
@@ -67506,7 +67506,7 @@
     },
     {
       "domain": "sp12ct-hazdok-biz-frandel-vormik.pages.dev",
-      "url": "https://sp12ct-hazdok-biz-frandel-vormik.pages.dev/",
+      "url": "http://sp12ct-hazdok-biz-frandel-vormik.pages.dev/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
@@ -69651,12 +69651,12 @@
     },
     {
       "domain": "sp12ct-lormor-biz-vensik-kazsel.pages.dev",
-      "url": "http://sp12ct-lormor-biz-vensik-kazsel.pages.dev/",
+      "url": "https://sp12ct-lormor-biz-vensik-kazsel.pages.dev/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-08-07T03:00:37+00:00",
+      "firstSeen": "2026-08-07T03:00:38+00:00",
       "lastSeen": "2026-08-07T03:32:47+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -70080,7 +70080,7 @@
     },
     {
       "domain": "sp12ct-fondik-biz-hazrel-lorsar.pages.dev",
-      "url": "https://sp12ct-fondik-biz-hazrel-lorsar.pages.dev/",
+      "url": "http://sp12ct-fondik-biz-hazrel-lorsar.pages.dev/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
@@ -70168,7 +70168,7 @@
     },
     {
       "domain": "sp12ct-dolrek-biz-kemsar-zarnik.pages.dev",
-      "url": "https://sp12ct-dolrek-biz-kemsar-zarnik.pages.dev/",
+      "url": "http://sp12ct-dolrek-biz-kemsar-zarnik.pages.dev/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
@@ -70706,6 +70706,17 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
+      "domain": "klelnanzeigen-deutch.de-online5395638.info",
+      "url": "https://klelnanzeigen-deutch.de-online5395638.info/getpaymentm/242244037/m2",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-08-06T15:01:01+00:00",
+      "lastSeen": "2026-08-06T19:32:24+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
       "domain": "sign-in-xfinity.weeblysite.com",
       "url": "https://sign-in-xfinity.weeblysite.com",
       "type": "phishing",
@@ -70846,17 +70857,6 @@
       "source": "PhishTank public verified feed",
       "firstSeen": "2026-08-06T13:14:37+00:00",
       "lastSeen": "2026-08-06T19:03:09+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
-      "domain": "klelnanzeigen-deutch.de-online5395638.info",
-      "url": "https://klelnanzeigen-deutch.de-online5395638.info/getpaymentm/182910432/m2",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-08-06T13:02:18+00:00",
-      "lastSeen": "2026-08-06T18:52:17+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
@@ -71950,12 +71950,12 @@
     },
     {
       "domain": "sce93810.pro",
-      "url": "https://sce93810.pro/?info=itsme13@hotmail.fr",
+      "url": "https://sce93810.pro/?info=i",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-08-05T21:58:28+00:00",
+      "firstSeen": "2026-08-05T21:58:42+00:00",
       "lastSeen": "2026-08-05T22:03:09+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -77494,7 +77494,7 @@
     },
     {
       "domain": "eservices-alriyadh-gov-sa.github.io",
-      "url": "https://eservices-alriyadh-gov-sa.github.io/sa/",
+      "url": "https://eservices-alriyadh-gov-sa.github.io/sa",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
@@ -79133,7 +79133,7 @@
     },
     {
       "domain": "sp12ct-varnes-biz-prondik-zalmor.pages.dev",
-      "url": "https://sp12ct-varnes-biz-prondik-zalmor.pages.dev/",
+      "url": "http://sp12ct-varnes-biz-prondik-zalmor.pages.dev/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
@@ -84556,12 +84556,12 @@
     },
     {
       "domain": "orangex-login.at",
-      "url": "http://orangex-login.at",
+      "url": "https://orangex-login.at/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-07-31T18:06:36+00:00",
+      "firstSeen": "2026-07-31T18:06:38+00:00",
       "lastSeen": "2026-07-31T19:32:31+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -85634,7 +85634,7 @@
     },
     {
       "domain": "xelzavi-kig-fentora-c7x2fc45.pages.dev",
-      "url": "https://xelzavi-kig-fentora-c7x2fc45.pages.dev/",
+      "url": "http://xelzavi-kig-fentora-c7x2fc45.pages.dev/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
@@ -85788,7 +85788,7 @@
     },
     {
       "domain": "uuvo-cxe-mx8-q5d6n-wh6qts.pages.dev",
-      "url": "https://uuvo-cxe-mx8-q5d6n-wh6qts.pages.dev/",
+      "url": "http://uuvo-cxe-mx8-q5d6n-wh6qts.pages.dev/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
@@ -86734,7 +86734,7 @@
     },
     {
       "domain": "qernelo-gld-lormavi-a2k3dw79.pages.dev",
-      "url": "https://qernelo-gld-lormavi-a2k3dw79.pages.dev/",
+      "url": "http://qernelo-gld-lormavi-a2k3dw79.pages.dev/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
@@ -87856,12 +87856,12 @@
     },
     {
       "domain": "8d99i-cd28l-0z5-ii2nin-9h55.pages.dev",
-      "url": "http://8d99i-cd28l-0z5-ii2nin-9h55.pages.dev/",
+      "url": "https://8d99i-cd28l-0z5-ii2nin-9h55.pages.dev/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-07-31T16:43:05+00:00",
+      "firstSeen": "2026-07-31T16:43:06+00:00",
       "lastSeen": "2026-07-31T17:12:44+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -88296,12 +88296,12 @@
     },
     {
       "domain": "1eiov-0501t-4dnvr-p17k-yycnj.pages.dev",
-      "url": "http://1eiov-0501t-4dnvr-p17k-yycnj.pages.dev/",
+      "url": "https://1eiov-0501t-4dnvr-p17k-yycnj.pages.dev/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-07-31T16:41:47+00:00",
+      "firstSeen": "2026-07-31T16:41:48+00:00",
       "lastSeen": "2026-07-31T16:52:23+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -88318,12 +88318,12 @@
     },
     {
       "domain": "0k6ov-7xsdzo-6p6f0-j06kn3.pages.dev",
-      "url": "http://0k6ov-7xsdzo-6p6f0-j06kn3.pages.dev/",
+      "url": "https://0k6ov-7xsdzo-6p6f0-j06kn3.pages.dev/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-07-31T16:41:42+00:00",
+      "firstSeen": "2026-07-31T16:41:43+00:00",
       "lastSeen": "2026-07-31T16:52:23+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -89044,12 +89044,12 @@
     },
     {
       "domain": "renuevasubnet.com",
-      "url": "https://renuevasubnet.com/captcha",
+      "url": "https://renuevasubnet.com/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-07-31T06:34:46+00:00",
+      "firstSeen": "2026-07-31T06:34:58+00:00",
       "lastSeen": "2026-07-31T06:42:39+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -90089,12 +90089,12 @@
     },
     {
       "domain": "158-158-1-61.cprapid.com",
-      "url": "https://158-158-1-61.cprapid.com/pl/kasse.php",
+      "url": "https://158-158-1-61.cprapid.com/pl/update.php",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-07-30T14:29:00+00:00",
+      "firstSeen": "2026-07-30T14:29:16+00:00",
       "lastSeen": "2026-07-30T14:42:39+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -109691,12 +109691,12 @@
     },
     {
       "domain": "alsdvds.com",
-      "url": "https://alsdvds.com/fvbnq",
+      "url": "https://alsdvds.com/jurvst",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-07-21T13:58:19+00:00",
+      "firstSeen": "2026-07-21T13:58:55+00:00",
       "lastSeen": "2026-07-22T00:05:18+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -114894,13 +114894,13 @@
     },
     {
       "domain": "allegro.2992ghohgoho.cam",
-      "url": "http://allegro.2992ghohgoho.cam",
+      "url": "http://allegro.2992ghohgoho.cam/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-07-16T05:55:18+00:00",
-      "lastSeen": "2026-07-16T06:03:23+00:00",
+      "firstSeen": "2026-07-16T06:55:30+00:00",
+      "lastSeen": "2026-07-16T07:03:45+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
@@ -117071,17 +117071,6 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
-      "domain": "sp19ct7-kurek-biz-fasem-lodir.pages.dev",
-      "url": "https://sp19ct7-kurek-biz-fasem-lodir.pages.dev/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-07-14T21:39:06+00:00",
-      "lastSeen": "2026-07-14T22:53:01+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
       "domain": "sp19ct7-soren-biz-lurek-dafim.pages.dev",
       "url": "https://sp19ct7-soren-biz-lurek-dafim.pages.dev/",
       "type": "phishing",
@@ -117434,6 +117423,17 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
+      "domain": "sp19ct7-kurek-biz-fasem-lodir.pages.dev",
+      "url": "http://sp19ct7-kurek-biz-fasem-lodir.pages.dev/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-14T21:39:06+00:00",
+      "lastSeen": "2026-07-14T22:32:45+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
       "domain": "sp19ct7-kuref-biz-vasem-doril.pages.dev",
       "url": "https://sp19ct7-kuref-biz-vasem-doril.pages.dev/",
       "type": "phishing",
@@ -117490,12 +117490,12 @@
     },
     {
       "domain": "sp19ct7-korek-biz-lafem-sonir.pages.dev",
-      "url": "http://sp19ct7-korek-biz-lafem-sonir.pages.dev/",
+      "url": "https://sp19ct7-korek-biz-lafem-sonir.pages.dev/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-07-14T21:38:17+00:00",
+      "firstSeen": "2026-07-14T21:38:18+00:00",
       "lastSeen": "2026-07-14T22:32:45+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -118689,12 +118689,12 @@
     },
     {
       "domain": "9li36j-uw1wg-sl6j-mwip8-9apqdw.pages.dev",
-      "url": "http://9li36j-uw1wg-sl6j-mwip8-9apqdw.pages.dev/",
+      "url": "https://9li36j-uw1wg-sl6j-mwip8-9apqdw.pages.dev/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-07-14T21:21:32+00:00",
+      "firstSeen": "2026-07-14T21:21:33+00:00",
       "lastSeen": "2026-07-14T21:52:57+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -125706,6 +125706,17 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
+      "domain": "allegro.12009h957423912.top",
+      "url": "http://allegro.12009h957423912.top/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-12T01:33:13+00:00",
+      "lastSeen": "2026-07-12T01:52:39+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
       "domain": "allegrolokalnie.oferta3940xu909.click",
       "url": "https://allegrolokalnie.oferta3940xu909.click/",
       "type": "phishing",
@@ -126455,7 +126466,7 @@
     },
     {
       "domain": "ymumsj-iham-5gsx-2nmy-3i0.pages.dev",
-      "url": "https://ymumsj-iham-5gsx-2nmy-3i0.pages.dev/",
+      "url": "http://ymumsj-iham-5gsx-2nmy-3i0.pages.dev/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
@@ -126576,7 +126587,7 @@
     },
     {
       "domain": "vvy-66n5c-33dhi-4re-dascez.pages.dev",
-      "url": "https://vvy-66n5c-33dhi-4re-dascez.pages.dev/",
+      "url": "http://vvy-66n5c-33dhi-4re-dascez.pages.dev/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
@@ -127247,7 +127258,7 @@
     },
     {
       "domain": "dravona-gld-lentora-r7x6fw19.pages.dev",
-      "url": "https://dravona-gld-lentora-r7x6fw19.pages.dev/",
+      "url": "http://dravona-gld-lentora-r7x6fw19.pages.dev/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
@@ -129300,17 +129311,6 @@
       "source": "PhishTank public verified feed",
       "firstSeen": "2026-07-10T15:23:26+00:00",
       "lastSeen": "2026-07-10T19:32:51+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
-      "domain": "allegro.12009h957423912.top",
-      "url": "http://allegro.12009h957423912.top",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-07-10T19:28:15+00:00",
-      "lastSeen": "2026-07-10T19:32:50+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
@@ -145903,12 +145903,12 @@
     },
     {
       "domain": "startledger-home.wixstudio.com",
-      "url": "https://startledger-home.wixstudio.com/en-us",
+      "url": "https://startledger-home.wixstudio.com:443/us-en",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-07-02T00:09:03+00:00",
+      "firstSeen": "2026-07-02T00:09:17+00:00",
       "lastSeen": "2026-07-02T00:12:50+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -190750,7 +190750,7 @@
     },
     {
       "domain": "mubeenahmedyt789-dotcom.github.io",
-      "url": "https://mubeenahmedyt789-dotcom.github.io/INSTA/",
+      "url": "https://mubeenahmedyt789-dotcom.github.io/INSTA",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
@@ -203993,17 +203993,6 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
-      "domain": "sp1ct6-vromtek-biz-slortik-plarnix.pages.dev",
-      "url": "https://sp1ct6-vromtek-biz-slortik-plarnix.pages.dev/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-06-08T07:09:33+00:00",
-      "lastSeen": "2026-06-08T07:22:36+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
       "domain": "5gfixedip.com.my",
       "url": "https://5gfixedip.com.my/comdas/Latest2025.html",
       "type": "phishing",
@@ -204133,6 +204122,17 @@
       "source": "PhishTank public verified feed",
       "firstSeen": "2026-06-08T07:06:47+00:00",
       "lastSeen": "2026-06-08T07:12:57+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "sp1ct6-vromtek-biz-slortik-plarnix.pages.dev",
+      "url": "http://sp1ct6-vromtek-biz-slortik-plarnix.pages.dev/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-06-08T07:09:33+00:00",
+      "lastSeen": "2026-06-08T07:12:56+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
@@ -225741,7 +225741,7 @@
     },
     {
       "domain": "buksh-alee.github.io",
-      "url": "https://buksh-alee.github.io/azan/",
+      "url": "https://buksh-alee.github.io/azan",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
@@ -244991,12 +244991,12 @@
     },
     {
       "domain": "marmoud.urge844284.pro",
-      "url": "https://marmoud.urge844284.pro/captcha.php",
+      "url": "https://marmoud.urge844284.pro/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-05-20T10:14:03+00:00",
+      "firstSeen": "2026-05-20T10:14:11+00:00",
       "lastSeen": "2026-05-20T10:22:26+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -265088,12 +265088,12 @@
     },
     {
       "domain": "allegro.938327382939129gfog.sbs",
-      "url": "http://allegro.938327382939129gfog.sbs",
+      "url": "https://allegro.938327382939129gfog.sbs/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-05-09T18:03:21+00:00",
+      "firstSeen": "2026-05-09T18:03:23+00:00",
       "lastSeen": "2026-05-09T18:12:21+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -266188,7 +266188,7 @@
     },
     {
       "domain": "allegrolokalnie.oferta3947253850.shop",
-      "url": "https://allegrolokalnie.oferta3947253850.shop/",
+      "url": "http://allegrolokalnie.oferta3947253850.shop",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
@@ -285701,6 +285701,17 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
+      "domain": "suiteseapps-trexor.wixstudio.com",
+      "url": "https://suiteseapps-trexor.wixstudio.com/starts",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-05-01T07:35:39+00:00",
+      "lastSeen": "2026-05-01T07:41:56+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
       "domain": "able-startapp.wixstudio.com",
       "url": "https://able-startapp.wixstudio.com/usen",
       "type": "phishing",
@@ -292925,17 +292936,6 @@
       "source": "PhishTank public verified feed",
       "firstSeen": "2026-04-28T09:54:57+00:00",
       "lastSeen": "2026-04-28T10:03:11+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
-      "domain": "suiteseapps-trexor.wixstudio.com",
-      "url": "https://suiteseapps-trexor.wixstudio.com/enus",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-04-28T09:31:37+00:00",
-      "lastSeen": "2026-04-28T09:42:16+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
@@ -307471,12 +307471,12 @@
     },
     {
       "domain": "www.ext-345064.pro",
-      "url": "https://www.ext-345064.pro/captcha.php",
+      "url": "https://www.ext-345064.pro/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-04-18T11:28:26+00:00",
+      "firstSeen": "2026-04-18T11:28:38+00:00",
       "lastSeen": "2026-04-18T11:32:29+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -308384,7 +308384,7 @@
     },
     {
       "domain": "bank-america-ten.vercel.app",
-      "url": "https://bank-america-ten.vercel.app/",
+      "url": "http://bank-america-ten.vercel.app",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
@@ -325115,12 +325115,12 @@
     },
     {
       "domain": "onlineicloud.support",
-      "url": "https://onlineicloud.support/dXJzP/",
+      "url": "https://onlineicloud.support/expire/?5",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-03-30T16:36:19+00:00",
+      "firstSeen": "2026-03-30T16:36:20+00:00",
       "lastSeen": "2026-03-30T17:12:16+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -522982,6 +522982,105 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
+      "domain": "allegrolokalnie.oferta90162322.icu",
+      "url": "http://allegrolokalnie.oferta90162322.icu/oferta/sprzedam-golebnik-zadbany/22404",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-10-04T09:12:25+00:00",
+      "lastSeen": "2026-10-04T09:21:07+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "cn-maxis.my.id",
+      "url": "https://cn-maxis.my.id/max",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-10-04T09:05:12+00:00",
+      "lastSeen": "2026-10-04T09:11:24+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "www.install-grays-documents.icu",
+      "url": "https://www.install-grays-documents.icu/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-10-04T07:59:42+00:00",
+      "lastSeen": "2026-10-04T08:11:10+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "rjrsinc.com",
+      "url": "https://rjrsinc.com/a/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-10-04T07:59:01+00:00",
+      "lastSeen": "2026-10-04T08:11:10+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "mandarinfranchise.com",
+      "url": "https://mandarinfranchise.com/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-10-04T07:50:10+00:00",
+      "lastSeen": "2026-10-04T08:01:56+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "f003.backblazeb2.com",
+      "url": "https://f003.backblazeb2.com/file/uindox/index.html",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-10-04T07:58:38+00:00",
+      "lastSeen": "2026-10-04T08:01:56+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "agendasantander.let.cl",
+      "url": "https://agendasantander.let.cl/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-10-04T07:58:01+00:00",
+      "lastSeen": "2026-10-04T08:01:56+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "renuiltr.opik.net",
+      "url": "https://renuiltr.opik.net/admin/AR24/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-10-04T07:40:03+00:00",
+      "lastSeen": "2026-10-04T07:51:23+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "token-cdn-acd.lol",
+      "url": "https://token-cdn-acd.lol/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 90,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-10-04T07:44:40+00:00",
+      "lastSeen": "2026-10-04T07:51:23+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
       "domain": "kalmirven.cfd",
       "url": "https://kalmirven.cfd/pages/",
       "type": "phishing",
@@ -549945,105 +550044,6 @@
     {
       "domain": "60.18.84.94",
       "url": "http://60.18.84.94:57993/bin.sh",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-10-04",
-      "lastSeen": "2026-10-04",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "117.26.225.62",
-      "url": "http://117.26.225.62:56779/bin.sh",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-10-04",
-      "lastSeen": "2026-10-04",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "chibomaydan.devs.surf",
-      "url": "http://chibomaydan.devs.surf/x86_64",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-10-04",
-      "lastSeen": "2026-10-04",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "150.40.98.36",
-      "url": "http://150.40.98.36/arm",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-10-04",
-      "lastSeen": "2026-10-04",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "182.121.156.99",
-      "url": "http://182.121.156.99:50775/i",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-10-04",
-      "lastSeen": "2026-10-04",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "89.163.157.131",
-      "url": "http://89.163.157.131:8080/load.sh",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-10-04",
-      "lastSeen": "2026-10-04",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "185.213.240.64",
-      "url": "http://185.213.240.64/hiddenbin/Space.m68k",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-10-04",
-      "lastSeen": "2026-10-04",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "donutclients.org",
-      "url": "https://donutclients.org/assets/jars/Opsec.jar",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-10-04",
-      "lastSeen": "2026-10-04",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "donutsmp-mod.github.io",
-      "url": "https://donutsmp-mod.github.io/mods/mod.jar",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-10-04",
-      "lastSeen": "2026-10-04",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "allowcsxan2.site",
-      "url": "https://allowcsxan2.site/js/all.min.js",
       "type": "malware",
       "reports": 1,
       "confidence": 86,
