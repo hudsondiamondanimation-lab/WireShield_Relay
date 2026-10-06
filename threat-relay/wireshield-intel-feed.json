@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-06T15:37:33Z",
+  "generatedAt": "2026-10-06T20:31:57Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-10-06T15:37:27Z",
+      "checkedAt": "2026-10-06T20:31:52Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-10-06T15:37:27Z",
+      "checkedAt": "2026-10-06T20:31:52Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 71019,
-      "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-10-06T15:37:30Z",
+      "count": 70849,
+      "url": "https://data.phishtank.com/data/online-valid.csv",
+      "checkedAt": "2026-10-06T20:31:54Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 31044,
+      "count": 31175,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-10-06T15:37:31Z",
+      "checkedAt": "2026-10-06T20:31:55Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-10-06T15:37:31Z",
+      "checkedAt": "2026-10-06T20:31:55Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-10-06T15:37:31Z",
+      "checkedAt": "2026-10-06T20:31:55Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-10-06T15:37:32Z",
+      "checkedAt": "2026-10-06T20:31:55Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-10-06T15:37:32Z",
+      "checkedAt": "2026-10-06T20:31:56Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-10-06T15:37:33Z",
+      "checkedAt": "2026-10-06T20:31:57Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-10-06T15:37:33Z",
+      "checkedAt": "2026-10-06T20:31:57Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-10-06T15:37:33Z",
+      "checkedAt": "2026-10-06T20:31:57Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -321,20 +321,20 @@
       "note": "When requests to the internal network for webhooks are enabled, a server-side request forgery vulnerability in GitLab affecting all versions starting from 10.5 was possible to exploit for an unauthenticated attacker even on a GitLab instance where registration is disabled"
     },
     {
-      "title": "CVE-2022-25863: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-25863",
-      "published": "2026-09-29T15:50:31.907",
-      "note": "The package gatsby-plugin-mdx before 2.14.1, from 3.0.0 and before 3.15.2 are vulnerable to Deserialization of Untrusted Data when passing input through to the gray-matter package, due to its default configurations that are missing input sanitization. Exploiting this vulnerability is possible when passing input in both webpack (MDX files in src/pages or MDX file imported as a component in frontend / React code) and data mode (querying MDX nodes via GraphQL). Workaround: If an older version of ga"
-    },
-    {
       "title": "CVE-2024-7399: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-7399",
       "published": "2026-10-01T19:17:15.393",
       "note": "Improper limitation of a pathname to a restricted directory vulnerability in Samsung MagicINFO 9 Server version before 21.1050 allows attackers to write arbitrary file as system authority."
+    },
+    {
+      "title": "CVE-2025-0282: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-0282",
+      "published": "2026-10-01T19:17:15.743",
+      "note": "A stack-based buffer overflow in Ivanti Connect Secure before version 22.7R2.5, Ivanti Policy Secure before version 22.7R1.2, and Ivanti Neurons for ZTA gateways before version 22.7R2.3 allows a remote unauthenticated attacker to achieve remote code execution."
     },
     {
       "title": "Medela",
