@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-07T00:04:16Z",
+  "generatedAt": "2026-10-07T05:47:54Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-10-07T00:04:11Z",
+      "checkedAt": "2026-10-07T05:47:49Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-10-07T00:04:11Z",
+      "checkedAt": "2026-10-07T05:47:49Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 70731,
-      "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-10-07T00:04:13Z",
+      "count": 70465,
+      "url": "https://data.phishtank.com/data/online-valid.json",
+      "checkedAt": "2026-10-07T05:47:51Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 30905,
+      "count": 31059,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-10-07T00:04:13Z",
+      "checkedAt": "2026-10-07T05:47:52Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-10-07T00:04:14Z",
+      "checkedAt": "2026-10-07T05:47:52Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-10-07T00:04:14Z",
+      "checkedAt": "2026-10-07T05:47:52Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-10-07T00:04:14Z",
+      "checkedAt": "2026-10-07T05:47:52Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-10-07T00:04:14Z",
+      "checkedAt": "2026-10-07T05:47:53Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-10-07T00:04:16Z",
+      "checkedAt": "2026-10-07T05:47:54Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-10-07T00:04:16Z",
+      "checkedAt": "2026-10-07T05:47:54Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-10-07T00:04:16Z",
+      "checkedAt": "2026-10-07T05:47:54Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -337,6 +337,24 @@
       "note": "A stack-based buffer overflow in Ivanti Connect Secure before version 22.7R2.5, Ivanti Policy Secure before version 22.7R1.2, and Ivanti Neurons for ZTA gateways before version 22.7R2.3 allows a remote unauthenticated attacker to achieve remote code execution."
     },
     {
+      "title": "Double Counter",
+      "type": "data breach",
+      "source": "Have I Been Pwned breach catalog",
+      "url": "https://haveibeenpwned.com/api/v3/breaches",
+      "published": "2026-10-07T05:42:24Z",
+      "affectedAccounts": 274922,
+      "note": "In October 2026, the Discord server protection service <a href=\"https://doublecounter.gg/blog/security-incident-october-2026\" target=\"_blank\" rel=\"noopener\">Double Counter suffered a data breach attributed to a vulnerability in the Metabase analytics tool</a>. In its disclosure notice, Double Counter advised that attackers gained access to a subset of its data. A corpus of data was subsequently published publicly and contained 275k unique email addresses and Discord usernames. A small number of "
+    },
+    {
+      "title": "Angel One",
+      "type": "data breach",
+      "source": "Have I Been Pwned breach catalog",
+      "url": "https://haveibeenpwned.com/api/v3/breaches",
+      "published": "2026-10-07T03:45:31Z",
+      "affectedAccounts": 6765054,
+      "note": "In July 2024, the Indian stock brokerage firm <a href=\"https://www.teiss.co.uk/news/angel-one-data-breach-affects-79-million-customers-14308\" target=\"_blank\" rel=\"noopener\">Angel One confirmed that data leaked online related to a breach that occurred in April 2023</a>. The leaked data included 7.9M user records containing 6.8M unique email addresses, along with names, physical addresses, phone numbers, bank account numbers, Permanent Account Numbers (PANs) and portfolio holdings. Angel One empha"
+    },
+    {
       "title": "Medela",
       "type": "data breach",
       "source": "Have I Been Pwned breach catalog",
@@ -425,24 +443,6 @@
       "published": "2026-08-22T07:17:23Z",
       "affectedAccounts": 568972,
       "note": "In mid-2026, hundreds of thousands of user records allegedly sourced from Golf Canada began circulating via Telegram. The data included 569k unique email addresses along with names, usernames, dates of birth, genders and approximate geographic locations (city, province and postcode). It remains unclear whether the data was obtained via unintentionally exposed website features or a security vulnerability."
-    },
-    {
-      "title": "Oz Hair and Beauty",
-      "type": "data breach",
-      "source": "Have I Been Pwned breach catalog",
-      "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "published": "2026-08-19T03:15:00Z",
-      "affectedAccounts": 1988331,
-      "note": "In August 2026, Australian beauty retailer <a href=\"https://www.cyberdaily.au/security/14061-exclusive-oz-hair-and-beauty-confirms-cyber-incident\" target=\"_blank\" rel=\"noopener\">Oz Hair and Beauty was the target of an xpl0itrs extortion attack</a>. The group subsequently published data allegedly obtained from the company, which included 2M unique email addresses along with names, phone numbers, geographic locations (suburb and postcode) and purchases."
-    },
-    {
-      "title": "Fanlore",
-      "type": "data breach",
-      "source": "Have I Been Pwned breach catalog",
-      "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "published": "2026-08-19T02:09:16Z",
-      "affectedAccounts": 144520,
-      "note": "In August 2026, the Organization for Transformative Works (OTW) <a href=\"https://www.transformativeworks.org/fanlore-security-incident/\" target=\"_blank\" rel=\"noopener\">identified unauthorised access to the Fanlore wiki it operates</a>. The breach resulted in the exposure of 145k unique email addresses along with usernames and passwords stored as either MD5 or PBKDF2 hashes. OTW self-submitted the exposed data to HIBP."
     },
     {
       "title": "Data broker privacy watch",
