@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-12T17:47:38Z",
+  "generatedAt": "2026-10-12T23:48:08Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-10-12T17:47:30Z",
+      "checkedAt": "2026-10-12T23:48:01Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-10-12T17:47:30Z",
+      "checkedAt": "2026-10-12T23:48:01Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 66585,
-      "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-10-12T17:47:33Z",
+      "count": 66237,
+      "url": "https://data.phishtank.com/data/online-valid.csv",
+      "checkedAt": "2026-10-12T23:48:04Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 33740,
+      "count": 33861,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-10-12T17:47:34Z",
+      "checkedAt": "2026-10-12T23:48:05Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-10-12T17:47:34Z",
+      "checkedAt": "2026-10-12T23:48:05Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-10-12T17:47:34Z",
+      "checkedAt": "2026-10-12T23:48:06Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-10-12T17:47:34Z",
+      "checkedAt": "2026-10-12T23:48:06Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-10-12T17:47:34Z",
+      "checkedAt": "2026-10-12T23:48:06Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-10-12T17:47:38Z",
+      "checkedAt": "2026-10-12T23:48:07Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-10-12T17:47:38Z",
+      "checkedAt": "2026-10-12T23:48:08Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-10-12T17:47:38Z",
+      "checkedAt": "2026-10-12T23:48:08Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -337,6 +337,15 @@
       "note": "postgresql before versions 10.4, 9.6.9 is vulnerable in the adminpack extension, the pg_catalog.pg_logfile_rotate() function doesn't follow the same ACLs than pg_rorate_logfile. If the adminpack is added to a database, an attacker able to connect to it could exploit this to force log rotation."
     },
     {
+      "title": "Sharecare",
+      "type": "data breach",
+      "source": "Have I Been Pwned breach catalog",
+      "url": "https://haveibeenpwned.com/api/v3/breaches",
+      "published": "2026-10-12T23:28:32Z",
+      "affectedAccounts": 318185,
+      "note": "In August 2026, the digital health company <a href=\"https://breachnews.com/breaches/shinyhunters-claims-baxter-breach-publishes-cook-medical-carhartt-and-sharecare-data/\" target=\"_blank\" rel=\"noopener\">Sharecare was the target of a ShinyHunters \"pay or leak\" extortion campaign</a>. The group subsequently published data it claimed was taken from Sharecare's systems, containing 318k unique email addresses. Most of the data consisted of B2B sales and marketing records with names, physical addresses"
+    },
+    {
       "title": "Neogen",
       "type": "data breach",
       "source": "Have I Been Pwned breach catalog",
@@ -434,15 +443,6 @@
       "published": "2026-09-01T04:49:35Z",
       "affectedAccounts": 1226209,
       "note": "In August 2026, the French intellectual property software and services company <a href=\"https://sqmagazine.co.uk/questel-confirms-vishing-breach-shinyhunters-leak/\" target=\"_blank\" rel=\"noopener\">Questel was the target of a ShinyHunters \"pay or leak\" extortion campaign</a>. The group subsequently published an extensive corpus of data they alleged was obtained from the company, largely comprising corporate contact information associated with sales leads, support cases and marketing activities, wi"
-    },
-    {
-      "title": "Carhartt",
-      "type": "data breach",
-      "source": "Have I Been Pwned breach catalog",
-      "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "published": "2026-08-25T21:34:25Z",
-      "affectedAccounts": 12933413,
-      "note": "In August 2026, clothing retailer <a href=\"https://cybernews.com/news/carhartt-data-breach-shinyhunters-millions-customer-records/\" target=\"_blank\" rel=\"noopener\">Carhartt was the target of a ShinyHunters \"pay or leak\" extortion campaign</a>. The group subsequently published data allegedly obtained from the company including 12.9M unique email addresses, names, phone numbers and physical addresses. The published corpus also contained <a href=\"https://www.troyhunt.com/a-cautionary-tale-about-data"
     },
     {
       "title": "Data broker privacy watch",
