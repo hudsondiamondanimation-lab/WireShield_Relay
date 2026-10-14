@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-14T01:41:33Z",
+  "generatedAt": "2026-10-14T06:43:43Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-10-14T01:41:27Z",
+      "checkedAt": "2026-10-14T06:43:37Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-10-14T01:41:27Z",
+      "checkedAt": "2026-10-14T06:43:37Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 65301,
-      "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-10-14T01:41:29Z",
+      "count": 65099,
+      "url": "https://data.phishtank.com/data/online-valid.csv",
+      "checkedAt": "2026-10-14T06:43:39Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 33745,
+      "count": 33840,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-10-14T01:41:30Z",
+      "checkedAt": "2026-10-14T06:43:39Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-10-14T01:41:30Z",
+      "checkedAt": "2026-10-14T06:43:40Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-10-14T01:41:31Z",
+      "checkedAt": "2026-10-14T06:43:40Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-10-14T01:41:31Z",
+      "checkedAt": "2026-10-14T06:43:40Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-10-14T01:41:31Z",
+      "checkedAt": "2026-10-14T06:43:40Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-10-14T01:41:33Z",
+      "checkedAt": "2026-10-14T06:43:43Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-10-14T01:41:33Z",
+      "checkedAt": "2026-10-14T06:43:43Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-10-14T01:41:33Z",
+      "checkedAt": "2026-10-14T06:43:43Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -337,6 +337,15 @@
       "note": "postgresql before versions 10.4, 9.6.9 is vulnerable in the adminpack extension, the pg_catalog.pg_logfile_rotate() function doesn't follow the same ACLs than pg_rorate_logfile. If the adminpack is added to a database, an attacker able to connect to it could exploit this to force log rotation."
     },
     {
+      "title": "Crunchbase",
+      "type": "data breach",
+      "source": "Have I Been Pwned breach catalog",
+      "url": "https://haveibeenpwned.com/api/v3/breaches",
+      "published": "2026-10-14T06:01:26Z",
+      "affectedAccounts": 559908,
+      "note": "In January 2026, the private company intelligence platform <a href=\"https://www.securityweek.com/crunchbase-confirms-data-breach-after-hacking-claims/\" target=\"_blank\" rel=\"noopener\">Crunchbase was targeted in a ShinyHunters \"pay or leak\" extortion attempt</a>. Data allegedly obtained from the company was subsequently published publicly and included 560k unique email addresses, largely belonging to leads and business contacts. Other data included names, physical addresses, phone numbers, job tit"
+    },
+    {
       "title": "Sharecare",
       "type": "data breach",
       "source": "Have I Been Pwned breach catalog",
@@ -434,15 +443,6 @@
       "published": "2026-09-02T07:36:59Z",
       "affectedAccounts": 8849657,
       "note": "In August 2026, <a href=\"https://www.bleepingcomputer.com/news/security/manchester-airports-group-says-hackers-stole-travelers-data/\" target=\"_blank\" rel=\"noopener\">Manchester Airports Group (MAG) disclosed a data breach impacting their services</a>. The incident was <a href=\"https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/\" target=\"_blank\" rel=\"noopener\">later claimed by the FulcrumSec hacking group</a>, who subsequently published"
-    },
-    {
-      "title": "Questel",
-      "type": "data breach",
-      "source": "Have I Been Pwned breach catalog",
-      "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "published": "2026-09-01T04:49:35Z",
-      "affectedAccounts": 1226209,
-      "note": "In August 2026, the French intellectual property software and services company <a href=\"https://sqmagazine.co.uk/questel-confirms-vishing-breach-shinyhunters-leak/\" target=\"_blank\" rel=\"noopener\">Questel was the target of a ShinyHunters \"pay or leak\" extortion campaign</a>. The group subsequently published an extensive corpus of data they alleged was obtained from the company, largely comprising corporate contact information associated with sales leads, support cases and marketing activities, wi"
     },
     {
       "title": "Data broker privacy watch",
