@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-19T23:56:55Z",
+  "generatedAt": "2026-10-20T03:26:09Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-10-19T23:56:49Z",
+      "checkedAt": "2026-10-20T03:26:02Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-10-19T23:56:49Z",
+      "checkedAt": "2026-10-20T03:26:03Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 60235,
-      "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-10-19T23:56:51Z",
+      "count": 60100,
+      "url": "https://data.phishtank.com/data/online-valid.csv",
+      "checkedAt": "2026-10-20T03:26:05Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 33700,
+      "count": 33340,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-10-19T23:56:52Z",
+      "checkedAt": "2026-10-20T03:26:06Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-10-19T23:56:52Z",
+      "checkedAt": "2026-10-20T03:26:07Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-10-19T23:56:53Z",
+      "checkedAt": "2026-10-20T03:26:07Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-10-19T23:56:53Z",
+      "checkedAt": "2026-10-20T03:26:07Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-10-19T23:56:53Z",
+      "checkedAt": "2026-10-20T03:26:07Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-10-19T23:56:54Z",
+      "checkedAt": "2026-10-20T03:26:09Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-10-19T23:56:55Z",
+      "checkedAt": "2026-10-20T03:26:09Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-10-19T23:56:55Z",
+      "checkedAt": "2026-10-20T03:26:09Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -109,7 +109,7 @@
       "type": "source-status",
       "source": "FTC consumer alerts",
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "published": "2026-10-19",
+      "published": "2026-10-20",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -118,7 +118,7 @@
       "url": "https://www.cisa.gov/news.xml",
       "note": "HTTP Error 403: Forbidden",
       "type": "source-status",
-      "published": "2026-10-19"
+      "published": "2026-10-20"
     },
     {
       "title": "CVE-2026-102764: exploited vulnerability in BeyondTrust Remote Support",
@@ -337,6 +337,15 @@
       "note": "FasterXML jackson-databind 2.x before 2.9.7 might allow remote attackers to conduct server-side request forgery (SSRF) attacks by leveraging failure to block the axis2-jaxws class from polymorphic deserialization."
     },
     {
+      "title": "Assurance Retraite",
+      "type": "data breach",
+      "source": "Have I Been Pwned breach catalog",
+      "url": "https://haveibeenpwned.com/api/v3/breaches",
+      "published": "2026-10-20T02:29:36Z",
+      "affectedAccounts": 70372,
+      "note": "In September 2024, the French national pension fund <a href=\"https://www.tf1info.fr/justice-faits-divers/l-assurance-retraite-s-est-fait-voler-les-donnees-de-pres-de-370-000-personnes-2319431.html\" target=\"_blank\" rel=\"noopener\">Assurance Retraite suffered a data breach affecting approximately 370k assistance beneficiaries</a>. The data included 70k unique email addresses along with names, dates of birth, physical addresses, phone numbers, income levels, marital statuses, French social security "
+    },
+    {
       "title": "Gîtes de France",
       "type": "data breach",
       "source": "Have I Been Pwned breach catalog",
@@ -436,20 +445,11 @@
       "note": "In August 2026, <a href=\"https://securityaffairs.com/197174/breaking-news/chess-com-leak-exposes-7-3-million-users-evidence-points-to-scraping.html\" target=\"_blank\" rel=\"noopener\">millions of records allegedly sourced from Chess.com were posted online</a>. The data contained 7.3M rows with 4.6M unique email addresses, along with usernames, names, countries and data relating to users' Chess.com accounts. Analysis of the data suggested it had been obtained by scraping. When loaded into HIBP, 99% o"
     },
     {
-      "title": "McKesson",
-      "type": "data breach",
-      "source": "Have I Been Pwned breach catalog",
-      "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "published": "2026-09-10T05:45:39Z",
-      "affectedAccounts": 6404340,
-      "note": "In August 2026, <a href=\"https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/\" target=\"_blank\" rel=\"noopener\">healthcare and pharmaceutical company McKesson was targeted in a ShinyHunters \"pay or leak\" extortion campaign</a>. The group subsequently published a substantial corpus of data they alleged was sourced from the company, which included 6.4M unique email addresses among other personal and corporate data attributes. The impa"
-    },
-    {
       "title": "Data broker privacy watch",
       "type": "data broker / privacy",
       "source": "WireShield guidance",
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "published": "2026-10-19",
+      "published": "2026-10-20",
       "note": "Recheck broker opt-out results every 30-90 days; many brokers repopulate data. Keep broker name, profile URL, date requested, and confirmation emails."
     },
     {
@@ -457,7 +457,7 @@
       "type": "bloatware / potentially unwanted software",
       "source": "Microsoft unwanted software evaluation criteria",
       "url": "https://learn.microsoft.com/en-us/unified-secops/criteria",
-      "published": "2026-10-19",
+      "published": "2026-10-20",
       "note": "Watch for software that changes browser settings, injects ads, bundles unwanted offers, hides removal paths, exaggerates cleanup claims, or uses misleading install prompts."
     },
     {
@@ -465,7 +465,7 @@
       "type": "remote-access scam",
       "source": "WireShield guidance from FTC/CISA-style scam prevention",
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "published": "2026-10-19",
+      "published": "2026-10-20",
       "note": "Treat unexpected requests to install AnyDesk, TeamViewer, UltraViewer, RustDesk, or ScreenConnect as high risk, especially when paired with refunds, bank warnings, crypto, or gift cards."
     }
   ]
