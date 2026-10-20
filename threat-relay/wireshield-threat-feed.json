@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-20T13:52:09Z",
+  "generatedAt": "2026-10-20T18:13:59Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-10-20T13:52:01Z",
+      "checkedAt": "2026-10-20T18:13:40Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,25 +20,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-10-20T13:52:01Z",
+      "checkedAt": "2026-10-20T18:13:40Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 59833,
+      "count": 59704,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-10-20T13:52:03Z",
+      "checkedAt": "2026-10-20T18:13:42Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 33803,
+      "count": 33901,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-10-20T13:52:04Z",
+      "checkedAt": "2026-10-20T18:13:43Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-10-20T13:52:05Z",
+      "checkedAt": "2026-10-20T18:13:44Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -30942,12 +30942,12 @@
     },
     {
       "domain": "leilaoaovivocompleto.vercel.app",
-      "url": "https://leilaoaovivocompleto.vercel.app/product-ar-condicionado-lg.html?utm_source=organic&amp;amp;utm_campaign=&amp;amp;utm_medium=&amp;amp;utm_content=&amp;amp;utm_term=",
+      "url": "https://leilaoaovivocompleto.vercel.app/product-guarda-roupa.html?utm_source=organic&amp;amp;utm_campaign=&amp;amp;utm_medium=&amp;amp;utm_content=&amp;amp;utm_term=",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-09-21T19:09:04+00:00",
+      "firstSeen": "2026-09-21T19:09:54+00:00",
       "lastSeen": "2026-09-21T19:21:20+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -69409,12 +69409,12 @@
     },
     {
       "domain": "hub-browser.com",
-      "url": "https://hub-browser.com/captcha",
+      "url": "https://hub-browser.com/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-08-19T20:40:06+00:00",
+      "firstSeen": "2026-08-19T20:40:16+00:00",
       "lastSeen": "2026-08-20T01:02:54+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -78583,12 +78583,12 @@
     },
     {
       "domain": "bancolombiacupoaumento.vercel.app",
-      "url": "https://bancolombiacupoaumento.vercel.app/seguro.php",
+      "url": "https://bancolombiacupoaumento.vercel.app/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-08-12T11:20:27+00:00",
+      "firstSeen": "2026-08-12T11:20:45+00:00",
       "lastSeen": "2026-08-12T11:32:20+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -89583,12 +89583,12 @@
     },
     {
       "domain": "subrenew-online.com",
-      "url": "https://subrenew-online.com/captcha",
+      "url": "https://subrenew-online.com/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-08-06T09:24:51+00:00",
+      "firstSeen": "2026-08-06T09:25:04+00:00",
       "lastSeen": "2026-08-06T18:12:29+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -91045,6 +91045,17 @@
       "note": "Imported automatically from PhishTank verified-online feed."
     },
     {
+      "domain": "myapp-acces.com",
+      "url": "https://myapp-acces.com/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-08-05T13:35:49+00:00",
+      "lastSeen": "2026-08-05T18:42:43+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
       "domain": "gateareis.vu",
       "url": "https://gateareis.vu/don/mnx/",
       "type": "phishing",
@@ -91065,17 +91076,6 @@
       "firstSeen": "2026-08-05T10:21:37+00:00",
       "lastSeen": "2026-08-05T18:32:25+00:00",
       "note": "Imported automatically from PhishTank verified-online feed."
-    },
-    {
-      "domain": "myapp-acces.com",
-      "url": "https://myapp-acces.com/captcha.php",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-08-05T13:35:27+00:00",
-      "lastSeen": "2026-08-05T17:52:24+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
       "domain": "imagedefleurs.co",
@@ -165571,12 +165571,12 @@
     },
     {
       "domain": "aacredltvmlan.icu",
-      "url": "https://aacredltvmlan.icu/?secure_connect=f523c*&_subid=32jost4.4c.1rcm5&_token=3r7o8u131vtrj0.1782946326.17.3db9fec4ced1ea4aff09d529515bb8f7",
+      "url": "https://aacredltvmlan.icu/?secure_connect=f523c*&_subid=1eh6duj.4c.1rcm1&_token=2nr1h9q2745tqi.1782980145.10.3894e57bf7d96ef7bee901810b0ef922",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-07-01T16:47:29+00:00",
+      "firstSeen": "2026-07-01T16:47:30+00:00",
       "lastSeen": "2026-07-01T17:03:58+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -180124,12 +180124,12 @@
     },
     {
       "domain": "mrelay-modifications.com",
-      "url": "https://mrelay-modifications.com/captcha.php",
+      "url": "https://mrelay-modifications.com/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-06-25T21:02:11+00:00",
+      "firstSeen": "2026-06-25T21:02:22+00:00",
       "lastSeen": "2026-06-25T21:52:20+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
