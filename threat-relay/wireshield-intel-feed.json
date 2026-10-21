@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-21T04:37:11Z",
+  "generatedAt": "2026-10-21T09:35:55Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-10-21T04:37:05Z",
+      "checkedAt": "2026-10-21T09:35:48Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,25 +18,25 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-10-21T04:37:05Z",
+      "checkedAt": "2026-10-21T09:35:48Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 59341,
+      "count": 59210,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-10-21T04:37:07Z",
+      "checkedAt": "2026-10-21T09:35:49Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
       "name": "URLhaus public recent CSV",
       "category": "malware",
       "status": "ok",
-      "count": 33681,
+      "count": 33909,
       "url": "https://urlhaus.abuse.ch/downloads/csv_recent/",
-      "checkedAt": "2026-10-21T04:37:08Z",
+      "checkedAt": "2026-10-21T09:35:50Z",
       "note": "URLhaus malware URL/domain data imported."
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-10-21T04:37:08Z",
+      "checkedAt": "2026-10-21T09:35:50Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-10-21T04:37:09Z",
+      "checkedAt": "2026-10-21T09:35:50Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-10-21T04:37:09Z",
+      "checkedAt": "2026-10-21T09:35:50Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-10-21T04:37:09Z",
+      "checkedAt": "2026-10-21T09:35:50Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-10-21T04:37:10Z",
+      "checkedAt": "2026-10-21T09:35:55Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-10-21T04:37:11Z",
+      "checkedAt": "2026-10-21T09:35:55Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-10-21T04:37:11Z",
+      "checkedAt": "2026-10-21T09:35:55Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -241,14 +241,6 @@
       "note": "Microsoft Windows Shell contains a command injection vulnerability that allows an unauthorized attacker to bypass a security feature over a network."
     },
     {
-      "title": "CVE-2016-4658: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-4658",
-      "published": "2026-10-14T07:16:38.110",
-      "note": "xpointer.c in libxml2 before 2.9.5 (as used in Apple iOS before 10, OS X before 10.12, tvOS before 10, and watchOS before 3, and other products) does not forbid namespace nodes in XPointer ranges, which allows remote attackers to execute arbitrary code or cause a denial of service (use-after-free and memory corruption) via a crafted XML document."
-    },
-    {
       "title": "CVE-2017-5674: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
@@ -265,30 +257,6 @@
       "note": "While investigating bug 60718, it was noticed that some calls to application listeners in Apache Tomcat 9.0.0.M1 to 9.0.0.M17, 8.5.0 to 8.5.11, 8.0.0.RC1 to 8.0.41, and 7.0.0 to 7.0.75 did not use the appropriate facade object. When running an untrusted application under a SecurityManager, it was therefore possible for that untrusted application to retain a reference to the request or response object and thereby access and/or modify information associated with another web application."
     },
     {
-      "title": "CVE-2017-16931: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-16931",
-      "published": "2026-10-14T07:16:39.460",
-      "note": "parser.c in libxml2 before 2.9.5 mishandles parameter-entity references because the NEXTL macro calls the xmlParserHandlePEReference function in the case of a '%' character in a DTD name."
-    },
-    {
-      "title": "CVE-2017-7375: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-7375",
-      "published": "2026-10-14T07:16:40.303",
-      "note": "A flaw in libxml2 allows remote XML entity inclusion with default parser flags (i.e., when the caller did not request entity substitution, DTD validation, external DTD subset loading, or default DTD attributes). Depending on the context, this may expose a higher-risk attack surface in libxml2 not usually reachable with default parser flags, and expose content from local files, HTTP, or FTP servers (which might be otherwise unreachable)."
-    },
-    {
-      "title": "CVE-2017-7376: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-7376",
-      "published": "2026-10-14T07:16:40.573",
-      "note": "Buffer overflow in libxml2 allows remote attackers to execute arbitrary code by leveraging an incorrect limit for port values when handling redirects."
-    },
-    {
       "title": "CVE-2018-7489: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
@@ -303,14 +271,6 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-8014",
       "published": "2026-10-15T18:17:20.623",
       "note": "The defaults settings for the CORS filter provided in Apache Tomcat 9.0.0.M1 to 9.0.8, 8.5.0 to 8.5.31, 8.0.0.RC1 to 8.0.52, 7.0.41 to 7.0.88 are insecure and enable 'supportsCredentials' for all origins. It is expected that users of the CORS filter will have configured it appropriately for their environment rather than using it in the default configuration. Therefore, it is expected that most users will not be impacted by this issue."
-    },
-    {
-      "title": "CVE-2018-18928: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-18928",
-      "published": "2026-10-14T07:16:43.217",
-      "note": "International Components for Unicode (ICU) for C/C++ 63.1 has an integer overflow in number::impl::DecimalQuantity::toScientificString() in i18n/number_decimalquantity.cpp."
     },
     {
       "title": "CVE-2018-19857: recently changed critical CVE",
@@ -335,6 +295,46 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-14721",
       "published": "2026-10-15T18:17:14.137",
       "note": "FasterXML jackson-databind 2.x before 2.9.7 might allow remote attackers to conduct server-side request forgery (SSRF) attacks by leveraging failure to block the axis2-jaxws class from polymorphic deserialization."
+    },
+    {
+      "title": "CVE-2018-19360: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-19360",
+      "published": "2026-10-15T18:17:15.597",
+      "note": "FasterXML jackson-databind 2.x before 2.9.8 might allow attackers to have unspecified impact by leveraging failure to block the axis2-transport-jms class from polymorphic deserialization."
+    },
+    {
+      "title": "CVE-2018-19361: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-19361",
+      "published": "2026-10-15T18:17:16.017",
+      "note": "FasterXML jackson-databind 2.x before 2.9.8 might allow attackers to have unspecified impact by leveraging failure to block the openjpa class from polymorphic deserialization."
+    },
+    {
+      "title": "CVE-2018-19362: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-19362",
+      "published": "2026-10-15T18:17:16.417",
+      "note": "FasterXML jackson-databind 2.x before 2.9.8 might allow attackers to have unspecified impact by leveraging failure to block the jboss-common-core class from polymorphic deserialization."
+    },
+    {
+      "title": "CVE-2020-11656: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11656",
+      "published": "2026-10-14T10:17:24.240",
+      "note": "In SQLite through 3.31.1, the ALTER TABLE implementation has a use-after-free, as demonstrated by an ORDER BY clause that belongs to a compound SELECT statement."
+    },
+    {
+      "title": "CVE-2020-15801: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-15801",
+      "published": "2026-10-14T10:17:30.750",
+      "note": "In Python 3.8.4, sys.path restrictions specified in a python38._pth file are ignored, allowing code to be loaded from arbitrary locations. The <executable-name>._pth file (e.g., the python._pth file) is not affected."
     },
     {
       "title": "Assurance Retraite",
