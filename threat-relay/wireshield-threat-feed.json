@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-23T15:18:40Z",
+  "generatedAt": "2026-10-23T19:20:33Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-10-23T15:18:35Z",
+      "checkedAt": "2026-10-23T19:20:28Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,16 +20,16 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-10-23T15:18:35Z",
+      "checkedAt": "2026-10-23T19:20:28Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 57766,
+      "count": 57656,
       "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-10-23T15:18:37Z",
+      "checkedAt": "2026-10-23T19:20:30Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
@@ -38,7 +38,7 @@
       "status": "skipped",
       "count": 0,
       "url": "https://urlhaus.abuse.ch/api/",
-      "checkedAt": "2026-10-23T15:18:37Z",
+      "checkedAt": "2026-10-23T19:20:30Z",
       "note": "https://urlhaus.abuse.ch/downloads/csv_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/text_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/hostfile/: HTTP 410"
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-10-23T15:18:37Z",
+      "checkedAt": "2026-10-23T19:20:30Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -62,6 +62,17 @@
       "firstSeen": "2026-06-26",
       "lastSeen": "2026-10-23",
       "note": "Safe malware-warning test entry. Domain is blocked by WireShield when loaded."
+    },
+    {
+      "domain": "45-77-67-89.cpanel.site",
+      "url": "https://45-77-67-89.cpanel.site/eu/date.php",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9548925)",
+      "firstSeen": "2026-10-23T06:58:36+00:00",
+      "lastSeen": "2026-10-23T18:02:21+00:00",
+      "note": "Imported automatically from PhishTank verified-online feed."
     },
     {
       "domain": "login.ipkopl.com",
@@ -7941,12 +7952,12 @@
     },
     {
       "domain": "nrtlks.nrkns.workers.dev",
-      "url": "https://nrtlks.nrkns.workers.dev/cartes",
+      "url": "https://nrtlks.nrkns.workers.dev/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
-      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9545983)",
-      "firstSeen": "2026-10-18T09:58:05+00:00",
+      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9545984)",
+      "firstSeen": "2026-10-18T09:58:16+00:00",
       "lastSeen": "2026-10-18T10:01:54+00:00",
       "note": "Imported automatically from PhishTank verified-online feed."
     },
@@ -87328,12 +87339,12 @@
     },
     {
       "domain": "net-myappcom.com",
-      "url": "https://net-myappcom.com/captcha.php",
+      "url": "https://net-myappcom.com/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
-      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9501367)",
-      "firstSeen": "2026-08-09T21:23:23+00:00",
+      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9501368)",
+      "firstSeen": "2026-08-09T21:23:32+00:00",
       "lastSeen": "2026-08-10T02:03:24+00:00",
       "note": "Imported automatically from PhishTank verified-online feed."
     },
@@ -291719,12 +291730,12 @@
     },
     {
       "domain": "www.acces11506256.pro",
-      "url": "https://www.acces11506256.pro/captcha.php",
+      "url": "https://www.acces11506256.pro/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
-      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9419267)",
-      "firstSeen": "2026-05-08T10:39:09+00:00",
+      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9419268)",
+      "firstSeen": "2026-05-08T10:39:18+00:00",
       "lastSeen": "2026-05-08T10:52:45+00:00",
       "note": "Imported automatically from PhishTank verified-online feed."
     },
@@ -399266,11 +399277,11 @@
     },
     {
       "domain": "telekom-privatkunden-de.com",
-      "url": "http://telekom-privatkunden-de.com/authentifizierung/auth.php?owa&display=popup&scope=openid&claims=%7B-id_token-%3A%7Btelekom.com%3Aall-%3Anull%7D%7D%0A&response_type=code",
+      "url": "http://telekom-privatkunden-de.com/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
-      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9217262)",
+      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9217261)",
       "firstSeen": "2025-09-20T14:16:38+00:00",
       "lastSeen": "2025-09-20T14:21:38+00:00",
       "note": "Imported automatically from PhishTank verified-online feed."
@@ -550033,17 +550044,6 @@
     {
       "domain": "193.31.201.20",
       "url": "http://193.31.201.20:47382/i",
-      "type": "malware",
-      "reports": 1,
-      "confidence": 86,
-      "source": "URLhaus public recent CSV",
-      "firstSeen": "2026-06-27",
-      "lastSeen": "2026-10-21",
-      "note": "Imported automatically from URLhaus malware URL/domain data."
-    },
-    {
-      "domain": "108.168.0.60",
-      "url": "http://108.168.0.60:40402/i",
       "type": "malware",
       "reports": 1,
       "confidence": 86,
