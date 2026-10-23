@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-23T10:22:33Z",
+  "generatedAt": "2026-10-23T15:18:40Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-10-23T10:22:28Z",
+      "checkedAt": "2026-10-23T15:18:35Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,16 +18,16 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-10-23T10:22:28Z",
+      "checkedAt": "2026-10-23T15:18:35Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 57903,
+      "count": 57766,
       "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-10-23T10:22:30Z",
+      "checkedAt": "2026-10-23T15:18:37Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
@@ -36,7 +36,7 @@
       "status": "skipped",
       "count": 0,
       "url": "https://urlhaus.abuse.ch/api/",
-      "checkedAt": "2026-10-23T10:22:30Z",
+      "checkedAt": "2026-10-23T15:18:37Z",
       "note": "https://urlhaus.abuse.ch/downloads/csv_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/text_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/hostfile/: HTTP 410"
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-10-23T10:22:30Z",
+      "checkedAt": "2026-10-23T15:18:37Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-10-23T10:22:31Z",
+      "checkedAt": "2026-10-23T15:18:38Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-10-23T10:22:31Z",
+      "checkedAt": "2026-10-23T15:18:38Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-10-23T10:22:31Z",
+      "checkedAt": "2026-10-23T15:18:38Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-10-23T10:22:32Z",
+      "checkedAt": "2026-10-23T15:18:40Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-10-23T10:22:33Z",
+      "checkedAt": "2026-10-23T15:18:40Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-10-23T10:22:33Z",
+      "checkedAt": "2026-10-23T15:18:40Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -241,12 +241,28 @@
       "note": "Microsoft Windows Shell contains a command injection vulnerability that allows an unauthorized attacker to bypass a security feature over a network."
     },
     {
+      "title": "CVE-2019-15598: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-15598",
+      "published": "2026-10-23T13:58:00.743",
+      "note": "A Code Injection exists in treekill on Windows which allows a remote code execution when an attacker is able to control the input into the command."
+    },
+    {
       "title": "CVE-2020-21012: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-21012",
       "published": "2026-10-22T16:11:42.533",
       "note": "Sourcecodester Hotel and Lodge Management System 2.0 is vulnerable to unauthenticated SQL injection and can allow remote attackers to execute arbitrary SQL commands via the email parameter to the edit page for Customer, Room, Currency, Room Booking Details, or Tax Details."
+    },
+    {
+      "title": "CVE-2023-4548: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-4548",
+      "published": "2026-10-23T13:07:14.120",
+      "note": "A vulnerability has been found in SPA-Cart eCommerce CMS 1.9.0.3. The impacted element is an unknown function of the file /search of the component GET Parameter Handler. Such manipulation of the argument filter[brandid] leads to sql injection. The attack may be performed from remote. The exploit has been disclosed to the public and may be used. Upgrading to version 1.9.1.4 is sufficient to resolve this issue. You should upgrade the affected component."
     },
     {
       "title": "CVE-2023-4659: recently changed critical CVE",
@@ -319,22 +335,6 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-9599",
       "published": "2026-10-18T21:10:00.120",
       "note": "A weakness has been identified in itsourcecode Apartment Management System 1.0. Affected by this vulnerability is an unknown functionality of the file /setting/month_setup.php. Executing manipulation of the argument txtMonthName can lead to sql injection. The attack can be launched remotely. The exploit has been made available to the public and could be exploited."
-    },
-    {
-      "title": "CVE-2025-9600: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-9600",
-      "published": "2026-10-18T21:10:00.120",
-      "note": "A security vulnerability has been detected in itsourcecode Apartment Management System 1.0. Affected by this issue is some unknown functionality of the file /setting/member_type_setup.php. The manipulation of the argument txtMemberType leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed publicly and may be used."
-    },
-    {
-      "title": "CVE-2025-9601: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-9601",
-      "published": "2026-10-18T21:10:00.120",
-      "note": "A vulnerability was detected in itsourcecode Apartment Management System 1.0. This affects an unknown part of the file /setting/employee_salary_setup.php. The manipulation of the argument ddlEmpName results in sql injection. The attack may be launched remotely. The exploit is now public and may be used."
     },
     {
       "title": "Assurance Retraite",
