@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-23T22:27:47Z",
+  "generatedAt": "2026-10-24T00:56:25Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-10-23T22:27:41Z",
+      "checkedAt": "2026-10-24T00:56:14Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,16 +18,16 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-10-23T22:27:41Z",
+      "checkedAt": "2026-10-24T00:56:14Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 57698,
-      "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-10-23T22:27:43Z",
+      "count": 57642,
+      "url": "https://data.phishtank.com/data/online-valid.csv",
+      "checkedAt": "2026-10-24T00:56:16Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
@@ -36,7 +36,7 @@
       "status": "skipped",
       "count": 0,
       "url": "https://urlhaus.abuse.ch/api/",
-      "checkedAt": "2026-10-23T22:27:44Z",
+      "checkedAt": "2026-10-24T00:56:16Z",
       "note": "https://urlhaus.abuse.ch/downloads/csv_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/text_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/hostfile/: HTTP 410"
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-10-23T22:27:44Z",
+      "checkedAt": "2026-10-24T00:56:17Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-10-23T22:27:45Z",
+      "checkedAt": "2026-10-24T00:56:17Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-10-23T22:27:45Z",
+      "checkedAt": "2026-10-24T00:56:17Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-10-23T22:27:46Z",
+      "checkedAt": "2026-10-24T00:56:17Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-10-23T22:27:47Z",
+      "checkedAt": "2026-10-24T00:56:24Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-10-23T22:27:47Z",
+      "checkedAt": "2026-10-24T00:56:25Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-10-23T22:27:47Z",
+      "checkedAt": "2026-10-24T00:56:25Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -109,7 +109,7 @@
       "type": "source-status",
       "source": "FTC consumer alerts",
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "published": "2026-10-23",
+      "published": "2026-10-24",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -118,7 +118,7 @@
       "url": "https://www.cisa.gov/news.xml",
       "note": "HTTP Error 403: Forbidden",
       "type": "source-status",
-      "published": "2026-10-23"
+      "published": "2026-10-24"
     },
     {
       "title": "CVE-2026-114625: exploited vulnerability in Arista VeloCloud Orchestrator",
@@ -257,6 +257,38 @@
       "note": "Sourcecodester Hotel and Lodge Management System 2.0 is vulnerable to unauthenticated SQL injection and can allow remote attackers to execute arbitrary SQL commands via the email parameter to the edit page for Customer, Room, Currency, Room Booking Details, or Tax Details."
     },
     {
+      "title": "CVE-2023-24482: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-24482",
+      "published": "2026-10-23T23:10:00.157",
+      "note": "A vulnerability has been identified in COMOS V10.2 (All versions), COMOS V10.3.3.1 (All versions < V10.3.3.1.45), COMOS V10.3.3.2 (All versions < V10.3.3.2.33), COMOS V10.3.3.3 (All versions < V10.3.3.3.9), COMOS V10.3.3.4 (All versions < V10.3.3.4.6), COMOS V10.4.0.0 (All versions < V10.4.0.0.31), COMOS V10.4.1.0 (All versions < V10.4.1.0.32), COMOS V10.4.2.0 (All versions < V10.4.2.0.25). Cache validation service in COMOS is vulnerable to Structured Exception Handler (SEH) based buffer overflo"
+    },
+    {
+      "title": "CVE-2023-30191: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-30191",
+      "published": "2026-10-23T23:10:00.157",
+      "note": "PrestaShop cdesigner < 3.1.9 is vulnerable to SQL Injection via CdesignerTraitementModuleFrontController::initContent()."
+    },
+    {
+      "title": "CVE-2023-2186: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-2186",
+      "published": "2026-10-23T23:10:00.157",
+      "note": "On Triangle MicroWorks' SCADA Data Gateway version <= v5.01.03, an unauthenticated attacker can send a specially crafted broadcast message including format string characters to the SCADA Data Gateway to perform unrestricted memory reads.An unauthenticated user can use this format string vulnerability to repeatedly crash the GTWWebMonitor.exe process to DoS the Web Monitor.  Furthermore, an authenticated user can leverage this vulnerability to leak memory from the GTWWebMonitor.exe process. This "
+    },
+    {
+      "title": "CVE-2023-29542: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-29542",
+      "published": "2026-10-23T23:10:00.157",
+      "note": "A newline in a filename could have been used to bypass the file extension security mechanisms that replace malicious file extensions such as .lnk  with .download. This could have led to accidental execution of malicious code.\n\n*This bug only affects Firefox and Thunderbird on Windows. Other versions of Firefox and Thunderbird are unaffected.* This vulnerability affects Firefox < 112, Firefox ESR < 102.10, and Thunderbird < 102.10.\n\n"
+    },
+    {
       "title": "CVE-2023-4548: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
@@ -303,38 +335,6 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-48884",
       "published": "2026-10-22T14:17:35.977",
       "note": "A improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiManager 7.6.0 through 7.6.1, FortiManager 7.4.1 through 7.4.3, FortiManager Cloud 7.4.1 through 7.4.3, FortiOS 7.6.0, FortiOS 7.4.0 through 7.4.4, FortiOS 7.2.0 through 7.2.9, FortiOS 7.0.0 through 7.0.15, FortiOS 6.4.0 through 6.4.15, FortiProxy 7.4.0 through 7.4.5, FortiProxy 7.2.0 through 7.2.11, FortiProxy 7.0.0 through 7.0.18, FortiProxy 2.0 all versions, FortiProxy 01.02 all vers"
-    },
-    {
-      "title": "CVE-2025-34522: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-34522",
-      "published": "2026-10-23T22:10:00.160",
-      "note": "A heap-based buffer overflow vulnerability exists in the input parsing logic of Arcserve Unified Data Protection (UDP). This flaw can be triggered without authentication by sending specially crafted input to the target system. Improper bounds checking allows an attacker to overwrite heap memory, potentially leading to application crashes or remote code execution. Exploitation occurs in the context of the affected process and does not require user interaction. The vulnerability poses a high risk "
-    },
-    {
-      "title": "CVE-2025-9596: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-9596",
-      "published": "2026-10-18T21:10:00.120",
-      "note": "A vulnerability was determined in itsourcecode Sports Management System 1.0. This affects an unknown function of the file /login.php. This manipulation of the argument User causes sql injection. It is possible to initiate the attack remotely. The exploit has been publicly disclosed and may be utilized."
-    },
-    {
-      "title": "CVE-2025-9597: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-9597",
-      "published": "2026-10-18T21:10:00.120",
-      "note": "A vulnerability was identified in itsourcecode Apartment Management System 1.0. This impacts an unknown function of the file /o_dashboard/rented_all_info.php. Such manipulation of the argument uid leads to sql injection. It is possible to launch the attack remotely. The exploit is publicly available and might be used."
-    },
-    {
-      "title": "CVE-2025-9598: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-9598",
-      "published": "2026-10-18T21:10:00.120",
-      "note": "A security flaw has been discovered in itsourcecode Apartment Management System 1.0. Affected is an unknown function of the file /setting/year_setup.php. Performing manipulation of the argument txtXYear results in sql injection. The attack can be initiated remotely. The exploit has been released to the public and may be exploited."
     },
     {
       "title": "Assurance Retraite",
@@ -449,7 +449,7 @@
       "type": "data broker / privacy",
       "source": "WireShield guidance",
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "published": "2026-10-23",
+      "published": "2026-10-24",
       "note": "Recheck broker opt-out results every 30-90 days; many brokers repopulate data. Keep broker name, profile URL, date requested, and confirmation emails."
     },
     {
@@ -457,7 +457,7 @@
       "type": "bloatware / potentially unwanted software",
       "source": "Microsoft unwanted software evaluation criteria",
       "url": "https://learn.microsoft.com/en-us/unified-secops/criteria",
-      "published": "2026-10-23",
+      "published": "2026-10-24",
       "note": "Watch for software that changes browser settings, injects ads, bundles unwanted offers, hides removal paths, exaggerates cleanup claims, or uses misleading install prompts."
     },
     {
@@ -465,7 +465,7 @@
       "type": "remote-access scam",
       "source": "WireShield guidance from FTC/CISA-style scam prevention",
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "published": "2026-10-23",
+      "published": "2026-10-24",
       "note": "Treat unexpected requests to install AnyDesk, TeamViewer, UltraViewer, RustDesk, or ScreenConnect as high risk, especially when paired with refunds, bank warnings, crypto, or gift cards."
     }
   ]
