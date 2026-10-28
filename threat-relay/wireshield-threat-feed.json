@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-28T15:02:56Z",
+  "generatedAt": "2026-10-28T20:13:07Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-10-28T15:02:50Z",
+      "checkedAt": "2026-10-28T20:13:02Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,16 +20,16 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-10-28T15:02:50Z",
+      "checkedAt": "2026-10-28T20:13:02Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 54405,
+      "count": 54328,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-10-28T15:02:53Z",
+      "checkedAt": "2026-10-28T20:13:04Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
@@ -38,7 +38,7 @@
       "status": "skipped",
       "count": 0,
       "url": "https://urlhaus.abuse.ch/api/",
-      "checkedAt": "2026-10-28T15:02:53Z",
+      "checkedAt": "2026-10-28T20:13:04Z",
       "note": "https://urlhaus.abuse.ch/downloads/csv_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/text_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/hostfile/: HTTP 410"
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-10-28T15:02:53Z",
+      "checkedAt": "2026-10-28T20:13:04Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -144957,12 +144957,12 @@
     },
     {
       "domain": "notifichedigit.top",
-      "url": "https://notifichedigit.top/it",
+      "url": "http://notifichedigit.top/it",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-07-16T09:35:40+00:00",
+      "firstSeen": "2026-07-16T09:35:42+00:00",
       "lastSeen": "2026-07-16T12:52:47+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -221813,6 +221813,17 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
+      "domain": "rb.gy",
+      "url": "https://rb.gy/imw4a1",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-06-12T20:17:16+00:00",
+      "lastSeen": "2026-06-12T20:22:43+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
       "domain": "amzaboprime001.pro",
       "url": "https://amzaboprime001.pro/loading.php",
       "type": "phishing",
@@ -278694,17 +278705,6 @@
       "note": "Imported automatically from PhishTank verified-online feed."
     },
     {
-      "domain": "rb.gy",
-      "url": "https://rb.gy/rqvjzx",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-05-18T13:12:16+00:00",
-      "lastSeen": "2026-05-18T13:22:21+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
       "domain": "app-mercadopromo.myshopify.com",
       "url": "https://app-mercadopromo.myshopify.com/products/geladeira-electrolux-frost-free-inverter-410l-efficient-com-autosense-inox-look-if46s?utm_source=organic&amp;amp%3Butm_campaign=&amp;amp%3Butm_medium=&amp;amp%3Butm_content=&amp;amp%3Butm_term=",
       "type": "phishing",
@@ -282023,6 +282023,17 @@
       "confidence": 95,
       "source": "PhishTank public verified feed",
       "firstSeen": "2026-05-17T10:53:54+00:00",
+      "lastSeen": "2026-05-17T11:03:34+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
+      "domain": "waddyworks.com",
+      "url": "https://waddyworks.com/-/easy-p2/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-05-17T10:52:38+00:00",
       "lastSeen": "2026-05-17T11:03:34+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -290806,12 +290817,12 @@
     },
     {
       "domain": "kyc.digitalmps.app",
-      "url": "https://kyc.digitalmps.app/pri-login/?id=random@random.com",
+      "url": "https://kyc.digitalmps.app/pri-login/SG_q9yHlm4g/login.php?rand=4groeukflzwl7vhv&amp;mod=1",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-05-12T13:55:17+00:00",
+      "firstSeen": "2026-05-12T13:55:19+00:00",
       "lastSeen": "2026-05-12T14:03:16+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -367475,17 +367486,6 @@
       "note": "Imported automatically from PhishTank verified-online feed."
     },
     {
-      "domain": "waddyworks.com",
-      "url": "https://waddyworks.com/-/Verifizierung/?sanas",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-03-02T21:15:23+00:00",
-      "lastSeen": "2026-03-02T21:22:30+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
       "domain": "www2-loja.webcindario.com",
       "url": "https://www2-loja.webcindario.com/index.html",
       "type": "phishing",
@@ -376034,7 +376034,7 @@
     },
     {
       "domain": "trzz-bridge.blogspot.com",
-      "url": "https://trzz-bridge.blogspot.com/",
+      "url": "http://trzz-bridge.blogspot.com",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
