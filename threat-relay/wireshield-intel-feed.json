@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-30T14:32:42Z",
+  "generatedAt": "2026-10-30T19:39:11Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-10-30T14:32:37Z",
+      "checkedAt": "2026-10-30T19:39:07Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,16 +18,16 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-10-30T14:32:37Z",
+      "checkedAt": "2026-10-30T19:39:07Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 53218,
+      "count": 53087,
       "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-10-30T14:32:39Z",
+      "checkedAt": "2026-10-30T19:39:09Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
@@ -36,7 +36,7 @@
       "status": "skipped",
       "count": 0,
       "url": "https://urlhaus.abuse.ch/api/",
-      "checkedAt": "2026-10-30T14:32:39Z",
+      "checkedAt": "2026-10-30T19:39:09Z",
       "note": "https://urlhaus.abuse.ch/downloads/csv_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/text_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/hostfile/: HTTP 410"
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-10-30T14:32:40Z",
+      "checkedAt": "2026-10-30T19:39:10Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-10-30T14:32:40Z",
+      "checkedAt": "2026-10-30T19:39:10Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-10-30T14:32:40Z",
+      "checkedAt": "2026-10-30T19:39:10Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,17 +72,17 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-10-30T14:32:40Z",
+      "checkedAt": "2026-10-30T19:39:11Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
       "name": "NVD CVE API",
       "category": "hacks/vulnerabilities",
-      "status": "ok",
-      "count": 12,
+      "status": "failed",
+      "count": 0,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-10-30T14:32:42Z",
-      "note": "Recent critical CVEs imported."
+      "checkedAt": "2026-10-30T19:39:11Z",
+      "note": "HTTP Error 503: Service Unavailable"
     },
     {
       "name": "Have I Been Pwned breach catalog",
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-10-30T14:32:42Z",
+      "checkedAt": "2026-10-30T19:39:11Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-10-30T14:32:42Z",
+      "checkedAt": "2026-10-30T19:39:11Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -119,6 +119,22 @@
       "note": "HTTP Error 403: Forbidden",
       "type": "source-status",
       "published": "2026-10-30"
+    },
+    {
+      "title": "CVE-2026-118527: exploited vulnerability in Ivanti Connect Secure",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-10-30",
+      "note": "Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-111357."
+    },
+    {
+      "title": "CVE-2026-111357: exploited vulnerability in Ivanti Connect Secure",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-10-30",
+      "note": "Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527."
     },
     {
       "title": "CVE-2026-97229: exploited vulnerability in GitLab Community Edition and Enterprise Edition",
@@ -225,116 +241,12 @@
       "note": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability that could allow an authenticated user to request arbitrary internal or external addresses via the '/video/:/transcode/universal' path parameter. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96654, and CVE-2026-96656."
     },
     {
-      "title": "CVE-2026-96654: exploited vulnerability in Plex Media Server",
-      "type": "known exploited vulnerability / hack risk",
-      "source": "CISA Known Exploited Vulnerabilities catalog",
-      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "published": "2026-10-20",
-      "note": "Plex Media Server contains an improper neutralization of encoded URI schemes in a web page vulnerability that could allow an attacker to call other plugins' functions and supply their own parameters. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96655, and CVE-2026-96656."
-    },
-    {
-      "title": "CVE-2026-96652: exploited vulnerability in Plex Media Server",
-      "type": "known exploited vulnerability / hack risk",
-      "source": "CISA Known Exploited Vulnerabilities catalog",
-      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "published": "2026-10-20",
-      "note": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability which could allow an attacker using any X-Plex-Token value to include a full URL in the 'protocol' parameter and force the Plex server to POST to the attacker's chosen destination. This vulnerability can be chained with CVE-2026-96654, CVE-2026-96655, and CVE-2026-96656. "
-    },
-    {
-      "title": "CVE-2023-0758: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
+      "title": "NVD CVE API unavailable",
+      "type": "source-status",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-0758",
-      "published": "2026-10-28T19:10:00.193",
-      "note": "A vulnerability was found in glorylion JFinalOA 1.0.2 and classified as critical. This issue affects some unknown processing of the file src/main/java/com/pointlion/mvc/common/model/SysOrg.java. The manipulation of the argument id leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-220469 was assigned to this vulnerability."
-    },
-    {
-      "title": "CVE-2023-0745: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-0745",
-      "published": "2026-10-28T19:10:00.193",
-      "note": "\n\t\n\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tThe High Availability functionality of Yugabyte Anywhere can be abused to write arbitrary\nfiles through the backup upload endpoint by using path traversal characters.\n\n\n\n\t\t\t\t\n\n\n\t\t\t\n\n\n\t\t\n\n\n\t\n This vulnerability is associated with program files PlatformReplicationManager.Java.\n\nThis issue affects YugabyteDB Anywhere: from 2.0.0.0 through 2.13.0.0\n\n"
-    },
-    {
-      "title": "CVE-2023-24482: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-24482",
-      "published": "2026-10-23T23:10:00.157",
-      "note": "A vulnerability has been identified in COMOS V10.2 (All versions), COMOS V10.3.3.1 (All versions < V10.3.3.1.45), COMOS V10.3.3.2 (All versions < V10.3.3.2.33), COMOS V10.3.3.3 (All versions < V10.3.3.3.9), COMOS V10.3.3.4 (All versions < V10.3.3.4.6), COMOS V10.4.0.0 (All versions < V10.4.0.0.31), COMOS V10.4.1.0 (All versions < V10.4.1.0.32), COMOS V10.4.2.0 (All versions < V10.4.2.0.25). Cache validation service in COMOS is vulnerable to Structured Exception Handler (SEH) based buffer overflo"
-    },
-    {
-      "title": "CVE-2023-23080: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-23080",
-      "published": "2026-10-24T13:10:00.147",
-      "note": "Certain Tenda products are vulnerable to command injection. This affects Tenda CP7 Tenda CP7<=V11.10.00.2211041403 and Tenda CP3 v.10 Tenda CP3 v.10<=V20220906024_2025 and Tenda IT7-PCS Tenda IT7-PCS<=V2209020914 and Tenda IT7-LCS Tenda IT7-LCS<=V2209020914 and Tenda IT7-PRS Tenda IT7-PRS<=V2209020908."
-    },
-    {
-      "title": "CVE-2023-1357: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-1357",
-      "published": "2026-10-28T19:10:00.193",
-      "note": "A vulnerability, which was classified as critical, has been found in SourceCodester Simple Bakery Shop Management System 1.0. Affected by this issue is some unknown functionality of the component Admin Login. The manipulation of the argument username/password with the input admin' or 1=1 -- leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-222860."
-    },
-    {
-      "title": "CVE-2023-25207: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25207",
-      "published": "2026-10-24T13:10:00.147",
-      "note": "PrestaShop dpdfrance <6.1.3 is vulnerable to SQL Injection via dpdfrance/ajax.php."
-    },
-    {
-      "title": "CVE-2023-31039: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-31039",
-      "published": "2026-10-24T13:10:00.147",
-      "note": "Security vulnerability in Apache bRPC <1.5.0 on all platforms allows attackers to execute arbitrary code via ServerOptions::pid_file.\nAn attacker that can influence the ServerOptions pid_file parameter with which the bRPC server is started can execute arbitrary code with the permissions of the bRPC process.\n\nSolution:\n1. upgrade to bRPC >= 1.5.0, download link:  https://dist.apache.org/repos/dist/release/brpc/1.5.0/ https://dist.apache.org/repos/dist/release/brpc/1.5.0/ \n2. If you are using an o"
-    },
-    {
-      "title": "CVE-2023-27407: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-27407",
-      "published": "2026-10-24T13:10:00.147",
-      "note": "A vulnerability has been identified in SCALANCE LPE9403 (All versions < V2.1). The web based management of affected device does not properly validate user input, making it susceptible to command injection. This could allow an authenticated remote attacker to access the underlying operating system as the root user."
-    },
-    {
-      "title": "CVE-2023-30191: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-30191",
-      "published": "2026-10-23T23:10:00.157",
-      "note": "PrestaShop cdesigner < 3.1.9 is vulnerable to SQL Injection via CdesignerTraitementModuleFrontController::initContent()."
-    },
-    {
-      "title": "CVE-2023-2186: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-2186",
-      "published": "2026-10-23T23:10:00.157",
-      "note": "On Triangle MicroWorks' SCADA Data Gateway version <= v5.01.03, an unauthenticated attacker can send a specially crafted broadcast message including format string characters to the SCADA Data Gateway to perform unrestricted memory reads.An unauthenticated user can use this format string vulnerability to repeatedly crash the GTWWebMonitor.exe process to DoS the Web Monitor.  Furthermore, an authenticated user can leverage this vulnerability to leak memory from the GTWWebMonitor.exe process. This "
-    },
-    {
-      "title": "CVE-2023-29129: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-29129",
-      "published": "2026-10-24T13:10:00.147",
-      "note": "A vulnerability has been identified in Mendix SAML (Mendix 7 compatible) (All versions >= V1.17.3 < V1.18.0), Mendix SAML (Mendix 7 compatible) (All versions >= V1.16.4 < V1.17.3), Mendix SAML (Mendix 8 compatible) (All versions >= V2.3.0 < V2.4.0), Mendix SAML (Mendix 8 compatible) (All versions >= V2.2.0 < V2.3.0), Mendix SAML (Mendix 9 latest compatible, New Track) (All versions >= V3.3.1 < V3.6.1), Mendix SAML (Mendix 9 latest compatible, New Track) (All versions >= V3.1.9 < V3.3.1), Mendix "
-    },
-    {
-      "title": "CVE-2023-29531: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-29531",
-      "published": "2026-10-24T13:10:00.147",
-      "note": "An attacker could have caused an out of bounds memory access using WebGL APIs, leading to memory corruption and a potentially exploitable crash.\n\n*This bug only affects Firefox and Thunderbird for macOS. Other operating systems are unaffected.* This vulnerability affects Firefox < 112, Firefox ESR < 102.10, and Thunderbird < 102.10.\n\n"
+      "url": "https://nvd.nist.gov/developers/vulnerabilities",
+      "published": "2026-10-30",
+      "note": "HTTP Error 503: Service Unavailable"
     },
     {
       "title": "AfD",
