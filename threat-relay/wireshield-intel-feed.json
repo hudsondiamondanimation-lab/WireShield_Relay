@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-31T08:38:29Z",
+  "generatedAt": "2026-10-31T14:43:28Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-10-31T08:38:24Z",
+      "checkedAt": "2026-10-31T14:43:24Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,16 +18,16 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-10-31T08:38:24Z",
+      "checkedAt": "2026-10-31T14:43:24Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 52728,
+      "count": 52549,
       "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-10-31T08:38:26Z",
+      "checkedAt": "2026-10-31T14:43:26Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
@@ -36,7 +36,7 @@
       "status": "skipped",
       "count": 0,
       "url": "https://urlhaus.abuse.ch/api/",
-      "checkedAt": "2026-10-31T08:38:27Z",
+      "checkedAt": "2026-10-31T14:43:26Z",
       "note": "https://urlhaus.abuse.ch/downloads/csv_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/text_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/hostfile/: HTTP 410"
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-10-31T08:38:27Z",
+      "checkedAt": "2026-10-31T14:43:26Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-10-31T08:38:28Z",
+      "checkedAt": "2026-10-31T14:43:27Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-10-31T08:38:28Z",
+      "checkedAt": "2026-10-31T14:43:27Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-10-31T08:38:28Z",
+      "checkedAt": "2026-10-31T14:43:27Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-10-31T08:38:29Z",
+      "checkedAt": "2026-10-31T14:43:27Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-10-31T08:38:29Z",
+      "checkedAt": "2026-10-31T14:43:28Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-10-31T08:38:29Z",
+      "checkedAt": "2026-10-31T14:43:28Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -265,14 +265,6 @@
       "note": "\n\t\n\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tThe High Availability functionality of Yugabyte Anywhere can be abused to write arbitrary\nfiles through the backup upload endpoint by using path traversal characters.\n\n\n\n\t\t\t\t\n\n\n\t\t\t\n\n\n\t\t\n\n\n\t\n This vulnerability is associated with program files PlatformReplicationManager.Java.\n\nThis issue affects YugabyteDB Anywhere: from 2.0.0.0 through 2.13.0.0\n\n"
     },
     {
-      "title": "CVE-2023-23080: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-23080",
-      "published": "2026-10-24T13:10:00.147",
-      "note": "Certain Tenda products are vulnerable to command injection. This affects Tenda CP7 Tenda CP7<=V11.10.00.2211041403 and Tenda CP3 v.10 Tenda CP3 v.10<=V20220906024_2025 and Tenda IT7-PCS Tenda IT7-PCS<=V2209020914 and Tenda IT7-LCS Tenda IT7-LCS<=V2209020914 and Tenda IT7-PRS Tenda IT7-PRS<=V2209020908."
-    },
-    {
       "title": "CVE-2023-1357: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
@@ -281,60 +273,68 @@
       "note": "A vulnerability, which was classified as critical, has been found in SourceCodester Simple Bakery Shop Management System 1.0. Affected by this issue is some unknown functionality of the component Admin Login. The manipulation of the argument username/password with the input admin' or 1=1 -- leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-222860."
     },
     {
-      "title": "CVE-2023-25207: recently changed critical CVE",
+      "title": "CVE-2024-42360: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25207",
-      "published": "2026-10-24T13:10:00.147",
-      "note": "PrestaShop dpdfrance <6.1.3 is vulnerable to SQL Injection via dpdfrance/ajax.php."
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-42360",
+      "published": "2026-10-29T14:17:40.420",
+      "note": "SequenceServer lets you rapidly set up a BLAST+ server with an intuitive user interface for personal or group use. Several HTTP endpoints did not properly sanitize user input and/or query parameters. This could be exploited to inject and run unwanted shell commands. This vulnerability has been fixed in 3.1.2."
     },
     {
-      "title": "CVE-2023-31039: recently changed critical CVE",
+      "title": "CVE-2024-8517: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-31039",
-      "published": "2026-10-24T13:10:00.147",
-      "note": "Security vulnerability in Apache bRPC <1.5.0 on all platforms allows attackers to execute arbitrary code via ServerOptions::pid_file.\nAn attacker that can influence the ServerOptions pid_file parameter with which the bRPC server is started can execute arbitrary code with the permissions of the bRPC process.\n\nSolution:\n1. upgrade to bRPC >= 1.5.0, download link:  https://dist.apache.org/repos/dist/release/brpc/1.5.0/ https://dist.apache.org/repos/dist/release/brpc/1.5.0/ \n2. If you are using an o"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-8517",
+      "published": "2026-10-29T21:17:03.650",
+      "note": "SPIP before 4.3.2, 4.2.16, and \n4.1.18 is vulnerable to a command injection issue. A \nremote and unauthenticated attacker can execute arbitrary operating system commands by sending a crafted multipart file upload HTTP request."
     },
     {
-      "title": "CVE-2023-27407: recently changed critical CVE",
+      "title": "CVE-2025-2707: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-27407",
-      "published": "2026-10-24T13:10:00.147",
-      "note": "A vulnerability has been identified in SCALANCE LPE9403 (All versions < V2.1). The web based management of affected device does not properly validate user input, making it susceptible to command injection. This could allow an authenticated remote attacker to access the underlying operating system as the root user."
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-2707",
+      "published": "2026-10-26T17:17:11.203",
+      "note": "A vulnerability was determined in zhijiantianya ruoyi-vue-pro 2.4.1. This impacts an unknown function of the file /app-api/infra/file/upload of the component Front-End Store Interface. This manipulation of the argument path causes path traversal. The attack is possible to be carried out remotely. The exploit has been publicly disclosed and may be utilized. Patch name: 4ae3f6b2c9883978837638c14e3d18419819eeb0. It is recommended to apply a patch to fix this issue."
     },
     {
-      "title": "CVE-2023-29129: recently changed critical CVE",
+      "title": "CVE-2025-2708: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-29129",
-      "published": "2026-10-24T13:10:00.147",
-      "note": "A vulnerability has been identified in Mendix SAML (Mendix 7 compatible) (All versions >= V1.17.3 < V1.18.0), Mendix SAML (Mendix 7 compatible) (All versions >= V1.16.4 < V1.17.3), Mendix SAML (Mendix 8 compatible) (All versions >= V2.3.0 < V2.4.0), Mendix SAML (Mendix 8 compatible) (All versions >= V2.2.0 < V2.3.0), Mendix SAML (Mendix 9 latest compatible, New Track) (All versions >= V3.3.1 < V3.6.1), Mendix SAML (Mendix 9 latest compatible, New Track) (All versions >= V3.1.9 < V3.3.1), Mendix "
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-2708",
+      "published": "2026-10-26T17:17:11.440",
+      "note": "A vulnerability was identified in zhijiantianya ruoyi-vue-pro 2.4.1. Affected is an unknown function of the file /admin-api/infra/file/upload of the component Backend File Upload Interface. Such manipulation of the argument path leads to path traversal. The attack may be performed from remote. The exploit is publicly available and might be used. The name of the patch is 4ae3f6b2c9883978837638c14e3d18419819eeb0. Applying a patch is advised to resolve this issue."
     },
     {
-      "title": "CVE-2023-29531: recently changed critical CVE",
+      "title": "CVE-2025-66208: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-29531",
-      "published": "2026-10-24T13:10:00.147",
-      "note": "An attacker could have caused an out of bounds memory access using WebGL APIs, leading to memory corruption and a potentially exploitable crash.\n\n*This bug only affects Firefox and Thunderbird for macOS. Other operating systems are unaffected.* This vulnerability affects Firefox < 112, Firefox ESR < 102.10, and Thunderbird < 102.10.\n\n"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66208",
+      "published": "2026-10-30T16:32:56.197",
+      "note": "Collabora Online - Built-in CODE Server (richdocumentscode) provides a built-in server with all of the document editing features of Collabora Online. In versions prior to 25.04.702, Collabora Online has a Configuration-Dependent RCE (OS Command Injection) in richdocumentscode proxy. Users of Nextcloud with Collabora Online - Built-in CODE Server app can be vulnerable to attack via proxy.php and an intermediate reverse proxy. This vulnerability is fixed in 25.04.702."
     },
     {
-      "title": "CVE-2023-34416: recently changed critical CVE",
+      "title": "CVE-2024-58309: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-34416",
-      "published": "2026-10-24T13:10:00.147",
-      "note": "Memory safety bugs present in Firefox 113, Firefox ESR 102.11, and Thunderbird 102.12. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox ESR < 102.12, Firefox < 114, and Thunderbird < 102.12."
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-58309",
+      "published": "2026-10-27T18:10:00.130",
+      "note": "xbtitFM 4.1.18 contains an unauthenticated SQL injection vulnerability that allows remote attackers to manipulate database queries by injecting malicious SQL code through the msgid parameter. Attackers can send crafted requests to /shoutedit.php with EXTRACTVALUE functions to extract database names, user credentials, and password hashes from the underlying database."
     },
     {
-      "title": "CVE-2022-44276: recently changed critical CVE",
+      "title": "CVE-2024-25182: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-44276",
-      "published": "2026-10-24T13:10:00.147",
-      "note": "In Responsive Filemanager < 9.12.0, an attacker can bypass upload restrictions resulting in RCE."
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-25182",
+      "published": "2026-10-27T18:10:00.130",
+      "note": "givanz VvvebJs 1.7.2 suffers from a File Upload vulnerability via save.php."
+    },
+    {
+      "title": "CVE-2024-27480: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-27480",
+      "published": "2026-10-27T18:10:00.130",
+      "note": "givanz VvvebJs 1.7.2 is vulnerable to Insecure File Upload."
     },
     {
       "title": "AfD",
