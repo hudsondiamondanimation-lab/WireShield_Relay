@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-03T01:14:16Z",
+  "generatedAt": "2026-11-03T07:57:29Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-11-03T01:14:10Z",
+      "checkedAt": "2026-11-03T07:57:24Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,16 +18,16 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-11-03T01:14:11Z",
+      "checkedAt": "2026-11-03T07:57:24Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 50949,
+      "count": 50703,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-11-03T01:14:12Z",
+      "checkedAt": "2026-11-03T07:57:26Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
@@ -36,7 +36,7 @@
       "status": "skipped",
       "count": 0,
       "url": "https://urlhaus.abuse.ch/api/",
-      "checkedAt": "2026-11-03T01:14:12Z",
+      "checkedAt": "2026-11-03T07:57:26Z",
       "note": "https://urlhaus.abuse.ch/downloads/csv_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/text_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/hostfile/: HTTP 410"
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-11-03T01:14:13Z",
+      "checkedAt": "2026-11-03T07:57:27Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-11-03T01:14:13Z",
+      "checkedAt": "2026-11-03T07:57:27Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-11-03T01:14:13Z",
+      "checkedAt": "2026-11-03T07:57:27Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-11-03T01:14:13Z",
+      "checkedAt": "2026-11-03T07:57:27Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-11-03T01:14:15Z",
+      "checkedAt": "2026-11-03T07:57:29Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-11-03T01:14:16Z",
+      "checkedAt": "2026-11-03T07:57:29Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-11-03T01:14:16Z",
+      "checkedAt": "2026-11-03T07:57:29Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -337,6 +337,15 @@
       "note": "SPIP before 4.3.2, 4.2.16, and \n4.1.18 is vulnerable to a command injection issue. A \nremote and unauthenticated attacker can execute arbitrary operating system commands by sending a crafted multipart file upload HTTP request."
     },
     {
+      "title": "Harvard",
+      "type": "data breach",
+      "source": "Have I Been Pwned breach catalog",
+      "url": "https://haveibeenpwned.com/api/v3/breaches",
+      "published": "2026-11-03T07:24:50Z",
+      "affectedAccounts": 850537,
+      "note": "In November 2025, <a href=\"https://techcrunch.com/2026/02/04/hackers-publish-personal-information-stolen-during-harvard-upenn-data-breaches/\" target=\"_blank\" rel=\"noopener\">Harvard University suffered a data breach later linked to a ShinyHunters \"pay or leak\" extortion attempt</a>. The data contained 851k unique email addresses relating to the university's alumni and fundraising systems, along with extensive profile information for donors, alumni, parents and some faculty, staff and students. In"
+    },
+    {
       "title": "AfD",
       "type": "data breach",
       "source": "Have I Been Pwned breach catalog",
@@ -434,15 +443,6 @@
       "published": "2026-09-22T08:02:37Z",
       "affectedAccounts": 17838396,
       "note": "In 2019, the now-defunct B2B marketing leads database service <a href=\"https://www.zdnet.com/article/49-million-user-records-from-us-data-broker-limeleads-put-up-for-sale-online/\" target=\"_blank\" rel=\"noopener\">LimeLeads suffered a data breach</a> due to an exposed, unsecured Elasticsearch server. The incident exposed tens of millions of records of largely corporate contact data containing 17.8M unique email addresses, along with phone numbers, employers, job titles and geographic locations incl"
-    },
-    {
-      "title": "Burger King Russia",
-      "type": "data breach",
-      "source": "Have I Been Pwned breach catalog",
-      "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "published": "2026-09-21T13:54:00Z",
-      "affectedAccounts": 3155792,
-      "note": "In October 2024, <a href=\"https://xakep.ru/2024/10/10/burger-king-leak/\" target=\"_blank\" rel=\"noopener\">news of a data breach exposing Burger King Russia customers broke</a> following an August attack on the Mindbox marketing automation platform. The breach exposed 3.2M unique email addresses along with names, genders, dates of birth, phone numbers and approximate geolocations, with the data spanning 2018 to August 2024. Burger King Russia acknowledged the incident and advised it did not include"
     },
     {
       "title": "Data broker privacy watch",
