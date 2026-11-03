@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-02T18:38:37Z",
+  "generatedAt": "2026-11-03T01:14:16Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-11-02T18:38:32Z",
+      "checkedAt": "2026-11-03T01:14:10Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,16 +20,16 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-11-02T18:38:33Z",
+      "checkedAt": "2026-11-03T01:14:11Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 51090,
+      "count": 50949,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-11-02T18:38:34Z",
+      "checkedAt": "2026-11-03T01:14:12Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
@@ -38,7 +38,7 @@
       "status": "skipped",
       "count": 0,
       "url": "https://urlhaus.abuse.ch/api/",
-      "checkedAt": "2026-11-02T18:38:35Z",
+      "checkedAt": "2026-11-03T01:14:12Z",
       "note": "https://urlhaus.abuse.ch/downloads/csv_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/text_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/hostfile/: HTTP 410"
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-11-02T18:38:35Z",
+      "checkedAt": "2026-11-03T01:14:13Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -60,8 +60,19 @@
       "confidence": 99,
       "source": "Google Safe Browsing public test host",
       "firstSeen": "2026-06-26",
-      "lastSeen": "2026-11-02",
+      "lastSeen": "2026-11-03",
       "note": "Safe malware-warning test entry. Domain is blocked by WireShield when loaded."
+    },
+    {
+      "domain": "roblox.com.bz",
+      "url": "https://roblox.com.bz/users/6526085041/profile",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-05-24T17:21:53+00:00",
+      "lastSeen": "2026-11-03",
+      "note": "Imported automatically from OpenPhish community feed."
     },
     {
       "domain": "allegro.123109h45odi.lat",
@@ -1732,17 +1743,6 @@
       "confidence": 95,
       "source": "OpenPhish community feed",
       "firstSeen": "2026-08-07T22:49:37+00:00",
-      "lastSeen": "2026-10-31",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "roblox.com.bz",
-      "url": "https://roblox.com.bz/users/9311666398/profile",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-05-24T17:21:53+00:00",
       "lastSeen": "2026-10-31",
       "note": "Imported automatically from OpenPhish community feed."
     },
@@ -8964,12 +8964,12 @@
     },
     {
       "domain": "mondial-point-relay-be.com",
-      "url": "https://mondial-point-relay-be.com/index",
+      "url": "https://mondial-point-relay-be.com/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-10-25T07:35:30+00:00",
+      "firstSeen": "2026-10-25T07:35:38+00:00",
       "lastSeen": "2026-10-25T08:02:12+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -54460,12 +54460,12 @@
     },
     {
       "domain": "turadozub.z23.web.core.windows.net",
-      "url": "https://turadozub.z23.web.core.windows.net/36dhu/",
+      "url": "https://turadozub.z23.web.core.windows.net/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-09-15T08:43:39+00:00",
+      "firstSeen": "2026-09-15T08:43:47+00:00",
       "lastSeen": "2026-09-15T08:51:27+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -94687,12 +94687,12 @@
     },
     {
       "domain": "socgen.mandiify.com",
-      "url": "https://socgen.mandiify.com/index.php",
+      "url": "https://socgen.mandiify.com/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-08-12T20:35:54+00:00",
+      "firstSeen": "2026-08-12T20:36:05+00:00",
       "lastSeen": "2026-08-12T20:42:25+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -116577,7 +116577,7 @@
     },
     {
       "domain": "mornela-gld-fentora-a6x4fc954.pages.dev",
-      "url": "https://mornela-gld-fentora-a6x4fc954.pages.dev/",
+      "url": "http://mornela-gld-fentora-a6x4fc954.pages.dev/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
@@ -133649,12 +133649,12 @@
     },
     {
       "domain": "notification-543721b.com",
-      "url": "https://notification-543721b.com/ppl-cc/",
+      "url": "https://notification-543721b.com/qa-26/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-07-28T15:21:44+00:00",
+      "firstSeen": "2026-07-28T15:22:07+00:00",
       "lastSeen": "2026-07-28T15:32:36+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -142317,12 +142317,12 @@
     },
     {
       "domain": "serv.maxora20.cyou",
-      "url": "https://serv.maxora20.cyou/m/login3.php",
+      "url": "https://serv.maxora20.cyou/m/type.php",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-07-18T12:33:32+00:00",
+      "firstSeen": "2026-07-18T12:34:30+00:00",
       "lastSeen": "2026-07-22T00:05:24+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
