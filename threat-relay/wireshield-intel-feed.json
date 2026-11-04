@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-04T15:59:00Z",
+  "generatedAt": "2026-11-04T21:45:21Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-11-04T15:58:56Z",
+      "checkedAt": "2026-11-04T21:45:14Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,16 +18,16 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-11-04T15:58:56Z",
+      "checkedAt": "2026-11-04T21:45:14Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 50036,
+      "count": 49881,
       "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-11-04T15:58:58Z",
+      "checkedAt": "2026-11-04T21:45:16Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
@@ -36,7 +36,7 @@
       "status": "skipped",
       "count": 0,
       "url": "https://urlhaus.abuse.ch/api/",
-      "checkedAt": "2026-11-04T15:58:58Z",
+      "checkedAt": "2026-11-04T21:45:17Z",
       "note": "https://urlhaus.abuse.ch/downloads/csv_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/text_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/hostfile/: HTTP 410"
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-11-04T15:58:59Z",
+      "checkedAt": "2026-11-04T21:45:18Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-11-04T15:58:59Z",
+      "checkedAt": "2026-11-04T21:45:18Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-11-04T15:58:59Z",
+      "checkedAt": "2026-11-04T21:45:18Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-11-04T15:58:59Z",
+      "checkedAt": "2026-11-04T21:45:18Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-11-04T15:59:00Z",
+      "checkedAt": "2026-11-04T21:45:20Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-11-04T15:59:00Z",
+      "checkedAt": "2026-11-04T21:45:21Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-11-04T15:59:00Z",
+      "checkedAt": "2026-11-04T21:45:21Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -119,6 +119,14 @@
       "note": "HTTP Error 403: Forbidden",
       "type": "source-status",
       "published": "2026-11-04"
+    },
+    {
+      "title": "CVE-2024-27834: exploited vulnerability in Apple Multiple Products",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-11-04",
+      "note": "Apple iOS, iPadOS, macOS, Safari, tvOS and watchOS 10.5 contain an improper authentication vulnerability which could allow an attacker with arbitrary read and write capability to bypass pointer authentication."
     },
     {
       "title": "CVE-2026-119977: exploited vulnerability in WordPress WordPress Core",
@@ -233,22 +241,6 @@
       "note": "EG Secure Solutions SiteGuard Server Edition contains an OS command injection vulnerability which may allow an attacker to execute arbitrary OS commands with root or SYSTEM privileges on the system running the affected product."
     },
     {
-      "title": "CVE-2026-96656: exploited vulnerability in Plex Media Server",
-      "type": "known exploited vulnerability / hack risk",
-      "source": "CISA Known Exploited Vulnerabilities catalog",
-      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "published": "2026-10-20",
-      "note": "Plex Media Server contains an external control of file name or path vulnerability which can allow an admin user to write arbitrary files that may be executed on load. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96654, and CVE-2026-96655."
-    },
-    {
-      "title": "CVE-2006-4339: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2006-4339",
-      "published": "2026-10-30T17:17:04.267",
-      "note": "A flaw was found in OpenSSL. When configured to use an RSA key with exponent 3, OpenSSL improperly removes PKCS-1 padding before generating a hash. This allows remote attackers to forge PKCS #1 v1.5 signatures. Consequently, OpenSSL may incorrectly verify X.509 and other certificates, leading to a bypass of trust and authentication mechanisms."
-    },
-    {
       "title": "CVE-2019-5413: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
@@ -271,30 +263,6 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-21353",
       "published": "2026-11-02T18:18:32.957",
       "note": "Pug is an npm package which is a high-performance template engine.  In pug before version 3.0.1, if a remote attacker was able to control the `pretty` option of the pug compiler, e.g. if you spread a user provided object such as the query parameters of a request into the pug template inputs, it was possible for them to achieve remote code execution on the node.js backend. This is fixed in version 3.0.1.  This advisory applies to multiple pug packages including \"pug\", \"pug-code-gen\".  pug-code-ge"
-    },
-    {
-      "title": "CVE-2023-0758: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-0758",
-      "published": "2026-10-28T19:10:00.193",
-      "note": "A vulnerability was found in glorylion JFinalOA 1.0.2 and classified as critical. This issue affects some unknown processing of the file src/main/java/com/pointlion/mvc/common/model/SysOrg.java. The manipulation of the argument id leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-220469 was assigned to this vulnerability."
-    },
-    {
-      "title": "CVE-2023-0745: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-0745",
-      "published": "2026-10-28T19:10:00.193",
-      "note": "\n\t\n\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tThe High Availability functionality of Yugabyte Anywhere can be abused to write arbitrary\nfiles through the backup upload endpoint by using path traversal characters.\n\n\n\n\t\t\t\t\n\n\n\t\t\t\n\n\n\t\t\n\n\n\t\n This vulnerability is associated with program files PlatformReplicationManager.Java.\n\nThis issue affects YugabyteDB Anywhere: from 2.0.0.0 through 2.13.0.0\n\n"
-    },
-    {
-      "title": "CVE-2023-1357: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-1357",
-      "published": "2026-10-28T19:10:00.193",
-      "note": "A vulnerability, which was classified as critical, has been found in SourceCodester Simple Bakery Shop Management System 1.0. Affected by this issue is some unknown functionality of the component Admin Login. The manipulation of the argument username/password with the input admin' or 1=1 -- leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-222860."
     },
     {
       "title": "CVE-2023-36049: recently changed critical CVE",
@@ -321,6 +289,22 @@
       "note": "A maliciously crafted CATPART file when parsed through Autodesk AutoCAD 2024 and 2023 can be used to cause an Out-Of-Bounds Write. A malicious actor can leverage this vulnerability to cause a crash, read sensitive data, or execute arbitrary code in the context of the current process.\n"
     },
     {
+      "title": "CVE-2023-6816: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-6816",
+      "published": "2026-11-04T21:17:28.753",
+      "note": "A flaw was found in X.Org server. Both DeviceFocusEvent and the XIQueryPointer reply contain a bit for each logical button currently down. Buttons can be arbitrarily mapped to any value up to 255, but the X.Org Server was only allocating space for the device's particular number of buttons, leading to a heap overflow if a bigger value was used."
+    },
+    {
+      "title": "CVE-2023-6267: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-6267",
+      "published": "2026-11-04T21:17:26.963",
+      "note": "A flaw was found in the json payload. If annotation based security is used to secure a REST resource, the JSON body that the resource may consume is being processed (deserialized) prior to the security constraints being evaluated and applied. This does not happen with configuration based security."
+    },
+    {
       "title": "CVE-2024-3863: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
@@ -335,6 +319,22 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-5805",
       "published": "2026-11-03T22:17:28.753",
       "note": "Improper Authentication vulnerability in Progress MOVEit Gateway (SFTP modules) allows Authentication Bypass.This issue affects MOVEit Gateway: 2024.0.0."
+    },
+    {
+      "title": "CVE-2024-38368: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-38368",
+      "published": "2026-11-03T22:17:21.537",
+      "note": "trunk.cocoapods.org is the authentication server for the CoacoaPods dependency manager. A vulnerability affected older pods which migrated from the pre-2014 pull request workflow to trunk. If the pods had never been claimed then it was still possible to do so. It was also possible to have all owners removed from a pod, and that made the pod available for the same claiming system. This was patched server-side in commit 71be5440906b6bdfbc0bcc7f8a9fec33367ea0f4 in September 2023."
+    },
+    {
+      "title": "CVE-2024-27903: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-27903",
+      "published": "2026-11-03T22:17:16.907",
+      "note": "OpenVPN plug-ins on Windows with OpenVPN 2.6.9 and earlier could be loaded from any directory, which allows an attacker to load an arbitrary plug-in which can be used to interact with the privileged OpenVPN interactive service."
     },
     {
       "title": "Harvard",
