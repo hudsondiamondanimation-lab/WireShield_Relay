@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-05T16:45:31Z",
+  "generatedAt": "2026-11-05T22:21:56Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-11-05T16:45:27Z",
+      "checkedAt": "2026-11-05T22:21:51Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,16 +20,16 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-11-05T16:45:27Z",
+      "checkedAt": "2026-11-05T22:21:51Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 49482,
+      "count": 49374,
       "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-11-05T16:45:28Z",
+      "checkedAt": "2026-11-05T22:21:53Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
@@ -38,7 +38,7 @@
       "status": "skipped",
       "count": 0,
       "url": "https://urlhaus.abuse.ch/api/",
-      "checkedAt": "2026-11-05T16:45:29Z",
+      "checkedAt": "2026-11-05T22:21:53Z",
       "note": "https://urlhaus.abuse.ch/downloads/csv_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/text_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/hostfile/: HTTP 410"
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-11-05T16:45:29Z",
+      "checkedAt": "2026-11-05T22:21:54Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -62,6 +62,28 @@
       "firstSeen": "2026-06-26",
       "lastSeen": "2026-11-05",
       "note": "Safe malware-warning test entry. Domain is blocked by WireShield when loaded."
+    },
+    {
+      "domain": "bestchange-aml-scam.com",
+      "url": "https://bestchange-aml-scam.com/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9555472)",
+      "firstSeen": "2026-11-05T19:09:34+00:00",
+      "lastSeen": "2026-11-05T19:31:43+00:00",
+      "note": "Imported automatically from PhishTank verified-online feed."
+    },
+    {
+      "domain": "go.owengraysonjournal.net",
+      "url": "https://go.owengraysonjournal.net/?u=JkseHraYsWh26SaEoie95mAM2CUGsNI8aebAR5bkcBbShsnnNfNsmCEOs3z9OOH2Pg0-jlEa_Ds8WaWoZoQ7jurIFcNwG9H136VTEAVTCC4CtKPthkkdeX7JqvEw_CfpurstsuQEhDzkJnycVXtysx2UiuyzvlVqa_XPAL126GLjRn2tyXOVIhflPKs_29lVOeH9BIYSBhfdYCweQU2o1vGBEI8E83vSlZ33QPFPPsfnaztvlm0yRcGnQ1GTlC3L4SrUyHOSgp_HDXY7ChVrwaVDomLHwaEsWJAA_BcSsGXG3H7YC2Sm8SKb4-D5rLUxCRCW4uZG7UNleTt338w6O_iV1yo5LFTAvKPglVljp-8tDoJVz3BnZ0-kMqt41oN6fGLd1lgdRKmJu6gql9_3SezklMGT6TXvZLGLPiMknXDKkopPbU5UpCzQgwoWAMXZch0bTYs6Wk5EhIfwCm2oFkEt1Xc8HaYFtnQfeNeJzsAtPCa4FXoIZIch6rwGhW8emXOPh7O17lbZ9uq-LJbEWfCVzw3tbpmGM6mlJwpv4uh3fBq8REu4Fr8Zp-Qp6BGxlrAfnXWSciVyErKDS0MT7PND8RRXi3Lb",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9555411)",
+      "firstSeen": "2026-11-05T16:02:25+00:00",
+      "lastSeen": "2026-11-05T16:51:22+00:00",
+      "note": "Imported automatically from PhishTank verified-online feed."
     },
     {
       "domain": "pl-8c8n-pkobiznes.elektroniczna-bankowosc.com",
@@ -96546,12 +96568,12 @@
     },
     {
       "domain": "renewabonne3ds.com",
-      "url": "https://renewabonne3ds.com/captcha",
+      "url": "https://renewabonne3ds.com/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
-      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9505265)",
-      "firstSeen": "2026-08-15T17:08:26+00:00",
+      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9505266)",
+      "firstSeen": "2026-08-15T17:08:36+00:00",
       "lastSeen": "2026-08-15T17:12:33+00:00",
       "note": "Imported automatically from PhishTank verified-online feed."
     },
@@ -209582,12 +209604,12 @@
     },
     {
       "domain": "colegioconexao.com.br",
-      "url": "https://colegioconexao.com.br/pay/home/",
+      "url": "https://colegioconexao.com.br/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
-      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9459320)",
-      "firstSeen": "2026-06-21T23:29:49+00:00",
+      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9459322)",
+      "firstSeen": "2026-06-21T23:30:55+00:00",
       "lastSeen": "2026-06-22T00:09:41+00:00",
       "note": "Imported automatically from PhishTank verified-online feed."
     },
@@ -335630,6 +335652,17 @@
       "note": "Imported automatically from PhishTank verified-online feed."
     },
     {
+      "domain": "legrcmstart.wixstudio.com",
+      "url": "https://legrcmstart.wixstudio.com/en-eng",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9406044)",
+      "firstSeen": "2026-04-27T16:24:44+00:00",
+      "lastSeen": "2026-04-27T16:32:36+00:00",
+      "note": "Imported automatically from PhishTank verified-online feed."
+    },
+    {
       "domain": "myledgstart.wixstudio.com",
       "url": "https://myledgstart.wixstudio.com/en-us",
       "type": "phishing",
@@ -335649,17 +335682,6 @@
       "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9405991)",
       "firstSeen": "2026-04-27T15:54:43+00:00",
       "lastSeen": "2026-04-27T16:03:11+00:00",
-      "note": "Imported automatically from PhishTank verified-online feed."
-    },
-    {
-      "domain": "legrcmstart.wixstudio.com",
-      "url": "https://legrcmstart.wixstudio.com/page-en",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9405936)",
-      "firstSeen": "2026-04-27T15:24:23+00:00",
-      "lastSeen": "2026-04-27T15:32:23+00:00",
       "note": "Imported automatically from PhishTank verified-online feed."
     },
     {
@@ -532783,6 +532805,17 @@
       "note": "Imported automatically from PhishTank verified-online feed."
     },
     {
+      "domain": "myurls.bio",
+      "url": "https://myurls.bio/aaaatttt",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=8189729)",
+      "firstSeen": "2023-06-21T13:32:52+00:00",
+      "lastSeen": "2023-06-21T13:43:35+00:00",
+      "note": "Imported automatically from PhishTank verified-online feed."
+    },
+    {
       "domain": "pub-a38d3674aabc405985b9164ec866d10f.r2.dev",
       "url": "https://pub-a38d3674aabc405985b9164ec866d10f.r2.dev/ers.html",
       "type": "phishing",
@@ -540887,17 +540920,6 @@
       "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=8119673)",
       "firstSeen": "2023-04-17T21:47:38+00:00",
       "lastSeen": "2023-04-18T00:26:21+00:00",
-      "note": "Imported automatically from PhishTank verified-online feed."
-    },
-    {
-      "domain": "myurls.bio",
-      "url": "https://myurls.bio/aaattttt",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=8119719)",
-      "firstSeen": "2023-04-17T22:39:14+00:00",
-      "lastSeen": "2023-04-17T23:54:54+00:00",
       "note": "Imported automatically from PhishTank verified-online feed."
     },
     {
@@ -550028,28 +550050,6 @@
       "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=8027924)",
       "firstSeen": "2023-02-06T16:44:04+00:00",
       "lastSeen": "2023-02-06T16:52:15+00:00",
-      "note": "Imported automatically from PhishTank verified-online feed."
-    },
-    {
-      "domain": "teleperformancerabota.ru",
-      "url": "http://teleperformancerabota.ru",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=8027698)",
-      "firstSeen": "2023-02-06T14:02:15+00:00",
-      "lastSeen": "2023-02-06T14:12:34+00:00",
-      "note": "Imported automatically from PhishTank verified-online feed."
-    },
-    {
-      "domain": "infoarabe.com",
-      "url": "https://infoarabe.com/wp-content/themes/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=8025096)",
-      "firstSeen": "2023-02-03T15:41:31+00:00",
-      "lastSeen": "2023-02-06T03:42:45+00:00",
       "note": "Imported automatically from PhishTank verified-online feed."
     }
   ]

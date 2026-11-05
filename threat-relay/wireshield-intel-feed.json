@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-05T16:45:31Z",
+  "generatedAt": "2026-11-05T22:21:56Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-11-05T16:45:27Z",
+      "checkedAt": "2026-11-05T22:21:51Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,16 +18,16 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-11-05T16:45:27Z",
+      "checkedAt": "2026-11-05T22:21:51Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 49482,
+      "count": 49374,
       "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-11-05T16:45:28Z",
+      "checkedAt": "2026-11-05T22:21:53Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
@@ -36,7 +36,7 @@
       "status": "skipped",
       "count": 0,
       "url": "https://urlhaus.abuse.ch/api/",
-      "checkedAt": "2026-11-05T16:45:29Z",
+      "checkedAt": "2026-11-05T22:21:53Z",
       "note": "https://urlhaus.abuse.ch/downloads/csv_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/text_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/hostfile/: HTTP 410"
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-11-05T16:45:29Z",
+      "checkedAt": "2026-11-05T22:21:54Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,17 +54,17 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-11-05T16:45:29Z",
+      "checkedAt": "2026-11-05T22:21:54Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
       "name": "CISA news feed",
       "category": "intel/rss",
-      "status": "failed",
-      "count": 0,
+      "status": "ok",
+      "count": 1,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-11-05T16:45:30Z",
-      "note": "HTTP Error 403: Forbidden"
+      "checkedAt": "2026-11-05T22:21:54Z",
+      "note": "RSS/news items imported."
     },
     {
       "name": "CISA Known Exploited Vulnerabilities",
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-11-05T16:45:30Z",
+      "checkedAt": "2026-11-05T22:21:54Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-11-05T16:45:31Z",
+      "checkedAt": "2026-11-05T22:21:56Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-11-05T16:45:31Z",
+      "checkedAt": "2026-11-05T22:21:56Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-11-05T16:45:31Z",
+      "checkedAt": "2026-11-05T22:21:56Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -113,12 +113,12 @@
       "note": "HTTP Error 403: Forbidden"
     },
     {
-      "title": "Source unavailable",
+      "title": "CISA, FBI and Partners Warn Organizations of SafePay Ransomware Actors Targeting Multiple Critical Infrastructure Sectors",
+      "type": "trusted-source-item",
       "source": "CISA news feed",
       "url": "https://www.cisa.gov/news.xml",
-      "note": "HTTP Error 403: Forbidden",
-      "type": "source-status",
-      "published": "2026-11-05"
+      "published": "Wed, 21 Oct 26 12:00:00 +0000",
+      "note": ""
     },
     {
       "title": "CVE-2024-27834: exploited vulnerability in Apple Multiple Products",
@@ -265,6 +265,14 @@
       "note": "Pug is an npm package which is a high-performance template engine.  In pug before version 3.0.1, if a remote attacker was able to control the `pretty` option of the pug compiler, e.g. if you spread a user provided object such as the query parameters of a request into the pug template inputs, it was possible for them to achieve remote code execution on the node.js backend. This is fixed in version 3.0.1.  This advisory applies to multiple pug packages including \"pug\", \"pug-code-gen\".  pug-code-ge"
     },
     {
+      "title": "CVE-2021-38299: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-38299",
+      "published": "2026-11-05T19:59:32.573",
+      "note": "Webauthn Framework 3.3.x before 3.3.4 has Incorrect Access Control. An attacker that controls a user's system is able to login to a vulnerable service using an attached FIDO2 authenticator without passing a check of the user presence."
+    },
+    {
       "title": "CVE-2023-36049: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
@@ -327,14 +335,6 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-5805",
       "published": "2026-11-03T22:17:28.753",
       "note": "Improper Authentication vulnerability in Progress MOVEit Gateway (SFTP modules) allows Authentication Bypass.This issue affects MOVEit Gateway: 2024.0.0."
-    },
-    {
-      "title": "CVE-2024-38368: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-38368",
-      "published": "2026-11-03T22:17:21.537",
-      "note": "trunk.cocoapods.org is the authentication server for the CoacoaPods dependency manager. A vulnerability affected older pods which migrated from the pre-2014 pull request workflow to trunk. If the pods had never been claimed then it was still possible to do so. It was also possible to have all owners removed from a pod, and that made the pod available for the same claiming system. This was patched server-side in commit 71be5440906b6bdfbc0bcc7f8a9fec33367ea0f4 in September 2023."
     },
     {
       "title": "Harvard",
