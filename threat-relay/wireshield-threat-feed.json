@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-08T19:52:27Z",
+  "generatedAt": "2026-11-08T23:21:26Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-11-08T19:52:23Z",
+      "checkedAt": "2026-11-08T23:21:21Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,16 +20,16 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-11-08T19:52:23Z",
+      "checkedAt": "2026-11-08T23:21:21Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 47983,
+      "count": 47977,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-11-08T19:52:24Z",
+      "checkedAt": "2026-11-08T23:21:22Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
@@ -38,7 +38,7 @@
       "status": "skipped",
       "count": 0,
       "url": "https://urlhaus.abuse.ch/api/",
-      "checkedAt": "2026-11-08T19:52:24Z",
+      "checkedAt": "2026-11-08T23:21:23Z",
       "note": "https://urlhaus.abuse.ch/downloads/csv_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/text_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/hostfile/: HTTP 410"
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-11-08T19:52:25Z",
+      "checkedAt": "2026-11-08T23:21:23Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -7303,13 +7303,13 @@
     },
     {
       "domain": "brt.itil.us.cc",
-      "url": "https://brt.itil.us.cc/it/",
+      "url": "https://brt.itil.us.cc/it/home.html",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-11-02T15:19:25+00:00",
-      "lastSeen": "2026-11-02T15:21:42+00:00",
+      "firstSeen": "2026-11-02T15:19:26+00:00",
+      "lastSeen": "2026-11-02T15:31:40+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
@@ -148906,12 +148906,12 @@
     },
     {
       "domain": "mvm-energetikai.vusisizwefunerals.co.za",
-      "url": "https://mvm-energetikai.vusisizwefunerals.co.za/hu24256543235/teran/kartya.php",
+      "url": "https://mvm-energetikai.vusisizwefunerals.co.za/hu24256543235/teran/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-07-23T05:46:56+00:00",
+      "firstSeen": "2026-07-23T05:47:26+00:00",
       "lastSeen": "2026-07-24T00:05:37+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
