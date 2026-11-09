@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-09T02:50:57Z",
+  "generatedAt": "2026-11-09T10:45:26Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-11-09T02:50:53Z",
+      "checkedAt": "2026-11-09T10:45:21Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,16 +20,16 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-11-09T02:50:53Z",
+      "checkedAt": "2026-11-09T10:45:22Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 47873,
+      "count": 47659,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-11-09T02:50:55Z",
+      "checkedAt": "2026-11-09T10:45:23Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
@@ -38,7 +38,7 @@
       "status": "skipped",
       "count": 0,
       "url": "https://urlhaus.abuse.ch/api/",
-      "checkedAt": "2026-11-09T02:50:55Z",
+      "checkedAt": "2026-11-09T10:45:23Z",
       "note": "https://urlhaus.abuse.ch/downloads/csv_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/text_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/hostfile/: HTTP 410"
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-11-09T02:50:55Z",
+      "checkedAt": "2026-11-09T10:45:23Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -62,6 +62,17 @@
       "firstSeen": "2026-06-26",
       "lastSeen": "2026-11-09",
       "note": "Safe malware-warning test entry. Domain is blocked by WireShield when loaded."
+    },
+    {
+      "domain": "allegro.0129g98349129.rest",
+      "url": "http://allegro.0129g98349129.rest/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-11-09T02:33:26+00:00",
+      "lastSeen": "2026-11-09T02:41:47+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
       "domain": "roblox.com.bz",
@@ -13683,12 +13694,12 @@
     },
     {
       "domain": "amp-espace.com",
-      "url": "https://amp-espace.com/index.php",
+      "url": "https://amp-espace.com/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-10-27T14:57:24+00:00",
+      "firstSeen": "2026-10-27T14:57:34+00:00",
       "lastSeen": "2026-10-27T15:02:09+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -61181,12 +61192,12 @@
     },
     {
       "domain": "3675886862734567666345768257741.blogspot.com",
-      "url": "https://3675886862734567666345768257741.blogspot.com/?m=1",
+      "url": "https://3675886862734567666345768257741.blogspot.com/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-09-16T12:45:18+00:00",
+      "firstSeen": "2026-09-16T12:45:24+00:00",
       "lastSeen": "2026-09-16T12:51:18+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -75360,13 +75371,13 @@
     },
     {
       "domain": "dac8flattax.com",
-      "url": "https://dac8flattax.com/tax-questions",
+      "url": "https://dac8flattax.com/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-09-06T20:59:08+00:00",
-      "lastSeen": "2026-09-06T21:02:11+00:00",
+      "firstSeen": "2026-09-06T20:59:29+00:00",
+      "lastSeen": "2026-09-06T21:11:53+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
@@ -85139,12 +85150,12 @@
     },
     {
       "domain": "primevideomusique.com",
-      "url": "https://primevideomusique.com/vos-commandes?token=null",
+      "url": "https://primevideomusique.com/annuler?token=null",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-08-26T18:58:50+00:00",
+      "firstSeen": "2026-08-26T18:59:54+00:00",
       "lastSeen": "2026-08-26T19:02:49+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -126278,17 +126289,6 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
-      "domain": "allegro.0129g98349129.rest",
-      "url": "http://allegro.0129g98349129.rest/lokalnie/?id=8p1u2o8z0i8s3p0h0j0a2v5u4g5v3a0p",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9493883)",
-      "firstSeen": "2026-08-01T19:47:52+00:00",
-      "lastSeen": "2026-08-01T20:52:29+00:00",
-      "note": "Imported automatically from PhishTank verified-online feed."
-    },
-    {
       "domain": "ppl-logacces.com",
       "url": "https://ppl-logacces.com/index.php",
       "type": "phishing",
@@ -155616,12 +155616,12 @@
     },
     {
       "domain": "kleinanzeigen.nmgdfjd.com",
-      "url": "https://kleinanzeigen.nmgdfjd.com/3533970?mail=W0NBVENIXQ==&meta=rlWjMKWwLJ50LJqyVwb1YPWhLJ1yVwbvKUHlAzRkKUIzMGOzVRAuqTAbGJHtGJScoTIlVvjvL2uuqS9cMPV6YGRjZQV5BQLkZmt0ZGNfVaAypaMcL2HvBvWeoTIcozShrzIcM2IhVvjvqUyjMFV6VzAuqTAboJIsoJScoPW9",
+      "url": "https://kleinanzeigen.nmgdfjd.com/3533970?mail=W0NBVENIXQ%3D%3D&meta=rlWjMKWwLJ50LJqyVwb1YPWhLJ1yVwbvKUHlAzRkKUIzMGOzVRAuqTAbGJHtGJScoTIlVvjvL2uuqS9cMPV6YGRjZQV5BQLkZmt0ZGNfVaAypaMcL2HvBvWeoTIcozShrzIcM2IhVvjvqUyjMFV6VzAuqTAboJIsoJScoPW9",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-07-17T11:48:13+00:00",
+      "firstSeen": "2026-07-17T11:48:14+00:00",
       "lastSeen": "2026-07-18T06:12:30+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -159444,13 +159444,13 @@
     },
     {
       "domain": "kleinanzeigen-bestellung.jungleegames.net",
-      "url": "https://kleinanzeigen-bestellung.jungleegames.net/ql53HwjvEEH?m=2",
+      "url": "https://kleinanzeigen-bestellung.jungleegames.net/ql53HwjvEEH?m=3",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-07-15T12:30:17+00:00",
-      "lastSeen": "2026-07-15T12:35:40+00:00",
+      "firstSeen": "2026-07-15T12:32:17+00:00",
+      "lastSeen": "2026-07-15T12:42:53+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
@@ -165350,6 +165350,17 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
+      "domain": "klelnanzeigen-deutch.geldeingang-srvc791609.info",
+      "url": "https://klelnanzeigen-deutch.geldeingang-srvc791609.info/getpaymentm/238806365/m8",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-07-13T14:12:42+00:00",
+      "lastSeen": "2026-07-13T15:22:47+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
       "domain": "web3-exoduos.wixstudio.com",
       "url": "https://web3-exoduos.wixstudio.com/en-us",
       "type": "phishing",
@@ -165445,17 +165456,6 @@
       "confidence": 95,
       "source": "PhishTank public verified feed",
       "firstSeen": "2026-07-13T13:45:07+00:00",
-      "lastSeen": "2026-07-13T14:52:22+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
-      "domain": "klelnanzeigen-deutch.geldeingang-srvc791609.info",
-      "url": "https://klelnanzeigen-deutch.geldeingang-srvc791609.info/getpaymentm/262384993/m9",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-07-13T13:37:52+00:00",
       "lastSeen": "2026-07-13T14:52:22+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -233935,6 +233935,17 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
+      "domain": "homepage-ldgercdn.wixstudio.com",
+      "url": "http://homepage-ldgercdn.wixstudio.com/en-us",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-06-13T00:10:10+00:00",
+      "lastSeen": "2026-06-13T00:22:28+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
       "domain": "gaml.cc",
       "url": "https://gaml.cc/optaussies",
       "type": "phishing",
@@ -237541,17 +237552,6 @@
       "firstSeen": "2026-06-12T00:41:31+00:00",
       "lastSeen": "2026-06-12T07:52:22+00:00",
       "note": "Imported automatically from PhishTank verified-online feed."
-    },
-    {
-      "domain": "homepage-ldgercdn.wixstudio.com",
-      "url": "https://homepage-ldgercdn.wixstudio.com/en-us",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-06-12T00:39:54+00:00",
-      "lastSeen": "2026-06-12T07:52:22+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
       "domain": "eri0-dreayi.vercel.app",
@@ -251107,13 +251107,13 @@
     },
     {
       "domain": "kleinanzeigen-deutsch.de-supsrvc8732367.info",
-      "url": "https://kleinanzeigen-deutsch.de-supsrvc8732367.info/getpaymentm/258824232/m9",
+      "url": "https://kleinanzeigen-deutsch.de-supsrvc8732367.info/getpaymentm/239418857/m9?__cf_chl_rt_tk=frJj2au8M0wqkCsnmkcCtjW.T.0OaQXD5rb3yQG9pYI-1780756979-1.0.1.1-hz6JNNT5_RtJaqi6d4m1WU1hQdTPCtlUFnJWwuSH5UA",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-06-06T13:31:45+00:00",
-      "lastSeen": "2026-06-06T13:52:15+00:00",
+      "firstSeen": "2026-06-06T14:45:54+00:00",
+      "lastSeen": "2026-06-06T14:52:14+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
