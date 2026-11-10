@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-10T11:36:27Z",
+  "generatedAt": "2026-11-10T18:47:51Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-11-10T11:36:24Z",
+      "checkedAt": "2026-11-10T18:47:47Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,16 +18,16 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-11-10T11:36:24Z",
+      "checkedAt": "2026-11-10T18:47:47Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 47188,
+      "count": 47087,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-11-10T11:36:26Z",
+      "checkedAt": "2026-11-10T18:47:48Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
@@ -36,7 +36,7 @@
       "status": "skipped",
       "count": 0,
       "url": "https://urlhaus.abuse.ch/api/",
-      "checkedAt": "2026-11-10T11:36:26Z",
+      "checkedAt": "2026-11-10T18:47:48Z",
       "note": "https://urlhaus.abuse.ch/downloads/csv_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/text_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/hostfile/: HTTP 410"
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-11-10T11:36:26Z",
+      "checkedAt": "2026-11-10T18:47:49Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-11-10T11:36:27Z",
+      "checkedAt": "2026-11-10T18:47:49Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "ok",
       "count": 1,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-11-10T11:36:27Z",
+      "checkedAt": "2026-11-10T18:47:49Z",
       "note": "RSS/news items imported."
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-11-10T11:36:27Z",
+      "checkedAt": "2026-11-10T18:47:50Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-11-10T11:36:27Z",
+      "checkedAt": "2026-11-10T18:47:51Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-11-10T11:36:27Z",
+      "checkedAt": "2026-11-10T18:47:51Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-11-10T11:36:27Z",
+      "checkedAt": "2026-11-10T18:47:51Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -257,84 +257,84 @@
       "note": "A Stack-based buffer overflow vulnerability in the SonicOS via HTTP request allows a remote unauthenticated attacker to cause Denial of Service (DoS) or potentially results in code execution in the firewall."
     },
     {
-      "title": "CVE-2023-3961: recently changed critical CVE",
+      "title": "CVE-2022-45088: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-3961",
-      "published": "2026-11-07T12:17:32.990",
-      "note": "A path traversal vulnerability was identified in Samba when processing client pipe names connecting to Unix domain sockets within a private directory. Samba typically uses this mechanism to connect SMB clients to remote procedure call (RPC) services like SAMR LSA or SPOOLSS, which Samba initiates on demand. However, due to inadequate sanitization of incoming client pipe names, allowing a client to send a pipe name containing Unix directory traversal characters (../). This could result in SMB cli"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-45088",
+      "published": "2026-11-10T12:10:00.177",
+      "note": "Improper Input Validation vulnerability in Group Arge Energy and Control Systems Smartpower Web allows PHP Local File Inclusion.\n\nThis issue affects Smartpower Web: before 23.01.01."
     },
     {
-      "title": "CVE-2023-6816: recently changed critical CVE",
+      "title": "CVE-2022-2504: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-6816",
-      "published": "2026-11-04T21:17:28.753",
-      "note": "A flaw was found in X.Org server. Both DeviceFocusEvent and the XIQueryPointer reply contain a bit for each logical button currently down. Buttons can be arbitrarily mapped to any value up to 255, but the X.Org Server was only allocating space for the device's particular number of buttons, leading to a heap overflow if a bigger value was used."
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-2504",
+      "published": "2026-11-10T12:10:00.177",
+      "note": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in SDD Computer Software SDD-Baro allows SQL Injection.\n\nThis issue affects SDD-Baro: before 2.8.432."
     },
     {
-      "title": "CVE-2023-6267: recently changed critical CVE",
+      "title": "CVE-2022-3760: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-6267",
-      "published": "2026-11-04T21:17:26.963",
-      "note": "A flaw was found in the json payload. If annotation based security is used to secure a REST resource, the JSON body that the resource may consume is being processed (deserialized) prior to the security constraints being evaluated and applied. This does not happen with configuration based security."
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-3760",
+      "published": "2026-11-10T12:10:00.177",
+      "note": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Mia Technology Mia-Med.\n\nThis issue affects Mia-Med: before 1.0.0.58."
     },
     {
-      "title": "CVE-2024-22394: recently changed critical CVE",
+      "title": "CVE-2023-28531: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-22394",
-      "published": "2026-11-09T14:43:41.437",
-      "note": "An improper authentication vulnerability has been identified in SonicWall SonicOS SSL-VPN feature, which in specific conditions could allow a remote attacker to bypass authentication. \n\nThis issue affects only firmware version SonicOS 7.1.1-7040.\n\n"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-28531",
+      "published": "2026-11-10T13:17:19.610",
+      "note": "ssh-add in OpenSSH before 9.3 adds smartcard keys to ssh-agent without the intended per-hop destination constraints. The earliest affected version is 8.9."
     },
     {
-      "title": "CVE-2024-3094: recently changed critical CVE",
+      "title": "CVE-2022-4146: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-3094",
-      "published": "2026-11-04T22:17:21.430",
-      "note": "Malicious code was discovered in the upstream tarballs of xz, starting with version 5.6.0. \r\nThrough a series of complex obfuscations, the liblzma build process extracts a prebuilt object file from a disguised test file existing in the source code, which is then used to modify specific functions in the liblzma code. This results in a modified liblzma library that can be used by any software linked against this library, intercepting and modifying the data interaction with this library."
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-4146",
+      "published": "2026-11-10T12:10:00.177",
+      "note": "Expression Language Injection vulnerability in Hitachi Replication Manager on Windows, Linux, Solaris allows Code Injection.This issue affects Hitachi Replication Manager: before 8.8.5-02.\n\n"
     },
     {
-      "title": "CVE-2024-3863: recently changed critical CVE",
+      "title": "CVE-2022-4920: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-3863",
-      "published": "2026-11-03T22:17:22.940",
-      "note": "The executable file warning was not presented when downloading .xrm-ms files.  \n*Note: This issue only affected Windows operating systems. Other operating systems are unaffected.* This vulnerability affects Firefox < 125, Firefox ESR < 115.10, and Thunderbird < 115.10."
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-4920",
+      "published": "2026-11-10T12:10:00.177",
+      "note": "Heap buffer overflow in Blink in Google Chrome prior to 101.0.4951.41 allowed a remote attacker who convinced a user to engage in specific UI gestures to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)"
     },
     {
-      "title": "CVE-2024-5805: recently changed critical CVE",
+      "title": "CVE-2022-4924: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-5805",
-      "published": "2026-11-03T22:17:28.753",
-      "note": "Improper Authentication vulnerability in Progress MOVEit Gateway (SFTP modules) allows Authentication Bypass.This issue affects MOVEit Gateway: 2024.0.0."
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-4924",
+      "published": "2026-11-10T12:10:00.177",
+      "note": "Use after free in WebRTC in Google Chrome prior to 97.0.4692.71 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)"
     },
     {
-      "title": "CVE-2024-38368: recently changed critical CVE",
+      "title": "CVE-2023-38186: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-38368",
-      "published": "2026-11-03T22:17:21.537",
-      "note": "trunk.cocoapods.org is the authentication server for the CoacoaPods dependency manager. A vulnerability affected older pods which migrated from the pre-2014 pull request workflow to trunk. If the pods had never been claimed then it was still possible to do so. It was also possible to have all owners removed from a pod, and that made the pod available for the same claiming system. This was patched server-side in commit 71be5440906b6bdfbc0bcc7f8a9fec33367ea0f4 in September 2023."
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-38186",
+      "published": "2026-11-10T13:10:00.363",
+      "note": "Windows Mobile Device Management Elevation of Privilege Vulnerability"
     },
     {
-      "title": "CVE-2024-27903: recently changed critical CVE",
+      "title": "CVE-2023-35085: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-27903",
-      "published": "2026-11-03T22:17:16.907",
-      "note": "OpenVPN plug-ins on Windows with OpenVPN 2.6.9 and earlier could be loaded from any directory, which allows an attacker to load an arbitrary plug-in which can be used to interact with the privileged OpenVPN interactive service."
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-35085",
+      "published": "2026-11-10T12:10:00.177",
+      "note": "An integer overflow vulnerability in all UniFi Access Points and Switches, excluding the Switch Flex Mini, with SNMP Monitoring and default settings enabled could allow a Remote Code Execution (RCE).\n\n \n\nAffected Products:\nAll UniFi Access Points (Version 6.5.50 and earlier)\nAll UniFi Switches (Version 6.5.32 and earlier) \n-USW Flex Mini excluded.\n \n\nMitigation:\nUpdate UniFi Access Points to Version 6.5.62 or later.\nUpdate the UniFi Switches to Version 6.5.59 or later."
     },
     {
-      "title": "CVE-2024-39700: recently changed critical CVE",
+      "title": "CVE-2023-38034: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-39700",
-      "published": "2026-11-03T22:17:22.230",
-      "note": "JupyterLab extension template is a  `copier` template for JupyterLab extensions. Repositories created using this template with `test` option include `update-integration-tests.yml` workflow which has an RCE vulnerability. Extension authors hosting their code on GitHub are urged to upgrade the template to the latest version. Users who made changes to `update-integration-tests.yml`, accept overwriting of this file and re-apply your changes later. Users may wish to temporarily disable GitHub Actions"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-38034",
+      "published": "2026-11-10T12:10:00.177",
+      "note": "A command injection vulnerability in the DHCP Client function of all UniFi Access Points and Switches, excluding the Switch Flex Mini, could allow a Remote Code Execution (RCE).\n\n \nAffected Products:\nAll UniFi Access Points (Version 6.5.53 and earlier)\nAll UniFi Switches (Version 6.5.32 and earlier) \n-USW Flex Mini excluded.\n \n\nMitigation:\nUpdate UniFi Access Points to Version 6.5.62 or later.\nUpdate UniFi Switches to Version 6.5.59 or later."
     },
     {
       "title": "Harvard",
