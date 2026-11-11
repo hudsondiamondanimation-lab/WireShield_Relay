@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-10T23:45:34Z",
+  "generatedAt": "2026-11-11T03:05:46Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-11-10T23:45:30Z",
+      "checkedAt": "2026-11-11T03:05:30Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,16 +20,16 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-11-10T23:45:30Z",
+      "checkedAt": "2026-11-11T03:05:30Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 46998,
+      "count": 46948,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-11-10T23:45:31Z",
+      "checkedAt": "2026-11-11T03:05:31Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
@@ -38,7 +38,7 @@
       "status": "skipped",
       "count": 0,
       "url": "https://urlhaus.abuse.ch/api/",
-      "checkedAt": "2026-11-10T23:45:32Z",
+      "checkedAt": "2026-11-11T03:05:32Z",
       "note": "https://urlhaus.abuse.ch/downloads/csv_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/text_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/hostfile/: HTTP 410"
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-11-10T23:45:32Z",
+      "checkedAt": "2026-11-11T03:05:32Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -60,8 +60,19 @@
       "confidence": 99,
       "source": "Google Safe Browsing public test host",
       "firstSeen": "2026-06-26",
-      "lastSeen": "2026-11-10",
+      "lastSeen": "2026-11-11",
       "note": "Safe malware-warning test entry. Domain is blocked by WireShield when loaded."
+    },
+    {
+      "domain": "roblox.com.bz",
+      "url": "https://roblox.com.bz/users/1026085020/profile",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-05-24T17:21:53+00:00",
+      "lastSeen": "2026-11-11",
+      "note": "Imported automatically from OpenPhish community feed."
     },
     {
       "domain": "www.ristek.link",
@@ -106,17 +117,6 @@
       "firstSeen": "2026-11-09T02:33:26+00:00",
       "lastSeen": "2026-11-09T02:41:47+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
-      "domain": "roblox.com.bz",
-      "url": "https://roblox.com.bz/users/1034431102/profile",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-05-24T17:21:53+00:00",
-      "lastSeen": "2026-11-09",
-      "note": "Imported automatically from OpenPhish community feed."
     },
     {
       "domain": "aruba.renew-service.net",
@@ -233253,6 +233253,17 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
+      "domain": "startio-ledgrecdn.wixstudio.com",
+      "url": "http://startio-ledgrecdn.wixstudio.com/us-en",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-06-13T12:13:38+00:00",
+      "lastSeen": "2026-06-13T12:22:34+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
       "domain": "nav-i-trustcaptall.wixstudio.com",
       "url": "https://nav-i-trustcaptall.wixstudio.com/en-us",
       "type": "phishing",
@@ -237529,17 +237540,6 @@
       "source": "PhishTank public verified feed",
       "firstSeen": "2026-06-12T05:09:58+00:00",
       "lastSeen": "2026-06-12T08:03:27+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
-      "domain": "startio-ledgrecdn.wixstudio.com",
-      "url": "https://startio-ledgrecdn.wixstudio.com/us-en",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-06-12T00:41:44+00:00",
-      "lastSeen": "2026-06-12T07:52:22+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
