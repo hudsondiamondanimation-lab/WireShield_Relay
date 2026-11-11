@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-11T03:05:46Z",
+  "generatedAt": "2026-11-11T10:45:49Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-11-11T03:05:30Z",
+      "checkedAt": "2026-11-11T10:45:44Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,16 +18,16 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-11-11T03:05:30Z",
+      "checkedAt": "2026-11-11T10:45:44Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 46948,
-      "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-11-11T03:05:31Z",
+      "count": 46755,
+      "url": "https://data.phishtank.com/data/online-valid.json",
+      "checkedAt": "2026-11-11T10:45:46Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
@@ -36,7 +36,7 @@
       "status": "skipped",
       "count": 0,
       "url": "https://urlhaus.abuse.ch/api/",
-      "checkedAt": "2026-11-11T03:05:32Z",
+      "checkedAt": "2026-11-11T10:45:46Z",
       "note": "https://urlhaus.abuse.ch/downloads/csv_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/text_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/hostfile/: HTTP 410"
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-11-11T03:05:32Z",
+      "checkedAt": "2026-11-11T10:45:46Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-11-11T03:05:32Z",
+      "checkedAt": "2026-11-11T10:45:47Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "ok",
       "count": 1,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-11-11T03:05:32Z",
+      "checkedAt": "2026-11-11T10:45:47Z",
       "note": "RSS/news items imported."
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-11-11T03:05:32Z",
+      "checkedAt": "2026-11-11T10:45:47Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-11-11T03:05:46Z",
+      "checkedAt": "2026-11-11T10:45:49Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-11-11T03:05:46Z",
+      "checkedAt": "2026-11-11T10:45:49Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-11-11T03:05:46Z",
+      "checkedAt": "2026-11-11T10:45:49Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -337,6 +337,15 @@
       "note": "A command injection vulnerability in the DHCP Client function of all UniFi Access Points and Switches, excluding the Switch Flex Mini, could allow a Remote Code Execution (RCE).\n\n \nAffected Products:\nAll UniFi Access Points (Version 6.5.53 and earlier)\nAll UniFi Switches (Version 6.5.32 and earlier) \n-USW Flex Mini excluded.\n \n\nMitigation:\nUpdate UniFi Access Points to Version 6.5.62 or later.\nUpdate UniFi Switches to Version 6.5.59 or later."
     },
     {
+      "title": "YouHack",
+      "type": "data breach",
+      "source": "Have I Been Pwned breach catalog",
+      "url": "https://haveibeenpwned.com/api/v3/breaches",
+      "published": "2026-11-11T07:29:19Z",
+      "affectedAccounts": 7160849,
+      "note": "In May 2013, the Russian-language hacking forum YouHack suffered a data breach <a href=\"https://cybernews.com/security/billions-passwords-credentials-leaked-mother-of-all-breaches/\" target=\"_blank\" rel=\"noopener\">that was later redistributed as part of a larger corpus of data</a>. The breach exposed 107k forum members' email addresses, usernames, IP addresses and MD5 password hashes, most of which were unsalted. Forum posts also contained email address and password pairs belonging to other victi"
+    },
+    {
       "title": "СберСпасибо (SberSpasibo)",
       "type": "data breach",
       "source": "Have I Been Pwned breach catalog",
@@ -434,15 +443,6 @@
       "published": "2026-10-07T03:45:31Z",
       "affectedAccounts": 6765054,
       "note": "In July 2024, the Indian stock brokerage firm <a href=\"https://www.teiss.co.uk/news/angel-one-data-breach-affects-79-million-customers-14308\" target=\"_blank\" rel=\"noopener\">Angel One confirmed that data leaked online related to a breach that occurred in April 2023</a>. The leaked data included 7.9M user records containing 6.8M unique email addresses, along with names, physical addresses, phone numbers, bank account numbers, Permanent Account Numbers (PANs) and portfolio holdings. Angel One empha"
-    },
-    {
-      "title": "Medela",
-      "type": "data breach",
-      "source": "Have I Been Pwned breach catalog",
-      "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "published": "2026-09-30T11:48:28Z",
-      "affectedAccounts": 423947,
-      "note": "In September 2026, Swiss medical device company <a href=\"https://undercodenews.com/medela-targeted-by-shinyhunters-a-ransomware-warning-puts-swiss-healthcare-data-under-pressure-video/\" target=\"_blank\" rel=\"noopener\">Medela was the target of a ShinyHunters \"pay or leak\" extortion campaign</a>. The data allegedly obtained in the breach was later published publicly and included 424k unique email addresses belonging predominantly to healthcare professionals, Medela staff and leads. The exposed data"
     },
     {
       "title": "Data broker privacy watch",
