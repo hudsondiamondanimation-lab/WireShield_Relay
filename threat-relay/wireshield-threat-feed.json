@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-12T16:18:53Z",
+  "generatedAt": "2026-11-13T02:40:16Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-11-12T16:18:34Z",
+      "checkedAt": "2026-11-13T02:40:11Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,17 +20,17 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-11-12T16:18:34Z",
+      "checkedAt": "2026-11-13T02:40:11Z",
       "note": "Public phishing URL feed imported."
     },
     {
-      "name": "PhishTank public verified feed",
+      "name": "PhishTank",
       "category": "scam/phishing",
-      "status": "ok",
-      "count": 46208,
-      "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-11-12T16:18:36Z",
-      "note": "PhishTank verified-online phishing database imported."
+      "status": "failed",
+      "count": 0,
+      "url": "https://www.phishtank.com/developer_info.php",
+      "checkedAt": "2026-11-13T02:40:12Z",
+      "note": "https://data.phishtank.com/data/online-valid.json: HTTP 404; https://data.phishtank.com/data/online-valid.csv: HTTP 404"
     },
     {
       "name": "URLhaus malware feeds",
@@ -38,7 +38,7 @@
       "status": "skipped",
       "count": 0,
       "url": "https://urlhaus.abuse.ch/api/",
-      "checkedAt": "2026-11-12T16:18:36Z",
+      "checkedAt": "2026-11-13T02:40:12Z",
       "note": "https://urlhaus.abuse.ch/downloads/csv_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/text_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/hostfile/: HTTP 410"
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-11-12T16:18:37Z",
+      "checkedAt": "2026-11-13T02:40:13Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -60,8 +60,74 @@
       "confidence": 99,
       "source": "Google Safe Browsing public test host",
       "firstSeen": "2026-06-26",
-      "lastSeen": "2026-11-12",
+      "lastSeen": "2026-11-13",
       "note": "Safe malware-warning test entry. Domain is blocked by WireShield when loaded."
+    },
+    {
+      "domain": "meine-app.login-utilizator.de",
+      "url": "https://meine-app.login-utilizator.de/portal/openlogin",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-10-18T05:48:06+00:00",
+      "lastSeen": "2026-11-13",
+      "note": "Imported automatically from OpenPhish community feed."
+    },
+    {
+      "domain": "sharemyhtml.com",
+      "url": "https://sharemyhtml.com/p/KgfEJ5RwcD?eta=janon@267b8b14d3d1f7f268c22ce600a1219af2f7.org",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-09-30T10:22:22+00:00",
+      "lastSeen": "2026-11-13",
+      "note": "Imported automatically from OpenPhish community feed."
+    },
+    {
+      "domain": "www.roblox.com.am",
+      "url": "https://www.roblox.com.am/users/316348761190/profile",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-08-02T19:42:57+00:00",
+      "lastSeen": "2026-11-13",
+      "note": "Imported automatically from OpenPhish community feed."
+    },
+    {
+      "domain": "www.roblox.com.ml",
+      "url": "https://www.roblox.com.ml/users/198862587507/profile",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-05-30T23:30:23+00:00",
+      "lastSeen": "2026-11-13",
+      "note": "Imported automatically from OpenPhish community feed."
+    },
+    {
+      "domain": "www.roblox.com.et",
+      "url": "https://www.roblox.com.et/users/419231363/profile",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-05-26T17:09:50+00:00",
+      "lastSeen": "2026-11-13",
+      "note": "Imported automatically from OpenPhish community feed."
+    },
+    {
+      "domain": "www.roblox.et",
+      "url": "https://www.roblox.et/users/1182310753/profile",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-05-17T20:17:50+00:00",
+      "lastSeen": "2026-11-13",
+      "note": "Imported automatically from OpenPhish community feed."
     },
     {
       "domain": "sprl.me",
@@ -31887,17 +31953,6 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
-      "domain": "meine-app.login-utilizator.de",
-      "url": "https://meine-app.login-utilizator.de/portal/openlogin/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-10-18T05:48:06+00:00",
-      "lastSeen": "2026-10-18T05:51:34+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
       "domain": "signloginin.de",
       "url": "https://signloginin.de/",
       "type": "phishing",
@@ -51661,17 +51716,6 @@
       "confidence": 95,
       "source": "PhishTank public verified feed",
       "firstSeen": "2026-09-30T10:36:58+00:00",
-      "lastSeen": "2026-09-30T12:51:26+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
-      "domain": "sharemyhtml.com",
-      "url": "https://sharemyhtml.com/p/p-23OK_eDn",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-09-30T10:22:22+00:00",
       "lastSeen": "2026-09-30T12:51:26+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -126529,17 +126573,6 @@
       "firstSeen": "2026-08-02T19:46:07+00:00",
       "lastSeen": "2026-08-02T20:42:16+00:00",
       "note": "Imported automatically from PhishTank verified-online feed."
-    },
-    {
-      "domain": "www.roblox.com.am",
-      "url": "https://www.roblox.com.am/users/408738472315/profile",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-08-02T19:42:57+00:00",
-      "lastSeen": "2026-08-02T20:32:18+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
       "domain": "www.unclelar.net",
@@ -269234,17 +269267,6 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
-      "domain": "www.roblox.com.ml",
-      "url": "https://www.roblox.com.ml/users/132558458859/profile",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-05-30T23:30:23+00:00",
-      "lastSeen": "2026-05-30T23:32:58+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
       "domain": "wrj.awf.mybluehost.me",
       "url": "https://wrj.awf.mybluehost.me/page/methods.php",
       "type": "phishing",
@@ -279451,17 +279473,6 @@
       "firstSeen": "2026-05-26T17:36:50+00:00",
       "lastSeen": "2026-05-26T17:52:24+00:00",
       "note": "Imported automatically from PhishTank verified-online feed."
-    },
-    {
-      "domain": "www.roblox.com.et",
-      "url": "https://www.roblox.com.et/users/924800240898/profile",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-05-26T17:09:50+00:00",
-      "lastSeen": "2026-05-26T17:52:24+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
       "domain": "livestart-en.wixstudio.com",
@@ -297776,17 +297787,6 @@
       "source": "PhishTank public verified feed",
       "firstSeen": "2026-05-17T20:10:40+00:00",
       "lastSeen": "2026-05-17T20:32:39+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
-      "domain": "www.roblox.et",
-      "url": "https://www.roblox.et/communities/6946372401/Avatar-Designers",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-05-17T20:17:50+00:00",
-      "lastSeen": "2026-05-17T20:32:38+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
