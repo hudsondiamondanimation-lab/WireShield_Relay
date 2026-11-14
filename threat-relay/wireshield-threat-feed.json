@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-14T02:50:42Z",
+  "generatedAt": "2026-11-14T09:43:01Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-11-14T02:50:39Z",
+      "checkedAt": "2026-11-14T09:42:36Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,16 +20,16 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-11-14T02:50:39Z",
+      "checkedAt": "2026-11-14T09:42:36Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 45588,
+      "count": 45459,
       "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-11-14T02:50:40Z",
+      "checkedAt": "2026-11-14T09:42:38Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
@@ -38,7 +38,7 @@
       "status": "skipped",
       "count": 0,
       "url": "https://urlhaus.abuse.ch/api/",
-      "checkedAt": "2026-11-14T02:50:41Z",
+      "checkedAt": "2026-11-14T09:42:38Z",
       "note": "https://urlhaus.abuse.ch/downloads/csv_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/text_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/hostfile/: HTTP 410"
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-11-14T02:50:41Z",
+      "checkedAt": "2026-11-14T09:42:38Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -3662,12 +3662,12 @@
     },
     {
       "domain": "account.vivapayments.fr",
-      "url": "https://account.vivapayments.fr/300",
+      "url": "https://account.vivapayments.fr/200",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
-      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9558317)",
-      "firstSeen": "2026-11-11T19:11:18+00:00",
+      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9558318)",
+      "firstSeen": "2026-11-11T19:11:34+00:00",
       "lastSeen": "2026-11-11T20:01:46+00:00",
       "note": "Imported automatically from PhishTank verified-online feed."
     },
@@ -4003,12 +4003,12 @@
     },
     {
       "domain": "golden-profiterole-e88e53.netlify.app",
-      "url": "https://golden-profiterole-e88e53.netlify.app/capcha.html",
+      "url": "https://golden-profiterole-e88e53.netlify.app/pr.html",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
-      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9558179)",
-      "firstSeen": "2026-11-11T18:10:26+00:00",
+      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9558180)",
+      "firstSeen": "2026-11-11T18:10:47+00:00",
       "lastSeen": "2026-11-11T18:21:33+00:00",
       "note": "Imported automatically from PhishTank verified-online feed."
     },
@@ -100528,12 +100528,12 @@
     },
     {
       "domain": "etaxpanel.vetactivity.ro",
-      "url": "https://etaxpanel.vetactivity.ro/checkout.html",
+      "url": "https://etaxpanel.vetactivity.ro/captcha.html?redirect=%2Fcheckout.html",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
-      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9508009)",
-      "firstSeen": "2026-08-20T06:27:46+00:00",
+      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9508010)",
+      "firstSeen": "2026-08-20T06:27:47+00:00",
       "lastSeen": "2026-08-21T21:22:25+00:00",
       "note": "Imported automatically from PhishTank verified-online feed."
     },
@@ -401884,12 +401884,12 @@
     },
     {
       "domain": "arubawebmailsession82.blob.core.windows.net",
-      "url": "https://arubawebmailsession82.blob.core.windows.net/ssouth/index.html",
+      "url": "https://arubawebmailsession82.blob.core.windows.net/ssouth/webm.html",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
-      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9325883)",
-      "firstSeen": "2026-01-29T14:11:44+00:00",
+      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9325885)",
+      "firstSeen": "2026-01-29T14:11:47+00:00",
       "lastSeen": "2026-01-29T14:22:04+00:00",
       "note": "Imported automatically from PhishTank verified-online feed."
     },
@@ -514590,12 +514590,12 @@
     },
     {
       "domain": "ifin.be",
-      "url": "https://ifin.be/login",
+      "url": "https://ifin.be/login.php",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
-      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=8464548)",
-      "firstSeen": "2024-02-23T14:00:26+00:00",
+      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=8464549)",
+      "firstSeen": "2024-02-23T14:00:33+00:00",
       "lastSeen": "2024-02-23T14:04:15+00:00",
       "note": "Imported automatically from PhishTank verified-online feed."
     },
