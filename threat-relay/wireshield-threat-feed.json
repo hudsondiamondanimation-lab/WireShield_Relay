@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-15T23:40:44Z",
+  "generatedAt": "2026-11-16T03:12:56Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-11-15T23:40:25Z",
+      "checkedAt": "2026-11-16T03:12:41Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,16 +20,16 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-11-15T23:40:25Z",
+      "checkedAt": "2026-11-16T03:12:41Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 44775,
+      "count": 44705,
       "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-11-15T23:40:27Z",
+      "checkedAt": "2026-11-16T03:12:43Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
@@ -38,7 +38,7 @@
       "status": "skipped",
       "count": 0,
       "url": "https://urlhaus.abuse.ch/api/",
-      "checkedAt": "2026-11-15T23:40:27Z",
+      "checkedAt": "2026-11-16T03:12:43Z",
       "note": "https://urlhaus.abuse.ch/downloads/csv_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/text_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/hostfile/: HTTP 410"
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-11-15T23:40:27Z",
+      "checkedAt": "2026-11-16T03:12:43Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -60,8 +60,85 @@
       "confidence": 99,
       "source": "Google Safe Browsing public test host",
       "firstSeen": "2026-06-26",
-      "lastSeen": "2026-11-15",
+      "lastSeen": "2026-11-16",
       "note": "Safe malware-warning test entry. Domain is blocked by WireShield when loaded."
+    },
+    {
+      "domain": "allegro.transakcja840104.sbs",
+      "url": "https://allegro.transakcja840104.sbs",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9560092)",
+      "firstSeen": "2026-11-16T01:58:17+00:00",
+      "lastSeen": "2026-11-16T02:01:58+00:00",
+      "note": "Imported automatically from PhishTank verified-online feed."
+    },
+    {
+      "domain": "optus.myonlineservicecanada.com",
+      "url": "https://optus.myonlineservicecanada.com/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9560080)",
+      "firstSeen": "2026-11-16T00:27:31+00:00",
+      "lastSeen": "2026-11-16T00:31:59+00:00",
+      "note": "Imported automatically from PhishTank verified-online feed."
+    },
+    {
+      "domain": "roblox.com.bz",
+      "url": "https://roblox.com.bz/users/7446867688/profile",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-05-24T17:21:53+00:00",
+      "lastSeen": "2026-11-16",
+      "note": "Imported automatically from OpenPhish community feed."
+    },
+    {
+      "domain": "vmi3535754.contaboserver.net",
+      "url": "https://vmi3535754.contaboserver.net/ssr/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-09-28T02:20:11+00:00",
+      "lastSeen": "2026-11-16",
+      "note": "Imported automatically from OpenPhish community feed."
+    },
+    {
+      "domain": "roblox.gf",
+      "url": "https://roblox.gf/users/3030540961/profile",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-02-26T18:45:51+00:00",
+      "lastSeen": "2026-11-16",
+      "note": "Imported automatically from OpenPhish community feed."
+    },
+    {
+      "domain": "allegrolokalnie.transakcja840104.sbs",
+      "url": "https://allegrolokalnie.transakcja840104.sbs/sprzedam-playstation-5-1tb-nap/14770",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9560070)",
+      "firstSeen": "2026-11-15T23:30:17+00:00",
+      "lastSeen": "2026-11-15T23:41:37+00:00",
+      "note": "Imported automatically from PhishTank verified-online feed."
+    },
+    {
+      "domain": "allegro.com-numerbiletu213993012.sbs",
+      "url": "https://allegro.com-numerbiletu213993012.sbs",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9560067)",
+      "firstSeen": "2026-11-15T23:13:03+00:00",
+      "lastSeen": "2026-11-15T23:21:42+00:00",
+      "note": "Imported automatically from PhishTank verified-online feed."
     },
     {
       "domain": "olx.o10304571.shop",
@@ -1538,17 +1615,6 @@
       "note": "Imported automatically from PhishTank verified-online feed."
     },
     {
-      "domain": "roblox.com.bz",
-      "url": "https://roblox.com.bz/games/6252985844/Nothingness?privateServerLinkCode=22848625707255938318470901161555",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-05-24T17:21:53+00:00",
-      "lastSeen": "2026-11-15",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
       "domain": "sorghumfoundry.live",
       "url": "https://sorghumfoundry.live",
       "type": "phishing",
@@ -2001,12 +2067,12 @@
     },
     {
       "domain": "aurages.net",
-      "url": "https://aurages.net/-/",
+      "url": "https://aurages.net/-",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
-      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9559481)",
-      "firstSeen": "2026-11-14T01:41:50+00:00",
+      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9559482)",
+      "firstSeen": "2026-11-14T01:42:14+00:00",
       "lastSeen": "2026-11-14T14:41:39+00:00",
       "note": "Imported automatically from PhishTank verified-online feed."
     },
@@ -17115,12 +17181,12 @@
     },
     {
       "domain": "myaccount-panel.info",
-      "url": "https://myaccount-panel.info/pages/captcha.php",
+      "url": "https://myaccount-panel.info/pages/index.php",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
-      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9554252)",
-      "firstSeen": "2026-11-03T20:08:39+00:00",
+      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9554254)",
+      "firstSeen": "2026-11-03T20:08:52+00:00",
       "lastSeen": "2026-11-03T20:11:29+00:00",
       "note": "Imported automatically from PhishTank verified-online feed."
     },
@@ -39154,17 +39220,6 @@
       "confidence": 95,
       "source": "OpenPhish community feed",
       "firstSeen": "2026-10-14T15:58:30+00:00",
-      "lastSeen": "2026-10-17",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "vmi3535754.contaboserver.net",
-      "url": "https://vmi3535754.contaboserver.net/ft",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-09-28T02:20:11+00:00",
       "lastSeen": "2026-10-17",
       "note": "Imported automatically from OpenPhish community feed."
     },
@@ -113882,11 +113937,11 @@
     },
     {
       "domain": "dbs-secure.vercel.app",
-      "url": "https://dbs-secure.vercel.app/?entity=31321",
+      "url": "http://dbs-secure.vercel.app?entity=31321",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
-      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9503649)",
+      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9503648)",
       "firstSeen": "2026-08-12T19:21:03+00:00",
       "lastSeen": "2026-08-12T19:32:29+00:00",
       "note": "Imported automatically from PhishTank verified-online feed."
@@ -321606,12 +321661,12 @@
     },
     {
       "domain": "bi-lian-zi-xun.ghost.io",
-      "url": "https://bi-lian-zi-xun.ghost.io/articles/2026-wallet-backup-comparison-guide-9-2/",
+      "url": "https://bi-lian-zi-xun.ghost.io/articles/2026-how-to-respond-to-crypto-wallet-hack-2/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
-      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9419515)",
-      "firstSeen": "2026-05-08T14:40:49+00:00",
+      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9419516)",
+      "firstSeen": "2026-05-08T14:41:02+00:00",
       "lastSeen": "2026-05-08T14:52:06+00:00",
       "note": "Imported automatically from PhishTank verified-online feed."
     },
@@ -393081,17 +393136,6 @@
       "firstSeen": "2026-02-25T18:26:16+00:00",
       "lastSeen": "2026-02-26T19:22:30+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
-      "domain": "roblox.gf",
-      "url": "https://roblox.gf/games/85624299453503/Ro63-Classic?privateServerLinkCode=48881275122524132810139051512659",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=9355044)",
-      "firstSeen": "2026-02-26T18:45:51+00:00",
-      "lastSeen": "2026-02-26T19:12:57+00:00",
-      "note": "Imported automatically from PhishTank verified-online feed."
     },
     {
       "domain": "pub-4e92eaba6dd84e8185d3624a8f50b701.r2.dev",
@@ -550006,50 +550050,6 @@
       "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=8148662)",
       "firstSeen": "2023-05-17T14:40:56+00:00",
       "lastSeen": "2023-05-17T14:52:29+00:00",
-      "note": "Imported automatically from PhishTank verified-online feed."
-    },
-    {
-      "domain": "safadezaonlinelbpfr.web.app",
-      "url": "https://safadezaonlinelbpfr.web.app/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=8148659)",
-      "firstSeen": "2023-05-17T14:40:30+00:00",
-      "lastSeen": "2023-05-17T14:52:29+00:00",
-      "note": "Imported automatically from PhishTank verified-online feed."
-    },
-    {
-      "domain": "safadezaonlinelbpfr.firebaseapp.com",
-      "url": "https://safadezaonlinelbpfr.firebaseapp.com/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2023-05-17T14:40:22+00:00",
-      "lastSeen": "2023-05-17T14:52:29+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
-      "domain": "carhost-e6d05c1c-875b-44a8-8308-f83eef7f99be.myportfolio.com",
-      "url": "https://carhost-e6d05c1c-875b-44a8-8308-f83eef7f99be.myportfolio.com/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=8147681)",
-      "firstSeen": "2023-05-17T02:51:36+00:00",
-      "lastSeen": "2023-05-17T03:52:27+00:00",
-      "note": "Imported automatically from PhishTank verified-online feed."
-    },
-    {
-      "domain": "trader.dev",
-      "url": "https://trader.dev/wp-login.php?redirect_to=https://trader.dev/",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed (http://www.phishtank.com/phish_detail.php?phish_id=8147557)",
-      "firstSeen": "2023-05-17T02:35:52+00:00",
-      "lastSeen": "2023-05-17T03:42:33+00:00",
       "note": "Imported automatically from PhishTank verified-online feed."
     }
   ]
