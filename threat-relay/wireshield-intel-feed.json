@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-17T21:21:52Z",
+  "generatedAt": "2026-11-18T02:59:41Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-11-17T21:21:48Z",
+      "checkedAt": "2026-11-18T02:59:38Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,16 +18,16 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-11-17T21:21:48Z",
+      "checkedAt": "2026-11-18T02:59:38Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 44010,
-      "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-11-17T21:21:49Z",
+      "count": 43892,
+      "url": "https://data.phishtank.com/data/online-valid.csv",
+      "checkedAt": "2026-11-18T02:59:39Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
@@ -36,7 +36,7 @@
       "status": "skipped",
       "count": 0,
       "url": "https://urlhaus.abuse.ch/api/",
-      "checkedAt": "2026-11-17T21:21:49Z",
+      "checkedAt": "2026-11-18T02:59:39Z",
       "note": "https://urlhaus.abuse.ch/downloads/csv_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/text_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/hostfile/: HTTP 410"
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-11-17T21:21:50Z",
+      "checkedAt": "2026-11-18T02:59:40Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-11-17T21:21:50Z",
+      "checkedAt": "2026-11-18T02:59:40Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "ok",
       "count": 1,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-11-17T21:21:50Z",
+      "checkedAt": "2026-11-18T02:59:40Z",
       "note": "RSS/news items imported."
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-11-17T21:21:50Z",
+      "checkedAt": "2026-11-18T02:59:40Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-11-17T21:21:51Z",
+      "checkedAt": "2026-11-18T02:59:41Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-11-17T21:21:52Z",
+      "checkedAt": "2026-11-18T02:59:41Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-11-17T21:21:52Z",
+      "checkedAt": "2026-11-18T02:59:41Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -109,7 +109,7 @@
       "type": "source-status",
       "source": "FTC consumer alerts",
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "published": "2026-11-17",
+      "published": "2026-11-18",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -297,44 +297,44 @@
       "note": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Emraan Cheema ListingPro listingpro-plugin allows SQL Injection.This issue affects ListingPro: from n/a through 2.9.4."
     },
     {
-      "title": "CVE-2026-25153: recently changed critical CVE",
+      "title": "CVE-2012-10023: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25153",
-      "published": "2026-11-17T20:20:53.367",
-      "note": "Backstage is an open framework for building developer portals, and @backstage/plugin-techdocs-node provides common node.js functionalities for TechDocs. In versions of @backstage/plugin-techdocs-node prior to 1.13.11 and 1.14.1, when TechDocs is configured with `runIn: local`, a malicious actor who can submit or modify a repository's `mkdocs.yml` file can execute arbitrary Python code on the TechDocs build server via MkDocs hooks configuration. @backstage/plugin-techdocs-node versions 1.13.11 an"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2012-10023",
+      "published": "2026-11-17T22:17:51.307",
+      "note": "A stack-based buffer overflow vulnerability exists in FreeFloat FTP Server version 1.0.0. The server fails to properly validate input passed to the USER command, allowing remote attackers to overwrite memory and potentially execute arbitrary code. The flaw is triggered by sending an overly long username string, which overflows the buffer allocated for user authentication."
     },
     {
-      "title": "CVE-2026-23941: recently changed critical CVE",
+      "title": "CVE-2012-10030: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23941",
-      "published": "2026-11-11T20:17:07.930",
-      "note": "Inconsistent Interpretation of HTTP Requests ('HTTP Request Smuggling') vulnerability in Erlang OTP (inets httpd module) allows HTTP Request Smuggling.\n\nThis vulnerability is associated with program files lib/inets/src/http_server/httpd_request.erl and program routines httpd_request:parse_headers/7.\n\nThe server does not reject or normalize duplicate Content-Length headers. The earliest Content-Length in the request is used for body parsing while common reverse proxies (nginx, Apache httpd, Envoy"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2012-10030",
+      "published": "2026-11-17T22:17:51.493",
+      "note": "FreeFloat FTP Server contains multiple critical design flaws that allow unauthenticated remote attackers to upload arbitrary files to sensitive system directories. The server accepts empty credentials, defaults user access to the root of the C:\\ drive, and imposes no restrictions on file type or destination path. These conditions enable attackers to upload executable payloads and .mof files to locations such as system32 and wbem\\mof, where Windows Management Instrumentation (WMI) automatically p"
     },
     {
-      "title": "CVE-2026-5393: recently changed critical CVE",
+      "title": "CVE-2018-25115: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5393",
-      "published": "2026-11-11T23:10:00.263",
-      "note": "Dual-Algorithm CertificateVerify out-of-bounds read. When processing a dual-algorithm CertificateVerify message, an out-of-bounds read can occur on crafted input. This can only occur when --enable-experimental and --enable-dual-alg-certs is used when building wolfSSL."
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-25115",
+      "published": "2026-11-17T22:17:53.480",
+      "note": "Multiple D-Link DIR-series routers, including DIR-110, DIR-412, DIR-600, DIR-610, DIR-615, DIR-645, and DIR-815 firmware version 1.03, contain a vulnerability in the service.cgi endpoint that allows remote attackers to execute arbitrary system commands without authentication. The flaw stems from improper input handling in the EVENT=CHECKFW parameter, which is passed directly to the system shell without sanitization. A crafted HTTP POST request can inject commands that are executed with root priv"
     },
     {
-      "title": "CVE-2026-36232: recently changed critical CVE",
+      "title": "CVE-2024-13979: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-36232",
-      "published": "2026-11-11T19:10:00.360",
-      "note": "A SQL injection vulnerability was found in the instructorClasses.php file of itsourcecode Online Student Enrollment System v1.0. The reason for this issue is that the 'classId' parameter from $_GET['classId'] is directly concatenated into the SQL query without any sanitization or validation."
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-13979",
+      "published": "2026-11-17T22:18:00.187",
+      "note": "A SQL injection vulnerability exists in the St. Joe ERP system (\"圣乔ERP系统\") that allows unauthenticated remote attackers to execute arbitrary SQL commands via crafted HTTP POST requests to the login endpoint. The application fails to properly sanitize user-supplied input before incorporating it into SQL queries, enabling direct manipulation of the backend database. Successful exploitation may result in unauthorized data access, modification of records, or limited disruption of service. An affecte"
     },
     {
-      "title": "CVE-2026-36233: recently changed critical CVE",
+      "title": "CVE-2025-34204: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-36233",
-      "published": "2026-11-11T19:10:00.360",
-      "note": "A SQL injection vulnerability was found in the assignInstructorSubjects.php file of itsourcecode Online Student Enrollment System v1.0. The reason for this issue is that attackers can inject malicious code via the parameter \"subjcode\" and use it directly in SQL queries without the need for appropriate cleaning or validation."
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-34204",
+      "published": "2026-11-17T22:18:02.873",
+      "note": "Vasion Print (formerly PrinterLogic) Virtual Appliance Host and Application (VA and SaaS deployments) contains multiple Docker containers that run primary application processes (for example PHP workers, Node.js servers and custom binaries) as the root user. This increases the blast radius of a container compromise and enables lateral movement and host compromise when a container is breached."
     },
     {
       "title": "CastleRAT",
@@ -449,7 +449,7 @@
       "type": "data broker / privacy",
       "source": "WireShield guidance",
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "published": "2026-11-17",
+      "published": "2026-11-18",
       "note": "Recheck broker opt-out results every 30-90 days; many brokers repopulate data. Keep broker name, profile URL, date requested, and confirmation emails."
     },
     {
@@ -457,7 +457,7 @@
       "type": "bloatware / potentially unwanted software",
       "source": "Microsoft unwanted software evaluation criteria",
       "url": "https://learn.microsoft.com/en-us/unified-secops/criteria",
-      "published": "2026-11-17",
+      "published": "2026-11-18",
       "note": "Watch for software that changes browser settings, injects ads, bundles unwanted offers, hides removal paths, exaggerates cleanup claims, or uses misleading install prompts."
     },
     {
@@ -465,7 +465,7 @@
       "type": "remote-access scam",
       "source": "WireShield guidance from FTC/CISA-style scam prevention",
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "published": "2026-11-17",
+      "published": "2026-11-18",
       "note": "Treat unexpected requests to install AnyDesk, TeamViewer, UltraViewer, RustDesk, or ScreenConnect as high risk, especially when paired with refunds, bank warnings, crypto, or gift cards."
     }
   ]
