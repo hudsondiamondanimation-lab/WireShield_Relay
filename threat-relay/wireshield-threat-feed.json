@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-18T02:59:42Z",
+  "generatedAt": "2026-11-18T11:23:53Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-11-18T02:59:38Z",
+      "checkedAt": "2026-11-18T11:23:48Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,16 +20,16 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-11-18T02:59:38Z",
+      "checkedAt": "2026-11-18T11:23:48Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 43892,
+      "count": 43811,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-11-18T02:59:39Z",
+      "checkedAt": "2026-11-18T11:23:50Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
@@ -38,7 +38,7 @@
       "status": "skipped",
       "count": 0,
       "url": "https://urlhaus.abuse.ch/api/",
-      "checkedAt": "2026-11-18T02:59:39Z",
+      "checkedAt": "2026-11-18T11:23:50Z",
       "note": "https://urlhaus.abuse.ch/downloads/csv_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/text_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/hostfile/: HTTP 410"
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-11-18T02:59:40Z",
+      "checkedAt": "2026-11-18T11:23:50Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -5037,12 +5037,12 @@
     },
     {
       "domain": "rsaccount.com-challenge-assisted.win",
-      "url": "https://rsaccount.com-challenge-assisted.win/assisted-login-login-challenge-dc197744c4a04124a6d04da6b85adcb4-238398720-1406457486-1694086910-1863512970-169408678563454200-2-238398720-140645748/",
+      "url": "https://rsaccount.com-challenge-assisted.win/m-forum-forums320-321-6265498749-321-6265498749-321-6265498749-321-6265498749-321-626549874-321/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-11-14T01:09:33+00:00",
+      "firstSeen": "2026-11-14T01:09:47+00:00",
       "lastSeen": "2026-11-14T14:41:39+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -12440,12 +12440,12 @@
     },
     {
       "domain": "validate-verify.vercel.app",
-      "url": "https://validate-verify.vercel.app/login?next=%2Fadmin",
+      "url": "https://validate-verify.vercel.app/login",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-11-09T04:44:03+00:00",
+      "firstSeen": "2026-11-09T04:45:41+00:00",
       "lastSeen": "2026-11-09T04:51:58+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
