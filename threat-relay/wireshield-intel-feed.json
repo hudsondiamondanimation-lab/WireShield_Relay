@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-20T16:23:46Z",
+  "generatedAt": "2026-11-20T22:43:44Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-11-20T16:23:40Z",
+      "checkedAt": "2026-11-20T22:43:40Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,16 +18,16 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-11-20T16:23:40Z",
+      "checkedAt": "2026-11-20T22:43:40Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 43428,
+      "count": 43361,
       "url": "https://data.phishtank.com/data/online-valid.json",
-      "checkedAt": "2026-11-20T16:23:43Z",
+      "checkedAt": "2026-11-20T22:43:42Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
@@ -36,7 +36,7 @@
       "status": "skipped",
       "count": 0,
       "url": "https://urlhaus.abuse.ch/api/",
-      "checkedAt": "2026-11-20T16:23:43Z",
+      "checkedAt": "2026-11-20T22:43:42Z",
       "note": "https://urlhaus.abuse.ch/downloads/csv_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/text_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/hostfile/: HTTP 410"
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-11-20T16:23:44Z",
+      "checkedAt": "2026-11-20T22:43:42Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-11-20T16:23:44Z",
+      "checkedAt": "2026-11-20T22:43:42Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "ok",
       "count": 1,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-11-20T16:23:44Z",
+      "checkedAt": "2026-11-20T22:43:43Z",
       "note": "RSS/news items imported."
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-11-20T16:23:44Z",
+      "checkedAt": "2026-11-20T22:43:43Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-11-20T16:23:45Z",
+      "checkedAt": "2026-11-20T22:43:44Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-11-20T16:23:46Z",
+      "checkedAt": "2026-11-20T22:43:44Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-11-20T16:23:46Z",
+      "checkedAt": "2026-11-20T22:43:44Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -119,6 +119,38 @@
       "url": "https://www.cisa.gov/news.xml",
       "published": "Wed, 21 Oct 26 12:00:00 +0000",
       "note": ""
+    },
+    {
+      "title": "CVE-2026-129448: exploited vulnerability in Apache Roller",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-11-20",
+      "note": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authentication. This CVE covers the same underlying vulnerability as CVE-2026-82384 but applies to a broader range of affected versions."
+    },
+    {
+      "title": "CVE-2026-123890: exploited vulnerability in Broadcom VMware vCenter",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-11-20",
+      "note": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system."
+    },
+    {
+      "title": "CVE-2025-42884: exploited vulnerability in SAP NetWeaver",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-11-20",
+      "note": "SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server information via injected JNDI environment properties or a URL used during JNDI lookup operations."
+    },
+    {
+      "title": "CVE-2026-76466: exploited vulnerability in Cisco Expressway Series",
+      "type": "known exploited vulnerability / hack risk",
+      "source": "CISA Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "published": "2026-11-20",
+      "note": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database service."
     },
     {
       "title": "CVE-2024-10441: exploited vulnerability in Synology DiskStation Manager (DSM)",
@@ -207,38 +239,6 @@
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
       "published": "2026-11-10",
       "note": "Barracuda Networks Email Security Gateway (ESG), Load Balancer, Application Delivery Controller (ADC), Message Archiver (BMA), WAF Control Center (WCC), Web Application Firewall (WAF), and Web Security Gateway (WSG) contain an OS command injection vulnerability. This vulnerability could allow an authenticated administrator to inject OS commands that execute with root privileges when the crafted timezone value is subsequently processed. This vulnerability can be chained with CVE-2026-116606"
-    },
-    {
-      "title": "CVE-2026-116606: exploited vulnerability in Barracuda Networks Barracuda Email Security Gateway (ESG)",
-      "type": "known exploited vulnerability / hack risk",
-      "source": "CISA Known Exploited Vulnerabilities catalog",
-      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "published": "2026-11-10",
-      "note": "Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate path or channel that could allow an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification of the appliance’s global configuration. This vulnerability can be chained with CVE-2026-111560."
-    },
-    {
-      "title": "CVE-2026-125350: exploited vulnerability in Google Chromium",
-      "type": "known exploited vulnerability / hack risk",
-      "source": "CISA Known Exploited Vulnerabilities catalog",
-      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "published": "2026-11-10",
-      "note": "Google Chromium contains a use-after-free vulnerability in the XML component that could allow a remote attacker to execute arbitrary code inside the sandbox via a specially crafted webpage. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera."
-    },
-    {
-      "title": "CVE-2026-102895: exploited vulnerability in GPUStack GPUStack",
-      "type": "known exploited vulnerability / hack risk",
-      "source": "CISA Known Exploited Vulnerabilities catalog",
-      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "published": "2026-11-09",
-      "note": "GPUStack contains an improper authentication vulnerability which could allow unauthenticated administrative access, including user and model changes, persistent administrator API-key creation, disclosure of worker and cloud-provider secrets, and code execution through POST /v2/inference-backends/from-yaml."
-    },
-    {
-      "title": "CVE-2026-123158: exploited vulnerability in OpenBSD OpenSSH",
-      "type": "known exploited vulnerability / hack risk",
-      "source": "CISA Known Exploited Vulnerabilities catalog",
-      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "published": "2026-11-09",
-      "note": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass."
     },
     {
       "title": "CVE-2022-43931: recently changed critical CVE",
@@ -335,6 +335,15 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-34217",
       "published": "2026-11-17T22:18:03.530",
       "note": "Vasion Print (formerly PrinterLogic) Virtual Appliance Host and Application (VA/SaaS deployments) contain an undocumented 'printerlogic' user with a hardcoded SSH public key in '~/.ssh/authorized_keys' and a sudoers rule granting the printerlogic_ssh group 'NOPASSWD: ALL'. Possession of the matching private key gives an attacker root access to the appliance."
+    },
+    {
+      "title": "Too Lost",
+      "type": "data breach",
+      "source": "Have I Been Pwned breach catalog",
+      "url": "https://haveibeenpwned.com/api/v3/breaches",
+      "published": "2026-11-20T19:17:16Z",
+      "affectedAccounts": 724323,
+      "note": "In November 2026, an unauthorised party claimed to have obtained data from the music distributor for independent artists, Too Lost. The data contained 724k unique email addresses belonging to artists, their collaborators and fans. Some records also contained bcrypt password hashes, while a small subset included partial credit card data (last 4 digits and card type), identity verification information (in some cases, passport, driver's licence or national ID numbers), and payouts made to artists. "
     },
     {
       "title": "Careers360",
@@ -434,15 +443,6 @@
       "published": "2026-10-09T07:06:25Z",
       "affectedAccounts": 435963,
       "note": "In August 2026, the food and animal safety organisation <a href=\"https://cybernews.com/security/shinyhunters-neogen-breach-food-safety/\" target=\"_blank\" rel=\"noopener\">Neogen was the target of a ShinyHunters \"pay or leak\" extortion attempt</a>. The group later published data it claimed had been obtained from Neogen. The data consisted largely of corporate contact records and included 436k unique email addresses from mailing lists, employee records and other contacts."
-    },
-    {
-      "title": "CyrusOne",
-      "type": "data breach",
-      "source": "Have I Been Pwned breach catalog",
-      "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "published": "2026-10-07T23:19:16Z",
-      "affectedAccounts": 373460,
-      "note": "In August 2026, <a href=\"https://cybernews.com/security/shinyhunters-cyrusone-breach-data-center/\" target=\"_blank\" rel=\"noopener\">data centre operator CyrusOne was the target of a ShinyHunters \"pay or leak\" extortion attempt</a>. The group subsequently published data allegedly obtained from the company, which included 373k unique email addresses across records relating to users, sales leads and CyrusOne employees. The data largely consisted of corporate contact information, including names, phys"
     },
     {
       "title": "Data broker privacy watch",
