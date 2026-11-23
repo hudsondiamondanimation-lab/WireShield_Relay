@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-23T04:04:35Z",
+  "generatedAt": "2026-11-23T14:27:38Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-11-23T04:04:21Z",
+      "checkedAt": "2026-11-23T14:27:33Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,16 +20,16 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-11-23T04:04:21Z",
+      "checkedAt": "2026-11-23T14:27:33Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 42813,
+      "count": 42752,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-11-23T04:04:23Z",
+      "checkedAt": "2026-11-23T14:27:34Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
@@ -38,7 +38,7 @@
       "status": "skipped",
       "count": 0,
       "url": "https://urlhaus.abuse.ch/api/",
-      "checkedAt": "2026-11-23T04:04:23Z",
+      "checkedAt": "2026-11-23T14:27:35Z",
       "note": "https://urlhaus.abuse.ch/downloads/csv_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/text_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/hostfile/: HTTP 410"
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-11-23T04:04:23Z",
+      "checkedAt": "2026-11-23T14:27:35Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -1099,12 +1099,12 @@
     },
     {
       "domain": "allegrolokalnie.pl-oferta749370.lol",
-      "url": "http://allegrolokalnie.pl-oferta749370.lol/uam-gate.js?v=1793451073",
+      "url": "http://allegrolokalnie.pl-oferta749370.lol/uam?c=e4fe3ede116bc112bf7be1dbc10f63c3&amp;r=%2foferta%2famd-ryzen-7-5800x3d-31bc2494&amp;t=allegro",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-11-21T18:43:56+00:00",
+      "firstSeen": "2026-11-21T18:44:00+00:00",
       "lastSeen": "2026-11-21T18:52:16+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -9569,12 +9569,12 @@
     },
     {
       "domain": "brt-it.top",
-      "url": "https://brt-it.top/",
+      "url": "https://brt-it.top/notice.html",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-11-16T07:59:49+00:00",
+      "firstSeen": "2026-11-16T07:59:52+00:00",
       "lastSeen": "2026-11-16T21:01:58+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -15860,19 +15860,19 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
-      "domain": "lldkidm.cn",
-      "url": "https://lldkidm.cn/?lbyqdgro",
+      "domain": "tzrhfml.cn",
+      "url": "https://tzrhfml.cn/verify/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-11-11T19:09:21+00:00",
-      "lastSeen": "2026-11-11T19:41:50+00:00",
+      "firstSeen": "2026-11-11T19:09:22+00:00",
+      "lastSeen": "2026-11-11T19:51:30+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
-      "domain": "tzrhfml.cn",
-      "url": "https://tzrhfml.cn/?qjjdaoih",
+      "domain": "lldkidm.cn",
+      "url": "https://lldkidm.cn/?lbyqdgro",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
@@ -75525,12 +75525,12 @@
     },
     {
       "domain": "lec-myprim-am.com",
-      "url": "https://lec-myprim-am.com/blog/blog.php",
+      "url": "https://lec-myprim-am.com/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-09-22T15:00:41+00:00",
+      "firstSeen": "2026-09-22T15:00:51+00:00",
       "lastSeen": "2026-09-22T15:11:15+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -245145,12 +245145,12 @@
     },
     {
       "domain": "gravatar.com",
-      "url": "https://gravatar.com/wingedgracefully361e0d6978",
+      "url": "https://gravatar.com/noisilybriefe28389e87d",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-06-16T20:31:11+00:00",
+      "firstSeen": "2026-06-16T20:31:21+00:00",
       "lastSeen": "2026-06-16T20:52:41+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -274677,6 +274677,17 @@
       "firstSeen": "2026-06-05T11:12:26+00:00",
       "lastSeen": "2026-06-05T11:22:19+00:00",
       "note": "Imported automatically from PhishTank verified-online feed."
+    },
+    {
+      "domain": "smartactionflow.com",
+      "url": "https://smartactionflow.com/oop/home.php",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-06-05T11:15:26+00:00",
+      "lastSeen": "2026-06-05T11:22:19+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
       "domain": "yahwebonlinetime.weebly.com",
@@ -349787,17 +349798,6 @@
       "note": "Imported automatically from PhishTank verified-online feed."
     },
     {
-      "domain": "smartactionflow.com",
-      "url": "https://smartactionflow.com/home/home.php",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-05-01T15:30:11+00:00",
-      "lastSeen": "2026-05-01T15:32:36+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
       "domain": "belpostby.com",
       "url": "https://belpostby.com/support/track/",
       "type": "phishing",
@@ -400443,12 +400443,12 @@
     },
     {
       "domain": "sso-auths-bitmart-sso.webflow.io",
-      "url": "http://sso-auths-bitmart-sso.webflow.io",
+      "url": "https://sso-auths-bitmart-sso.webflow.io/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-03-05T12:24:11+00:00",
+      "firstSeen": "2026-03-05T12:24:12+00:00",
       "lastSeen": "2026-03-05T12:32:34+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },

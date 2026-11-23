@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-23T04:04:35Z",
+  "generatedAt": "2026-11-23T14:27:38Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-11-23T04:04:21Z",
+      "checkedAt": "2026-11-23T14:27:33Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,16 +18,16 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-11-23T04:04:21Z",
+      "checkedAt": "2026-11-23T14:27:33Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 42813,
+      "count": 42752,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-11-23T04:04:23Z",
+      "checkedAt": "2026-11-23T14:27:34Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
@@ -36,7 +36,7 @@
       "status": "skipped",
       "count": 0,
       "url": "https://urlhaus.abuse.ch/api/",
-      "checkedAt": "2026-11-23T04:04:23Z",
+      "checkedAt": "2026-11-23T14:27:35Z",
       "note": "https://urlhaus.abuse.ch/downloads/csv_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/text_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/hostfile/: HTTP 410"
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-11-23T04:04:23Z",
+      "checkedAt": "2026-11-23T14:27:35Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-11-23T04:04:23Z",
+      "checkedAt": "2026-11-23T14:27:35Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "ok",
       "count": 1,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-11-23T04:04:23Z",
+      "checkedAt": "2026-11-23T14:27:36Z",
       "note": "RSS/news items imported."
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-11-23T04:04:24Z",
+      "checkedAt": "2026-11-23T14:27:36Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-11-23T04:04:35Z",
+      "checkedAt": "2026-11-23T14:27:37Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-11-23T04:04:35Z",
+      "checkedAt": "2026-11-23T14:27:38Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-11-23T04:04:35Z",
+      "checkedAt": "2026-11-23T14:27:38Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -265,12 +265,12 @@
       "note": "Missing authorization vulnerability in System webapi component in Synology Surveillance Station before 9.2.0-9289 and 9.2.0-11289 allows remote authenticated users to obtain non-sensitive information, write sensitive configurations in DSM, and reboot or shutdown NAS via unspecified vectors."
     },
     {
-      "title": "CVE-2024-38795: recently changed critical CVE",
+      "title": "CVE-2024-3094: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-38795",
-      "published": "2026-11-16T09:17:11.940",
-      "note": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Emraan Cheema ListingPro listingpro-plugin allows SQL Injection.This issue affects ListingPro: from n/a through 2.9.4."
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-3094",
+      "published": "2026-11-23T14:17:21.190",
+      "note": "Malicious code was discovered in the upstream tarballs of xz, starting with version 5.6.0. \r\nThrough a series of complex obfuscations, the liblzma build process extracts a prebuilt object file from a disguised test file existing in the source code, which is then used to modify specific functions in the liblzma code. This results in a modified liblzma library that can be used by any software linked against this library, intercepting and modifying the data interaction with this library."
     },
     {
       "title": "CVE-2024-10443: recently changed critical CVE",
@@ -335,6 +335,15 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-34217",
       "published": "2026-11-17T22:18:03.530",
       "note": "Vasion Print (formerly PrinterLogic) Virtual Appliance Host and Application (VA/SaaS deployments) contain an undocumented 'printerlogic' user with a hardcoded SSH public key in '~/.ssh/authorized_keys' and a sudoers rule granting the printerlogic_ssh group 'NOPASSWD: ALL'. Possession of the matching private key gives an attacker root access to the appliance."
+    },
+    {
+      "title": "Bromcom",
+      "type": "data breach",
+      "source": "Have I Been Pwned breach catalog",
+      "url": "https://haveibeenpwned.com/api/v3/breaches",
+      "published": "2026-11-23T06:36:04Z",
+      "affectedAccounts": 355051,
+      "note": "In September 2026, UK education software provider <a href=\"https://www.theregister.com/security/2026/10/06/legacy-sign-on-service-comes-back-to-bite-school-software-provider-bromcom/5301156\" target=\"_blank\" rel=\"noopener\">Bromcom suffered a data breach involving a legacy single sign-on (SSO) registration system</a>. The incident exposed 355k unique email addresses belonging to staff and pupils at UK schools, alongside SSO registration reference numbers. <a href=\"https://docs.bromcom.com/knowledg"
     },
     {
       "title": "Too Lost",
@@ -434,15 +443,6 @@
       "published": "2026-10-12T23:28:32Z",
       "affectedAccounts": 318185,
       "note": "In August 2026, the digital health company <a href=\"https://breachnews.com/breaches/shinyhunters-claims-baxter-breach-publishes-cook-medical-carhartt-and-sharecare-data/\" target=\"_blank\" rel=\"noopener\">Sharecare was the target of a ShinyHunters \"pay or leak\" extortion campaign</a>. The group subsequently published data it claimed was taken from Sharecare's systems, containing 318k unique email addresses. Most of the data consisted of B2B sales and marketing records with names, physical addresses"
-    },
-    {
-      "title": "Neogen",
-      "type": "data breach",
-      "source": "Have I Been Pwned breach catalog",
-      "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "published": "2026-10-09T07:06:25Z",
-      "affectedAccounts": 435963,
-      "note": "In August 2026, the food and animal safety organisation <a href=\"https://cybernews.com/security/shinyhunters-neogen-breach-food-safety/\" target=\"_blank\" rel=\"noopener\">Neogen was the target of a ShinyHunters \"pay or leak\" extortion attempt</a>. The group later published data it claimed had been obtained from Neogen. The data consisted largely of corporate contact records and included 436k unique email addresses from mailing lists, employee records and other contacts."
     },
     {
       "title": "Data broker privacy watch",
