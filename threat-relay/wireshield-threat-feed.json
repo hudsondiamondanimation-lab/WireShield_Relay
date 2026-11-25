@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-24T21:30:12Z",
+  "generatedAt": "2026-11-25T04:30:35Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-11-24T21:30:08Z",
+      "checkedAt": "2026-11-25T04:30:27Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,16 +20,16 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-11-24T21:30:08Z",
+      "checkedAt": "2026-11-25T04:30:27Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 42702,
+      "count": 42662,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-11-24T21:30:09Z",
+      "checkedAt": "2026-11-25T04:30:29Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
@@ -38,7 +38,7 @@
       "status": "skipped",
       "count": 0,
       "url": "https://urlhaus.abuse.ch/api/",
-      "checkedAt": "2026-11-24T21:30:09Z",
+      "checkedAt": "2026-11-25T04:30:29Z",
       "note": "https://urlhaus.abuse.ch/downloads/csv_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/text_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/hostfile/: HTTP 410"
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-11-24T21:30:10Z",
+      "checkedAt": "2026-11-25T04:30:29Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -60,8 +60,41 @@
       "confidence": 99,
       "source": "Google Safe Browsing public test host",
       "firstSeen": "2026-06-26",
-      "lastSeen": "2026-11-24",
+      "lastSeen": "2026-11-25",
       "note": "Safe malware-warning test entry. Domain is blocked by WireShield when loaded."
+    },
+    {
+      "domain": "f006.backblazeb2.com",
+      "url": "https://f006.backblazeb2.com/file/uitavm/index.html",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-09-15T20:04:32+00:00",
+      "lastSeen": "2026-11-25",
+      "note": "Imported automatically from OpenPhish community feed."
+    },
+    {
+      "domain": "roblox.com.kz",
+      "url": "https://roblox.com.kz/users/667126232/profile",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-06-20T19:33:59+00:00",
+      "lastSeen": "2026-11-25",
+      "note": "Imported automatically from OpenPhish community feed."
+    },
+    {
+      "domain": "www.lettredirectear24.net",
+      "url": "https://www.lettredirectear24.net/",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-11-23T16:25:26+00:00",
+      "lastSeen": "2026-11-24T22:02:06+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
       "domain": "allegrolokalnie.pl-id-offer-3983-742-5712.sbs",
@@ -658,28 +691,6 @@
       "note": "Imported automatically from OpenPhish community feed."
     },
     {
-      "domain": "f006.backblazeb2.com",
-      "url": "https://f006.backblazeb2.com/file/uitavm/index.html",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-09-15T20:04:32+00:00",
-      "lastSeen": "2026-11-24",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
-      "domain": "roblox.com.kz",
-      "url": "https://roblox.com.kz/users/667126232/profile",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-06-20T19:33:59+00:00",
-      "lastSeen": "2026-11-24",
-      "note": "Imported automatically from OpenPhish community feed."
-    },
-    {
       "domain": "allegrolokalnie.pl-0ferta541234.sbs",
       "url": "http://allegrolokalnie.pl-0ferta541234.sbs",
       "type": "phishing",
@@ -1029,17 +1040,6 @@
       "source": "PhishTank public verified feed",
       "firstSeen": "2026-11-23T19:31:37+00:00",
       "lastSeen": "2026-11-23T19:41:32+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
-      "domain": "www.lettredirectear24.net",
-      "url": "https://www.lettredirectear24.net/index.html",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-11-23T19:26:41+00:00",
-      "lastSeen": "2026-11-23T19:31:49+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
@@ -7028,7 +7028,7 @@
     },
     {
       "domain": "puyar.click",
-      "url": "https://puyar.click/step1.php",
+      "url": "https://puyar.click/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
@@ -146607,12 +146607,12 @@
     },
     {
       "domain": "sp11ct-velsok-biz8-karsen-promel.pages.dev",
-      "url": "http://sp11ct-velsok-biz8-karsen-promel.pages.dev/",
+      "url": "https://sp11ct-velsok-biz8-karsen-promel.pages.dev/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-08-02T18:57:10+00:00",
+      "firstSeen": "2026-08-02T18:57:11+00:00",
       "lastSeen": "2026-08-02T19:52:28+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -357796,12 +357796,12 @@
     },
     {
       "domain": "allegro.739082675r37690.lol",
-      "url": "http://allegro.739082675r37690.lol/",
+      "url": "https://allegro.739082675r37690.lol/",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-04-29T08:47:12+00:00",
+      "firstSeen": "2026-04-29T08:47:13+00:00",
       "lastSeen": "2026-04-29T08:51:50+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
