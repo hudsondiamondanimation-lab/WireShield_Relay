@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-25T04:30:35Z",
+  "generatedAt": "2026-11-25T14:52:45Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-11-25T04:30:27Z",
+      "checkedAt": "2026-11-25T14:52:40Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,16 +20,16 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-11-25T04:30:27Z",
+      "checkedAt": "2026-11-25T14:52:40Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 42662,
+      "count": 42620,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-11-25T04:30:29Z",
+      "checkedAt": "2026-11-25T14:52:42Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
@@ -38,7 +38,7 @@
       "status": "skipped",
       "count": 0,
       "url": "https://urlhaus.abuse.ch/api/",
-      "checkedAt": "2026-11-25T04:30:29Z",
+      "checkedAt": "2026-11-25T14:52:42Z",
       "note": "https://urlhaus.abuse.ch/downloads/csv_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/text_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/hostfile/: HTTP 410"
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-11-25T04:30:29Z",
+      "checkedAt": "2026-11-25T14:52:42Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -82,6 +82,17 @@
       "confidence": 95,
       "source": "OpenPhish community feed",
       "firstSeen": "2026-06-20T19:33:59+00:00",
+      "lastSeen": "2026-11-25",
+      "note": "Imported automatically from OpenPhish community feed."
+    },
+    {
+      "domain": "www.roblox.com.et",
+      "url": "https://www.roblox.com.et/games/82681049019609/Anime-Girl-Fishing?privateServerLinkCode=27980446613165075123249652212382",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "OpenPhish community feed",
+      "firstSeen": "2026-05-26T17:09:50+00:00",
       "lastSeen": "2026-11-25",
       "note": "Imported automatically from OpenPhish community feed."
     },
@@ -656,17 +667,6 @@
       "firstSeen": "2026-11-23T23:54:41+00:00",
       "lastSeen": "2026-11-24T00:02:30+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
-    },
-    {
-      "domain": "www.roblox.com.et",
-      "url": "https://www.roblox.com.et/users/3145712069/profile",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "OpenPhish community feed",
-      "firstSeen": "2026-05-26T17:09:50+00:00",
-      "lastSeen": "2026-11-24",
-      "note": "Imported automatically from OpenPhish community feed."
     },
     {
       "domain": "roblox.com.bz",
@@ -3739,12 +3739,12 @@
     },
     {
       "domain": "formulario-cita-digital-atrga-2026.cr-web.workers.dev",
-      "url": "https://formulario-cita-digital-atrga-2026.cr-web.workers.dev/servicios",
+      "url": "https://formulario-cita-digital-atrga-2026.cr-web.workers.dev",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-11-21T14:04:06+00:00",
+      "firstSeen": "2026-11-21T14:04:12+00:00",
       "lastSeen": "2026-11-21T14:11:37+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -46968,6 +46968,17 @@
       "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
+      "domain": "f003.backblazeb2.com",
+      "url": "https://f003.backblazeb2.com/file/jpamals/services.html",
+      "type": "phishing",
+      "reports": 1,
+      "confidence": 95,
+      "source": "PhishTank public verified feed",
+      "firstSeen": "2026-10-21T07:27:06+00:00",
+      "lastSeen": "2026-10-21T07:41:23+00:00",
+      "note": "Imported automatically from PhishTank public CSV feed."
+    },
+    {
       "domain": "dashing-dusk-1a8029.netlify.app",
       "url": "https://dashing-dusk-1a8029.netlify.app/",
       "type": "phishing",
@@ -49254,17 +49265,6 @@
       "firstSeen": "2026-10-19T14:44:13+00:00",
       "lastSeen": "2026-10-19T14:51:30+00:00",
       "note": "Imported automatically from PhishTank verified-online feed."
-    },
-    {
-      "domain": "f003.backblazeb2.com",
-      "url": "https://f003.backblazeb2.com/file/arhuha/updatens.html",
-      "type": "phishing",
-      "reports": 1,
-      "confidence": 95,
-      "source": "PhishTank public verified feed",
-      "firstSeen": "2026-10-19T14:36:24+00:00",
-      "lastSeen": "2026-10-19T14:41:34+00:00",
-      "note": "Imported automatically from PhishTank public CSV feed."
     },
     {
       "domain": "ordinepl040.vercel.app",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-25T04:30:35Z",
+  "generatedAt": "2026-11-25T14:52:45Z",
   "description": "WireShield trusted-intelligence relay for scams, hacks, exploited vulnerabilities, breaches, malware, data brokers, and unwanted software.",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-11-25T04:30:27Z",
+      "checkedAt": "2026-11-25T14:52:40Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -18,16 +18,16 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-11-25T04:30:27Z",
+      "checkedAt": "2026-11-25T14:52:40Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 42662,
+      "count": 42620,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-11-25T04:30:29Z",
+      "checkedAt": "2026-11-25T14:52:42Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
@@ -36,7 +36,7 @@
       "status": "skipped",
       "count": 0,
       "url": "https://urlhaus.abuse.ch/api/",
-      "checkedAt": "2026-11-25T04:30:29Z",
+      "checkedAt": "2026-11-25T14:52:42Z",
       "note": "https://urlhaus.abuse.ch/downloads/csv_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/text_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/hostfile/: HTTP 410"
     },
     {
@@ -45,7 +45,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-11-25T04:30:29Z",
+      "checkedAt": "2026-11-25T14:52:42Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     },
     {
@@ -54,7 +54,7 @@
       "status": "failed",
       "count": 0,
       "url": "https://consumer.ftc.gov/consumer-alerts",
-      "checkedAt": "2026-11-25T04:30:29Z",
+      "checkedAt": "2026-11-25T14:52:42Z",
       "note": "HTTP Error 403: Forbidden"
     },
     {
@@ -63,7 +63,7 @@
       "status": "ok",
       "count": 1,
       "url": "https://www.cisa.gov/news.xml",
-      "checkedAt": "2026-11-25T04:30:29Z",
+      "checkedAt": "2026-11-25T14:52:42Z",
       "note": "RSS/news items imported."
     },
     {
@@ -72,7 +72,7 @@
       "status": "ok",
       "count": 15,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-      "checkedAt": "2026-11-25T04:30:29Z",
+      "checkedAt": "2026-11-25T14:52:43Z",
       "note": "Recent exploited vulnerabilities imported."
     },
     {
@@ -81,7 +81,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
-      "checkedAt": "2026-11-25T04:30:35Z",
+      "checkedAt": "2026-11-25T14:52:45Z",
       "note": "Recent critical CVEs imported."
     },
     {
@@ -90,7 +90,7 @@
       "status": "ok",
       "count": 12,
       "url": "https://haveibeenpwned.com/api/v3/breaches",
-      "checkedAt": "2026-11-25T04:30:35Z",
+      "checkedAt": "2026-11-25T14:52:45Z",
       "note": "Recent breach catalog items imported."
     },
     {
@@ -99,7 +99,7 @@
       "status": "ok",
       "count": 3,
       "url": "local",
-      "checkedAt": "2026-11-25T04:30:35Z",
+      "checkedAt": "2026-11-25T14:52:45Z",
       "note": "Data broker, bloatware, and scam safety guidance added."
     }
   ],
@@ -249,6 +249,14 @@
       "note": "Malicious code was discovered in the upstream tarballs of xz, starting with version 5.6.0. \r\nThrough a series of complex obfuscations, the liblzma build process extracts a prebuilt object file from a disguised test file existing in the source code, which is then used to modify specific functions in the liblzma code. This results in a modified liblzma library that can be used by any software linked against this library, intercepting and modifying the data interaction with this library."
     },
     {
+      "title": "CVE-2025-10492: recently changed critical CVE",
+      "type": "critical vulnerability / hack risk",
+      "source": "NVD CVE API",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-10492",
+      "published": "2026-11-25T13:32:56.273",
+      "note": "A Java deserialisation vulnerability has been discovered in Jaspersoft Library. Improper handling of externally supplied data may allow attackers to execute arbitrary code remotely on systems that use the affected library"
+    },
+    {
       "title": "CVE-2025-34267: recently changed critical CVE",
       "type": "critical vulnerability / hack risk",
       "source": "NVD CVE API",
@@ -327,14 +335,6 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28368",
       "published": "2026-11-23T16:17:46.830",
       "note": "A flaw was found in Undertow. This vulnerability allows a remote attacker to construct specially crafted requests where header names are parsed differently by Undertow compared to upstream proxies. This discrepancy in header interpretation can be exploited to launch request smuggling attacks, potentially bypassing security controls and accessing unauthorized resources."
-    },
-    {
-      "title": "CVE-2026-28369: recently changed critical CVE",
-      "type": "critical vulnerability / hack risk",
-      "source": "NVD CVE API",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28369",
-      "published": "2026-11-23T16:17:47.033",
-      "note": "A flaw was found in Undertow. When Undertow receives an HTTP request where the first header line starts with one or more spaces, it incorrectly processes the request by stripping these leading spaces. This behavior, which violates HTTP standards, can be exploited by a remote attacker to perform request smuggling. Request smuggling allows an attacker to bypass security mechanisms, access restricted information, or manipulate web caches, potentially leading to unauthorized actions or data exposure"
     },
     {
       "title": "Bromcom",
