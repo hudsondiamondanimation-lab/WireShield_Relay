@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-28T00:16:12Z",
+  "generatedAt": "2026-11-28T07:56:43Z",
   "maintainer": "hudsondiamondanimation-lab/WireShield_Relay",
   "description": "WireShield global relay feed. Public JSON used by the browser extension and desktop app for reviewed dangerous-site updates.",
   "policy": "Trusted feeds are imported automatically. User reports require the approved-threat label before inclusion.",
@@ -11,7 +11,7 @@
       "status": "ok",
       "count": 2,
       "url": "https://testsafebrowsing.appspot.com/",
-      "checkedAt": "2026-11-28T00:15:54Z",
+      "checkedAt": "2026-11-28T07:56:39Z",
       "note": "Safe test-only block page entries added."
     },
     {
@@ -20,16 +20,16 @@
       "status": "ok",
       "count": 300,
       "url": "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt",
-      "checkedAt": "2026-11-28T00:15:54Z",
+      "checkedAt": "2026-11-28T07:56:39Z",
       "note": "Public phishing URL feed imported."
     },
     {
       "name": "PhishTank public verified feed",
       "category": "scam/phishing",
       "status": "ok",
-      "count": 42470,
+      "count": 42461,
       "url": "https://data.phishtank.com/data/online-valid.csv",
-      "checkedAt": "2026-11-28T00:15:55Z",
+      "checkedAt": "2026-11-28T07:56:40Z",
       "note": "PhishTank verified-online phishing database imported."
     },
     {
@@ -38,7 +38,7 @@
       "status": "skipped",
       "count": 0,
       "url": "https://urlhaus.abuse.ch/api/",
-      "checkedAt": "2026-11-28T00:15:55Z",
+      "checkedAt": "2026-11-28T07:56:40Z",
       "note": "https://urlhaus.abuse.ch/downloads/csv_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/text_recent/: HTTP 410; https://urlhaus.abuse.ch/downloads/hostfile/: HTTP 410"
     },
     {
@@ -47,7 +47,7 @@
       "status": "ok",
       "count": 0,
       "url": "GitHub API",
-      "checkedAt": "2026-11-28T00:15:55Z",
+      "checkedAt": "2026-11-28T07:56:41Z",
       "note": "Only issues labeled approved-threat are added to the global feed."
     }
   ],
@@ -17929,12 +17929,12 @@
     },
     {
       "domain": "sav-prime-charge-backs.com",
-      "url": "https://sav-prime-charge-backs.com/index.php",
+      "url": "https://sav-prime-charge-backs.com/blog/blog.php",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-11-15T22:32:01+00:00",
+      "firstSeen": "2026-11-15T22:32:06+00:00",
       "lastSeen": "2026-11-15T22:41:33+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
@@ -32911,12 +32911,12 @@
     },
     {
       "domain": "mte.iga.temporary.site",
-      "url": "https://mte.iga.temporary.site/r/r/Online-Banking%20_%20easybank.html",
+      "url": "https://mte.iga.temporary.site/r/r/index.php?id=h1b275cca,ce769769,c105ab36&amp;amp;e=aHVjaWQ9YzZmM2MzYTI4OWJmOTZjMzIxZjAyYjdkNWFjNWNiNzcxYmIwNzY0Yjc4ZGVmYzE3YzcxZDdjMDVmMGI2MTgyYSZoZW1haWQ9OTM0YTQ0YzE0MTE1NjFjNTZlZmI3MGMzNTFhNzRiYjBkYzU5MmY5NmI0ODgxZWQzMGZjZWZkZDU0YmQ2NmIwYSZjaWQ9Ym13RE0yODQyOTA2JmJpZD00NTU1NjQ0OTAmdGw9ZW1sLW5zcC1CTVdfTmV3c19SZWdpb25hbF9OZXdzbGV0dGVyXzIwMjYvYm13T1AyOTI3OS1lY3JtLW1uLS4tREVfREVfTmV3X09jdG9iZXJfUmVnaW9uYWxfTmV3c2xldHRlcl9CTVdfQk1XaV9BY3RpdmVfQ3VzdG9tZXJfVHJpYWxZXzIwMjZfRU0lMjAvYm13RE0yODQyOTA2LTEtMjAyNjEwMzAtLi1WZWhpY2xlJTIwTGVhZHMtbm8lMjBibHVlJTIwcHJpbnQtMS1ibXdPUDI5Mjc5LTFnMWFjdjAxZGFvMWMwNGFhZWFhOS0uJmNsYz0xZzFhY3YwMWRhbzFjMDRhYWVhYTk&amp;amp;s=Q_5tJtux-twjO5UYnyzmmrM10LskDHX-0QGlJHRpzWk",
       "type": "phishing",
       "reports": 1,
       "confidence": 95,
       "source": "PhishTank public verified feed",
-      "firstSeen": "2026-11-04T18:07:53+00:00",
+      "firstSeen": "2026-11-04T18:09:23+00:00",
       "lastSeen": "2026-11-05T07:02:30+00:00",
       "note": "Imported automatically from PhishTank public CSV feed."
     },
